@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "wolfram": {
+      "command": "npx",
+      "args": ["-y", "wolfram-mcp"],
+      "env": {
+        "WOLFRAM_APP_ID": "Q3HY3L4T3V"
+      }
+    }
+  },
+  "permissions": {
+    "allow": [
+      "PowerShell(scoop list | Where-Object { $_ -match 'ffmpeg' })",
+      "PowerShell(scoop install ffmpeg 2>&1)",
+      "PowerShell(ffmpeg -version 2>&1)",
+      "PowerShell(Get-ChildItem \"$env:LOCALAPPDATA\\\\npm-cache\\\\_npx\" -Recurse -Filter \"hyperframes.json\" -ErrorAction SilentlyContinue | Select-Object FullName -First 5)",
+      "PowerShell(Get-ChildItem \"$env:LOCALAPPDATA\\\\npm-cache\\\\_npx\" -ErrorAction SilentlyContinue | Select-Object Name -First 10 ; Get-ChildItem \"C:\\\\Users\\\\admin\\\\.npm\\\\_npx\" -ErrorAction SilentlyContinue | Select-Object Name -First 10)",
+      "Read(//c/Users/admin/AppData/Local/npm-cache/_npx/**)",
+      "Read(//c/Users/admin/**)",
+      "PowerShell(npm config get cache 2>&1)",
+      "PowerShell(npm root -g 2>&1)"
+    ]
+  },
+  "projectName": "MathTelling — 중1 수학 인물 서사 프로젝트",
+  "description": "중1 딸을 위한 인물 이야기 기반 수학 학습 시스템",
+  "contextFiles": [
+    "CLAUDE.md",
+    "00_GUIDE.md",
+    "01_README.md"
+  ]
+}
