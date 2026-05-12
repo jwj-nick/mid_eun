@@ -1,4 +1,4 @@
-# /video-make — MathTelling 영상 제작 파이프라인
+# /se_video_make — MathTelling 영상 제작 파이프라인
 
 수학 개념 설명 영상(MP4, 1280×720)을 처음부터 끝까지 만든다.
 **나레이션 스크립트 → TTS 오디오 → GSAP 애니메이션 HTML → HyperFrames 렌더 → FFmpeg 합성**
@@ -10,9 +10,9 @@
 `$ARGUMENTS` 형식: `unit=## concept=slug person=이름 duration=초`
 
 예시:
-- `/video-make unit=01 concept=sieve person=에라토스테네스 duration=30`
-- `/video-make unit=03 concept=balance_scale person=알콰리즈미 duration=40`
-- `/video-make` (인수 없으면 STAGE 1에서 사용자에게 확인)
+- `/se_video_make unit=01 concept=sieve person=에라토스테네스 duration=30`
+- `/se_video_make unit=03 concept=balance_scale person=알콰리즈미 duration=40`
+- `/se_video_make` (인수 없으면 STAGE 1에서 사용자에게 확인)
 
 `resume=stageN` 인수가 있으면 Stage N 이전을 건너뛰고 기존 파일에서 이어 시작한다.
 
@@ -211,7 +211,7 @@ ffprobe -v quiet -show_entries format=duration -of csv=p=0 "{OUTDIR}\final.mp4"
 다음 내용을 출력한다:
 
 ```
-[video-make 완료]
+[se_video_make 완료]
 단원: unit{unit} · {concept}
 인물: {person}
 영상 길이: {AUDIO_DURATION}초
@@ -219,7 +219,7 @@ ffprobe -v quiet -show_entries format=duration -of csv=p=0 "{OUTDIR}\final.mp4"
 
 권장 다음 작업:
 - final.mp4 재생 → 나레이션과 애니메이션 동기화 확인
-- 수정 필요 시: narration.txt 편집 후 /video-make resume=stage3
+- 수정 필요 시: narration.txt 편집 후 /se_video_make resume=stage3
 - 완성 시 worklog에 결과 기록
 ```
 

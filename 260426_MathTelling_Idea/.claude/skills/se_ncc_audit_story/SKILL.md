@@ -1,9 +1,9 @@
 ---
-name: ncc_audit_story
-description: 인물 서사가 learner-profile 기준으로 딸에게 적합한지 검토한다. 역사적 사실성, 중1 적합 톤, 수학 개념 연결성 확인. 딸의 feedback/ 내용 분석 후 learner-profile 업데이트 권고. 호출 예시 — "/ncc_audit_story unit01", "/ncc_audit_story unit01 feedback".
+name: se_ncc_audit_story
+description: 인물 서사가 learner-profile 기준으로 딸에게 적합한지 검토한다. 역사적 사실성, 중1 적합 톤, 수학 개념 연결성 확인. 딸의 feedback/ 내용 분석 후 learner-profile 업데이트 권고. 호출 예시 — "/se_ncc_audit_story unit01", "/se_ncc_audit_story unit01 feedback".
 ---
 
-# /ncc_audit_story — 스토리 적합성 검토 Skill
+# /se_ncc_audit_story — 스토리 적합성 검토 Skill
 
 ## 역할
 1. **생성된 스토리** 검토: 역사 사실성, 중1 적합 톤, 수학 개념 연결성
@@ -14,9 +14,9 @@ description: 인물 서사가 learner-profile 기준으로 딸에게 적합한�
 ## 인자 형태
 
 ```
-/ncc_audit_story unit01               # 스토리 검토
-/ncc_audit_story unit01 feedback      # 딸 피드백 분석
-/ncc_audit_story 50_units/01/story/unit01.md
+/se_ncc_audit_story unit01               # 스토리 검토
+/se_ncc_audit_story unit01 feedback      # 딸 피드백 분석
+/se_ncc_audit_story 50_units/01/story/unit01.md
 ```
 
 ---
@@ -53,7 +53,7 @@ description: 인물 서사가 learner-profile 기준으로 딸에게 적합한�
 **3. 판정 및 보고**
 
 ```
-## /ncc_audit_story 결과: unit01 스토리
+## /se_ncc_audit_story 결과: unit01 스토리
 
 ### Pass 항목
 ...

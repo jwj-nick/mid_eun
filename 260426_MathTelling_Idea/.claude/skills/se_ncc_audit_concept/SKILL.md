@@ -1,9 +1,9 @@
 ---
-name: ncc_audit_concept
-description: 개념 MD의 수준·범위·정확성을 검토한다. 중1 교육과정 기준 + learner-profile.md 적합성 판단. 호출 예시 — "/ncc_audit_concept unit01", "/ncc_audit_concept 40_BaseDocs/01_소인수분해/".
+name: se_ncc_audit_concept
+description: 개념 MD의 수준·범위·정확성을 검토한다. 중1 교육과정 기준 + learner-profile.md 적합성 판단. 호출 예시 — "/se_ncc_audit_concept unit01", "/se_ncc_audit_concept 40_BaseDocs/01_소인수분해/".
 ---
 
-# /ncc_audit_concept — 개념 수준·범위 검토 Skill
+# /se_ncc_audit_concept — 개념 수준·범위 검토 Skill
 
 ## 역할
 `40_BaseDocs/NN_단원명/`의 개념 MD가
@@ -14,8 +14,8 @@ description: 개념 MD의 수준·범위·정확성을 검토한다. 중1 교육
 ## 인자 형태
 
 ```
-/ncc_audit_concept unit01
-/ncc_audit_concept 40_BaseDocs/01_소인수분해/
+/se_ncc_audit_concept unit01
+/se_ncc_audit_concept 40_BaseDocs/01_소인수분해/
 ```
 
 ---
@@ -66,7 +66,7 @@ description: 개념 MD의 수준·범위·정확성을 검토한다. 중1 교육
 ### 4. 보고 형식
 
 ```
-## /ncc_audit_concept 결과: unit01
+## /se_ncc_audit_concept 결과: unit01
 
 ### Pass 항목
 - 수학적 정확성 ✅

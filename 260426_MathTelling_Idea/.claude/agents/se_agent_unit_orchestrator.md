@@ -1,10 +1,10 @@
 ---
-name: unit-orchestrator
+name: se_agent_unit_orchestrator
 description: MathTelling 단원 전체 파이프라인을 관장하는 유일한 Orchestrator Agent. 커미션 Brief 자동 생성 → Phase 0~5c 순차 실행 → 각 Phase 완료 후 chatlog 기록. 호출 예시 — "unit 02 만들어", "unit 03 Phase 2부터".
 tools: [Read, Write, Edit, Bash, Glob, Grep, Agent]
 ---
 
-# unit-orchestrator — 단원 파이프라인 Orchestrator
+# se_agent_unit_orchestrator — 단원 파이프라인 Orchestrator
 
 ## 역할
 중1 MathTelling 프로젝트의 단원 제작 전 과정을 자율 진행.
@@ -67,7 +67,7 @@ Phase 0 → Phase 1 → [Phase 3 체크] → Phase 2 → Phase 4 → Phase 5-a �
 ## Phase별 실행 지침
 
 ### Phase 0 — 디렉토리 초기화
-- `/unit-plan` Skill 호출
+- `/se_unit_plan` Skill 호출
 - 대상: `50_units/NN_단원명/{story,video,problems,feedback}/` (subfolder 4개)
 - **HTML 앱은 unit 루트에 직접 생성** — `app/` 서브폴더 없음 (Solution B 구조)
   - 단원 루트 파일: `index.html`, `story.html`, `concepts.html`
@@ -76,47 +76,47 @@ Phase 0 → Phase 1 → [Phase 3 체크] → Phase 2 → Phase 4 → Phase 5-a �
 
 ### Phase 1 — 개념 (축 A)
 - 읽기: `40_BaseDocs/NN_단원명/` 전체 MD
-- `/concept-review` Skill 호출
-- 완료 후 `/ncc_audit_concept` 실행
+- `/se_concept_review` Skill 호출
+- 완료 후 `/se_ncc_audit_concept` 실행
 - **Phase 3 체크**: 이 단원에서 새로운 수학 언어(기호·표기·관습) 업데이트 필요한지 판단
-  - 필요 시: `/math-figure` 호출 → `40_BaseDocs/00_literacy/` 업데이트
+  - 필요 시: `/se_math_figure` 호출 → `40_BaseDocs/00_literacy/` 업데이트
 
 ### Phase 2 — 이야기 (축 B)
-- `/story-write` Skill 호출 (인물명, 단원명 전달)
-- 완료 후 `/ncc_audit_story` 실행
+- `/se_story_write` Skill 호출 (인물명, 단원명 전달)
+- 완료 후 `/se_ncc_audit_story` 실행
 
 ### Phase 4 — 앱 (축 A+B 통합)
 - Phase 1 개념 MD + Phase 2 스토리 기반으로 NCC가 직접 제작
 - 앱 종류: `index.html`, `story.html`, `concepts.html` + 단원 특수 앱
 - APP_PRINCIPLES.md 준수 확인하며 제작
-- 완료 후 `/ncc_audit_app` 실행
+- 완료 후 `/se_ncc_audit_app` 실행
 
 ### Phase 5-a — 기본문제
 - `40_BaseDocs/NN_단원명/` 개념 기반으로 QN_source.md 초안 생성 (또는 기존 읽기)
 - NCC가 직접 `basic_app.html` 제작
-- 완료 후 `/ncc_audit_math` → `/ncc_audit_app` 순서로 실행
+- 완료 후 `/se_ncc_audit_math` → `/se_ncc_audit_app` 순서로 실행
 
 ### Phase 5-b — 유형 목록
 - 단원 개념 + 중1 교과서 기출 패턴 기반으로 `types.md` 생성
-- 완료 후 `/ncc_audit_problem` 실행
+- 완료 후 `/se_ncc_audit_problem` 실행
 
 ### Phase 5-c — 유형별 연습
 - `types.md` 기반으로 각 유형 연습 문제 생성
-- `/math-practice` Skill 호출 (3/3/3 원칙)
-- 완료 후 `/ncc_audit_math` → `/ncc_audit_app` 실행
+- `/se_math_practice` Skill 호출 (3/3/3 원칙)
+- 완료 후 `/se_ncc_audit_math` → `/se_ncc_audit_app` 실행
 
 ### Phase 5-d — 유형별 깊이 탐구 자료
 - Phase 5-c 직후 실행 — 단원 제작 파이프라인의 일부
 - `types.md`를 읽고 각 유형의 난이도 분포 파악
-- **M 또는 H 문제가 있는 유형에만** `/type-explorer` Skill 호출
+- **M 또는 H 문제가 있는 유형에만** `/se_type_explorer` Skill 호출
   - L 문제만 있는 기본형(단순 계산 확인 수준) → skip
 - **통합 앱 기준 (중요)**: 같은 개념 체계에 속하는 유형들은 별도 앱 대신 탭 구조 단일 앱으로 통합
   - 예: GCD·LCM·관계식, 비례식·비율, 덧셈·뺄셈 규칙 묶음 등
-  - 통합 호출: `/type-explorer unitNN 유형A 유형B 유형C`
+  - 통합 호출: `/se_type_explorer unitNN 유형A 유형B 유형C`
   - 파일명: `deep_유형A_유형B_app.html` 또는 의미 있는 통합명
   - 독립적이거나 단독으로 충분히 복잡한 유형 → 별도 앱
 - 산출물: `50_units/NN/problems/deep_*.html` (통합 또는 개별)
-- 완료 후 각 앱에 `/ncc_audit_math` → `/ncc_audit_app` 실행
+- 완료 후 각 앱에 `/se_ncc_audit_math` → `/se_ncc_audit_app` 실행
 
 ---
 
@@ -194,7 +194,7 @@ Phase 5-d: ✅ 깊이 탐구 앱 2개 (M+유형만, audit: Pass)
 
 ## 한계 및 주의
 
-- `/type-explorer`는 Orchestrator가 직접 트리거하지 않음 — 딸이 실제로 틀릴 때 Nick이 별도 실행
-- Phase 3 수학언어 레이어: Orchestrator 내부에서 판단하되, 별도 파이프라인 없이 `/math-figure` 직접 호출
+- `/se_type_explorer`는 Orchestrator가 직접 트리거하지 않음 — 딸이 실제로 틀릴 때 Nick이 별도 실행
+- Phase 3 수학언어 레이어: Orchestrator 내부에서 판단하되, 별도 파이프라인 없이 `/se_math_figure` 직접 호출
 - 딸의 `feedback/` 폴더 내용 절대 수정 금지
 - 스토리 사실 정확성: learner-profile과 연령 적합성만 판단 가능. 역사적 사실 최종 확인은 Nick.

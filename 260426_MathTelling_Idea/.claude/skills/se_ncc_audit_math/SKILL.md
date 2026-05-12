@@ -1,9 +1,9 @@
 ---
-name: ncc_audit_math
-description: 수학 문제·풀이·정답의 정확성을 검증한다. NCC가 직접 풀이 전개 후 Wolfram Alpha MCP로 독립 확인. 호출 예시 — "/ncc_audit_math unit01 basic_app.html", "/ncc_audit_math Q3".
+name: se_ncc_audit_math
+description: 수학 문제·풀이·정답의 정확성을 검증한다. NCC가 직접 풀이 전개 후 Wolfram Alpha MCP로 독립 확인. 호출 예시 — "/se_ncc_audit_math unit01 basic_app.html", "/se_ncc_audit_math Q3".
 ---
 
-# /ncc_audit_math — 수학 정확성 검증 Skill
+# /se_ncc_audit_math — 수학 정확성 검증 Skill
 
 ## 역할
 생성된 수학 문제와 정답이 올바른지 검증.
@@ -17,10 +17,10 @@ NCC가 직접 풀이를 전개한 후 Wolfram Alpha MCP로 독립 확인.
 ## 인자 형태
 
 ```
-/ncc_audit_math [파일경로]
-/ncc_audit_math unit01 basic_app.html
-/ncc_audit_math 50_units/01_소인수분해/problems/basic_app.html
-/ncc_audit_math Q3   # 특정 문제번호
+/se_ncc_audit_math [파일경로]
+/se_ncc_audit_math unit01 basic_app.html
+/se_ncc_audit_math 50_units/01_소인수분해/problems/basic_app.html
+/se_ncc_audit_math Q3   # 특정 문제번호
 ```
 
 ---
@@ -62,7 +62,7 @@ HTML 파일 또는 MD 파일에서 문제 목록, 정답, 풀이 추출.
 ### 5. 보고 형식
 
 ```
-## /ncc_audit_math 결과: [파일명]
+## /se_ncc_audit_math 결과: [파일명]
 
 | 문제번호 | NCC 풀이 결과 | Wolfram 결과 | 파일 정답 | 판정 |
 |---|---|---|---|---|

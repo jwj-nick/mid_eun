@@ -1,9 +1,9 @@
 ---
-name: ncc_audit_problem
-description: 문제 세트의 커버리지·난이도·출제 원칙 준수를 검토한다. 단원 핵심 개념을 고루 다루는지, 난이도 분포가 적절한지 확인. 호출 예시 — "/ncc_audit_problem unit01 basic_app.html", "/ncc_audit_problem unit01 types.md".
+name: se_ncc_audit_problem
+description: 문제 세트의 커버리지·난이도·출제 원칙 준수를 검토한다. 단원 핵심 개념을 고루 다루는지, 난이도 분포가 적절한지 확인. 호출 예시 — "/se_ncc_audit_problem unit01 basic_app.html", "/se_ncc_audit_problem unit01 types.md".
 ---
 
-# /ncc_audit_problem — 문제 커버리지·난이도 검토 Skill
+# /se_ncc_audit_problem — 문제 커버리지·난이도 검토 Skill
 
 ## 역할
 생성된 문제 세트가 단원 핵심 개념을 빠짐없이 다루고,
@@ -14,9 +14,9 @@ description: 문제 세트의 커버리지·난이도·출제 원칙 준수를 �
 ## 인자 형태
 
 ```
-/ncc_audit_problem unit01 basic_app.html
-/ncc_audit_problem unit01 types.md
-/ncc_audit_problem 50_units/01_소인수분해/problems/basic_app.html
+/se_ncc_audit_problem unit01 basic_app.html
+/se_ncc_audit_problem unit01 types.md
+/se_ncc_audit_problem 50_units/01_소인수분해/problems/basic_app.html
 ```
 
 ---
@@ -69,7 +69,7 @@ description: 문제 세트의 커버리지·난이도·출제 원칙 준수를 �
 ### 6. 보고 형식
 
 ```
-## /ncc_audit_problem 결과: [파일명]
+## /se_ncc_audit_problem 결과: [파일명]
 
 ### 커버리지
 | 핵심 개념 | 포함 여부 | 문제번호 |

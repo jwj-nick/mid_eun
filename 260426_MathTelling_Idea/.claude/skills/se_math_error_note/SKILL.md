@@ -1,15 +1,15 @@
 ---
-name: math-error-note
-description: 중1 수학 오답노트를 생성한다. 문제 번호를 받아 원문을 읽고, 7섹션 .md 오답노트와 단계별 풀이 HTML 앱을 만든다. 호출 예시 — "Q3 오답노트", "/math-error-note Q3", "/math-error-note Q3 unit01".
+name: se_math_error_note
+description: 중1 수학 오답노트를 생성한다. 문제 번호를 받아 원문을 읽고, 7섹션 .md 오답노트와 단계별 풀이 HTML 앱을 만든다. 호출 예시 — "Q3 오답노트", "/se_math_error_note Q3", "/se_math_error_note Q3 unit01".
 ---
 
-# math-error-note — 중1 수학 오답노트 생성 스킬
+# se_math_error_note — 중1 수학 오답노트 생성 스킬
 
 ## 인자 형태
 ```
-/math-error-note               # 인터랙티브 (문제 번호 물어봄)
-/math-error-note Q3            # 기본
-/math-error-note Q3 unit01     # 단원 명시
+/se_math_error_note               # 인터랙티브 (문제 번호 물어봄)
+/se_math_error_note Q3            # 기본
+/se_math_error_note Q3 unit01     # 단원 명시
 ```
 
 ## 디렉토리 매핑

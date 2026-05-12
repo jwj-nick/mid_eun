@@ -1,14 +1,14 @@
 ---
-name: unit-plan
-description: 단원 파이프라인을 킥오프한다. chatlog 파일을 생성하고 Phase 1~5 체크리스트를 세팅. 호출 예시 — "/unit-plan unit02 정수와유리수", "/unit-plan unit03".
+name: se_unit_plan
+description: 단원 파이프라인을 킥오프한다. chatlog 파일을 생성하고 Phase 1~5 체크리스트를 세팅. 호출 예시 — "/se_unit_plan unit02 정수와유리수", "/se_unit_plan unit03".
 ---
 
-# unit-plan — 단원 파이프라인 킥오프 스킬
+# se_unit_plan — 단원 파이프라인 킥오프 스킬
 
 ## 인자 형태
 ```
-/unit-plan unit02 정수와유리수
-/unit-plan unit03
+/se_unit_plan unit02 정수와유리수
+/se_unit_plan unit03
 ```
 
 ## 절차
@@ -22,12 +22,12 @@ description: 단원 파이프라인을 킥오프한다. chatlog 파일을 생성
 # Unit NN — [단원명] 제작 파이프라인
 
 ## Phase 1: 개념 (축 A)
-- [ ] 40_BaseDocs/NN_단원명/ 검수 (/concept-review)
+- [ ] 40_BaseDocs/NN_단원명/ 검수 (/se_concept_review)
 - [ ] Nick과 개념 범위·깊이 협의
 
 ## Phase 2: 이야기 (축 B)
 - [ ] 인물/에피소드 리서치
-- [ ] 스토리 텍스트 초안 (/story-write)
+- [ ] 스토리 텍스트 초안 (/se_story_write)
 - [ ] Nick 리뷰 → 확정
 - [ ] 50_units/NN/story/ 저장
 
@@ -38,7 +38,7 @@ description: 단원 파이프라인을 킥오프한다. chatlog 파일을 생성
 ## Phase 4: 도구 (축 A+B 통합)
 - [ ] 인터랙티브 HTML 앱 → 50_units/NN/app/
 - [ ] 영상 스크립트 → 50_units/NN/video/
-- [ ] /video-make 실행
+- [ ] /se_video_make 실행
 
 ## Phase 5: 문제 연습 (축 D)
 - [ ] 대표 문제 선정

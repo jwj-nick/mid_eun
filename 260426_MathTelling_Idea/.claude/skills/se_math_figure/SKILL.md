@@ -1,13 +1,13 @@
 ---
-name: math-figure
-description: 수학 그래프를 네이티브 HTML로 렌더링한다. 정적 SVG 또는 JSXGraph 인터랙티브 보드를 생성. 호출 예시 — "/math-figure Q3", "/math-figure unit04 좌표평면".
+name: se_math_figure
+description: 수학 그래프를 네이티브 HTML로 렌더링한다. 정적 SVG 또는 JSXGraph 인터랙티브 보드를 생성. 호출 예시 — "/se_math_figure Q3", "/se_math_figure unit04 좌표평면".
 ---
 
-# math-figure — 수학 그래프 네이티브 렌더링 스킬
+# se_math_figure — 수학 그래프 네이티브 렌더링 스킬
 
 ## 언제 사용하나
 
-`/math-figure Q3` 처럼 호출. 오답노트 또는 개념 탐구 앱의 그래프를 Native HTML로 생성.
+`/se_math_figure Q3` 처럼 호출. 오답노트 또는 개념 탐구 앱의 그래프를 Native HTML로 생성.
 
 - **정적 그림** (좌표, 점, 선만 필요): Pure SVG
 - **탐구형** (슬라이더로 파라미터 변화 관찰): JSXGraph 인터랙티브 보드

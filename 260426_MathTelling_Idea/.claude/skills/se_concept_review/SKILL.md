@@ -1,14 +1,14 @@
 ---
-name: concept-review
-description: 40_BaseDocs의 개념 MD를 검수·보완한다. 교과서 정확성, 빠진 개념, 예시 보강. 호출 예시 — "/concept-review unit01", "/concept-review 01_소인수분해".
+name: se_concept_review
+description: 40_BaseDocs의 개념 MD를 검수·보완한다. 교과서 정확성, 빠진 개념, 예시 보강. 호출 예시 — "/se_concept_review unit01", "/se_concept_review 01_소인수분해".
 ---
 
-# concept-review — 개념 MD 검수·보완 스킬
+# se_concept_review — 개념 MD 검수·보완 스킬
 
 ## 인자 형태
 ```
-/concept-review unit01
-/concept-review 01_소인수분해
+/se_concept_review unit01
+/se_concept_review 01_소인수분해
 ```
 
 ## 절차

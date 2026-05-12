@@ -1,9 +1,9 @@
 ---
-name: type-explorer
-description: Phase 5-d 전용. unit-orchestrator가 각 중간+ 난이도 유형에 대해 호출. 해당 유형을 혼자서 깊이 공부할 수 있는 심화 설명 + 추가 문제를 생성한다. 호출 예시 — "/type-explorer unit01 소인수분해기본형", "/type-explorer unit02 유형3".
+name: se_type_explorer
+description: Phase 5-d 전용. unit-orchestrator가 각 중간+ 난이도 유형에 대해 호출. 해당 유형을 혼자서 깊이 공부할 수 있는 심화 설명 + 추가 문제를 생성한다. 호출 예시 — "/se_type_explorer unit01 소인수분해기본형", "/se_type_explorer unit02 유형3".
 ---
 
-# /type-explorer — 유형별 깊이 탐구 자료 생성 Skill
+# /se_type_explorer — 유형별 깊이 탐구 자료 생성 Skill
 
 ## 역할
 Phase 5-d에서 unit-orchestrator가 호출하는 Skill.
@@ -18,12 +18,12 @@ Phase 5-d에서 unit-orchestrator가 호출하는 Skill.
 
 ```
 # 단일 유형
-/type-explorer [단원번호] [유형명]
-/type-explorer unit01 소인수분해기본형
+/se_type_explorer [단원번호] [유형명]
+/se_type_explorer unit01 소인수분해기본형
 
 # 통합 앱 (관련 유형 여러 개를 하나의 탭 앱으로)
-/type-explorer [단원번호] [유형A] [유형B] [유형C]
-/type-explorer unit01 최대공약수 최소공배수 GCD_LCM관계식
+/se_type_explorer [단원번호] [유형A] [유형B] [유형C]
+/se_type_explorer unit01 최대공약수 최소공배수 GCD_LCM관계식
 ```
 
 ---
@@ -99,12 +99,12 @@ HTML 앱 구성:
 - APP_PRINCIPLES.md 준수
 
 ### 4. 수학 검증
-- `/ncc_audit_math` 실행 — 추가 문제 정확성 확인
-- `/ncc_audit_app` 실행 — HTML 앱 품질 확인
+- `/se_ncc_audit_math` 실행 — 추가 문제 정확성 확인
+- `/se_ncc_audit_app` 실행 — HTML 앱 품질 확인
 
 ### 5. 완료 보고
 ```
-/type-explorer 완료 — unit01 / 소인수분해기본형
+/se_type_explorer 완료 — unit01 / 소인수분해기본형
 
 생성: deep_소인수분해기본형_app.html
   - 3단계 풀이 흐름 + 실수 패턴 2가지 + 추가 문제 4개

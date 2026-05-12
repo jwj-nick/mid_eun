@@ -1,14 +1,14 @@
 ---
-name: story-write
-description: 인물 서사 초안을 생성한다. 단원과 인물을 받아 리서치 → 스토리 텍스트 → Nick 리뷰 흐름. 호출 예시 — "/story-write unit01 에라토스테네스", "/story-write unit02 브라마굽타".
+name: se_story_write
+description: 인물 서사 초안을 생성한다. 단원과 인물을 받아 리서치 → 스토리 텍스트 → Nick 리뷰 흐름. 호출 예시 — "/se_story_write unit01 에라토스테네스", "/se_story_write unit02 브라마굽타".
 ---
 
-# story-write — 인물 서사 초안 생성 스킬
+# se_story_write — 인물 서사 초안 생성 스킬
 
 ## 인자 형태
 ```
-/story-write unit01 에라토스테네스
-/story-write unit03 알콰리즈미
+/se_story_write unit01 에라토스테네스
+/se_story_write unit03 알콰리즈미
 ```
 
 ## 절차

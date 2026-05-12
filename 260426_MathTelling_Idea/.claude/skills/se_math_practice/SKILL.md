@@ -1,15 +1,15 @@
 ---
-name: math-practice
-description: 중1 수학 연습 문제를 3카테고리(쉬운/비슷한/응용) x 3문제씩 생성한다. 호출 예시 — "Q3 연습문제", "/math-practice Q3", "/math-practice Q3 unit01".
+name: se_math_practice
+description: 중1 수학 연습 문제를 3카테고리(쉬운/비슷한/응용) x 3문제씩 생성한다. 호출 예시 — "Q3 연습문제", "/se_math_practice Q3", "/se_math_practice Q3 unit01".
 ---
 
-# math-practice — 중1 수학 연습 문제 생성 스킬
+# se_math_practice — 중1 수학 연습 문제 생성 스킬
 
 ## 인자 형태
 ```
-/math-practice               # 인터랙티브
-/math-practice Q3            # 기본
-/math-practice Q3 unit01     # 단원 명시
+/se_math_practice               # 인터랙티브
+/se_math_practice Q3            # 기본
+/se_math_practice Q3 unit01     # 단원 명시
 ```
 
 ## 절차

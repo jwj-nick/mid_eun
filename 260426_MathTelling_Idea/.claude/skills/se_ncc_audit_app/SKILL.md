@@ -1,9 +1,9 @@
 ---
-name: ncc_audit_app
-description: HTML 앱이 APP_PRINCIPLES.md를 따르는지 검토하고 위반 항목을 수정한다. app-reviewer Agent를 대체하는 Skill. 호출 예시 — "/ncc_audit_app 50_units/01/app/concepts.html", "/ncc_audit_app unit01 전체".
+name: se_ncc_audit_app
+description: HTML 앱이 APP_PRINCIPLES.md를 따르는지 검토하고 위반 항목을 수정한다. app-reviewer Agent를 대체하는 Skill. 호출 예시 — "/se_ncc_audit_app 50_units/01/app/concepts.html", "/se_ncc_audit_app unit01 전체".
 ---
 
-# /ncc_audit_app — HTML 앱 품질 검토 Skill
+# /se_ncc_audit_app — HTML 앱 품질 검토 Skill
 
 ## 역할
 생성된 HTML 앱이 `APP_PRINCIPLES.md` 기준을 충족하는지 항목별로 검토하고,
@@ -16,10 +16,10 @@ description: HTML 앱이 APP_PRINCIPLES.md를 따르는지 검토하고 위반 �
 ## 인자 형태
 
 ```
-/ncc_audit_app [파일경로]
-/ncc_audit_app [단원번호] [범위: 전체|app|problems]
-/ncc_audit_app 50_units/01_소인수분해/app/concepts.html
-/ncc_audit_app unit01 전체
+/se_ncc_audit_app [파일경로]
+/se_ncc_audit_app [단원번호] [범위: 전체|app|problems]
+/se_ncc_audit_app 50_units/01_소인수분해/app/concepts.html
+/se_ncc_audit_app unit01 전체
 ```
 
 ---
@@ -66,7 +66,7 @@ APP_PRINCIPLES.md의 검토 항목:
 ### 5. 보고 형식
 
 ```
-## /ncc_audit_app 결과: [파일명]
+## /se_ncc_audit_app 결과: [파일명]
 
 ### Pass 항목
 - KaTeX 설정 ✅
