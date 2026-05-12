@@ -29,7 +29,8 @@
       "Bash(npx -y wolfram-mcp --help)",
       "Bash(WOLFRAM_APP_ID=Q3HY3L4T3V timeout 5 npx -y wolfram-mcp)",
       "PowerShell(Get-ChildItem *)",
-      "PowerShell($f1 = Get-Item \"C:\\\\Kids\\\\30_MiddleSchool\\\\260426_MathTelling_Idea\\\\50_units\\\\10_원과부채꼴\\\\problems\\\\deep_관계와색칠_app.html\"; $f2 = Get-Item \"C:\\\\Kids\\\\30_MiddleSchool\\\\260426_MathTelling_Idea\\\\50_units\\\\11_다면체와회전체\\\\app\\\\index.html\"; \"Unit 10 last file: $\\($f1.LastWriteTime\\)\"; \"Unit 11 first file: $\\($f2.LastWriteTime\\)\"; \"Gap \\(hours\\): $\\(\\($f2.LastWriteTime - $f1.LastWriteTime\\).TotalHours\\)\")"
+      "PowerShell($f1 = Get-Item \"C:\\\\Kids\\\\30_MiddleSchool\\\\260426_MathTelling_Idea\\\\50_units\\\\10_원과부채꼴\\\\problems\\\\deep_관계와색칠_app.html\"; $f2 = Get-Item \"C:\\\\Kids\\\\30_MiddleSchool\\\\260426_MathTelling_Idea\\\\50_units\\\\11_다면체와회전체\\\\app\\\\index.html\"; \"Unit 10 last file: $\\($f1.LastWriteTime\\)\"; \"Unit 11 first file: $\\($f2.LastWriteTime\\)\"; \"Gap \\(hours\\): $\\(\\($f2.LastWriteTime - $f1.LastWriteTime\\).TotalHours\\)\")",
+      "Bash(python \"00_project_hub/plan/restructure_b.py\")"
     ]
   }
 }

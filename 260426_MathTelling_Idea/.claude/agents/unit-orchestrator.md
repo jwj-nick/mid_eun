@@ -68,7 +68,11 @@ Phase 0 → Phase 1 → [Phase 3 체크] → Phase 2 → Phase 4 → Phase 5-a �
 
 ### Phase 0 — 디렉토리 초기화
 - `/unit-plan` Skill 호출
-- 대상: `50_units/NN_단원명/{story,app,video,problems,feedback}/`
+- 대상: `50_units/NN_단원명/{story,video,problems,feedback}/` (subfolder 4개)
+- **HTML 앱은 unit 루트에 직접 생성** — `app/` 서브폴더 없음 (Solution B 구조)
+  - 단원 루트 파일: `index.html`, `story.html`, `concepts.html`
+  - `problems/` 서브폴더는 그대로 (basic_app, type_*, deep_*)
+  - `story/` 서브폴더: 인물 서사 텍스트 .md (story.html과 다름)
 
 ### Phase 1 — 개념 (축 A)
 - 읽기: `40_BaseDocs/NN_단원명/` 전체 MD

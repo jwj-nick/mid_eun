@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>단원 3 — 문자와 식</title>
+<title>단원 2 — 정수와 유리수</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
@@ -143,97 +143,63 @@
     font-size: 12px;
     font-weight: bold;
     color: #4361EE;
-    min-width: 60px;
+    min-width: 50px;
   }
   .timeline-text { font-size: 13px; color: #444; line-height: 1.5; }
-  .word-box {
-    background: white;
-    border-radius: 16px;
-    padding: 20px 24px;
-    box-shadow: 0 2px 12px rgba(67,97,238,0.08);
-    margin-top: 8px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 16px;
-  }
-  @media (max-width: 480px) { .word-box { grid-template-columns: 1fr; } }
-  .word-item {
-    background: #f8f9ff;
-    border-radius: 12px;
-    padding: 16px;
-    text-align: center;
-  }
-  .word-modern {
-    font-size: 22px;
-    font-weight: bold;
-    color: #4361EE;
-    margin-bottom: 4px;
-  }
-  .word-origin {
-    font-size: 12px;
-    color: #888;
-    margin-bottom: 6px;
-  }
-  .word-meaning {
-    font-size: 13px;
-    color: #444;
-    line-height: 1.5;
-  }
 </style>
 </head>
 <body>
 <a href="../" style="display:block;background:#312e81;color:#e0e7ff;font-size:13px;padding:10px 16px;text-decoration:none;text-align:center;font-family:'Malgun Gothic',sans-serif;">← 중1 수학 홈</a>
 
 <div class="hero">
-  <div class="unit-label">Unit 03 · 중1 수학</div>
-  <h1>문자와 식</h1>
-  <p>숫자 대신 글자를 쓰면 어떤 마법이 일어날까요?</p>
-  <div class="person">인물: 알콰리즈미 (al-Khwārizmī, 약 780~850)</div>
+  <div class="unit-label">Unit 02 · 중1 수학</div>
+  <h1>정수와 유리수</h1>
+  <p>음수와 0은 어떻게 발명되었을까요?</p>
+  <div class="person">인물: 브라마굽타 (Brahmagupta, 598~668)</div>
 </div>
 
 <div class="container">
 
   <div class="section-title">이 단원에서 배우는 것</div>
   <div class="overview">
-    <p>숫자 대신 $a$, $x$ 같은 글자를 쓰는 이유가 있을까요?
-    글자 하나가 무한히 많은 수를 대신할 수 있거든요. 이 단원에서는
-    문자로 식을 만들고, 식을 계산하고, 같은 종류끼리 정리하는 방법을 배워요.</p>
+    <p>0보다 작은 수가 존재할까요? 수직선 위에서 음수는 어디에 있을까요?
+    절댓값이란 뭘 의미할까요? 이 단원은 숫자의 세계를 음수 쪽으로 확장하는 여행입니다.</p>
     <div class="concept-chips">
-      <span class="chip">문자를 사용한 식</span>
-      <span class="chip">식의 값 (대입)</span>
-      <span class="chip">단항식·다항식</span>
-      <span class="chip">계수·차수</span>
-      <span class="chip">동류항</span>
-      <span class="chip">일차식의 계산</span>
+      <span class="chip">양수·음수·정수</span>
+      <span class="chip">유리수</span>
+      <span class="chip">절댓값</span>
+      <span class="chip">대소 관계</span>
+      <span class="chip">덧셈·뺄셈</span>
+      <span class="chip">곱셈·나눗셈</span>
     </div>
   </div>
 
   <div class="quote-box">
-    "어떤 수에 5를 더하면 8이 된다. 그 수는 무엇인가?"
-    <div class="author">— 알콰리즈미, 글자 없이 방정식을 설명하던 방식 (825년경)</div>
+    "아무것도 없다는 것도 하나의 수다. 이름을 붙여야 한다."
+    <div class="author">— 브라마굽타, 628년</div>
   </div>
 
   <div class="section-title">학습 메뉴</div>
   <div class="cards">
     <a class="card" href="story.html">
       <div class="card-icon">📖</div>
-      <div class="card-title">알콰리즈미 이야기</div>
-      <div class="card-desc">algebra와 algorithm이라는 단어를 세상에 남긴 바그다드의 학자.</div>
+      <div class="card-title">브라마굽타 이야기</div>
+      <div class="card-desc">0을 발명한 인도 수학자. 빚과 재산으로 음수를 발견한 이야기.</div>
       <div class="card-tag">이야기</div>
     </a>
     <a class="card" href="concepts.html">
-      <div class="card-icon">🔤</div>
+      <div class="card-icon">🔢</div>
       <div class="card-title">개념 탐구</div>
-      <div class="card-desc">문자가 어떻게 숫자를 대신하는지 직접 조작하며 이해해요.</div>
+      <div class="card-desc">수직선, 절댓값, 연산 규칙을 직접 조작하며 이해해요.</div>
       <div class="card-tag">인터랙티브</div>
     </a>
-    <a class="card" href="../problems/basic_app.html">
+    <a class="card" href="problems/basic_app.html">
       <div class="card-icon">✏️</div>
       <div class="card-title">기본 문제</div>
       <div class="card-desc">단원 전체 핵심 개념을 확인하는 기본 문제 10개예요.</div>
       <div class="card-tag">문제 풀기</div>
     </a>
-    <a class="card" href="../problems/types.md">
+    <a class="card" href="problems/types.md">
       <div class="card-icon">📋</div>
       <div class="card-title">유형별 연습</div>
       <div class="card-desc">시험에 나오는 유형을 난이도별로 연습해요.</div>
@@ -241,45 +207,27 @@
     </a>
   </div>
 
-  <div class="section-title">알콰리즈미가 남긴 두 단어</div>
-  <div class="word-box">
-    <div class="word-item">
-      <div class="word-modern">algebra</div>
-      <div class="word-origin">← 아랍어: al-jabr (복원)</div>
-      <div class="word-meaning">방정식에서 항을 한쪽으로 옮기는 작업에서 유래. 지금은 "대수학" 전체를 뜻함.</div>
-    </div>
-    <div class="word-item">
-      <div class="word-modern">algorithm</div>
-      <div class="word-origin">← 알콰리즈미 이름의 라틴어화</div>
-      <div class="word-meaning">순서대로 따라가면 문제를 풀 수 있는 절차. 컴퓨터, AI, 검색 엔진 모두 알고리즘으로 동작.</div>
-    </div>
-  </div>
-
-  <div class="section-title">알콰리즈미 타임라인</div>
+  <div class="section-title">브라마굽타 타임라인</div>
   <div class="timeline">
     <div class="timeline-item">
-      <div class="timeline-year">약 780년</div>
-      <div class="timeline-text">호라즘(현 우즈베키스탄) 출신으로 태어남</div>
+      <div class="timeline-year">598년</div>
+      <div class="timeline-text">인도 빌라말라 (현 라자스탄 주)에서 태어남</div>
     </div>
     <div class="timeline-item">
-      <div class="timeline-year">9세기 초</div>
-      <div class="timeline-text">바그다드 지혜의 집(Bayt al-Hikma)에서 활동 시작</div>
+      <div class="timeline-year">628년</div>
+      <div class="timeline-text">「브라마스푸타시단타」저술 — 0과 음수의 규칙 최초 체계화</div>
     </div>
     <div class="timeline-item">
-      <div class="timeline-year">약 825년</div>
-      <div class="timeline-text">「알지브르 와 알무카발라」 저술 — 대수학의 탄생</div>
+      <div class="timeline-year">9세기</div>
+      <div class="timeline-text">그의 아이디어가 바그다드로 전해져 아라비아 수학에 흡수됨</div>
     </div>
     <div class="timeline-item">
-      <div class="timeline-year">12세기</div>
-      <div class="timeline-text">책이 라틴어로 번역되어 유럽 대학 수학 교과서가 됨</div>
-    </div>
-    <div class="timeline-item">
-      <div class="timeline-year">16세기</div>
-      <div class="timeline-text">비에트(Viète)가 처음으로 문자(기호)를 체계적으로 사용하기 시작</div>
+      <div class="timeline-year">13세기</div>
+      <div class="timeline-text">피보나치가 유럽에 인도-아라비아 숫자 체계 소개 — 0이 유럽에 상륙</div>
     </div>
     <div class="timeline-item">
       <div class="timeline-year">오늘날</div>
-      <div class="timeline-text">algebra와 algorithm이라는 단어로 세상 모든 곳에 살아있음</div>
+      <div class="timeline-text">0 없이는 컴퓨터, 스마트폰, 인터넷이 존재할 수 없음</div>
     </div>
   </div>
 

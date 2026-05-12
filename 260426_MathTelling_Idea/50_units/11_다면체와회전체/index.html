@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>단원 6 — 정비례와 반비례</title>
+<title>단원 11 — 다면체와 회전체</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
@@ -19,6 +19,7 @@
   .hero h1 { font-size: 32px; margin-bottom: 10px; }
   .hero p { font-size: 16px; opacity: 0.9; }
   .hero .person { margin-top: 20px; font-size: 13px; opacity: 0.75; background: rgba(255,255,255,0.15); display: inline-block; padding: 6px 16px; border-radius: 20px; }
+  .hero .prev-link { display: inline-block; font-size: 12px; opacity: 0.7; color: white; text-decoration: none; margin-top: 12px; padding: 4px 12px; border: 1px solid rgba(255,255,255,0.3); border-radius: 20px; }
   .container { max-width: 700px; margin: 0 auto; padding: 24px 16px 48px; }
   .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 8px; }
   @media (max-width: 480px) { .cards { grid-template-columns: 1fr; } }
@@ -46,71 +47,78 @@
     font-size: 15px; color: #333; font-style: italic; line-height: 1.6;
   }
   .quote-box .author { font-style: normal; font-size: 13px; color: #888; margin-top: 8px; }
-  .link-prev {
-    display: inline-block; font-size: 13px; color: #4361EE;
-    text-decoration: none; padding: 6px 14px;
-    background: #eef2ff; border-radius: 20px;
-    margin-bottom: 16px;
+  .duo-banner {
+    background: white; border: 1px solid #e0e4f0; border-left: 4px solid #7b2ff7;
+    padding: 14px 20px; border-radius: 0 12px 12px 0; margin: 24px 0; font-size: 14px; color: #333; line-height: 1.6;
   }
+  .duo-banner strong { color: #7b2ff7; }
 </style>
 </head>
 <body>
 <a href="../" style="display:block;background:#312e81;color:#e0e7ff;font-size:13px;padding:10px 16px;text-decoration:none;text-align:center;font-family:'Malgun Gothic',sans-serif;">← 중1 수학 홈</a>
 
 <div class="hero">
-  <div class="unit-label">Unit 06</div>
-  <h1>정비례와 반비례</h1>
-  <p>식이 그림이 되는 마술 — 데카르트의 「기하학」, 그 다음 장</p>
-  <div class="person">르네 데카르트 (1596~1650) · Unit 05 연계</div>
+  <div class="unit-label">Unit 11</div>
+  <h1>다면체와 회전체</h1>
+  <p>케플러가 우주에서 본 5개의 정다면체와 4가지 회전체</p>
+  <div class="person">요하네스 케플러 (1571~1630) · 독일</div>
+  <br>
+  <a class="prev-link" href="../10_원과부채꼴/index.html">← 지난 단원: 원과 부채꼴</a>
 </div>
 
 <div class="container">
 
-  <a class="link-prev" href="../../05_좌표와그래프/app/index.html">← Unit 05로 돌아가기</a>
-
   <div class="quote-box">
-    "내가 (x, y) 좌표를 도입한 진짜 이유는 점 하나의 위치를 말하기 위해서가 아니다.<br>
-    무수히 많은 점들이 만드는 식 — 그것을 그림으로 보기 위해서다."
-    <div class="author">— 데카르트, 「기하학」 (1637)</div>
+    "기하학은 우주가 만들어지기 전부터 존재했다."
+    <div class="author">— 요하네스 케플러, 「Harmonices Mundi」 (1619)</div>
+  </div>
+
+  <div class="duo-banner">
+    🔗 <strong>Unit 10 → 11 연결</strong> — 아르키메데스가 원을 평생 사랑했어요. 케플러는 그 원을 <strong>3차원으로 회전</strong>시켜 원기둥·원뿔·구를 만들고, 또 다각형으로 <strong>5개의 정다면체</strong>를 발견했어요. 평면이 입체로 올라가는 단원이에요.
   </div>
 
   <div class="section-title">무엇을 배울까요?</div>
   <div class="key-concepts">
     <ul class="concept-list">
-      <li>정비례 $y = ax$</li>
-      <li>반비례 $y = a/x$</li>
-      <li>비례상수 $a$</li>
-      <li>정비례 그래프 (직선)</li>
-      <li>반비례 그래프 (쌍곡선)</li>
-      <li>표 → 식 → 그래프</li>
+      <li>다면체 정의</li>
+      <li>면 $F$ · 모서리 $E$ · 꼭짓점 $V$</li>
+      <li>각기둥 · 각뿔 · 각뿔대</li>
+      <li>정다면체 5종</li>
+      <li>왜 5종뿐인가</li>
+      <li>오일러 공식 $V-E+F=2$</li>
+      <li>회전체 정의</li>
+      <li>원기둥 · 원뿔 · 원뿔대 · 구</li>
+      <li>모선과 높이</li>
+      <li>축단면 vs 수직 단면</li>
+      <li>회전체 전개도</li>
     </ul>
   </div>
 
   <div class="section-title">학습 자료</div>
   <div class="cards">
     <a class="card" href="story.html">
-      <div class="card-icon">📖</div>
-      <div class="card-title">데카르트 이야기 (2)</div>
-      <div class="card-desc">좌표 다음으로 데카르트가 한 일 — 식을 그림으로 옮긴 1637년의 마술</div>
+      <div class="card-icon">🪐</div>
+      <div class="card-title">케플러 이야기</div>
+      <div class="card-desc">정다면체로 우주를 그린 사람, 어머니 변호 6년, 행성의 음악</div>
       <span class="card-tag">스토리</span>
     </a>
     <a class="card" href="concepts.html">
-      <div class="card-icon">🔍</div>
+      <div class="card-icon">⬢</div>
       <div class="card-title">개념 탐구</div>
-      <div class="card-desc">슬라이더로 $a$를 직접 바꾸며 정비례·반비례 그래프가 어떻게 변하는지 봐요</div>
+      <div class="card-desc">5개 정다면체와 4가지 회전체 직접 만져보기</div>
       <span class="card-tag">인터랙티브</span>
     </a>
   </div>
 
   <div class="section-title">문제 연습</div>
   <div class="cards">
-    <a class="card" href="../problems/basic_app.html">
+    <a class="card" href="problems/basic_app.html">
       <div class="card-icon">✏️</div>
       <div class="card-title">기본 문제</div>
       <div class="card-desc">단원 전체를 고루 확인하는 기본 문제 9개</div>
       <span class="card-tag">기본</span>
     </a>
-    <a class="card" href="../problems/types.md">
+    <a class="card" href="problems/types.md">
       <div class="card-icon">📋</div>
       <div class="card-title">유형 목록</div>
       <div class="card-desc">시험에 나오는 유형을 미리 확인해요</div>
@@ -120,68 +128,68 @@
 
   <div class="section-title">유형별 연습</div>
   <div class="cards">
-    <a class="card" href="../problems/type_01_app.html">
+    <a class="card" href="problems/type_01_app.html">
       <div class="card-icon">①</div>
-      <div class="card-title">유형 1 · 정비례 식 세우기</div>
-      <div class="card-desc">관계 → $y = ax$ 식으로</div>
+      <div class="card-title">유형 1 · 다면체 분류와 구성요소</div>
+      <div class="card-desc">면·모서리·꼭짓점 세기, 다면체 vs 회전체</div>
       <span class="card-tag">L M H</span>
     </a>
-    <a class="card" href="../problems/type_02_app.html">
+    <a class="card" href="problems/type_02_app.html">
       <div class="card-icon">②</div>
-      <div class="card-title">유형 2 · 정비례 그래프</div>
-      <div class="card-desc">$a$ 부호·크기 → 그래프 모양</div>
+      <div class="card-title">유형 2 · 각기둥·각뿔·각뿔대</div>
+      <div class="card-desc">$n$각 기준 $V, E, F$ 일반화</div>
       <span class="card-tag">L M H</span>
     </a>
-    <a class="card" href="../problems/type_03_app.html">
+    <a class="card" href="problems/type_03_app.html">
       <div class="card-icon">③</div>
-      <div class="card-title">유형 3 · 반비례 식 세우기</div>
-      <div class="card-desc">관계 → $y = a/x$ 식으로</div>
+      <div class="card-title">유형 3 · 정다면체 5종</div>
+      <div class="card-desc">정의 · 5종 표 · 왜 5종뿐인가</div>
       <span class="card-tag">L M H</span>
     </a>
-    <a class="card" href="../problems/type_04_app.html">
+    <a class="card" href="problems/type_04_app.html">
       <div class="card-icon">④</div>
-      <div class="card-title">유형 4 · 반비례 그래프</div>
-      <div class="card-desc">쌍곡선과 점근선 이해</div>
+      <div class="card-title">유형 4 · 회전체 식별과 종류</div>
+      <div class="card-desc">평면도형 → 회전체, 회전축 위치</div>
       <span class="card-tag">L M H</span>
     </a>
-    <a class="card" href="../problems/type_05_app.html">
+    <a class="card" href="problems/type_05_app.html">
       <div class="card-icon">⑤</div>
-      <div class="card-title">유형 5 · 비례상수 결정</div>
-      <div class="card-desc">한 점이 주어지면 $a$를 구한다</div>
+      <div class="card-title">유형 5 · 회전체의 단면 (★)</div>
+      <div class="card-desc">수직 단면 = 원, 축단면 = 좌우대칭 도형</div>
       <span class="card-tag">L M H</span>
     </a>
-    <a class="card" href="../problems/type_06_app.html">
+    <a class="card" href="problems/type_06_app.html">
       <div class="card-icon">⑥</div>
-      <div class="card-title">유형 6 · 그래프 → 식</div>
-      <div class="card-desc">그래프에서 식 알아내기</div>
+      <div class="card-title">유형 6 · 회전체의 전개도</div>
+      <div class="card-desc">원기둥 = 직사각형+원2, 원뿔 = 부채꼴+원</div>
       <span class="card-tag">L M H</span>
     </a>
-    <a class="card" href="../problems/type_07_app.html">
+    <a class="card" href="problems/type_07_app.html">
       <div class="card-icon">⑦</div>
-      <div class="card-title">유형 7 · 비례 활용</div>
-      <div class="card-desc">실생활 정비례·반비례 문제</div>
+      <div class="card-title">유형 7 · 종합 (입체 추론)</div>
+      <div class="card-desc">전개도→입체, 입체→단면, 회전축 추론</div>
       <span class="card-tag">L M H</span>
     </a>
   </div>
 
   <div class="section-title">심화 탐구</div>
   <div class="cards">
-    <a class="card" href="../problems/deep_정비례_app.html">
-      <div class="card-icon">📈</div>
-      <div class="card-title">정비례 깊이 탐구</div>
-      <div class="card-desc">유형 1·2·5 · 식·그래프·비례상수 결정 핵심 전략</div>
+    <a class="card" href="problems/deep_다면체기초_app.html">
+      <div class="card-icon">⬢</div>
+      <div class="card-title">다면체 기초 깊이 탐구</div>
+      <div class="card-desc">유형 1·2 · 구성요소·각기둥·각뿔·각뿔대</div>
       <span class="card-tag">심화</span>
     </a>
-    <a class="card" href="../problems/deep_반비례_app.html">
-      <div class="card-icon">🌀</div>
-      <div class="card-title">반비례 깊이 탐구</div>
-      <div class="card-desc">유형 3·4 · 쌍곡선 그래프와 부호 표기 함정</div>
+    <a class="card" href="problems/deep_정다면체_app.html">
+      <div class="card-icon">★</div>
+      <div class="card-title">정다면체 깊이 탐구</div>
+      <div class="card-desc">유형 3 · 왜 5종뿐인가 + 오일러 공식 (★ 보라 톤)</div>
       <span class="card-tag">심화</span>
     </a>
-    <a class="card" href="../problems/deep_식그래프_app.html">
-      <div class="card-icon">🔁</div>
-      <div class="card-title">식↔그래프 깊이 탐구</div>
-      <div class="card-desc">유형 6·7 · 그래프 읽고 식 찾기, 실생활 활용</div>
+    <a class="card" href="problems/deep_회전체_app.html">
+      <div class="card-icon">⊙</div>
+      <div class="card-title">회전체 깊이 탐구</div>
+      <div class="card-desc">유형 4·5·6·7 · 회전체·단면·전개도·종합</div>
       <span class="card-tag">심화</span>
     </a>
   </div>

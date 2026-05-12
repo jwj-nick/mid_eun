@@ -52,12 +52,14 @@
 │   └── 01_소인수분해/ ~ 13_*/    ← 단원별 개념 MD
 └── 50_units/                     ← 단원별 통합 작업 디렉토리
     ├── 01_소인수분해/
-    │   ├── story/               ← 인물 서사
-    │   ├── app/                 ← HTML 앱
+    │   ├── index.html           ← 단원 허브 ⭐ (Solution B: app/ 서브폴더 없음)
+    │   ├── story.html           ← 인물 서사 인터랙티브
+    │   ├── concepts.html        ← 개념 탐구 인터랙티브
+    │   ├── story/               ← 인물 서사 텍스트 .md
     │   ├── video/               ← 영상
-    │   ├── problems/            ← 문제·오답노트
+    │   ├── problems/            ← basic_app, type_*, deep_* HTML + types.md 등
     │   └── feedback/            ← 딸의 글 (수정 금지)
-    └── 02~04_*/
+    └── 02~13_*/
 ```
 
 ---
