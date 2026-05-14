@@ -20,7 +20,7 @@
 
 | 축 | 무엇 | 산출물 위치 |
 |---|---|---|
-| **A. 개념 이해** | 각 단원 핵심 개념 명확히 | `40_BaseDocs/`, `50_units/NN/app/` |
+| **A. 개념 이해** | 각 단원 핵심 개념 명확히 | `40_BaseDocs/`, `50_units/NN/{index,story,concepts}.html` |
 | **B. 흥미 유발** | 수학자 이야기, 생활 속 에피소드, 스토리텔링 | `50_units/NN/story/`, `50_units/NN/video/` |
 | **C. 수학 언어** | 기호·표기·관습 자체의 메타 학습 (L1~L7) | `40_BaseDocs/00_literacy/`, `10_docs/03_literacy-track.md` |
 | **D. 문제 연습** | 대표 문제, 오답노트, 유형 익숙해지기 | `50_units/NN/problems/` |
@@ -47,44 +47,44 @@
 
 ## 단원 파이프라인 — 1개 단원 제작 과정
 
-> **착수 방법**: Nick이 "unit 02 만들어"라고 한 줄 의뢰 → `unit-orchestrator`가 Commission Brief(chatlog Round 0)를 자동 생성 → Nick이 확인 → 자율 실행.
+> **착수 방법**: Nick이 "unit 02 만들어"라고 한 줄 의뢰 → `se_agent_unit_orchestrator`가 Commission Brief(chatlog Round 0)를 자동 생성 → Nick이 확인 → 자율 실행.
 > **HITL 없음**: NCC가 전 과정 자율 진행. 각 Phase 완료 시 chatlog 기록으로 진행 상황 투명하게 유지.
 > 상세 명세: `10_docs/14_workflow_v4.md`
 
 ```
 Phase 0: 디렉토리 초기화
-  └─ /unit-plan → 50_units/NN/ 구조 생성
+  └─ /se_unit_plan → 50_units/NN/ 구조 생성
 
 Phase 1: 개념 (축 A)
-  ├─ 40_BaseDocs/NN_단원명/ 검수·보완 → /concept-review
-  └─ audit: /ncc_audit_concept
+  ├─ 40_BaseDocs/NN_단원명/ 검수·보완 → /se_concept_review
+  └─ audit: /se_ncc_audit_concept
 
 Phase 3 체크 (비동기, 단원 파이프라인과 독립):
-  └─ 수학 언어 업데이트 필요 여부 판단 → /math-figure → 40_BaseDocs/00_literacy/
+  └─ 수학 언어 업데이트 필요 여부 판단 → /se_math_figure → 40_BaseDocs/00_literacy/
 
 Phase 2: 이야기 (축 B)
-  ├─ 인물 리서치 + 스토리 초안 → /story-write
-  └─ audit: /ncc_audit_story
+  ├─ 인물 리서치 + 스토리 초안 → /se_story_write
+  └─ audit: /se_ncc_audit_story
 
 Phase 4: 앱 (축 A+B 통합)
   ├─ HTML 앱 제작: index.html, story.html, concepts.html
-  └─ audit: /ncc_audit_app
+  └─ audit: /se_ncc_audit_app
 
 Phase 5-a: 기본문제
   ├─ 단원 전체 개념 커버 기본문제 (8~10개)
-  └─ → problems/basic_app.html / audit: /ncc_audit_math + /ncc_audit_app
+  └─ → problems/basic_app.html / audit: /se_ncc_audit_math + /se_ncc_audit_app
 
 Phase 5-b: 유형 목록
   ├─ 시험 유형 목록 확정
-  └─ → problems/types.md / audit: /ncc_audit_problem
+  └─ → problems/types.md / audit: /se_ncc_audit_problem
 
 Phase 5-c: 유형별 연습 (3/3/3 원칙)
-  ├─ /math-practice → 유형별 L×3 + M×3 + H×3
-  └─ → problems/type_NN_app.html / audit: /ncc_audit_math + /ncc_audit_app
+  ├─ /se_math_practice → 유형별 L×3 + M×3 + H×3
+  └─ → problems/type_NN_app.html / audit: /se_ncc_audit_math + /se_ncc_audit_app
 
 Phase 5-d: 유형별 깊이 탐구 자료 (제작 파이프라인의 일부)
-  ├─ M+ 난이도 유형마다 /type-explorer 호출 (L만 있는 유형 skip)
-  └─ → problems/deep_유형명_app.html / audit: /ncc_audit_math + /ncc_audit_app
+  ├─ M+ 난이도 유형마다 /se_type_explorer 호출 (L만 있는 유형 skip)
+  └─ → problems/deep_유형명_app.html / audit: /se_ncc_audit_math + /se_ncc_audit_app
 ```
 
 ---
@@ -111,14 +111,14 @@ Phase 5-d: 유형별 깊이 탐구 자료 (제작 파이프라인의 일부)
 │   └── ... (13단원)
 └── 50_units/                     ← 단원별 통합 작업 디렉토리
     ├── 01_소인수분해/
-    │   ├── story/               ← 인물 서사 텍스트 (축 B)
-    │   ├── app/                 ← 인터랙티브 HTML 앱 (축 A+B)
+    │   ├── index.html           ← 단원 허브 (축 A+B 통합) ⭐
+    │   ├── story.html           ← 인물 서사 인터랙티브
+    │   ├── concepts.html        ← 개념 탐구 인터랙티브
+    │   ├── story/               ← 인물 서사 텍스트 .md (축 B)
     │   ├── video/               ← 영상 (스크립트 + mp4)
-    │   ├── problems/            ← 문제·오답노트 MD (축 D)
+    │   ├── problems/            ← 문제·오답노트 (축 D) — basic, type_*, deep_*
     │   └── feedback/            ← 딸의 글·피드백·반응 (수정 금지)
-    ├── 02_정수와유리수/
-    ├── 03_문자와식/
-    └── 04_일차방정식/
+    └── 02~13_*/                 ← 동일 구조
 ```
 
 ---
@@ -157,30 +157,30 @@ Phase 5-d: 유형별 깊이 탐구 자료 (제작 파이프라인의 일부)
 ### 제작 Skills
 | 명령 | Phase | 용도 |
 |---|---|---|
-| `/unit-plan` | 0 | 단원 디렉토리 초기화 |
-| `/concept-review` | 1 | 40_BaseDocs 개념 MD 검수·보완 |
-| `/story-write` | 2 | 인물 서사 초안 생성 |
-| `/math-figure` | 3, 5 | 수학 그래프 네이티브 렌더링 (SVG + JSXGraph) |
-| `/math-practice` | 5c | 유형별 연습 문제 생성 (L/M/H 3×3) |
-| `/math-error-note` | 5 in-loop | 오답노트 생성 (7섹션 MD + HTML 앱) |
-| `/video-make` | 4 | 영상 제작 파이프라인 (TTS → GSAP → FFmpeg) |
+| `/se_unit_plan` | 0 | 단원 디렉토리 초기화 |
+| `/se_concept_review` | 1 | 40_BaseDocs 개념 MD 검수·보완 |
+| `/se_story_write` | 2 | 인물 서사 초안 생성 |
+| `/se_math_figure` | 3, 5 | 수학 그래프 네이티브 렌더링 (SVG + JSXGraph) |
+| `/se_math_practice` | 5c | 유형별 연습 문제 생성 (L/M/H 3×3) |
+| `/se_math_error_note` | 5 in-loop | 오답노트 생성 (7섹션 MD + HTML 앱) |
+| `/se_video_make` | 4 | 영상 제작 파이프라인 (TTS → GSAP → FFmpeg) |
 | `/figcrop` | 5 | 시험지 캡쳐에서 그림 크롭 |
 
 ### NCC Audit Skills
 | 명령 | 대상 | 기준 문서 |
 |---|---|---|
-| `/ncc_audit_app` | HTML 앱 품질 | APP_PRINCIPLES.md |
-| `/ncc_audit_math` | 수학 정확성 (Wolfram 보조) | 중1 교육과정 |
-| `/ncc_audit_concept` | 개념 수준·범위 | learner-profile.md |
-| `/ncc_audit_problem` | 문제 커버리지·난이도 | 문제 출제 원칙 |
-| `/ncc_audit_story` | 스토리 적합성 + 피드백 분석 | learner-profile.md |
+| `/se_ncc_audit_app` | HTML 앱 품질 | APP_PRINCIPLES.md |
+| `/se_ncc_audit_math` | 수학 정확성 (Wolfram 보조) | 중1 교육과정 |
+| `/se_ncc_audit_concept` | 개념 수준·범위 | learner-profile.md |
+| `/se_ncc_audit_problem` | 문제 커버리지·난이도 | 문제 출제 원칙 |
+| `/se_ncc_audit_story` | 스토리 적합성 + 피드백 분석 | learner-profile.md |
 
 ## 등록된 Agents
 
 | 에이전트 | 용도 |
 |---|---|
-| `unit-orchestrator` | **단일 Orchestrator** — 단원 전체 파이프라인 (Phase 0~5c) |
-| `type-explorer` | **Skill** — 유형별 깊이 탐구 자료 생성 (Phase 5-d, 제작 파이프라인 내) |
+| `se_agent_unit_orchestrator` | **단일 Orchestrator** — 단원 전체 파이프라인 (Phase 0~5c) |
+| `se_type_explorer` | **Skill** — 유형별 깊이 탐구 자료 생성 (Phase 5-d, 제작 파이프라인 내) |
 
 ---
 
