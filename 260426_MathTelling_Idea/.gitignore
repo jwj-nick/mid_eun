@@ -1,0 +1,4 @@
+# Rendered video output — too large for git (local only)
+90_video/**/final.mp4
+90_video/**/raw.mp4
+90_video/**/narration.mp3
