@@ -1,0 +1,119 @@
+# CLAUDE.md — HistoryTelling Project (세계대전 이야기)
+
+> 새 Claude 세션이 시작되면 이 파일을 먼저 읽는다.
+
+## 프로젝트 한 줄
+
+역사에 관심이 없던 **중1 딸**이, **안네의 일기**를 감성적 입구로 삼아 → 제국주의·1차대전 → 2차세계대전(유럽·러시아·미국·태평양·일본/동아시아) → 종전·전후 → **한국전쟁**까지 하나의 이야기로 흥미·의미·지식을 자기 수준에서 얻어가는 **사이드바형 인터랙티브 학습 앱**.
+
+부차 목표: Nick과 딸이 **직접 참여하는 짧은 역사 영상**을 함께 만들어보는 경험.
+
+---
+
+## 우선순위 (확정)
+
+1. **(a) 흥미 + 정서적 몰입 + "왜 중요한가"의 의미** ← 최우선
+2. **(b) 학교 탐구학습에 바로 쓸 수 있는 지식·맥락** ← 2차대전 탐구 과제 지원
+3. **(c) 딸과 함께 만드는 영상 경험** ← 딸이 관심 보일 때 자연스럽게
+
+> MathTelling과 동일 철학: 진도·완성도보다 **흥미와 깊이**. 빈칸을 남겨 딸이 채우게 한다.
+
+---
+
+## 작업 방식 — session 라운드 기반 (채팅 최소화)
+
+**핵심 원칙: 모든 논의·결정·Q&A는 `00_project_hub/session/` 파일 안에서 `# Round N` 형태로 기록한다. 채팅 창은 최소 요약만, 본문은 파일에 쓴다.**
+
+- NCC = Nick's Claude Code Co-worker = Claude. 이 프로젝트의 AI 파트너 호칭.
+- Nick이 세션 파일을 제시하면 그 파일 안에서 라운드를 거듭한다.
+- 세션 파일이 없으면 NCC가 `YYMMDD_주제.md`로 새로 만들고 채팅에서 파일명을 밝힌다.
+- 파일 맨 앞 첫 줄에 `<!-- 파일명 -->` 주석 (copy/paste 편의).
+- Nick이 `(Nick)` 태그로 답하면 NCC가 다음 라운드를 append.
+- 딸의 글·반응(`*/feedback/`)은 **임의 수정 금지**. 피드백은 별도 파일로.
+
+---
+
+## 디렉토리 구조
+
+```
+260602_History/
+├── CLAUDE.md / README.md / APP_PRINCIPLES.md
+├── .claude/
+│   ├── skills/hist-*/SKILL.md      ← 제작 스킬 7개 (AgentSkill 스펙)
+│   └── agents/hist-episode-orchestrator.md  ← 에피소드 자율 제작 오케스트레이터
+├── 00_project_hub/{plan, session, progress}   ← 계획·라운드대화·추적(PROGRESS.md)
+├── 10_docs/        ← learner-profile, content-map_<slug>, EPISODE_SCHEMA.md
+├── 20_research/<slug>/   ← facts·perspective·people·videos·audit (출처 포함)
+├── 30_content/<slug>/episode.json   ← Episode Content Schema (데이터 SSOT)
+├── 40_build/
+│   ├── templates/episode.html   ← 렌더 엔진 (디자인/JS 1곳, 전 에피소드 공통)
+│   └── build.py                 ← episode.json → 단일 HTML
+├── 50_app/<slug>/index.html     ← 빌드 산출물 (자기완결, 더블클릭/Pages 동작)
+└── 90_video/                    ← 영상 (math-story-telling 프로세스 차용, 추후)
+```
+
+> **제작 방식 = 데이터(JSON) ↔ 엔진(템플릿) 분리.** 콘텐츠는 `30_content/<slug>/episode.json`(스키마: `10_docs/EPISODE_SCHEMA.md`), 빌드는 `python 40_build/build.py <slug>`. 파이프라인: plan→research→write→build→audit→deploy (스킬+오케스트레이터). 상세 = `00_project_hub/plan/0604_buildsystem_and_skills.md`.
+> 배포 계층: 허브 `/history/` → 에피소드 `/history/<slug>/` (Ep01=`ww2`). 진행 추적 = `00_project_hub/progress/PROGRESS.md`.
+> 파일명 규칙: plan/session 파일은 `mmdd_` 프리픽스.
+
+---
+
+## 콘텐츠 8섹션 = 하나의 이야기 흐름
+
+| # | 섹션 | 핵심 질문 (중1 눈높이) |
+|---|---|---|
+| 00 | 제국주의·1차대전 | 왜 강한 나라들은 식민지를 갖고 싶어했을까? 1차대전은 어떻게 시작됐을까? |
+| 10 | 2차대전 발발 | 1차대전 후 무엇이 잘못돼서 또 전쟁이 났을까? |
+| 20 | **안네의 일기** ⭐ | 전쟁 속 한 소녀의 하루는 어땠을까? (정서적 입구) |
+| 30 | 유럽·러시아 전선 | 유럽에서 전쟁은 어떻게 흘러갔을까? |
+| 40 | 미국·태평양 전쟁 | 미국은 왜·어떻게 참전했고, 태평양에선 무슨 일이? |
+| 50 | 일본·동아시아 | 일본은 왜 전쟁을 일으켰고 우리(한국)는 어떤 처지였을까? |
+| 60 | 종전·전후 | 전쟁은 어떻게 끝났고, 세계는 어떻게 나뉘었을까? |
+| 70 | **한국전쟁** | 그 모든 일이 어떻게 우리나라 전쟁으로 이어졌을까? |
+
+---
+
+## 앱 컨셉
+
+- **단일 SPA**, 왼쪽 **사이드바** 네비게이션 (8섹션 + 안네의 일기 강조)
+- 바닐라 HTML/CSS/JS, 빌드 없음, CDN만 (MathTelling 앱들과 동일 스택)
+- 중1 여학생 친화 비주얼 (따뜻한 색감, 타임라인/지도/인물 카드, 짧은 단락)
+- 각 섹션: 이야기 → "왜 중요한가" → 핵심 사실 카드 → **엄선된 유튜브 링크** → "내 생각 적어보기" 빈칸
+- 상세 디자인 규칙: `APP_PRINCIPLES.md`
+
+---
+
+## 절대 원칙
+
+1. **흥미·정서 > 지식량.** 연표 암기 앱이 아니라 "이야기에 빠져드는" 앱.
+2. **사실 정확성.** 역사 서술은 `20_research/`에서 검증 후 콘텐츠로. 추정·논쟁은 그렇게 표기.
+3. **중1 눈높이.** 어려운 용어는 첫 등장 시 풀어쓰고 한 줄 설명. 잔혹·정치 묘사는 수위 조절.
+4. **빈칸을 남겨라.** 딸이 채울 자리(질문, 메모, "내 생각")가 있어야 한다.
+5. **session 파일 기반 대화.** 주요 결정은 반드시 파일에 기록.
+6. **하나하나 흥미 유발하며 점진 제작.** 한 번에 다 만들지 않는다. 안네의 일기부터 → 확장.
+
+---
+
+## 학습 대상 (딸)
+
+- 중1, 감성적·내성적, **국어/영어 강세**, 역사엔 기존 관심 없음
+- 이야기·인물·감정 이입에 강함 → 안네의 일기를 입구로 삼는 이유
+- 상세: `10_docs/01_learner-profile.md`
+
+---
+
+## 기술 스택
+
+- Claude Code + Local Markdown (콘텐츠 원천은 `30_content/*.md`)
+- 앱: HTML+CSS+JS (바닐라, CDN), 빌드 없음
+- 영상(선택): edge-tts(한국어 TTS) → GSAP/HyperFrames → FFmpeg, AI 이미지
+  - 프로세스 원본: `C:/Kids/math-story-telling/11_video_gen_process/` (필요한 만큼 `90_video/`로 차용)
+
+---
+
+## 진행 상태
+
+- **0602~0603**: Ep01 `ww2`(세계대전 이야기) near-final 배포. 허브/계층 정리. 마스터플랜 + 워크플로우 셋업.
+- **0604**: 빌드 시스템 추출(스키마·템플릿·빌더) + ww2 스키마 전환·재배포 + 스킬 7 + 오케스트레이터.
+- **다음**: Ep02 `imperialism`(제국주의·거슬러 올라가기 첫 칸) 제작 — 추출형으로 seed 스킬 정련.
+- 항상 먼저: `00_project_hub/progress/PROGRESS.md`(현황) + `plan/260603_history_hub_master_plan.md`(허브 설계).
