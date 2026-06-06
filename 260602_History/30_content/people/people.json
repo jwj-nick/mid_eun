@@ -21,11 +21,26 @@
         "1944년 8월 은신처가 발각되어 수용소로 끌려갔고, 1945년 초 베르겐-벨젠 수용소에서 언니 마르고와 함께 병으로 짧은 생을 마쳤어요(발진티푸스로 추정). 가족 중 홀로 살아남은 아버지 오토가 딸의 일기를 세상에 펴냈답니다."
       ],
       "personTimeline": [
-        {"yr": "1929", "t": "독일 프랑크푸르트에서 출생"},
-        {"yr": "1942.7", "t": "암스테르담 은신처 생활 시작"},
-        {"yr": "1944.8", "t": "은신처 발각·체포"},
-        {"yr": "1945 초", "t": "베르겐-벨젠 수용소에서 사망(15세)"},
-        {"yr": "1947", "t": "아버지 오토가 『안네의 일기』 출간"}
+        {
+          "yr": "1929",
+          "t": "독일 프랑크푸르트에서 출생"
+        },
+        {
+          "yr": "1942.7",
+          "t": "암스테르담 은신처 생활 시작"
+        },
+        {
+          "yr": "1944.8",
+          "t": "은신처 발각·체포"
+        },
+        {
+          "yr": "1945 초",
+          "t": "베르겐-벨젠 수용소에서 사망(15세)"
+        },
+        {
+          "yr": "1947",
+          "t": "아버지 오토가 『안네의 일기』 출간"
+        }
       ],
       "lightShadow": "한 소녀의 일기가 전쟁의 비극을 '한 사람의 마음'으로 온 세상에 전했어요. 그 뒤에는 이름조차 남기지 못한 수많은 희생이 있었다는 것도 함께 기억해야 해요.",
       "portrait": {
@@ -36,13 +51,38 @@
         "note": "1942년 5월에 찍은 사진이에요."
       },
       "links": [
-        {"label": "위키백과 (한국어)", "url": "https://ko.wikipedia.org/wiki/안네_프랑크", "lang": "ko", "type": "wiki"},
-        {"label": "Wikipedia (English)", "url": "https://en.wikipedia.org/wiki/Anne_Frank", "lang": "en", "type": "wiki"},
-        {"label": "Wikipedia (Nederlands·네덜란드어)", "url": "https://nl.wikipedia.org/wiki/Anne_Frank", "lang": "nl", "type": "wiki"},
-        {"label": "Anne Frank House (공식·교육자료)", "url": "https://www.annefrank.org/en/anne-frank/", "lang": "en", "type": "official"}
+        {
+          "label": "위키백과 (한국어)",
+          "url": "https://ko.wikipedia.org/wiki/안네_프랑크",
+          "lang": "ko",
+          "type": "wiki"
+        },
+        {
+          "label": "Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Anne_Frank",
+          "lang": "en",
+          "type": "wiki"
+        },
+        {
+          "label": "Wikipedia (Nederlands·네덜란드어)",
+          "url": "https://nl.wikipedia.org/wiki/Anne_Frank",
+          "lang": "nl",
+          "type": "wiki"
+        },
+        {
+          "label": "Anne Frank House (공식·교육자료)",
+          "url": "https://www.annefrank.org/en/anne-frank/",
+          "lang": "en",
+          "type": "official"
+        }
       ],
       "related": [
-        {"ep": "ww2", "section": "anne", "label": "안네의 일기", "epLabel": "세계대전 이야기"}
+        {
+          "ep": "ww2",
+          "section": "anne",
+          "label": "안네의 일기",
+          "epLabel": "세계대전 이야기"
+        }
       ],
       "reflect": "은신처에서 일기를 쓰던 안네에게 편지를 보낸다면, 어떤 말을 가장 먼저 건네고 싶나요?"
     },
@@ -66,10 +106,22 @@
         "1858년 그왈리오르 부근 전투에서 스물아홉 안팎의 젊은 나이에 전사했어요. 항쟁은 끝내 실패했지만, 그는 오늘날 인도에서 저항과 용기의 영웅으로 기억돼요."
       ],
       "personTimeline": [
-        {"yr": "1828?", "t": "출생 (출생 연도는 자료마다 다름)"},
-        {"yr": "1853", "t": "남편 사망 → 영국의 왕국 병합 시도"},
-        {"yr": "1857", "t": "인도 대항쟁 — 잔시 방어를 이끎"},
-        {"yr": "1858", "t": "그왈리오르 전투에서 전사"}
+        {
+          "yr": "1828?",
+          "t": "출생 (출생 연도는 자료마다 다름)"
+        },
+        {
+          "yr": "1853",
+          "t": "남편 사망 → 영국의 왕국 병합 시도"
+        },
+        {
+          "yr": "1857",
+          "t": "인도 대항쟁 — 잔시 방어를 이끎"
+        },
+        {
+          "yr": "1858",
+          "t": "그왈리오르 전투에서 전사"
+        }
       ],
       "lightShadow": "'맞섰다'는 사실만은 분명해요. 다만 그에게 전해 내려오는 멋진 말들에는 후대에 더해진 전설도 섞여 있어, 사실과 이야기를 가려 읽는 눈이 필요해요.",
       "portrait": {
@@ -80,13 +132,38 @@
         "note": "생전 사진은 남아 있지 않아, 당대·후대의 묘사를 바탕으로 한 초상이에요."
       },
       "links": [
-        {"label": "위키백과 (한국어)", "url": "https://ko.wikipedia.org/wiki/락슈미바이", "lang": "ko", "type": "wiki"},
-        {"label": "Wikipedia (English)", "url": "https://en.wikipedia.org/wiki/Rani_of_Jhansi", "lang": "en", "type": "wiki"},
-        {"label": "विकिपीडिया (हिन्दी·힌디어)", "url": "https://hi.wikipedia.org/wiki/रानी_लक्ष्मीबाई", "lang": "hi", "type": "wiki"},
-        {"label": "Encyclopædia Britannica", "url": "https://www.britannica.com/biography/Lakshmi-Bai", "lang": "en", "type": "encyclopedia"}
+        {
+          "label": "위키백과 (한국어)",
+          "url": "https://ko.wikipedia.org/wiki/락슈미바이",
+          "lang": "ko",
+          "type": "wiki"
+        },
+        {
+          "label": "Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Rani_of_Jhansi",
+          "lang": "en",
+          "type": "wiki"
+        },
+        {
+          "label": "विकिपीडिया (हिन्दी·힌디어)",
+          "url": "https://hi.wikipedia.org/wiki/रानी_लक्ष्मीबाई",
+          "lang": "hi",
+          "type": "wiki"
+        },
+        {
+          "label": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/biography/Lakshmi-Bai",
+          "lang": "en",
+          "type": "encyclopedia"
+        }
       ],
       "related": [
-        {"ep": "imperialism", "section": "india", "label": "인도 — 왕관의 보석", "epLabel": "제국주의와 19세기"}
+        {
+          "ep": "imperialism",
+          "section": "india",
+          "label": "인도 — 왕관의 보석",
+          "epLabel": "제국주의와 19세기"
+        }
       ],
       "reflect": "나라를 빼앗길 위기에서 직접 말을 타고 나선 락슈미바이에게, 그 용기에 대해 무엇을 묻고 싶나요?"
     },
@@ -110,11 +187,26 @@
         "그의 결단은 옳았지만 전쟁을 막진 못했어요. 아편전쟁에서 청나라가 지자, 그는 도리어 패전의 책임을 뒤집어쓰고 멀리 신장 땅으로 유배되는 희생양이 되고 말았어요(훗날 복권됩니다)."
       ],
       "personTimeline": [
-        {"yr": "1785", "t": "출생"},
-        {"yr": "1839", "t": "흠차대신으로 광저우 파견 · 아편 몰수·폐기"},
-        {"yr": "1840", "t": "아편전쟁 발발"},
-        {"yr": "1841", "t": "패전 책임으로 신장 유배"},
-        {"yr": "1850", "t": "사망"}
+        {
+          "yr": "1785",
+          "t": "출생"
+        },
+        {
+          "yr": "1839",
+          "t": "흠차대신으로 광저우 파견 · 아편 몰수·폐기"
+        },
+        {
+          "yr": "1840",
+          "t": "아편전쟁 발발"
+        },
+        {
+          "yr": "1841",
+          "t": "패전 책임으로 신장 유배"
+        },
+        {
+          "yr": "1850",
+          "t": "사망"
+        }
       ],
       "lightShadow": "청렴하고 강직했지만, 한 사람의 의지로 거대한 시대의 흐름(서구 열강의 압박)을 막기엔 역부족이었어요. 옳음과 결과가 늘 같지는 않다는 걸 보여줘요.",
       "portrait": {
@@ -125,13 +217,38 @@
         "note": ""
       },
       "links": [
-        {"label": "위키백과 (한국어)", "url": "https://ko.wikipedia.org/wiki/임칙서", "lang": "ko", "type": "wiki"},
-        {"label": "Wikipedia (English)", "url": "https://en.wikipedia.org/wiki/Lin_Zexu", "lang": "en", "type": "wiki"},
-        {"label": "維基百科 (中文·중국어)", "url": "https://zh.wikipedia.org/wiki/林则徐", "lang": "zh", "type": "wiki"},
-        {"label": "Encyclopædia Britannica", "url": "https://www.britannica.com/biography/Lin-Zexu", "lang": "en", "type": "encyclopedia"}
+        {
+          "label": "위키백과 (한국어)",
+          "url": "https://ko.wikipedia.org/wiki/임칙서",
+          "lang": "ko",
+          "type": "wiki"
+        },
+        {
+          "label": "Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Lin_Zexu",
+          "lang": "en",
+          "type": "wiki"
+        },
+        {
+          "label": "維基百科 (中文·중국어)",
+          "url": "https://zh.wikipedia.org/wiki/林则徐",
+          "lang": "zh",
+          "type": "wiki"
+        },
+        {
+          "label": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/biography/Lin-Zexu",
+          "lang": "en",
+          "type": "encyclopedia"
+        }
       ],
       "related": [
-        {"ep": "imperialism", "section": "opium-china", "label": "무너지는 청나라", "epLabel": "제국주의와 19세기"}
+        {
+          "ep": "imperialism",
+          "section": "opium-china",
+          "label": "무너지는 청나라",
+          "epLabel": "제국주의와 19세기"
+        }
       ],
       "reflect": "'옳은 일을 했는데 벌을 받은' 임칙서에게, 너라면 어떤 위로나 질문을 건네고 싶나요?"
     },
@@ -155,10 +272,22 @@
         "1909년 만주 하얼빈역에서 안중근 의사에게 처단됩니다. 한 인물이 어떤 나라에는 영웅이고 다른 나라에는 가해자일 수 있다는 '빛과 그림자'를 가장 분명하게 보여주는 사람이에요."
       ],
       "personTimeline": [
-        {"yr": "1841", "t": "출생 (조슈 번)"},
-        {"yr": "1885", "t": "일본 초대 내각총리대신"},
-        {"yr": "1905", "t": "을사늑약 강요 · 초대 통감 취임"},
-        {"yr": "1909", "t": "하얼빈역에서 안중근 의사에게 피격"}
+        {
+          "yr": "1841",
+          "t": "출생 (조슈 번)"
+        },
+        {
+          "yr": "1885",
+          "t": "일본 초대 내각총리대신"
+        },
+        {
+          "yr": "1905",
+          "t": "을사늑약 강요 · 초대 통감 취임"
+        },
+        {
+          "yr": "1909",
+          "t": "하얼빈역에서 안중근 의사에게 피격"
+        }
       ],
       "lightShadow": "일본에는 근대화의 영웅, 한국에는 침탈의 주역. 같은 사람을 두고 나라마다 평가가 정반대인 이유를 함께 생각해 봐야 해요.",
       "portrait": {
@@ -169,13 +298,38 @@
         "note": ""
       },
       "links": [
-        {"label": "위키백과 (한국어)", "url": "https://ko.wikipedia.org/wiki/이토_히로부미", "lang": "ko", "type": "wiki"},
-        {"label": "Wikipedia (English)", "url": "https://en.wikipedia.org/wiki/Itō_Hirobumi", "lang": "en", "type": "wiki"},
-        {"label": "ウィキペディア (日本語·일본어)", "url": "https://ja.wikipedia.org/wiki/伊藤博文", "lang": "ja", "type": "wiki"},
-        {"label": "Encyclopædia Britannica", "url": "https://www.britannica.com/biography/Ito-Hirobumi", "lang": "en", "type": "encyclopedia"}
+        {
+          "label": "위키백과 (한국어)",
+          "url": "https://ko.wikipedia.org/wiki/이토_히로부미",
+          "lang": "ko",
+          "type": "wiki"
+        },
+        {
+          "label": "Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Itō_Hirobumi",
+          "lang": "en",
+          "type": "wiki"
+        },
+        {
+          "label": "ウィキペディア (日本語·일본어)",
+          "url": "https://ja.wikipedia.org/wiki/伊藤博文",
+          "lang": "ja",
+          "type": "wiki"
+        },
+        {
+          "label": "Encyclopædia Britannica",
+          "url": "https://www.britannica.com/biography/Ito-Hirobumi",
+          "lang": "en",
+          "type": "encyclopedia"
+        }
       ],
       "related": [
-        {"ep": "imperialism", "section": "japan-meiji", "label": "일본의 변신", "epLabel": "제국주의와 19세기"}
+        {
+          "ep": "imperialism",
+          "section": "japan-meiji",
+          "label": "일본의 변신",
+          "epLabel": "제국주의와 19세기"
+        }
       ],
       "reflect": "'어떤 나라엔 영웅, 다른 나라엔 가해자'인 사람을 어떻게 평가해야 할까요? 네 생각을 적어 보세요."
     },
@@ -199,10 +353,22 @@
         "세상을 떠난 뒤 대한제국이 세워지며 '명성황후'로 높여 불리게 되었어요. 그의 정치에 대한 평가는 지금도 갈리지만, 그 죽음만큼은 우리 근대사의 깊은 상처로 남아 있어요."
       ],
       "personTimeline": [
-        {"yr": "1851", "t": "출생"},
-        {"yr": "1866", "t": "고종의 왕비로 책봉"},
-        {"yr": "1895", "t": "을미사변 — 경복궁에서 시해"},
-        {"yr": "1897", "t": "대한제국 수립 후 '명성황후'로 추존"}
+        {
+          "yr": "1851",
+          "t": "출생"
+        },
+        {
+          "yr": "1866",
+          "t": "고종의 왕비로 책봉"
+        },
+        {
+          "yr": "1895",
+          "t": "을미사변 — 경복궁에서 시해"
+        },
+        {
+          "yr": "1897",
+          "t": "대한제국 수립 후 '명성황후'로 추존"
+        }
       ],
       "lightShadow": "외교로 나라를 지키려 한 노력과, 권력을 둘러싼 평가의 엇갈림이 함께 있어요. 비극적인 죽음이 그 모든 논쟁을 덮어선 안 되고, 사실을 차분히 봐야 해요.",
       "portrait": {
@@ -213,11 +379,26 @@
         "note": "★ 이 사진이 명성황후 본인인지는 학계에서 논쟁 중이에요. 단정할 수 없는 '전해지는 사진'으로 보아야 해요."
       },
       "links": [
-        {"label": "위키백과 (한국어)", "url": "https://ko.wikipedia.org/wiki/명성황후", "lang": "ko", "type": "wiki"},
-        {"label": "Wikipedia (English)", "url": "https://en.wikipedia.org/wiki/Empress_Myeongseong", "lang": "en", "type": "wiki"}
+        {
+          "label": "위키백과 (한국어)",
+          "url": "https://ko.wikipedia.org/wiki/명성황후",
+          "lang": "ko",
+          "type": "wiki"
+        },
+        {
+          "label": "Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Empress_Myeongseong",
+          "lang": "en",
+          "type": "wiki"
+        }
       ],
       "related": [
-        {"ep": "imperialism", "section": "korea", "label": "위기의 조선", "epLabel": "제국주의와 19세기"}
+        {
+          "ep": "imperialism",
+          "section": "korea",
+          "label": "위기의 조선",
+          "epLabel": "제국주의와 19세기"
+        }
       ],
       "reflect": "사진 한 장의 진위조차 논쟁이 되는 인물이에요. '확실하지 않은 것'을 우리는 어떻게 다뤄야 할까요?"
     },
@@ -241,10 +422,22 @@
         "봉기는 우금치 전투에서 우세한 무기를 가진 일본군에 진압되었고, 그는 체포되어 1895년 처형됐어요. 하지만 '백성이 주인'이라는 그 정신은 이후 독립운동으로 이어졌답니다."
       ],
       "personTimeline": [
-        {"yr": "1855", "t": "출생"},
-        {"yr": "1894.1", "t": "고부 봉기 → 동학 농민운동으로 확산"},
-        {"yr": "1894.11", "t": "우금치 전투 패배"},
-        {"yr": "1895", "t": "체포 후 처형"}
+        {
+          "yr": "1855",
+          "t": "출생"
+        },
+        {
+          "yr": "1894.1",
+          "t": "고부 봉기 → 동학 농민운동으로 확산"
+        },
+        {
+          "yr": "1894.11",
+          "t": "우금치 전투 패배"
+        },
+        {
+          "yr": "1895",
+          "t": "체포 후 처형"
+        }
       ],
       "lightShadow": "봉기는 실패했지만, 백성이 스스로 주인이 되려 한 그 외침은 헛되지 않았어요. 패배한 싸움도 역사를 움직일 수 있다는 걸 보여줘요.",
       "portrait": {
@@ -255,13 +448,450 @@
         "note": "1895년 재판을 위해 압송되던 때 찍힌 유명한 사진이에요."
       },
       "links": [
-        {"label": "위키백과 (한국어)", "url": "https://ko.wikipedia.org/wiki/전봉준", "lang": "ko", "type": "wiki"},
-        {"label": "Wikipedia (English)", "url": "https://en.wikipedia.org/wiki/Jeon_Bong-jun", "lang": "en", "type": "wiki"}
+        {
+          "label": "위키백과 (한국어)",
+          "url": "https://ko.wikipedia.org/wiki/전봉준",
+          "lang": "ko",
+          "type": "wiki"
+        },
+        {
+          "label": "Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Jeon_Bong-jun",
+          "lang": "en",
+          "type": "wiki"
+        }
       ],
       "related": [
-        {"ep": "imperialism", "section": "korea", "label": "위기의 조선", "epLabel": "제국주의와 19세기"}
+        {
+          "ep": "imperialism",
+          "section": "korea",
+          "label": "위기의 조선",
+          "epLabel": "제국주의와 19세기"
+        }
       ],
       "reflect": "'질 줄 알면서도 일어선' 녹두장군에게, 너라면 어떤 말을 전하고 싶나요?"
+    },
+    {
+      "slug": "franz-ferdinand",
+      "face": "🎯",
+      "names": {
+        "native": "Franz Ferdinand von Österreich-Este",
+        "roman": "Franz Ferdinand",
+        "pronun_ko": "프란츠 페르디난트",
+        "en": "Archduke Franz Ferdinand",
+        "ko": "프란츠 페르디난트 대공",
+        "alias": ""
+      },
+      "nationality": "오스트리아-헝가리 제국",
+      "lifespan": "1863~1914",
+      "oneLine": "암살로 1차 세계대전의 도화선이 된 황위 계승자",
+      "bio": [
+        "오스트리아-헝가리 제국의 황위 계승자(대공)였어요. 1914년 6월 28일, 부인 조피와 함께 보스니아의 사라예보를 방문했다가 총에 맞아 두 사람 모두 숨졌어요.",
+        "이 암살이 강대국들의 동맹과 갈등에 불을 붙였어요. 한 달 남짓 만에 유럽 전체가 1차 세계대전이라는 거대한 전쟁으로 빨려 들어갔지요. '한 발의 총성이 세계를 바꿨다'는 말의 주인공이에요.",
+        "그를 '죽임을 당한 사람'으로만 기억하기 쉽지만, 제국 안의 여러 민족에게 자치를 주려 했다는 평가도 있어요. 역사 인물은 한 장면으로만 보면 놓치는 게 많아요."
+      ],
+      "personTimeline": [
+        {
+          "yr": "1863",
+          "t": "출생"
+        },
+        {
+          "yr": "1900",
+          "t": "신분이 낮은 조피와 결혼(주위 반대 속에서)"
+        },
+        {
+          "yr": "1914.6.28",
+          "t": "사라예보에서 부부 암살"
+        },
+        {
+          "yr": "1914.7~8",
+          "t": "1차 세계대전 발발"
+        }
+      ],
+      "lightShadow": "그의 죽음은 전쟁의 '원인'이라기보다, 이미 팽팽하던 화약고의 '도화선'이었어요. 큰 전쟁은 한 사건이 아니라 오래 쌓인 긴장에서 터진다는 걸 보여줘요.",
+      "portrait": {
+        "src": "img/franz-ferdinand.jpg",
+        "alt": "프란츠 페르디난트 대공",
+        "source": "Wikimedia Commons — Ferdinand Schmutzer, c.1914",
+        "license": "퍼블릭 도메인",
+        "note": "암살 무렵의 사진이에요."
+      },
+      "links": [
+        {
+          "label": "위키백과 (한국어)",
+          "url": "https://ko.wikipedia.org/wiki/%ED%94%84%EB%9E%80%EC%B8%A0_%ED%8E%98%EB%A5%B4%EB%94%94%EB%82%9C%ED%8A%B8_%ED%8F%B0_%EC%99%B8%EC%8A%A4%ED%84%B0%EB%9D%BC%EC%9D%B4%ED%9E%88%EC%97%90%EC%8A%A4%ED%85%8C_%EB%8C%80%EA%B3%B5",
+          "lang": "ko",
+          "type": "wiki"
+        },
+        {
+          "label": "Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Archduke_Franz_Ferdinand_of_Austria",
+          "lang": "en",
+          "type": "wiki"
+        }
+      ],
+      "related": [
+        {
+          "ep": "ww2",
+          "section": "imperialism",
+          "label": "제국주의·1차대전",
+          "epLabel": "세계대전 이야기"
+        }
+      ],
+      "reflect": "'그 총성이 없었다면 전쟁은 안 일어났을까?' 너의 생각은 어때?"
+    },
+    {
+      "slug": "gavrilo-princip",
+      "face": "🔫",
+      "names": {
+        "native": "Гаврило Принцип",
+        "roman": "Gavrilo Princip",
+        "pronun_ko": "가브릴로 프린치프",
+        "en": "Gavrilo Princip",
+        "ko": "가브릴로 프린치프",
+        "alias": "사라예보의 암살자"
+      },
+      "nationality": "보스니아 (오스트리아-헝가리, 세르브계)",
+      "lifespan": "1894~1918",
+      "oneLine": "1차 세계대전의 도화선을 당긴 열아홉 살 청년",
+      "bio": [
+        "페르디난트 대공 부부를 쏜 열아홉 살의 청년이에요. 보스니아의 세르비아계로, 오스트리아-헝가리의 지배에서 벗어나려는 민족운동에 가담했어요.",
+        "그의 총격은 1차 세계대전의 도화선이 됐어요. 너무 어려 사형은 면했지만, 감옥에서 병을 얻어 스물셋에 세상을 떠났어요.",
+        "누군가에겐 압제에 맞선 청년, 누군가에겐 끔찍한 전쟁을 부른 암살자예요. 같은 사람이 정반대로 기억되는 이유를 생각해 볼 만해요."
+      ],
+      "personTimeline": [
+        {
+          "yr": "1894",
+          "t": "출생"
+        },
+        {
+          "yr": "1914.6.28",
+          "t": "사라예보에서 대공 부부 암살"
+        },
+        {
+          "yr": "1914",
+          "t": "재판·수감(미성년에 가까워 사형 면함)"
+        },
+        {
+          "yr": "1918",
+          "t": "옥중 병사"
+        }
+      ],
+      "lightShadow": "'자유를 위한 행동'과 '수백만이 죽은 전쟁의 방아쇠'가 한 사람 안에 있어요. 목적이 옳다고 결과까지 옳은 건 아니라는 무거운 질문을 남겨요.",
+      "portrait": {
+        "src": "img/gavrilo-princip.jpg",
+        "alt": "가브릴로 프린치프",
+        "source": "Wikimedia Commons — Gavrilo Princip",
+        "license": "퍼블릭 도메인",
+        "note": "체포된 뒤 감옥에서 찍힌 사진이에요."
+      },
+      "links": [
+        {
+          "label": "위키백과 (한국어)",
+          "url": "https://ko.wikipedia.org/wiki/%EA%B0%80%EB%B8%8C%EB%A6%B4%EB%A1%9C_%ED%94%84%EB%A6%B0%EC%B9%98%ED%94%84",
+          "lang": "ko",
+          "type": "wiki"
+        },
+        {
+          "label": "Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Gavrilo_Princip",
+          "lang": "en",
+          "type": "wiki"
+        }
+      ],
+      "related": [
+        {
+          "ep": "ww2",
+          "section": "imperialism",
+          "label": "제국주의·1차대전",
+          "epLabel": "세계대전 이야기"
+        }
+      ],
+      "reflect": "열아홉 살의 선택이 세계를 바꿨어요. 너라면 그에게 무엇을 묻고 싶어?"
+    },
+    {
+      "slug": "oskar-schindler",
+      "face": "📜",
+      "names": {
+        "native": "Oskar Schindler",
+        "roman": "Oskar Schindler",
+        "pronun_ko": "오스카어 신틀러 (독일어)",
+        "en": "Oskar Schindler",
+        "ko": "오스카 쉰들러",
+        "alias": "「쉰들러 리스트」의 실존 인물"
+      },
+      "nationality": "독일",
+      "lifespan": "1908~1974",
+      "oneLine": "유대인 1,100여 명을 구한 나치 당원 사업가",
+      "bio": [
+        "독일의 사업가이자 나치 당원이었어요. 처음엔 돈을 벌려고 유대인을 값싼 노동력으로 고용했지만, 점점 그들을 죽음에서 구하는 일에 자기 재산을 쏟아부었어요.",
+        "그는 자기 공장에 꼭 필요한 노동자라는 명단('쉰들러 리스트')을 만들어, 1,100여 명의 유대인을 수용소행에서 구해냈어요. 영화 「쉰들러 리스트」(1993)로 널리 알려졌지요.",
+        "전쟁 전엔 결코 영웅이 아니었던 사람이, 어느 순간 수많은 생명을 살렸어요. '나쁜 편'에 속했던 사람도 다르게 행동할 수 있다는 걸 보여줘요."
+      ],
+      "personTimeline": [
+        {
+          "yr": "1908",
+          "t": "출생"
+        },
+        {
+          "yr": "1939~",
+          "t": "점령지 크라쿠프에서 공장 운영"
+        },
+        {
+          "yr": "1944~45",
+          "t": "'쉰들러 리스트'로 노동자 구출"
+        },
+        {
+          "yr": "1974",
+          "t": "사망 — 예루살렘에 안장"
+        }
+      ],
+      "lightShadow": "그도 처음엔 이익을 좇았고 완벽한 사람은 아니었어요. 그래서 더, '평범하고 흠 있는 사람'의 선택이 생명을 살릴 수 있다는 게 울림을 줘요.",
+      "portrait": {
+        "src": "img/oskar-schindler.jpg",
+        "alt": "오스카 쉰들러",
+        "source": "Wikimedia Commons — Oskar Schindler",
+        "license": "Wikimedia Commons · 출처 표기(교육용)",
+        "note": ""
+      },
+      "links": [
+        {
+          "label": "위키백과 (한국어)",
+          "url": "https://ko.wikipedia.org/wiki/%EC%98%A4%EC%8A%A4%EC%B9%B4%EB%A5%B4_%EC%89%B0%EB%93%A4%EB%9F%AC",
+          "lang": "ko",
+          "type": "wiki"
+        },
+        {
+          "label": "Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Oskar_Schindler",
+          "lang": "en",
+          "type": "wiki"
+        }
+      ],
+      "related": [
+        {
+          "ep": "ww2",
+          "section": "europe",
+          "label": "유럽·러시아 전선",
+          "epLabel": "세계대전 이야기"
+        }
+      ],
+      "reflect": "쉰들러를 움직인 건 무엇이었을까? 너라면 그런 위험을 무릅쓸 수 있을까?"
+    },
+    {
+      "slug": "wladyslaw-szpilman",
+      "face": "🎹",
+      "names": {
+        "native": "Władysław Szpilman",
+        "roman": "Władysław Szpilman",
+        "pronun_ko": "브와디스와프 슈필만 (폴란드어)",
+        "en": "Władysław Szpilman",
+        "ko": "브와디스와프 슈필만",
+        "alias": "「피아니스트」의 실존 인물"
+      },
+      "nationality": "폴란드",
+      "lifespan": "1911~2000",
+      "oneLine": "음악으로 전쟁을 견뎌낸 바르샤바의 피아니스트",
+      "bio": [
+        "폴란드 바르샤바의 유대인 피아니스트예요. 나치 점령기 게토에 갇혔고, 가족을 모두 잃은 뒤 폐허가 된 도시에 홀로 숨어 살아남았어요.",
+        "굶주리며 숨어 지내던 그를, 뜻밖에 한 독일군 장교가 발견하고도 살려 주고 먹을 것을 건넸어요. 음악이 사람과 사람을 잇는 순간이었지요.",
+        "그의 회고록은 영화 「피아니스트」(2002)가 되었어요. 말이 아니라 음악으로 전쟁의 슬픔과 희망을 전한 사람이에요."
+      ],
+      "personTimeline": [
+        {
+          "yr": "1911",
+          "t": "출생"
+        },
+        {
+          "yr": "1940~",
+          "t": "바르샤바 게토에 갇힘"
+        },
+        {
+          "yr": "1943~44",
+          "t": "폐허 속 은신·생존"
+        },
+        {
+          "yr": "2000",
+          "t": "사망"
+        }
+      ],
+      "lightShadow": "거대한 비극 한가운데서도 작은 친절(적군 장교의 도움)이 사람을 살렸어요. 어느 편에도 '사람'이 있다는 걸 잊지 말라는 이야기예요.",
+      "portrait": {
+        "src": "img/wladyslaw-szpilman.jpg",
+        "alt": "브와디스와프 슈필만",
+        "source": "Wikimedia Commons — Władysław Szpilman",
+        "license": "Wikimedia Commons · 출처 표기(교육용)",
+        "note": ""
+      },
+      "links": [
+        {
+          "label": "위키백과 (한국어)",
+          "url": "https://ko.wikipedia.org/wiki/%EB%B8%8C%EC%99%80%EB%94%94%EC%8A%A4%EC%99%80%ED%94%84_%EC%8A%88%ED%95%84%EB%A7%8C",
+          "lang": "ko",
+          "type": "wiki"
+        },
+        {
+          "label": "Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/W%C5%82adys%C5%82aw_Szpilman",
+          "lang": "en",
+          "type": "wiki"
+        }
+      ],
+      "related": [
+        {
+          "ep": "ww2",
+          "section": "europe",
+          "label": "유럽·러시아 전선",
+          "epLabel": "세계대전 이야기"
+        }
+      ],
+      "reflect": "음악이 한 사람을 살릴 수 있을까? 너에게 그런 힘을 주는 건 뭐야?"
+    },
+    {
+      "slug": "oppenheimer",
+      "face": "⚛️",
+      "names": {
+        "native": "J. Robert Oppenheimer",
+        "roman": "J. Robert Oppenheimer",
+        "pronun_ko": "로버트 오펜하이머",
+        "en": "J. Robert Oppenheimer",
+        "ko": "로버트 오펜하이머",
+        "alias": "원자폭탄의 아버지"
+      },
+      "nationality": "미국",
+      "lifespan": "1904~1967",
+      "oneLine": "원자폭탄을 만든, 그리고 후회한 과학자",
+      "bio": [
+        "미국의 물리학자로, 2차 세계대전 중 원자폭탄을 만든 '맨해튼 프로젝트'의 과학 책임자였어요. 그래서 '원자폭탄의 아버지'라 불려요.",
+        "1945년 첫 핵실험이 성공하자, 그는 인도 경전의 한 구절을 떠올렸다고 해요. '나는 이제 죽음이요, 세상의 파괴자가 되었다.' 자신이 만든 무기의 끔찍한 힘 앞에서 깊은 죄책감을 느꼈지요.",
+        "전쟁 뒤 그는 더 강한 수소폭탄 개발에 반대했고, 그 때문에 의심받고 공직에서 밀려나는 고초를 겪었어요. 영화 「오펜하이머」(2023)가 그의 이야기를 다뤘어요."
+      ],
+      "personTimeline": [
+        {
+          "yr": "1904",
+          "t": "출생"
+        },
+        {
+          "yr": "1942~45",
+          "t": "맨해튼 프로젝트 지휘"
+        },
+        {
+          "yr": "1945.7",
+          "t": "첫 핵실험(트리니티) 성공"
+        },
+        {
+          "yr": "1954",
+          "t": "공직 박탈(매카시즘 광풍)"
+        },
+        {
+          "yr": "1967",
+          "t": "사망"
+        }
+      ],
+      "lightShadow": "위대한 과학적 성취와, 수십만의 죽음을 부른 무기를 만든 책임이 한 사람 안에 있어요. '할 수 있다'와 '해야 한다'는 다르다는, 과학자의 윤리를 묻게 해요.",
+      "portrait": {
+        "src": "img/oppenheimer.jpg",
+        "alt": "J. 로버트 오펜하이머",
+        "source": "Wikimedia Commons — J. Robert Oppenheimer",
+        "license": "Wikimedia Commons · 출처 표기(교육용)",
+        "note": "로스앨러모스 시절의 사진이에요."
+      },
+      "links": [
+        {
+          "label": "위키백과 (한국어)",
+          "url": "https://ko.wikipedia.org/wiki/J._%EB%A1%9C%EB%B2%84%ED%8A%B8_%EC%98%A4%ED%8E%9C%ED%95%98%EC%9D%B4%EB%A8%B8",
+          "lang": "ko",
+          "type": "wiki"
+        },
+        {
+          "label": "Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/J._Robert_Oppenheimer",
+          "lang": "en",
+          "type": "wiki"
+        }
+      ],
+      "related": [
+        {
+          "ep": "ww2",
+          "section": "postwar",
+          "label": "종전·전후",
+          "epLabel": "세계대전 이야기"
+        }
+      ],
+      "reflect": "사다코(피폭 소녀)와 오펜하이머(만든 사람)를 나란히 떠올려 봐. 과학의 힘은 누가, 어떻게 써야 할까?"
+    },
+    {
+      "slug": "sadako-sasaki",
+      "face": "🕊️",
+      "names": {
+        "native": "佐々木 禎子",
+        "roman": "Sasaki Sadako",
+        "pronun_ko": "사사키 사다코",
+        "en": "Sadako Sasaki",
+        "ko": "사사키 사다코",
+        "alias": "종이학 소녀"
+      },
+      "nationality": "일본",
+      "lifespan": "1943~1955",
+      "oneLine": "종이학에 평화를 빈 히로시마의 소녀",
+      "bio": [
+        "일본 히로시마의 소녀예요. 두 살 때 원자폭탄이 떨어진 도시에서 살아남았지만, 열한 살 무렵 그 후유증인 백혈병에 걸렸어요.",
+        "'종이학을 천 마리 접으면 소원이 이루어진다'는 이야기를 믿고, 병상에서 작은 종이로 학을 접고 또 접었어요. 그러나 열두 살에 세상을 떠났지요.",
+        "그의 이야기는 히로시마 평화공원의 '어린이 평화 기념비'가 되었고, 종이학은 전 세계에서 평화의 상징이 되었어요. 안네가 유럽의 소녀였다면, 사다코는 전쟁의 또 다른 끝에 있던 아시아의 소녀예요."
+      ],
+      "personTimeline": [
+        {
+          "yr": "1943",
+          "t": "출생"
+        },
+        {
+          "yr": "1945",
+          "t": "히로시마 원폭에서 생존(2세)"
+        },
+        {
+          "yr": "1955",
+          "t": "백혈병 발병 — 종이학 접기"
+        },
+        {
+          "yr": "1955",
+          "t": "사망(12세)"
+        },
+        {
+          "yr": "1958",
+          "t": "어린이 평화 기념비 건립"
+        }
+      ],
+      "lightShadow": "한 아이의 죽음 뒤엔 원폭으로 스러진 헤아릴 수 없는 사람들이 있어요. 사다코는 그 모두를 대신해 '평화'를 말하는 이름이 되었어요.",
+      "portrait": {
+        "src": "img/sadako-sasaki.webp",
+        "alt": "사사키 사다코",
+        "source": "Wikimedia Commons — Sadako Sasaki",
+        "license": "Wikimedia Commons · 출처 표기(교육용)",
+        "note": "사진 저작권은 사사키 가족에게 있어요."
+      },
+      "links": [
+        {
+          "label": "위키백과 (한국어)",
+          "url": "https://ko.wikipedia.org/wiki/%EC%82%AC%EC%82%AC%ED%82%A4_%EC%82%AC%EB%8B%A4%EC%BD%94",
+          "lang": "ko",
+          "type": "wiki"
+        },
+        {
+          "label": "Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Sadako_Sasaki",
+          "lang": "en",
+          "type": "wiki"
+        }
+      ],
+      "related": [
+        {
+          "ep": "ww2",
+          "section": "postwar",
+          "label": "종전·전후",
+          "epLabel": "세계대전 이야기"
+        }
+      ],
+      "reflect": "안네와 사다코, 전쟁의 양쪽 끝에 있던 두 소녀에게 같은 편지를 쓴다면 뭐라고 할래?"
     }
   ]
 }
