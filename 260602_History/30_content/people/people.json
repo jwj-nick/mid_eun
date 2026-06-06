@@ -1,0 +1,267 @@
+{
+  "_comment": "인물 도감 v2 단일 소스(SSOT). build_people.py가 색인(index.html)+인물별 페이지(<slug>/index.html)를 렌더. 에피소드 people[]는 요약(face/name/who/why/shadow), 상세는 여기. 이미지: 30_content/people/img/<slug>.jpg (Wikimedia, 출처 표기).",
+  "people": [
+    {
+      "slug": "anne-frank",
+      "face": "📔",
+      "names": {
+        "native": "Anne Frank",
+        "roman": "Annelies Marie Frank",
+        "pronun_ko": "아너 프랑크 (네덜란드어)",
+        "en": "Anne Frank",
+        "ko": "안네 프랑크",
+        "alias": ""
+      },
+      "nationality": "독일 출생 → 네덜란드 (유대인)",
+      "lifespan": "1929~1945",
+      "oneLine": "『안네의 일기』를 남긴 유대인 소녀",
+      "bio": [
+        "1929년 독일 프랑크푸르트의 유대인 가정에서 태어났어요. 나치의 박해를 피해 가족과 함께 네덜란드 암스테르담으로 옮겨 갔지요.",
+        "1942년부터 약 2년간, 아버지 회사 건물 뒤편의 '은신처(Achterhuis)'에 여덟 명이 숨어 지냈어요. 안네는 열세 번째 생일에 받은 일기장에 'Kitty'라는 이름을 붙여, 두려움과 희망, 자라나는 마음을 편지처럼 써 내려갔어요.",
+        "1944년 8월 은신처가 발각되어 수용소로 끌려갔고, 1945년 초 베르겐-벨젠 수용소에서 언니 마르고와 함께 병으로 짧은 생을 마쳤어요(발진티푸스로 추정). 가족 중 홀로 살아남은 아버지 오토가 딸의 일기를 세상에 펴냈답니다."
+      ],
+      "personTimeline": [
+        {"yr": "1929", "t": "독일 프랑크푸르트에서 출생"},
+        {"yr": "1942.7", "t": "암스테르담 은신처 생활 시작"},
+        {"yr": "1944.8", "t": "은신처 발각·체포"},
+        {"yr": "1945 초", "t": "베르겐-벨젠 수용소에서 사망(15세)"},
+        {"yr": "1947", "t": "아버지 오토가 『안네의 일기』 출간"}
+      ],
+      "lightShadow": "한 소녀의 일기가 전쟁의 비극을 '한 사람의 마음'으로 온 세상에 전했어요. 그 뒤에는 이름조차 남기지 못한 수많은 희생이 있었다는 것도 함께 기억해야 해요.",
+      "portrait": {
+        "src": "img/anne-frank.jpg",
+        "alt": "안네 프랑크 (1942년 5월 여권 사진)",
+        "source": "Wikimedia Commons — Anne Frank passport photo, May 1942 (cropped)",
+        "license": "사진 관리: Anne Frank Fonds (Basel). 교육용·비영리·출처표기 사용",
+        "note": "1942년 5월에 찍은 사진이에요."
+      },
+      "links": [
+        {"label": "위키백과 (한국어)", "url": "https://ko.wikipedia.org/wiki/안네_프랑크", "lang": "ko", "type": "wiki"},
+        {"label": "Wikipedia (English)", "url": "https://en.wikipedia.org/wiki/Anne_Frank", "lang": "en", "type": "wiki"},
+        {"label": "Wikipedia (Nederlands·네덜란드어)", "url": "https://nl.wikipedia.org/wiki/Anne_Frank", "lang": "nl", "type": "wiki"},
+        {"label": "Anne Frank House (공식·교육자료)", "url": "https://www.annefrank.org/en/anne-frank/", "lang": "en", "type": "official"}
+      ],
+      "related": [
+        {"ep": "ww2", "section": "anne", "label": "안네의 일기", "epLabel": "세계대전 이야기"}
+      ],
+      "reflect": "은신처에서 일기를 쓰던 안네에게 편지를 보낸다면, 어떤 말을 가장 먼저 건네고 싶나요?"
+    },
+    {
+      "slug": "lakshmibai",
+      "face": "👑",
+      "names": {
+        "native": "रानी लक्ष्मीबाई",
+        "roman": "Rani Lakshmibai",
+        "pronun_ko": "라니 락슈미바이",
+        "en": "Rani of Jhansi / Lakshmibai",
+        "ko": "락슈미바이",
+        "alias": "잔시의 여왕 (Rani of Jhansi)"
+      },
+      "nationality": "인도 (잔시 왕국 · 마라티/힌디)",
+      "lifespan": "1828?~1858",
+      "oneLine": "영국에 맞선 잔시 왕국의 왕비 · 1857 인도 항쟁의 상징",
+      "bio": [
+        "인도 중부 잔시 왕국의 왕비였어요. 남편인 왕이 세상을 떠나자, 영국 동인도회사는 '왕위를 이을 친아들이 없다'는 구실로 왕국을 빼앗으려 했어요.",
+        "1857년 인도 곳곳에서 영국 지배에 맞선 대항쟁(세포이 항쟁)이 일어나자, 락슈미바이는 직접 말을 타고 군대를 이끌며 잔시를 지켰어요. '내 잔시를 결코 내주지 않겠다'는 말이 전해질 만큼 결연했지요.",
+        "1858년 그왈리오르 부근 전투에서 스물아홉 안팎의 젊은 나이에 전사했어요. 항쟁은 끝내 실패했지만, 그는 오늘날 인도에서 저항과 용기의 영웅으로 기억돼요."
+      ],
+      "personTimeline": [
+        {"yr": "1828?", "t": "출생 (출생 연도는 자료마다 다름)"},
+        {"yr": "1853", "t": "남편 사망 → 영국의 왕국 병합 시도"},
+        {"yr": "1857", "t": "인도 대항쟁 — 잔시 방어를 이끎"},
+        {"yr": "1858", "t": "그왈리오르 전투에서 전사"}
+      ],
+      "lightShadow": "'맞섰다'는 사실만은 분명해요. 다만 그에게 전해 내려오는 멋진 말들에는 후대에 더해진 전설도 섞여 있어, 사실과 이야기를 가려 읽는 눈이 필요해요.",
+      "portrait": {
+        "src": "img/lakshmibai.jpg",
+        "alt": "락슈미바이 초상",
+        "source": "Wikimedia Commons — Rani of Jhansi",
+        "license": "퍼블릭 도메인",
+        "note": "생전 사진은 남아 있지 않아, 당대·후대의 묘사를 바탕으로 한 초상이에요."
+      },
+      "links": [
+        {"label": "위키백과 (한국어)", "url": "https://ko.wikipedia.org/wiki/락슈미바이", "lang": "ko", "type": "wiki"},
+        {"label": "Wikipedia (English)", "url": "https://en.wikipedia.org/wiki/Rani_of_Jhansi", "lang": "en", "type": "wiki"},
+        {"label": "विकिपीडिया (हिन्दी·힌디어)", "url": "https://hi.wikipedia.org/wiki/रानी_लक्ष्मीबाई", "lang": "hi", "type": "wiki"},
+        {"label": "Encyclopædia Britannica", "url": "https://www.britannica.com/biography/Lakshmi-Bai", "lang": "en", "type": "encyclopedia"}
+      ],
+      "related": [
+        {"ep": "imperialism", "section": "india", "label": "인도 — 왕관의 보석", "epLabel": "제국주의와 19세기"}
+      ],
+      "reflect": "나라를 빼앗길 위기에서 직접 말을 타고 나선 락슈미바이에게, 그 용기에 대해 무엇을 묻고 싶나요?"
+    },
+    {
+      "slug": "lin-zexu",
+      "face": "🖋️",
+      "names": {
+        "native": "林則徐",
+        "roman": "Lín Zéxú",
+        "pronun_ko": "린 쩌쉬",
+        "en": "Lin Zexu",
+        "ko": "임칙서",
+        "alias": ""
+      },
+      "nationality": "청나라 (중국)",
+      "lifespan": "1785~1850",
+      "oneLine": "아편을 없애려 한 청나라의 강직한 관리",
+      "bio": [
+        "청나라의 관리였어요. 영국 상인들이 들여온 아편이 백성을 병들게 하자, 1839년 황제의 특명을 받아 광저우로 내려갔어요.",
+        "그는 영국 상인이 가진 아편 약 2만 상자를 거둬들여 바닷가에서 모두 폐기했어요. 영국 빅토리아 여왕에게 '당신 나라에서 금지한 것을 왜 남의 나라 백성에게 파느냐'는 취지의 편지까지 썼지요(다만 그 편지는 여왕에게 전해지지 못했어요).",
+        "그의 결단은 옳았지만 전쟁을 막진 못했어요. 아편전쟁에서 청나라가 지자, 그는 도리어 패전의 책임을 뒤집어쓰고 멀리 신장 땅으로 유배되는 희생양이 되고 말았어요(훗날 복권됩니다)."
+      ],
+      "personTimeline": [
+        {"yr": "1785", "t": "출생"},
+        {"yr": "1839", "t": "흠차대신으로 광저우 파견 · 아편 몰수·폐기"},
+        {"yr": "1840", "t": "아편전쟁 발발"},
+        {"yr": "1841", "t": "패전 책임으로 신장 유배"},
+        {"yr": "1850", "t": "사망"}
+      ],
+      "lightShadow": "청렴하고 강직했지만, 한 사람의 의지로 거대한 시대의 흐름(서구 열강의 압박)을 막기엔 역부족이었어요. 옳음과 결과가 늘 같지는 않다는 걸 보여줘요.",
+      "portrait": {
+        "src": "img/lin-zexu.jpg",
+        "alt": "임칙서(린쩌쉬) 초상",
+        "source": "Wikimedia Commons — Portrait of Lin Zexu",
+        "license": "퍼블릭 도메인",
+        "note": ""
+      },
+      "links": [
+        {"label": "위키백과 (한국어)", "url": "https://ko.wikipedia.org/wiki/임칙서", "lang": "ko", "type": "wiki"},
+        {"label": "Wikipedia (English)", "url": "https://en.wikipedia.org/wiki/Lin_Zexu", "lang": "en", "type": "wiki"},
+        {"label": "維基百科 (中文·중국어)", "url": "https://zh.wikipedia.org/wiki/林则徐", "lang": "zh", "type": "wiki"},
+        {"label": "Encyclopædia Britannica", "url": "https://www.britannica.com/biography/Lin-Zexu", "lang": "en", "type": "encyclopedia"}
+      ],
+      "related": [
+        {"ep": "imperialism", "section": "opium-china", "label": "무너지는 청나라", "epLabel": "제국주의와 19세기"}
+      ],
+      "reflect": "'옳은 일을 했는데 벌을 받은' 임칙서에게, 너라면 어떤 위로나 질문을 건네고 싶나요?"
+    },
+    {
+      "slug": "ito-hirobumi",
+      "face": "🎩",
+      "names": {
+        "native": "伊藤博文",
+        "roman": "Itō Hirobumi",
+        "pronun_ko": "이토 히로부미",
+        "en": "Itō Hirobumi",
+        "ko": "이토 히로부미",
+        "alias": ""
+      },
+      "nationality": "일본",
+      "lifespan": "1841~1909",
+      "oneLine": "일본 근대화의 주역 · 초대 총리이자 조선 침탈의 설계자",
+      "bio": [
+        "조슈 번 출신으로, 메이지 유신을 이끈 핵심 인물이에요. 일본의 첫 내각총리대신이 되었고, 일본의 헌법을 만드는 일을 주도하며 나라를 빠르게 근대화했어요. 일본 안에서는 '근대화의 영웅'으로 불려요.",
+        "하지만 그는 우리에게는 침탈의 주역이었어요. 1905년 을사늑약을 강요하고, 대한제국의 첫 통감이 되어 국권을 빼앗는 일을 설계했지요.",
+        "1909년 만주 하얼빈역에서 안중근 의사에게 처단됩니다. 한 인물이 어떤 나라에는 영웅이고 다른 나라에는 가해자일 수 있다는 '빛과 그림자'를 가장 분명하게 보여주는 사람이에요."
+      ],
+      "personTimeline": [
+        {"yr": "1841", "t": "출생 (조슈 번)"},
+        {"yr": "1885", "t": "일본 초대 내각총리대신"},
+        {"yr": "1905", "t": "을사늑약 강요 · 초대 통감 취임"},
+        {"yr": "1909", "t": "하얼빈역에서 안중근 의사에게 피격"}
+      ],
+      "lightShadow": "일본에는 근대화의 영웅, 한국에는 침탈의 주역. 같은 사람을 두고 나라마다 평가가 정반대인 이유를 함께 생각해 봐야 해요.",
+      "portrait": {
+        "src": "img/ito-hirobumi.jpg",
+        "alt": "이토 히로부미 사진",
+        "source": "Wikimedia Commons — Itō Hirobumi",
+        "license": "퍼블릭 도메인",
+        "note": ""
+      },
+      "links": [
+        {"label": "위키백과 (한국어)", "url": "https://ko.wikipedia.org/wiki/이토_히로부미", "lang": "ko", "type": "wiki"},
+        {"label": "Wikipedia (English)", "url": "https://en.wikipedia.org/wiki/Itō_Hirobumi", "lang": "en", "type": "wiki"},
+        {"label": "ウィキペディア (日本語·일본어)", "url": "https://ja.wikipedia.org/wiki/伊藤博文", "lang": "ja", "type": "wiki"},
+        {"label": "Encyclopædia Britannica", "url": "https://www.britannica.com/biography/Ito-Hirobumi", "lang": "en", "type": "encyclopedia"}
+      ],
+      "related": [
+        {"ep": "imperialism", "section": "japan-meiji", "label": "일본의 변신", "epLabel": "제국주의와 19세기"}
+      ],
+      "reflect": "'어떤 나라엔 영웅, 다른 나라엔 가해자'인 사람을 어떻게 평가해야 할까요? 네 생각을 적어 보세요."
+    },
+    {
+      "slug": "empress-myeongseong",
+      "face": "👸",
+      "names": {
+        "native": "明成皇后",
+        "roman": "Myeongseong Hwanghu",
+        "pronun_ko": "명성황후 (시호)",
+        "en": "Empress Myeongseong (Queen Min)",
+        "ko": "명성황후",
+        "alias": "민비(낮춰 부른 말 — 권장하지 않음)"
+      },
+      "nationality": "조선 → 대한제국 (추존)",
+      "lifespan": "1851~1895",
+      "oneLine": "열강 사이에서 나라를 지키려 한 조선의 왕비 · 을미사변의 비극",
+      "bio": [
+        "조선 고종의 왕비예요. 나라가 외세에 흔들리던 개항기에, 강한 나라들 사이에서 외교로 균형을 잡아 나라를 지키려 애썼어요. 특히 일본의 힘을 견제하려 러시아 등과 가까이 지내려 했지요.",
+        "그 때문에 일본의 표적이 되었어요. 1895년, 일본 세력이 경복궁에 침입해 왕비를 시해하는 끔찍한 사건(을미사변)이 벌어졌어요. 한 나라의 왕비가 외세에 살해됐다는 사실은 조선이 처한 위기를 그대로 보여줘요.",
+        "세상을 떠난 뒤 대한제국이 세워지며 '명성황후'로 높여 불리게 되었어요. 그의 정치에 대한 평가는 지금도 갈리지만, 그 죽음만큼은 우리 근대사의 깊은 상처로 남아 있어요."
+      ],
+      "personTimeline": [
+        {"yr": "1851", "t": "출생"},
+        {"yr": "1866", "t": "고종의 왕비로 책봉"},
+        {"yr": "1895", "t": "을미사변 — 경복궁에서 시해"},
+        {"yr": "1897", "t": "대한제국 수립 후 '명성황후'로 추존"}
+      ],
+      "lightShadow": "외교로 나라를 지키려 한 노력과, 권력을 둘러싼 평가의 엇갈림이 함께 있어요. 비극적인 죽음이 그 모든 논쟁을 덮어선 안 되고, 사실을 차분히 봐야 해요.",
+      "portrait": {
+        "src": "img/empress-myeongseong.jpg",
+        "alt": "명성황후로 전해지는 사진 (진위 논쟁 있음)",
+        "source": "Wikimedia Commons (옛 역사 교재 수록 도판)",
+        "license": "퍼블릭 도메인",
+        "note": "★ 이 사진이 명성황후 본인인지는 학계에서 논쟁 중이에요. 단정할 수 없는 '전해지는 사진'으로 보아야 해요."
+      },
+      "links": [
+        {"label": "위키백과 (한국어)", "url": "https://ko.wikipedia.org/wiki/명성황후", "lang": "ko", "type": "wiki"},
+        {"label": "Wikipedia (English)", "url": "https://en.wikipedia.org/wiki/Empress_Myeongseong", "lang": "en", "type": "wiki"}
+      ],
+      "related": [
+        {"ep": "imperialism", "section": "korea", "label": "위기의 조선", "epLabel": "제국주의와 19세기"}
+      ],
+      "reflect": "사진 한 장의 진위조차 논쟁이 되는 인물이에요. '확실하지 않은 것'을 우리는 어떻게 다뤄야 할까요?"
+    },
+    {
+      "slug": "jeon-bongjun",
+      "face": "🌾",
+      "names": {
+        "native": "全琫準",
+        "roman": "Jeon Bongjun",
+        "pronun_ko": "전봉준",
+        "en": "Jeon Bong-jun (Green Pea General)",
+        "ko": "전봉준",
+        "alias": "녹두장군"
+      },
+      "nationality": "조선",
+      "lifespan": "1855~1895",
+      "oneLine": "1894년 동학 농민운동을 이끈 '녹두장군'",
+      "bio": [
+        "키가 작아 '녹두장군'이라 불렸어요. 굶주리고 억눌린 백성을 위해 일어선 동학 농민운동(1894)의 지도자예요.",
+        "고부 군수의 학정에 맞서 봉기한 그는, 부패한 관리와 나라를 넘보는 외세(일본)에 맞선 농민들의 외침을 이끌었어요. '사람이 곧 하늘'이라는 동학의 가르침이 그 바탕에 있었지요.",
+        "봉기는 우금치 전투에서 우세한 무기를 가진 일본군에 진압되었고, 그는 체포되어 1895년 처형됐어요. 하지만 '백성이 주인'이라는 그 정신은 이후 독립운동으로 이어졌답니다."
+      ],
+      "personTimeline": [
+        {"yr": "1855", "t": "출생"},
+        {"yr": "1894.1", "t": "고부 봉기 → 동학 농민운동으로 확산"},
+        {"yr": "1894.11", "t": "우금치 전투 패배"},
+        {"yr": "1895", "t": "체포 후 처형"}
+      ],
+      "lightShadow": "봉기는 실패했지만, 백성이 스스로 주인이 되려 한 그 외침은 헛되지 않았어요. 패배한 싸움도 역사를 움직일 수 있다는 걸 보여줘요.",
+      "portrait": {
+        "src": "img/jeon-bongjun.jpg",
+        "alt": "전봉준 (1895년 압송 장면)",
+        "source": "Wikimedia Commons — 전봉준 압송(1895)",
+        "license": "퍼블릭 도메인",
+        "note": "1895년 재판을 위해 압송되던 때 찍힌 유명한 사진이에요."
+      },
+      "links": [
+        {"label": "위키백과 (한국어)", "url": "https://ko.wikipedia.org/wiki/전봉준", "lang": "ko", "type": "wiki"},
+        {"label": "Wikipedia (English)", "url": "https://en.wikipedia.org/wiki/Jeon_Bong-jun", "lang": "en", "type": "wiki"}
+      ],
+      "related": [
+        {"ep": "imperialism", "section": "korea", "label": "위기의 조선", "epLabel": "제국주의와 19세기"}
+      ],
+      "reflect": "'질 줄 알면서도 일어선' 녹두장군에게, 너라면 어떤 말을 전하고 싶나요?"
+    }
+  ]
+}
