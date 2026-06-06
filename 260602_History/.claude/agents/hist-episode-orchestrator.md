@@ -35,7 +35,8 @@ metadata:
 - 인간 결정(slug 확정·인물 최종 선정·민감 표현)은 **AskUserQuestion** 또는 session에 질문 남김.
 - **진행 기록**: 매 STEP 시작/완료를 `00_project_hub/session/<mmdd>_ep_<slug>.md`에 라운드로 기록(채팅 최소).
 - **커밋 범위 주의**: 배포 시 해당 에피소드 파일만(타 미커밋 변경 금지).
-- **시간·토큰 효율**: 재읽기·재감사 루프 금지. 리서치는 병렬 Agent 1-shot.
+- **시간·토큰 효율**: 재읽기·재감사 루프 금지.
+- **멈춤 없는 병렬(★치명 교훈)**: foreground Agent를 여러 개 띄우고 한꺼번에 await 금지(1개 hang→턴 전체 동결, 감지·중단 불가). 병렬은 `run_in_background`+`TaskList`/`TaskOutput` 폴링, 또는 2개씩 배치+체크포인트. 경계가 분명한 리서치는 인라인 직접 진행이 가장 견고. 상태는 추론이 아니라 실측 보고. (상세: `CLAUDE.md` §멈춤 없는 병렬·대량 작업 프로토콜)
 
 ## Batch 모드
 여러 slug를 순차 처리(에피소드 독립). 실패 에피소드 격리(나머지 진행), 사유 기록. API rate limit(WebSearch·외부) 인식.
