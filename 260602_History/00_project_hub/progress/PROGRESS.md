@@ -47,6 +47,8 @@
 - (0605) **S6 인물 도감 ✅ 라이브** — `/history/people/` 크로스에피소드 색인(6명, build_people.py) + 허브 링크/카드. 커밋 e47c6c2
 - (0605) **S7 choice 블록 ✅ 라이브** — '너라면?' 도덕적 딜레마(안네 이웃·동학) + 균형 해설. 커밋 598c7b1
 - **🎉 S0~S7 전체 자율진행 완료** — 참여장치 9개 + 블록 6종 두 에피소드 라이브. 최종 결과로 다음 방향 모색(Nick)
+- (0606) **P 인물 도감 v2 ✅ 라이브** — 단일소스 `30_content/people/people.json`(에피소드에서 분리) + `build_people.py` 재작성으로 **인물별 페이지** 6종 생성. 사진(Wikimedia, 출처표기)·다국어 이름(원어/발음/로마자/영어/한국어)·생애·연표·빛과 그림자·**관련 에피소드 섹션 역링크**(도감↔이야기 순환)·공식 링크·"편지" 메모. https://jwj-nick.github.io/history/people/<slug>/ 6인물 + 이미지 전부 200 검증.
+- (0606) ⚠️ **치명 교훈 — 멈춤 없는 workflow**: foreground Agent 다중 await가 hang→수시간 동결+감지불가 사고. `CLAUDE.md §멈춤 없는 병렬·대량 작업 프로토콜` 신설 + hist-research·오케스트레이터 갱신(background+폴링 / 2개 배치+체크포인트 / 인라인 우선 / 실측 보고).
 
 ## 다음 액션
 - ⬜ Ep02(`imperialism`) 제작 시작 → 각 seed 스킬 정련

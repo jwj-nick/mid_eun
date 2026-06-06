@@ -134,9 +134,14 @@
 - 탭(2~4개)을 눌러 상태를 바꿔 비교. 전후·단계 변화에. `img`는 선택(있으면 **PD/명확한 CC만**, 출처 표기).
 - **그때↔지금 사진(D6)** 은 양쪽 PD/CC 확보 시 `img`로. 현대 사진은 보통 저작권 → 확보 못 하면 텍스트 상태만으로도 충분.
 
-## People-gallery (인물 도감, S6 — 크로스 에피소드 색인)
-- 데이터는 **각 에피소드의 `people[]`(섹션/최상위)에서 자동 수집** → `python 40_build/build_people.py` → `50_app/people/index.html` 생성 → 배포 `/history/people/`.
-- 새 에피소드의 `people`가 늘면 빌더만 다시 돌리면 색인 자동 갱신(별도 스키마 없음). Person 구조는 위 §Person과 동일.
+## People-gallery (인물 도감)
+### v2 (0606~, ★현행) — 단일소스 `30_content/people/people.json`
+- 인물 상세를 에피소드에서 **분리**해 `30_content/people/people.json` 으로 승격(SSOT). `python 40_build/build_people.py` → **색인** `50_app/people/index.html` + **인물별 페이지** `50_app/people/<slug>/index.html` + 이미지 복사 `50_app/people/img/`.
+- Person(v2) 필드: `slug` · `face` · `names{native,roman,pronun_ko,en,ko,alias}` · `nationality` · `lifespan` · `oneLine` · `bio[]`(문단) · `personTimeline[{yr,t}]` · `lightShadow` · `portrait{src,alt,source,license,note}` · `links[{label,url,lang,type}]` · `related[{ep,section,label,epLabel}]`(→ `/history/<ep>/#<section>` 역링크) · `reflect`(편지).
+- 이미지: `30_content/people/img/<slug>.jpg`(Wikimedia, 파일페이지에서 라이선스·출처 확인 후 다운로드, figcaption에 출처표기). 인물 추가 = people.json + img 추가 후 빌더 재실행.
+- 외부 링크는 **반드시 실제 200 검증**(추측 ID 금지 — encykorea 등 죽은/오링크 주의). `target=_blank rel=noopener`.
+### v1 (S6, 폐기) — 에피소드 `people[]` 자동수집 색인
+- (구) 각 에피소드 `people[]`에서 수집해 단일 색인만 생성. 에피소드 내 섹션 인물 카드(요약)는 여전히 §Person 구조로 episode.json에 둔다.
 - 허브(`/history/index.html`) 사이드바 '도감' + 메인 카드에서 진입.
 
 ## Choice (선택 블록, S7 — '너라면?' 도덕적 딜레마)
