@@ -892,6 +892,452 @@
         }
       ],
       "reflect": "안네와 사다코, 전쟁의 양쪽 끝에 있던 두 소녀에게 같은 편지를 쓴다면 뭐라고 할래?"
+    },
+    {
+      "slug": "stalin",
+      "face": "🟥",
+      "names": {
+        "native": "Иосиф Сталин",
+        "roman": "Iosif Stalin",
+        "pronun_ko": "이오시프 스탈린",
+        "en": "Joseph Stalin",
+        "ko": "스탈린",
+        "alias": ""
+      },
+      "nationality": "소련(소비에트 연방)",
+      "lifespan": "1878~1953",
+      "oneLine": "소련을 철권으로 다스린 지도자 · 한국전쟁의 배후",
+      "bio": [
+        "소련(지금의 러시아 등)을 약 30년간 절대 권력으로 다스린 지도자예요. 나라를 강한 공업국으로 키웠고, 2차 세계대전에서 독일을 물리치는 데 큰 역할을 했어요.",
+        "하지만 그 과정에서 자신에게 반대하는 수많은 사람을 가두고 처형했고(대숙청), 강제 정책으로 굶어 죽은 사람도 아주 많았어요.",
+        "한국전쟁 때는 김일성의 남침 계획을 승인하고 무기를 대 준 '배후'였어요. 직접 싸우진 않으면서 전쟁의 큰 그림을 움직였죠."
+      ],
+      "personTimeline": [
+        {
+          "yr": "1878",
+          "t": "출생"
+        },
+        {
+          "yr": "1920s~",
+          "t": "소련 최고 권력 장악"
+        },
+        {
+          "yr": "1930s",
+          "t": "대숙청"
+        },
+        {
+          "yr": "1945",
+          "t": "2차대전 승전"
+        },
+        {
+          "yr": "1950",
+          "t": "한국전쟁 남침 승인·지원"
+        },
+        {
+          "yr": "1953",
+          "t": "사망"
+        }
+      ],
+      "lightShadow": "전쟁 영웅이자 수백만을 희생시킨 독재자 — 같은 사람 안의 빛과 짙은 그림자를 가장 무겁게 보여줘요. '강한 나라'가 '좋은 나라'와 같은 말은 아니에요.",
+      "portrait": {
+        "src": "img/stalin.jpg",
+        "alt": "이오시프 스탈린",
+        "source": "Wikimedia Commons — Stalin, 1943",
+        "license": "퍼블릭 도메인",
+        "note": ""
+      },
+      "links": [
+        {
+          "label": "위키백과 (한국어)",
+          "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%98%A4%EC%8B%9C%ED%94%84_%EC%8A%A4%ED%83%88%EB%A6%B0",
+          "lang": "ko",
+          "type": "wiki"
+        },
+        {
+          "label": "Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Joseph_Stalin",
+          "lang": "en",
+          "type": "wiki"
+        }
+      ],
+      "related": [
+        {
+          "ep": "ww2",
+          "section": "korea",
+          "label": "한국전쟁",
+          "epLabel": "세계대전 이야기"
+        }
+      ],
+      "reflect": "직접 싸우지 않고 전쟁을 움직인 '배후'에게도 책임이 있을까? 너의 생각은?"
+    },
+    {
+      "slug": "mao-zedong",
+      "face": "🟥",
+      "names": {
+        "native": "毛澤東",
+        "roman": "Máo Zédōng",
+        "pronun_ko": "마오쩌둥",
+        "en": "Mao Zedong",
+        "ko": "마오쩌둥",
+        "alias": "모택동"
+      },
+      "nationality": "중국(중화인민공화국)",
+      "lifespan": "1893~1976",
+      "oneLine": "중화인민공화국을 세운 지도자 · 한국전쟁 참전",
+      "bio": [
+        "오랜 내전 끝에 1949년 중화인민공화국을 세운 지도자예요. 가난한 농민의 나라를 하나로 모았다는 평가를 받아요.",
+        "한국전쟁 때 북한이 밀리자 '인민지원군'을 보내 전쟁의 흐름을 바꿨어요. 한반도에서 중국과 미국이 정면으로 맞붙은 셈이죠.",
+        "그러나 이후 그가 밀어붙인 정책(대약진운동·문화대혁명)으로 수천만 명이 굶주리거나 희생되는 큰 비극도 있었어요."
+      ],
+      "personTimeline": [
+        {
+          "yr": "1893",
+          "t": "출생"
+        },
+        {
+          "yr": "1949",
+          "t": "중화인민공화국 수립"
+        },
+        {
+          "yr": "1950",
+          "t": "한국전쟁 참전(인민지원군)"
+        },
+        {
+          "yr": "1958~",
+          "t": "대약진운동"
+        },
+        {
+          "yr": "1966~",
+          "t": "문화대혁명"
+        },
+        {
+          "yr": "1976",
+          "t": "사망"
+        }
+      ],
+      "lightShadow": "나라를 세운 지도자이자, 잘못된 정책으로 엄청난 희생을 부른 사람 — 한 지도자의 결정이 수천만의 삶을 좌우한다는 걸 보여줘요.",
+      "portrait": {
+        "src": "img/mao-zedong.jpg",
+        "alt": "마오쩌둥",
+        "source": "Wikimedia Commons — Mao Zedong, 1950",
+        "license": "Wikimedia Commons · 출처 표기(교육용)",
+        "note": ""
+      },
+      "links": [
+        {
+          "label": "위키백과 (한국어)",
+          "url": "https://ko.wikipedia.org/wiki/%EB%A7%88%EC%98%A4%EC%A9%8C%EB%91%A5",
+          "lang": "ko",
+          "type": "wiki"
+        },
+        {
+          "label": "Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Mao_Zedong",
+          "lang": "en",
+          "type": "wiki"
+        }
+      ],
+      "related": [
+        {
+          "ep": "ww2",
+          "section": "korea",
+          "label": "한국전쟁",
+          "epLabel": "세계대전 이야기"
+        }
+      ],
+      "reflect": "나라를 세운 공과 큰 비극을 부른 잘못, 어떻게 함께 기억해야 할까?"
+    },
+    {
+      "slug": "kim-il-sung",
+      "face": "🟥",
+      "names": {
+        "native": "金日成",
+        "roman": "Kim Il-sung",
+        "pronun_ko": "김일성",
+        "en": "Kim Il Sung",
+        "ko": "김일성",
+        "alias": ""
+      },
+      "nationality": "북한(조선민주주의인민공화국)",
+      "lifespan": "1912~1994",
+      "oneLine": "북한을 세운 지도자 · 한국전쟁 남침을 주도",
+      "bio": [
+        "북한의 첫 지도자예요. 일제강점기 항일 활동을 했다고 알려졌고, 1948년 북한 정권을 세웠어요.",
+        "1950년 6월 25일, 소련과 중국의 지원을 업고 남쪽을 기습 공격(남침)해 한국전쟁을 일으켰어요. 같은 민족끼리 총을 겨눈 비극의 시작이었죠.",
+        "이후 그는 절대 권력을 쥐고 북한을 1인 독재 체제로 만들었고, 그 체제는 오늘날까지 이어지고 있어요."
+      ],
+      "personTimeline": [
+        {
+          "yr": "1912",
+          "t": "출생"
+        },
+        {
+          "yr": "1948",
+          "t": "북한 정권 수립"
+        },
+        {
+          "yr": "1950.6.25",
+          "t": "남침 → 한국전쟁 발발"
+        },
+        {
+          "yr": "1994",
+          "t": "사망(권력 세습)"
+        }
+      ],
+      "lightShadow": "항일 활동의 면모도 거론되지만, 같은 민족을 향한 전쟁을 일으키고 가혹한 독재를 세운 책임이 분명해요. 사실을 또렷이 보는 게 중요해요.",
+      "portrait": {
+        "src": "img/kim-il-sung.jpg",
+        "alt": "김일성",
+        "source": "Wikimedia Commons — Kim Il-sung, 1950",
+        "license": "Wikimedia Commons · 출처 표기(교육용)",
+        "note": ""
+      },
+      "links": [
+        {
+          "label": "위키백과 (한국어)",
+          "url": "https://ko.wikipedia.org/wiki/%EA%B9%80%EC%9D%BC%EC%84%B1",
+          "lang": "ko",
+          "type": "wiki"
+        },
+        {
+          "label": "Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Kim_Il_Sung",
+          "lang": "en",
+          "type": "wiki"
+        }
+      ],
+      "related": [
+        {
+          "ep": "ww2",
+          "section": "korea",
+          "label": "한국전쟁",
+          "epLabel": "세계대전 이야기"
+        }
+      ],
+      "reflect": "같은 민족끼리의 전쟁은 왜 더 아플까? 네 생각을 적어 봐."
+    },
+    {
+      "slug": "truman",
+      "face": "🟦",
+      "names": {
+        "native": "Harry S. Truman",
+        "roman": "Harry S. Truman",
+        "pronun_ko": "해리 트루먼",
+        "en": "Harry S. Truman",
+        "ko": "해리 S. 트루먼",
+        "alias": ""
+      },
+      "nationality": "미국",
+      "lifespan": "1884~1972",
+      "oneLine": "원폭 투하와 한국전쟁 파병을 결정한 미국 대통령",
+      "bio": [
+        "2차 세계대전 막바지에 미국 대통령이 된 사람이에요. 일본에 원자폭탄을 떨어뜨리라는 결정을 내려 전쟁을 끝냈지만, 그 결정은 지금도 큰 논쟁거리예요.",
+        "한국전쟁이 터지자 UN군 파병을 결정해 대한민국을 도왔어요.",
+        "동시에 그는 '전쟁을 한반도 안으로만 제한한다'며 중국·소련으로 번지는 것을 막았어요. 확전을 주장한 맥아더 장군을 해임한 일이 유명하죠."
+      ],
+      "personTimeline": [
+        {
+          "yr": "1884",
+          "t": "출생"
+        },
+        {
+          "yr": "1945",
+          "t": "대통령 취임·원폭 투하 결정"
+        },
+        {
+          "yr": "1950",
+          "t": "한국전쟁 UN군 파병"
+        },
+        {
+          "yr": "1951",
+          "t": "맥아더 해임"
+        },
+        {
+          "yr": "1972",
+          "t": "사망"
+        }
+      ],
+      "lightShadow": "전쟁을 끝낸 결정과 수많은 민간인 희생을 부른 결정이 같은 손에서 나왔어요. '큰 결정에는 큰 책임이 따른다'는 걸 보여줘요.",
+      "portrait": {
+        "src": "img/truman.jpg",
+        "alt": "해리 S. 트루먼",
+        "source": "Wikimedia Commons — Harry S. Truman",
+        "license": "퍼블릭 도메인",
+        "note": ""
+      },
+      "links": [
+        {
+          "label": "위키백과 (한국어)",
+          "url": "https://ko.wikipedia.org/wiki/%ED%95%B4%EB%A6%AC_S._%ED%8A%B8%EB%A3%A8%EB%A8%BC",
+          "lang": "ko",
+          "type": "wiki"
+        },
+        {
+          "label": "Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Harry_S._Truman",
+          "lang": "en",
+          "type": "wiki"
+        }
+      ],
+      "related": [
+        {
+          "ep": "ww2",
+          "section": "korea",
+          "label": "한국전쟁",
+          "epLabel": "세계대전 이야기"
+        }
+      ],
+      "reflect": "전쟁을 빨리 끝내기 위해서라면 큰 희생도 괜찮을까? 너라면?"
+    },
+    {
+      "slug": "macarthur",
+      "face": "🟦",
+      "names": {
+        "native": "Douglas MacArthur",
+        "roman": "Douglas MacArthur",
+        "pronun_ko": "더글러스 맥아더",
+        "en": "Douglas MacArthur",
+        "ko": "더글러스 맥아더",
+        "alias": ""
+      },
+      "nationality": "미국",
+      "lifespan": "1880~1964",
+      "oneLine": "인천상륙작전을 성공시킨 UN군 사령관",
+      "bio": [
+        "한국전쟁 때 UN군을 이끈 미국 장군이에요. 1950년 9월, 모두가 무모하다던 인천상륙작전을 성공시켜 전세를 단번에 뒤집었어요.",
+        "그는 여기서 더 나아가 중국 본토까지 공격하자(확전)고 주장했어요.",
+        "하지만 트루먼 대통령은 더 큰 전쟁(어쩌면 핵전쟁)을 막으려 그를 사령관 자리에서 해임했어요. '군인보다, 국민이 뽑은 대통령이 전쟁을 결정한다'는 원칙을 보여 준 사건이죠."
+      ],
+      "personTimeline": [
+        {
+          "yr": "1880",
+          "t": "출생"
+        },
+        {
+          "yr": "1945",
+          "t": "일본 점령 총사령관"
+        },
+        {
+          "yr": "1950.9",
+          "t": "인천상륙작전 성공"
+        },
+        {
+          "yr": "1951",
+          "t": "해임"
+        },
+        {
+          "yr": "1964",
+          "t": "사망"
+        }
+      ],
+      "lightShadow": "뛰어난 전략가였지만, 자기 확신이 너무 강해 더 큰 전쟁을 부를 뻔했어요. 능력과 절제는 다른 문제라는 걸 보여줘요.",
+      "portrait": {
+        "src": "img/macarthur.jpg",
+        "alt": "더글러스 맥아더",
+        "source": "Wikimedia Commons — Douglas MacArthur",
+        "license": "퍼블릭 도메인",
+        "note": ""
+      },
+      "links": [
+        {
+          "label": "위키백과 (한국어)",
+          "url": "https://ko.wikipedia.org/wiki/%EB%8D%94%EA%B8%80%EB%9F%AC%EC%8A%A4_%EB%A7%A5%EC%95%84%EB%8D%94",
+          "lang": "ko",
+          "type": "wiki"
+        },
+        {
+          "label": "Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Douglas_MacArthur",
+          "lang": "en",
+          "type": "wiki"
+        }
+      ],
+      "related": [
+        {
+          "ep": "ww2",
+          "section": "korea",
+          "label": "한국전쟁",
+          "epLabel": "세계대전 이야기"
+        }
+      ],
+      "reflect": "유능한 사람의 고집은 약일까 독일까? 맥아더의 경우엔 어땠을까?"
+    },
+    {
+      "slug": "syngman-rhee",
+      "face": "🟦",
+      "names": {
+        "native": "李承晩",
+        "roman": "Yi Seung-man",
+        "pronun_ko": "이승만",
+        "en": "Syngman Rhee",
+        "ko": "이승만",
+        "alias": ""
+      },
+      "nationality": "대한민국",
+      "lifespan": "1875~1965",
+      "oneLine": "대한민국 초대 대통령",
+      "bio": [
+        "대한민국의 첫 대통령이에요. 일제강점기 오랫동안 해외에서 독립운동을 했고, 1948년 정부 수립과 함께 대통령이 되었어요.",
+        "한국전쟁 동안 나라를 지키며 미국 등 우방의 도움을 끌어냈고, 통일을 강하게 원했어요.",
+        "그러나 권력을 오래 유지하려 부정선거 같은 무리한 일을 했고, 결국 1960년 4·19혁명으로 대통령 자리에서 물러나게 됩니다."
+      ],
+      "personTimeline": [
+        {
+          "yr": "1875",
+          "t": "출생"
+        },
+        {
+          "yr": "일제강점기",
+          "t": "해외에서 독립운동"
+        },
+        {
+          "yr": "1948",
+          "t": "대한민국 초대 대통령"
+        },
+        {
+          "yr": "1950~53",
+          "t": "한국전쟁"
+        },
+        {
+          "yr": "1960",
+          "t": "4·19혁명으로 하야"
+        },
+        {
+          "yr": "1965",
+          "t": "사망(하와이)"
+        }
+      ],
+      "lightShadow": "독립운동가이자 건국 대통령이었지만, 권력에 집착해 민주주의를 훼손한 그림자도 뚜렷해요. 공과 과를 함께 봐야 해요.",
+      "portrait": {
+        "src": "img/syngman-rhee.jpg",
+        "alt": "이승만",
+        "source": "Wikimedia Commons — Syngman Rhee, 1948",
+        "license": "퍼블릭 도메인",
+        "note": ""
+      },
+      "links": [
+        {
+          "label": "위키백과 (한국어)",
+          "url": "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%8A%B9%EB%A7%8C",
+          "lang": "ko",
+          "type": "wiki"
+        },
+        {
+          "label": "Wikipedia (English)",
+          "url": "https://en.wikipedia.org/wiki/Syngman_Rhee",
+          "lang": "en",
+          "type": "wiki"
+        }
+      ],
+      "related": [
+        {
+          "ep": "ww2",
+          "section": "korea",
+          "label": "한국전쟁",
+          "epLabel": "세계대전 이야기"
+        }
+      ],
+      "reflect": "나라를 세운 공과 민주주의를 해친 과 — 어떻게 균형 있게 기억해야 할까?"
     }
   ]
 }
