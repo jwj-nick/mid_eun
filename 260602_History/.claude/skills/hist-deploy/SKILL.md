@@ -18,16 +18,31 @@ metadata:
 - 계층: `/history/`=허브, `/history/<slug>/`=에피소드. (mid1에도 역사 링크 존재)
 
 ## 동작
-1. `cp 50_app/<slug>/index.html  <repo>/history/<slug>/index.html`. **이미지 자산 있으면** `50_app/<slug>/img/` → `<repo>/history/<slug>/img/`도 복사(S1 image 블록).
-1b. **인물 도감**: `python 40_build/build_people.py` → `cp 50_app/people/index.html <repo>/history/people/index.html` (인물 늘면 갱신, S6).
-2. **허브 카드 추가**: `<repo>/history/index.html`의 에피소드 목록에 새 카드(Episode NN, 제목, 설명, `→ <slug>/`) 삽입. 다음 에피소드 "준비 중" 블록은 유지/갱신.
-3. **그 에피소드 파일만** 스테이징·커밋·푸시 (`git add history/<slug>/index.html history/index.html`). **다른 미커밋 변경(예: mid1/map) 건드리지 않기.**
-4. 검증: Pages 빌드 후 `curl -o /dev/null -w %{http_code}` = 200, `<title>`·핵심 문자열 확인.
+0. **배포 전 빌드·검증 게이트(G0~G2) 통과 필수** — 아래 §검증 워크플로우.
+1. `cp 50_app/<slug>/index.html  <repo>/history/<slug>/index.html`. **이미지 자산 있으면** `50_app/<slug>/img/` → `<repo>/history/<slug>/img/`도 복사.
+1b. **인물 도감 v2**: `python 40_build/build_people.py` → **트리 전체 복사**(index + 인물별 `<slug>/` + `img/`): `rm -rf <repo>/history/people && cp -r 50_app/people/. <repo>/history/people/`.
+2. **허브 카드**: `<repo>/history/index.html` 에피소드 목록에 카드 삽입/갱신.
+3. **변경 파일만** 스테이징·커밋·푸시. **무관 변경(mid1/map 등) 금지.** 커밋 푸터 `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>`.
+4. **라이브 검증(G3)** — 아래.
+
+## 검증 워크플로우 (★공식 게이트 — 0606 정식화)
+> 원칙: **추론 금지, 실측만.** 매 게이트는 명령 출력으로 통과를 확인한다.
+
+- **G0 빌드 무오류**: `python 40_build/build.py <slug>` 정상 종료(에러 0). 인물 도감은 `build_people.py`.
+- **G1 JS_OK(엔진 변경 시 필수)**: 템플릿에서 가장 큰 `<script>` 추출 → `/*__EPISODE_DATA__*/ null`을 스텁 객체로 치환 → `_chk.js`로 저장 → `node --check _chk.js` → `rm _chk.js`. (런타임 렌더가 깨지지 않음을 정적 확인)
+- **G2 자원 검증(데이터 추가 시)**:
+  - **외부·위키 링크는 반드시 실제 200**: `curl -s -o /dev/null -w '%{http_code}' -L "<url>"`. **추측 ID 금지**(encykorea 오링크 사고 — 추측 article ID가 엉뚱한 글이었음). 죽거나 틀린 링크는 배제.
+  - **이미지 직접 URL**: Wikipedia REST summary API(`/api/rest_v1/page/summary/<제목>`의 `originalimage.source`). 다운로드 후 `file <img>`로 JPEG/PNG/WebP 실물 확인.
+  - **한국어 위키 제목**: en→ko 언어링크 API(`/w/api.php?action=query&prop=langlinks&lllang=ko&titles=<EN>`)로 정확 제목 확보(한글 경로는 브라우저 OK, 데이터엔 퍼센트 인코딩 권장).
+- **G3 라이브 검증**: Pages 빌드 지연 대비 **대기 루프** →
+  `until [ "$(curl -s -o /dev/null -w '%{http_code}' "<url>?cb=$RANDOM")" = "200" ] || [ $n -ge 18 ]; do n=$((n+1)); sleep 5; done`
+  통과 후: 페이지 + **이미지 자산** 200, 핵심 문자열·신규 데이터 spot-check(캐시버스트 `?cb=$RANDOM`).
 
 ## 출력
-- 라이브 URL `https://jwj-nick.github.io/history/<slug>/` + 허브 갱신
+- 라이브 URL `https://jwj-nick.github.io/history/<slug>/` (+ `/history/people/`) + 허브 갱신
 
 ## 품질 게이트
-- [ ] 에피소드 URL 200 + 제목 정상
-- [ ] 허브 카드에서 진입 동작
+- [ ] G0 빌드 무오류 / G1 JS_OK(엔진 변경 시)
+- [ ] G2 링크 200·이미지 실물·ko 제목 검증(추측 금지)
+- [ ] G3 라이브 200(페이지+이미지) + 신규 데이터 spot-check
 - [ ] 무관한 변경 미포함(커밋 범위 점검)
