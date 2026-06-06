@@ -1,0 +1,17 @@
+# --- Claude 로컬 설정 (기기별, 공유 안 함) ---
+**/.claude/settings.local.json
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- OS/에디터 ---
+.DS_Store
+Thumbs.db
+
+# --- HistoryTelling: 빌드 산출물 (40_build/build.py로 재생성, jwj-nick.github.io에 별도 배포) ---
+260602_History/50_app/
+
+# --- 임시 검증 파일 ---
+_chk.js
+_engine_check.js
