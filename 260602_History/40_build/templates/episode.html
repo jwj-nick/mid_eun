@@ -84,6 +84,25 @@
   .person .pwhy{font-size:14.5px; margin-bottom:8px;}
   .person .pquote{font-size:14px; font-style:italic; color:var(--accent); border-left:3px solid var(--rose-soft); padding-left:10px; margin:8px 0;}
   .person .pshadow{font-size:13.5px; color:var(--muted); background:var(--cream); border-radius:9px; padding:8px 11px;}
+  .person .pmore{display:inline-block; margin-top:10px; font-size:13px; font-weight:700; text-decoration:none; color:var(--accent); border:1px solid var(--rose-soft); border-radius:9px; padding:6px 12px;}
+  .person .pmore:hover{background:var(--accent); color:#fff; border-color:var(--accent);}
+  .movies{display:grid; gap:14px;}
+  .movie{background:#fff; border:1px solid var(--line); border-radius:15px; padding:16px 18px; box-shadow:var(--shadow-sm);}
+  .movie .mhead{display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:4px;}
+  .movie .mtitle{font-size:16.5px; font-weight:800; color:var(--navy);}
+  .movie .mfit{font-size:11.5px; font-weight:700; border-radius:7px; padding:2px 8px; white-space:nowrap;}
+  .movie .mfit.green{background:#E5F3E8; color:#2E7D4F;}
+  .movie .mfit.yellow{background:#FBF1D8; color:#9A7B22;}
+  .movie .mfit.red{background:#F7E0E0; color:#B5546A;}
+  .movie .mmeta{font-size:12.5px; color:var(--muted); margin-bottom:9px;}
+  .movie .mmeta b{color:var(--accent);}
+  .movie .mwhy{font-size:14.5px; margin-bottom:9px;}
+  .movie .mreal{font-size:13px; color:var(--muted); background:var(--cream); border-radius:9px; padding:8px 11px; margin-bottom:10px;}
+  .movie .mreal .lbl{font-weight:800; color:var(--gold); margin-right:6px;}
+  .movie .mlinks{display:flex; gap:8px; flex-wrap:wrap;}
+  .movie .mlink{font-size:12.5px; font-weight:700; text-decoration:none; color:var(--navy); border:1px solid var(--line); border-radius:8px; padding:5px 11px;}
+  .movie .mlink:hover{border-color:var(--accent); color:var(--accent);}
+  .movie .mlink.slug{color:var(--accent); border-color:var(--rose-soft);}
   .timeline{position:relative; margin:6px 0 6px 9px; padding-left:26px; border-left:2.5px solid var(--rose-soft);}
   .tl{position:relative; padding:5px 0 17px;}
   .tl::before{content:""; position:absolute; left:-33.5px; top:9px; width:13px;height:13px;border-radius:50%;background:var(--rose); border:3px solid var(--cream);}
@@ -393,9 +412,25 @@ function personBlock(p){
     +'<div><div class="pname">'+p.name+'</div><div class="pwho">'+(p.who||'')+'</div></div></div>'
     +(p.why?'<div class="pwhy">'+T(p.why)+'</div>':'')
     +(p.quote?'<div class="pquote">"'+p.quote+'"</div>':'')
-    +(p.shadow?'<div class="pshadow">빛과 그림자 · '+p.shadow+'</div>':'')+'</div>';
+    +(p.shadow?'<div class="pshadow">빛과 그림자 · '+p.shadow+'</div>':'')
+    +(p.slug?'<a class="pmore" href="../people/'+p.slug+'/">📖 인물 도감에서 더 보기 →</a>':'')+'</div>';
 }
 
+const FIT={green:{e:'🟢',t:'전체 관람'},yellow:{e:'🟡',t:'부모와 함께'},red:{e:'🔴',t:'핵심 장면·맥락만'}};
+function movieBlock(m){
+  const f=FIT[m.fit]||FIT.yellow;
+  let s='<div class="movie"><div class="mhead"><div class="mtitle">🎬 '+m.title+'</div>'
+    +'<span class="mfit '+(m.fit||'yellow')+'">'+f.e+' '+f.t+'</span></div>'
+    +'<div class="mmeta">'+[m.year,m.director].filter(Boolean).join(' · ')
+    +(m.basedOn?' · <b>'+m.basedOn+'</b>':'')+'</div>';
+  if(m.why) s+='<div class="mwhy">'+T(m.why)+'</div>';
+  if(m.realVsFiction) s+='<div class="mreal"><span class="lbl">실화 vs 각색</span>'+m.realVsFiction+'</div>';
+  let links=[];
+  if(m.slug) links.push('<a class="mlink slug" href="../people/'+m.slug+'/">📖 인물 도감</a>');
+  (m.links||[]).forEach(l=>links.push('<a class="mlink" href="'+l.url+'" target="_blank" rel="noopener">'+l.label+' ↗</a>'));
+  if(links.length) s+='<div class="mlinks">'+links.join('')+'</div>';
+  return s+'</div>';
+}
 function render(s,idx){
   const prev=SECTIONS[idx-1], next=SECTIONS[idx+1];
   view.innerHTML=
@@ -419,6 +454,7 @@ function render(s,idx){
   +s.timeline.map(t=>'<div class="tl"><span class="tl-yr">'+t.yr+'</span> <span class="tl-txt">'+t.t+'</span></div>').join('')+'</div>'
   +'<h2 class="block">이야기 연결 고리</h2><div class="connect"><span class="ico">🔗</span><div>'+s.connect+'</div></div>'
   +'<h2 class="block">영상으로 보기</h2>'+s.yt.map(ytBlock).join('')
+  +(s.movies?'<h2 class="block">영화로 만나기 🎬</h2><div class="movies">'+s.movies.map(movieBlock).join('')+'</div>':'')
   +(s.choice?choiceHTML(s.choice,s.id):'')
   +(s.quiz?quizHTML(s.quiz,s.id):'')
   +'<h2 class="block">내 생각 적어보기 ✍️</h2><div class="reflect">'
