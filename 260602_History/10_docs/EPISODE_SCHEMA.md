@@ -134,6 +134,15 @@
 - 탭(2~4개)을 눌러 상태를 바꿔 비교. 전후·단계 변화에. `img`는 선택(있으면 **PD/명확한 CC만**, 출처 표기).
 - **그때↔지금 사진(D6)** 은 양쪽 PD/CC 확보 시 `img`로. 현대 사진은 보통 저작권 → 확보 못 하면 텍스트 상태만으로도 충분.
 
+## movies (영화 연계 카드, 섹션 단위 · 선택)
+- `movies:[{title,year,director,basedOn,slug?,fit,why,realVsFiction,links[{label,url}]}]`. 엔진 `movieBlock` 렌더.
+- `fit`: `green`(🟢전체)/`yellow`(🟡부모와 함께)/`red`(🔴핵심 클립·맥락만) — 중1 수위 신호등.
+- `slug` 있으면 도감 인물(`../people/<slug>/`)로 링크. `links`는 **실제 200 검증**한 신뢰 URL(위키 등)만.
+
+## relations (역학관계도, 섹션 단위 · 선택)
+- `relations:{title,intro?,sides:[{label,color,members:[{name,role,slug?}]}],tensions:[{a,b,label}]}`. 엔진 `relationsHTML` 렌더.
+- `color`: `red`/`blue`(두 진영). `tensions`=진영 간/내 갈등 콜아웃. `slug` 있으면 도감 링크. (ww2 한국전쟁 = 냉전 대리전 구도)
+
 ## People-gallery (인물 도감)
 ### v2 (0606~, ★현행) — 단일소스 `30_content/people/people.json`
 - 인물 상세를 에피소드에서 **분리**해 `30_content/people/people.json` 으로 승격(SSOT). `python 40_build/build_people.py` → **색인** `50_app/people/index.html` + **인물별 페이지** `50_app/people/<slug>/index.html` + 이미지 복사 `50_app/people/img/`.

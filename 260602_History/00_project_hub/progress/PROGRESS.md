@@ -51,6 +51,8 @@
 - (0606) **ww2 심화 설계 plan ✅** `plan/0606_ww2_film_people_dynamics.md` (영화·인물·역학 3형식, 순서 a→인물→b, 창의장치 C1~C5)
 - (0606) **에피소드→도감 역링크 ✅** — 엔진 personBlock에 slug 링크('인물 도감에서 더 보기'), 두 에피소드 재배포(도감↔이야기 양방향 순환 완성).
 - (0606) **(a) movies 블록 ✅ 라이브** — ww2 영화 연계: 쉰들러·피아니스트(europe)·이오지마(pacific)·오펜하이머(postwar). 적합성 신호등🟢🟡🔴 + '실화 vs 각색' + 위키 ko/en 검증 링크. https://jwj-nick.github.io/history/ww2/
+- (0606) **(P) 인물 +6인 ✅ 라이브** — 도감 12인: 페르디난트·프린치프·쉰들러·슈필만·오펜하이머·사다코 추가. ww2 섹션 인물카드(slug)·영화↔도감 연결. 모티프: 안네↔사다코(전쟁 양쪽 끝 소녀), 오펜하이머↔사다코(만든 자↔당한 자). https://jwj-nick.github.io/history/people/
+- (0606) **(b) relations 역학관계도 ✅ 라이브** — ww2 한국전쟁: 냉전 대리전 구도(🟥스탈린·마오·김일성 ↔ 🟦트루먼·맥아더·이승만) + 긴장선(트루먼vs맥아더 해임=문민통제 등). 엔진 relations 블록 신규.
 - (0606) ⚠️ **치명 교훈 — 멈춤 없는 workflow**: foreground Agent 다중 await가 hang→수시간 동결+감지불가 사고. `CLAUDE.md §멈춤 없는 병렬·대량 작업 프로토콜` 신설 + hist-research·오케스트레이터 갱신(background+폴링 / 2개 배치+체크포인트 / 인라인 우선 / 실측 보고).
 
 ## 다음 액션
