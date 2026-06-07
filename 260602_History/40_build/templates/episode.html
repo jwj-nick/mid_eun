@@ -607,7 +607,7 @@ function renderBlocks(s){
     map:()=>s.map?mapHTML(s.map,s.id):'',
     image:(i)=>{ const arr=Array.isArray(s.image); const im=arr?s.image[i||0]:s.image; const sid=(arr&&i!=null)?s.id+'_'+i:s.id; return im?imageHTML(im,sid):''; },
     oldmap:()=>s.oldmap?oldmapHTML(s.oldmap,s.id):'',
-    chart:()=>s.chart?chartHTML(s.chart,s.id):'',
+    chart:(i)=>{ const arr=Array.isArray(s.chart); const c=arr?s.chart[i||0]:s.chart; return c?chartHTML(c,(arr&&i!=null)?s.id+'_'+i:s.id):''; },
     compare:()=>s.compare?compareHTML(s.compare,s.id):'',
     relations:()=>s.relations?relationsHTML(s.relations,s.id):'',
     marchmap:()=>s.marchmap?marchmapHTML(s.marchmap,s.id):'',
