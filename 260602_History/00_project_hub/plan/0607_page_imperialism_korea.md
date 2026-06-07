@@ -53,3 +53,21 @@
 - 동학 지도: battlemap(정확·줌) vs marchmap(연출) — 둘 다 두고 토글 제공할지.
 - 심화 레이어 분량(너무 길면 중1 압도) — 토글 닫힘 기본 + 항목 3~5개로 절제.
 - 사료 인용 저작권/번역 — PD·요지 인용으로.
+
+---
+
+## 진행 현황 (0607 실행 결과 — 라이브)
+> https://jwj-nick.github.io/history/imperialism/ → "위기의 조선"
+- ✅ **battlemap 엔진 신설**(Leaflet+ant-path·⚔️·수동 스테퍼·범례·`phase.reset`/`fit`) — 한 섹션 다중.
+- ✅ **동학 battlemap**(marchmap→승격, 확대·실좌표·위치/겹침 해소).
+- ✅ **청일·러일 battlemap**(전쟁별 리셋 — 청일 순서→러일 화면 리셋→을사늑약).
+- ✅ **deepdive 엔진 신설**('더 깊이' 접이식) + 심화 5(인과사슬·갑오개혁·인내천·명칭논쟁·전봉준 공초).
+- ✅ **voice**(전봉준 공초 1차사료) + **compare**(갑오개혁 전/후).
+- ✅ relations(조선 각축, 기존) 유지.
+- ⬜ image(전봉준 압송·경복궁 PD) — 자산 복사 필요(보류).
+- ⬜ chart(개항·조약 추이) — 미정.
+- 재사용 확보: **battlemap·deepdive** (EPISODE_SCHEMA·MAP_TOOLKIT 등재). 다음 섹션 전파 대기.
+
+## Nick 코멘트 (여기에 적어 주세요)
+- (Nick) 
+
