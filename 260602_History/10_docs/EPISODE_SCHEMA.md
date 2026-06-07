@@ -141,7 +141,15 @@
 
 ## relations (역학관계도, 섹션 단위 · 선택)
 - `relations:{title,intro?,sides:[{label,color,members:[{name,role,slug?}]}],tensions:[{a,b,label}]}`. 엔진 `relationsHTML` 렌더.
-- `color`: `red`/`blue`(두 진영). `tensions`=진영 간/내 갈등 콜아웃. `slug` 있으면 도감 링크. (ww2 한국전쟁 = 냉전 대리전 구도)
+- `color`: `red`/`blue`/`green`(2~3 진영). `tensions`=진영 간/내 갈등 콜아웃. `slug` 있으면 도감 링크.
+
+## battlemaps (실측 전투지도, 섹션 단위 · 선택 · 배열)
+- `battlemaps:[{title,intro?,center:[lat,lng],zoom,legend:[{c,label}],caption?,phases:[{label,markers:[{at:[lat,lng],kind,label}],arrows:[{path:[[lat,lng],…],tone}]}]}]`
+- 엔진 `battlemapHTML`+init(Leaflet + **leaflet-ant-path** 흐르는 화살표 + ⚔️ divIcon + 수동 스테퍼). `kind`: start/battle/win/loss/capital/city/sea. `tone`: resist(초록)/invade(붉은색). 한 섹션에 **여러 개** 가능. (MAP_TOOLKIT의 `battlemap` mode)
+
+## deepdive (계층적 깊이 — '더 깊이', 섹션 단위 · 선택)
+- `deepdive:[{h, body, source?}]`. 엔진 `deepdiveHTML`(native `<details>` 접이식, 닫힘 기본).
+- **중1 본문은 그대로, 펼치면 고등/일반 심화**(인과·논쟁·1차 사료·정밀 용어). 앱 전체의 대상 수준 상향 장치.
 
 ## People-gallery (인물 도감)
 ### v2 (0606~, ★현행) — 단일소스 `30_content/people/people.json`

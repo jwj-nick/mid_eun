@@ -56,6 +56,8 @@
 - (0607) **검증 워크플로우 정식화 ✅** — hist-deploy §검증 G0~G3(빌드/JS_OK/자원 200·실물·ko제목/라이브 대기루프) + hist-app-build JS_OK 게이트. "추론 금지, 실측만."
 - (0607) **허브 링크 누락 수정 ✅ 라이브** — 상단바(topbar)에 '🏛️ 역사 허브'(모바일에서 항상 보임). 엔진 1곳 → 두 에피소드 전파.
 - (0607) **지도 C 시작** — 계획 `plan/0607_map_C_execution_plan.md`(A Leaflet+B SVG, B적극) + 비전 `10_docs/0607_map_next_level.md`(N1~N9 후보·로드맵·리뷰R1~R5). Mapbox 제외(키·과금·불필요), 미래 MapLibre.
+- (0607) **공식 문서**: `10_docs/MAP_TOOLKIT.md`(지도 툴·규칙) + `plan/0607_visual_content_masterplan.md`(전 페이지 비주얼·내용 강화, 대상수준 계층적 깊이) + `plan/0607_page_imperialism_korea.md`(첫 대상 세부).
+- (0607) **첫 대상 '위기의 조선' 심층 개선 ✅ 라이브** — 신규 재사용 엔진 **battlemap**(Leaflet+ant-path, 동학+청일/러일) + **deepdive**(계층적 깊이 '더 깊이': 인과사슬·갑오개혁·인내천·명칭논쟁·전봉준 공초) + voice(공초 1차사료)+compare(갑오개혁). 동학 marchmap→battlemap 승격(위치/겹침 해소).
 - (0607) **C 1단계 — 동학 marchmap ✅ 라이브(리뷰 대기)** — 신규 marchmap 엔진(역사지도 위 SVG 곡선 진격로 + 단계 스테퍼 + dashoffset 애니, 저항/침탈 색). imperialism/korea 우금치 6국면. 좌표=표준 bounds 계산(시각 미세조정은 Nick 리뷰 후).
 - (0607) **후속 아이디어 3종 ✅ 라이브** — ① 인물 도감 18인(한국전쟁 6인 추가→역학도 노드 드릴다운) ② ww2 사라예보 '만약에?' 반사실 choice(도화선vs원인) ③ imperialism 조선 각축 역학도(청·일·러 3진영, relations 재사용·green 추가).
 - (0606) ⚠️ **치명 교훈 — 멈춤 없는 workflow**: foreground Agent 다중 await가 hang→수시간 동결+감지불가 사고. `CLAUDE.md §멈춤 없는 병렬·대량 작업 프로토콜` 신설 + hist-research·오케스트레이터 갱신(background+폴링 / 2개 배치+체크포인트 / 인라인 우선 / 실측 보고).
