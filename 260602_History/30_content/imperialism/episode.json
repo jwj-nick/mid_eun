@@ -944,6 +944,137 @@
             "label": "세 나라의 다툼 끝에 조선은 결국 일본에 국권을 빼앗기게 됩니다. 약한 나라는 '힘의 각축'의 무대가 되곤 했어요."
           }
         ]
+      },
+      "marchmap": {
+        "title": "동학 농민운동, 1894년의 진격",
+        "intro": "동학 농민군은 전라도에서 일어나 북쪽으로 밀고 올라갔어요. 하지만 일본군이 끼어들면서 공주 우금치에서 크게 꺾이고 말았어요. '다음'을 눌러 흐름을 따라가 보세요.",
+        "base": {
+          "src": "img/korea_base.svg"
+        },
+        "places": [
+          {
+            "id": "gobu",
+            "x": 39.4,
+            "y": 74.3,
+            "label": "고부 봉기",
+            "kind": "start"
+          },
+          {
+            "id": "baeksan",
+            "x": 38.5,
+            "y": 73.2,
+            "label": "백산 집결",
+            "kind": "city"
+          },
+          {
+            "id": "hwangtohyeon",
+            "x": 40.6,
+            "y": 74.7,
+            "label": "황토현 승리",
+            "kind": "win"
+          },
+          {
+            "id": "jeonju",
+            "x": 44.9,
+            "y": 72.4,
+            "label": "전주성 점령",
+            "kind": "capital"
+          },
+          {
+            "id": "hanseong",
+            "x": 42.4,
+            "y": 55.2,
+            "label": "한성(일본군)",
+            "kind": "city"
+          },
+          {
+            "id": "ugeumchi",
+            "x": 44.1,
+            "y": 66.4,
+            "label": "우금치 대패",
+            "kind": "loss"
+          },
+          {
+            "id": "sunchang",
+            "x": 44.7,
+            "y": 76.8,
+            "label": "순창(체포)",
+            "kind": "battle"
+          }
+        ],
+        "phases": [
+          {
+            "label": "1. 고부 봉기",
+            "show": [
+              "gobu"
+            ],
+            "arrows": []
+          },
+          {
+            "label": "2. 황토현 승리·전주성 점령",
+            "show": [
+              "baeksan",
+              "hwangtohyeon",
+              "jeonju"
+            ],
+            "arrows": [
+              {
+                "from": "gobu",
+                "to": "hwangtohyeon",
+                "tone": "resist",
+                "label": "봉기 확산"
+              },
+              {
+                "from": "hwangtohyeon",
+                "to": "jeonju",
+                "tone": "resist",
+                "label": "북상"
+              }
+            ]
+          },
+          {
+            "label": "3. 일본군 개입·남하",
+            "show": [
+              "hanseong",
+              "ugeumchi"
+            ],
+            "arrows": [
+              {
+                "from": "hanseong",
+                "to": "ugeumchi",
+                "tone": "invade",
+                "label": "일본군 남하"
+              }
+            ]
+          },
+          {
+            "label": "4. 우금치 대패",
+            "show": [],
+            "arrows": [
+              {
+                "from": "jeonju",
+                "to": "ugeumchi",
+                "tone": "resist",
+                "label": "농민군 북상"
+              }
+            ]
+          },
+          {
+            "label": "5. 전봉준 체포",
+            "show": [
+              "sunchang"
+            ],
+            "arrows": [
+              {
+                "from": "ugeumchi",
+                "to": "sunchang",
+                "tone": "resist",
+                "label": "후퇴·체포"
+              }
+            ]
+          }
+        ],
+        "caption": "베이스맵: Wikimedia Commons, Korea location map (PD). 위치는 이해를 돕기 위한 근사 표시이고, 농민군(초록)=저항 · 일본군(붉은색)=개입이에요."
       }
     },
     {
