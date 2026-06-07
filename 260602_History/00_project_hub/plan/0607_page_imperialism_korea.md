@@ -64,10 +64,19 @@
 - ✅ **deepdive 엔진 신설**('더 깊이' 접이식) + 심화 5(인과사슬·갑오개혁·인내천·명칭논쟁·전봉준 공초).
 - ✅ **voice**(전봉준 공초 1차사료) + **compare**(갑오개혁 전/후).
 - ✅ relations(조선 각축, 기존) 유지.
-- ⬜ image(전봉준 압송·경복궁 PD) — 자산 복사 필요(보류).
-- ⬜ chart(개항·조약 추이) — 미정.
+- ✅ **image**(전봉준 압송 1895, PD/Wikimedia) — 사진 story + 캡션·출처. 감성 입구 + voice(공초) 연계.
+- ✅ **chart**(개항장 누적: 부산1876→원산1880→인천1883→1897~99 8곳) — "나라의 문이 열려간다" 체감.
 - 재사용 확보: **battlemap·deepdive** (EPISODE_SCHEMA·MAP_TOOLKIT 등재). 다음 섹션 전파 대기.
 
 ## Nick 코멘트 (여기에 적어 주세요)
 - (Nick) 
 
+remind 
+  - 공식 문서: MAP_TOOLKIT.md(지도 규칙) · 0607_visual_content_masterplan.md(전
+  페이지) · 0607_page_imperialism_korea.md(현재 페이지+코멘트)
+  - PROGRESS.md 최신화 / EPISODE_SCHEMA(battlemap·deepdive 등재)
+
+페이지 확인하면서 추가 아이디어 생각해볼 예정. 이 페이지 제대로 업그레이드 하면서 workflow 도 업그레이드 하기..
+이후 다른 페이지들 차례 차례 하나씩 검토, 업그레이드 아이디어, 논의, 아이템 확정, 업그레이드, 검토, 피드백 루프로 진행 예정 (Nick + NCC cowork) - 자율 진행보다는 페이지 하나씩 업그레이드 하면서 확장 아이디어까지 생각해나가기
+
+1. 구성 다시 생각해보기
