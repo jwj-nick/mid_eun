@@ -67,7 +67,8 @@
 | marchmap | ✅ 엔진 보유 |
 | map(기본 Leaflet 마커) | ✅ 보유 |
 | relations(역학도) | ✅ 보유(지도 아님, 구도) |
-| scrolly / oldmap / territory / globe | 🔬 maplab 데모 검증됨 → 엔진 mode 승격 대기 |
+| **oldmap(고지도)** | ✅ **엔진 승격(위기의 조선: 1818 Pinkerton 도입부 시대감)** — 세피아·고풍 프레임 |
+| scrolly / territory / globe | 🔬 maplab 데모 검증됨 → 엔진 mode 승격 대기 |
 
-> 다음 승격 추천: oldmap → scrolly → globe → territory. 각 승격 시 콘텐츠 1개로 검증.
+> 다음 승격 추천: scrolly → globe → territory. 각 승격 시 콘텐츠 1개로 검증.
 > (참고) 계층적 깊이 = `deepdive` 블록(EPISODE_SCHEMA) — 지도와 함께 고등/일반 심화 제공.

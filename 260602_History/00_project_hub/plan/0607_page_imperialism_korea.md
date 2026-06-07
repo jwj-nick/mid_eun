@@ -115,3 +115,21 @@ hook → why → **voice(공초)** → cards(5) → people(2) → **map(옛 단�
 - **Q4.** 그 외 추가 아이디어(고지도 인서트·경복궁 사진 등)는 다음 라운드로 미룰까?
 
 > (NCC) 권장: Q1 즉시 처리 + Q2/Q3 함께 진행(같은 작업). Q4는 다음 라운드. 확정 주시면 엔진 `order` + korea 재배열 → 빌드/배포/검증까지 한 번에.
+
+(Nick) Q1 즉시 처리 + Q2/Q3 함께 진행(같은 작업). Q4의 "그 외 추가 아이디어(고지도 인서트·경복궁 사진 등)" 이번 라운드에서 진행 바람.
+
+---
+
+### Round 1 결과 — 실행 완료 ✅ 라이브
+> https://jwj-nick.github.io/history/imperialism/ → "위기의 조선" (G0/G1/G2/G3 통과)
+
+- **Q1 옛 map 제거 ✅** — battlemap 3개로 충분. korea 데이터에서 `map` 삭제(중복·작은점/겹침 해소).
+- **Q2 블록 순서 데이터화 ✅ (엔진 업그레이드·전 페이지 공통)** — `renderBlocks()` 블록 registry + 섹션 `order:[...]` 필드. 없으면 기존 기본순서(하위호환, 타 섹션 무영향). 배열블록은 `battlemap:0`/`image:1` 또는 `battlemap*`로 참조.
+- **Q3 새 흐름 재배열 ✅** — korea order:
+  `hook → why → **oldmap(고지도)** → cards → battlemap:0(동학) → image:0(압송) → voice(공초) → relations → battlemap:1(청일/러일) → chart(개항장) → compare(갑오개혁) → image:1(경복궁/을미사변) → people → timeline → connect → deepdive → yt → choice → quiz → reflect`
+- **Q4 추가 비주얼 ✅**
+  - **oldmap 블록 신설**(엔진, 세피아·고풍 프레임) + **고지도 1818 Pinkerton**(PD) 도입부 시대감.
+  - **경복궁 1886**(PD/Smithsonian, Ogawa Kazumasa) image 추가 → image 배열 2장(압송·경복궁). 을미사변 현장 서사.
+- **재사용 확보**: `order`(전 페이지 흐름 제어) · `oldmap` 블록 · `image 배열`. → EPISODE_SCHEMA·MAP_TOOLKIT 등재.
+
+> 다음 라운드 후보(Nick 검토): 시각 R1/R2 리뷰(모바일 라벨·고지도 가독성), 동학 voice 위치 체감, deepdive 분량, 그리고 **이 페이지 패턴을 다음 섹션(아편전쟁 등)으로** — 어느 페이지를 다음 대상으로 할지 Nick 지정.

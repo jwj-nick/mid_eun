@@ -54,9 +54,16 @@
   "connect":"이전/다음 섹션과의 연결 한 줄 (html <b>)",
   "yt":[ Video|Search, ... ],                  // 1~3
   "quiz":[ Quiz, ... ],                         // (선택) 섹션 끝 "잠깐, 기억나니?" 미니 체크
-  "reflect":[ "내 생각 질문", ... ]            // 1~2 (빈칸 textarea, 자동저장)
+  "reflect":[ "내 생각 질문", ... ],           // 1~2 (빈칸 textarea, 자동저장)
+  "order":[ "hook","why","oldmap","cards","battlemap:0","image:0",... ]  // (선택) 블록 렌더 순서. 없으면 기본순서(하위호환)
 }
 ```
+
+### order (블록 렌더 순서 — 섹션별 흐름 제어, 선택)
+- 엔진 `renderBlocks()`가 블록 registry를 두고, `order` 배열대로 렌더. **없으면 기본 순서**(타 섹션 무영향, 하위호환).
+- 토큰: 블록 이름(`hook`,`why`,`lens`,`voice`,`cards`,`people`,`map`,`image`,`oldmap`,`chart`,`compare`,`relations`,`marchmap`,`battlemap`,`timeline`,`connect`,`yt`,`movies`,`choice`,`quiz`,`deepdive`,`reflect`).
+- **배열 블록**은 인덱스로: `battlemap:0`,`battlemap:1`,`image:0`,`image:1`. 또는 `battlemap*`(전체 펼침).
+- 용도: 섹션마다 강조가 달라 **서사 흐름**으로 재배열(예 korea: 동학서사→열강각축→나라의 변화).
 
 ## Quiz (퀴즈 항목, R1 블록)
 ```jsonc
@@ -103,6 +110,16 @@
 - **자산은 `30_content/<slug>/img/`에 저장** → `build.py`가 `50_app/<slug>/img/`로 복사, 배포 시 index.html과 함께 옮긴다. **상대경로 `img/...` 사용.**
 - 이미지는 **공개도메인(PD-old) 또는 명확한 CC** 만. 출처·라이선스 표기 필수. **손그림 금지.** 옛 국경/세력은 여기서(map=현대 지도와 역할 분담).
 - hotspot: 이미지 위 번호 점 → 클릭하면 아래에 한국어 설명. 좌표는 % (좌상단 0,0). 정확한 위치를 모르면 생략(엔진은 hotspot 없어도 동작).
+- **`image`는 단일 객체 또는 배열** 모두 가능. 배열이면 `order`에서 `image:0`,`image:1`로 위치 지정(예 korea: 압송·경복궁). hotspot은 단일 이미지에서만(배열 시 자동 생략).
+
+## Oldmap (고지도 블록 — 시대감, MAP_TOOLKIT `oldmap` mode)
+```jsonc
+{ "h":"블록 제목(선택, 기본 '옛 지도로 보기 🗺️')",
+  "src":"img/고지도.jpg", "alt":"대체텍스트",
+  "story":"도입 문단(선택, T()·<b>)",
+  "caption":"지도명·연도", "source":"출처", "license":"퍼블릭 도메인(PD)" }
+```
+- 엔진 `oldmapHTML` — **실제 PD 고지도** 이미지에 세피아 톤·고풍 프레임(시대감). 정밀 핀 아님(투영 부정확). 현대 도시 3D 미사용 원칙의 시대감 대안.
 
 ## Voice (목소리 블록, S3 — 일기·편지체 1인칭)
 ```jsonc
