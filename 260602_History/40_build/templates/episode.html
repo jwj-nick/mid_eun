@@ -689,8 +689,12 @@ function render(s,idx){
       });
       const lab=document.getElementById(id+'_lab'), prev=document.querySelector('#'+id+' .bm-prev'), next=document.querySelector('#'+id+' .bm-next'), n=phases.length;
       let cur=0;
-      const upd=()=>{ layers.forEach((grp,i)=>grp.forEach(l=> i<=cur?l.addTo(map):map.removeLayer(l)));
-        lab.textContent=phases[cur]?phases[cur].label:''; prev.disabled=cur<=0; next.disabled=cur>=n-1; };
+      const lowAt=(c)=>{ let r=0; for(let i=1;i<=c;i++){ if(phases[i]&&phases[i].reset) r=i; } return r; };
+      const upd=()=>{ const lo=lowAt(cur);
+        layers.forEach((grp,i)=>grp.forEach(l=> (i>=lo&&i<=cur)?l.addTo(map):map.removeLayer(l)));
+        lab.textContent=phases[cur]?phases[cur].label:''; prev.disabled=cur<=0; next.disabled=cur>=n-1;
+        if(bm.fit){ const pts=[]; for(let i=lo;i<=cur;i++) layers[i].forEach(l=>{ if(l.getLatLng) pts.push(l.getLatLng()); });
+          if(pts.length>=2) map.fitBounds(L.latLngBounds(pts).pad(0.4)); else if(pts.length===1) map.setView(pts[0], map.getZoom()); } };
       next.onclick=()=>{cur=Math.min(n-1,cur+1);upd();}; prev.onclick=()=>{cur=Math.max(0,cur-1);upd();};
       upd(); setTimeout(()=>map.invalidateSize(),200);
     }catch(e){ console.error('battlemap',e); }
