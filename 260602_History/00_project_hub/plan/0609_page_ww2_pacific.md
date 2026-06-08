@@ -1,0 +1,42 @@
+<!-- 00_project_hub/plan/0609_page_ww2_pacific.md -->
+# 0609 — 페이지 플랜: ww2 / "바다 건너의 전쟁 — 미국과 태평양" (id=pacific)
+
+> 순차 4번째(ww2 섹션 4). 데이터만(엔진 재사용).
+
+## 0. 현재 (실측)
+- hook · why · cards[4] · map · timeline[4] · connect · yt[2] · movies[1] · quiz · reflect[1]
+- **없음**: image, chart, voice, relations, people, deepdive, oldmap, order.
+- 내용: 진주만 → 미드웨이 → 섬 건너뛰기(이오지마·오키나와) → 원폭·항복.
+
+## 1. 🗺️ 지도
+1. **battlemap(★)** — island-hopping을 국면으로:
+   - phase① 1941 진주만(일 기습, red) + 일본 최대 판도(동남아·서태평양)
+   - phase② 1942 미드웨이(전환점, green 반격)
+   - phase③ 1943~45 섬 건너뛰기(과달카날·이오지마·오키나와 — 미국 북상 화살표)
+   - phase④ 1945 히로시마·나가사키(원폭 마커)
+   - 넓은 태평양 → center 태평양, zoom 낮게, fit.
+
+## 2. 🎨 비주얼
+- **image(배열)**: ① 이오지마 성조기 게양(Raising the Flag, PD/저작권 주의 → 대체 시 진주만 애리조나 PD) ② 진주만 공습 또는 항복 조인식(미주리함) PD.
+- **chart**: 태평양 전쟁 규모 — 거리/면적 체감 또는 일본·미국 생산력 격차(항모·항공기). relatable("한반도~하와이 거리").
+- **voice**: 오키나와 주민/가미카제 조종사/원폭 피해 한 줄(✍️상상, 수위 주의 — 민간 피해는 절제).
+- **people(신규 후보)**: 보류(태평양은 인물보다 규모·논쟁 중심).
+
+## 3. 📚 deepdive
+- **총력전과 동원**: 미국 산업 동원("민주주의의 무기고")이 전쟁을 어떻게 바꿨나.
+- **원폭 투하 결정 논쟁(★)**: 조기 종전 vs 민간 대량살상 — 양측 논거 균형. (고등/일반 핵심 토론거리)
+- **일본의 전쟁 논리**: 자원(석유 금수)·대동아공영권의 명분과 실제.
+- **미드웨이는 왜 전환점인가**: 항모 4척 손실 → 주도권 역전.
+- **(연결)** 원폭 → 핵시대 → postwar 냉전.
+
+## 4. 제안 흐름(order)
+hook → why → image:0 → cards → battlemap(4국면) → chart(규모/생산력) → voice(절제) → movies → timeline → connect → deepdive(원폭 논쟁) → yt → quiz → reflect
+
+## 5. 엔진
+- 전부 재사용. 기존 map → battlemap 데이터로 교체.
+
+## 6. Nick 코멘트
+- (Nick)
+
+---
+## Round 1 — (구현 후 기록)
