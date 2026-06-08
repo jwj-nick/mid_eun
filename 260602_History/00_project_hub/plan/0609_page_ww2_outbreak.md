@@ -36,4 +36,13 @@ hook → why → image:0(뮌헨협정) → cards → relations(추축↔연합) 
 - (Nick)
 
 ---
-## Round 1 — (구현 후 기록)
+## Round 1 — 구현 완료 ✅ 배포 (2026-06-09)
+- ✅ **relations**: 추축(독·이·일) ↔ 연합(영·프·소) + 긴장선 3(베르사유 굴욕·독소 불가침조약·침략 압박).
+- ✅ **battlemap**(3국면): 라인란트·오스트리아 병합 → 뮌헨협정·체코 점령 → 폴란드 침공(영·프 선전포고). 침탈(red)/저항(green).
+- ✅ **voice**(대공황기 독일 청년, ✍️상상) — "누군가를 탓하는 마음"의 위험.
+- ✅ **deepdive 5**: 전간기 경제(배상금→초인플레→대공황)·바이마르 붕괴·합법적 권력장악(전권위임법)·유화정책 실패·독소 불가침조약.
+- ✅ **image**: 뮌헨협정 1938 정상들(Bundesarchiv Bild 183-R69173, **CC BY-SA 3.0 de**) — "평화라 믿은 순간".
+- ✅ **order** 재배열(14): hook→why→image→cards→relations→battlemap→chart→voice→timeline→connect→deepdive→…
+- 엔진 변경 0(전부 재사용·데이터만). 기존 chart(대공황 실업률) 유지.
+- 소스(mid_eun)·배포(jwj-nick.github.io) 양쪽 커밋·push 완료. Pages 자동 빌드.
+- **보류**: territory 엔진 승격(battlemap phases로 대체), movies.

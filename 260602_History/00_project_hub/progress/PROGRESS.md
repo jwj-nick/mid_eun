@@ -58,6 +58,17 @@
 - (0607) **허브 링크 누락 수정 ✅ 라이브** — 상단바(topbar)에 '🏛️ 역사 허브'(모바일에서 항상 보임). 엔진 1곳 → 두 에피소드 전파.
 - (0607) **지도 C 시작** — 계획 `plan/0607_map_C_execution_plan.md`(A Leaflet+B SVG, B적극) + 비전 `10_docs/0607_map_next_level.md`(N1~N9 후보·로드맵·리뷰R1~R5). Mapbox 제외(키·과금·불필요), 미래 MapLibre.
 - (0607) **공식 문서**: `10_docs/MAP_TOOLKIT.md`(지도 툴·규칙) + `plan/0607_visual_content_masterplan.md`(전 페이지 비주얼·내용 강화, 대상수준 계층적 깊이) + `plan/0607_page_imperialism_korea.md`(첫 대상 세부).
+- (0608) **위기의 조선(imperialism/korea) 풀 업그레이드 ✅ = 기준 사례** (R1구성재편·R2완결성·R3대원군+audit). 엔진 `order`·oldmap·image배열·chart배열 신설. + `hist-page-review` 스킬.
+- (0608) **ww2#imperialism(1차대전) ✅ 배포** — image2(식민지도CC BY·사라예보CC0)·relations·battlemap·chart·voice·deepdive5·order. 엔진 변경 0.
+- (0609) **★ ww2 6개 섹션 일괄 풀 업그레이드 ✅ 전부 배포** (순차 지시). 계획=`plan/0609_page_ww2_{outbreak,europe,pacific,asia,postwar,korea}.md`:
+  - **outbreak**: relations(추축↔연합)·battlemap(독일팽창36~39)·voice·deepdive5·image(뮌헨협정 CC BY-SA).
+  - **europe**: battlemap4국면(전격전·바르바로사·스탈린그라드·D-Day)·relations(냉전씨앗)·chart(나라별사망자)·voice(레닌그라드)·deepdive5·image(D-Day PD). map→battlemap격상.
+  - **pacific**: battlemap4국면(진주만·미드웨이·섬건너뛰기·원폭)·chart(미일생산격차)·voice·deepdive5(원폭논쟁)·image(진주만 PD).
+  - **asia**(최빈약): battlemap4국면(병합~광복)·**인물 안중근·윤동주 신설(도감 21인)**·voice(강제동원)·deepdive5(균형)·image(광복1945 PD).
+  - **postwar**: relations(냉전진영)·map(분단지점)·chart(1차vs2차)·voice·deepdive5(뉘른베르크·UN·냉전)·image(뉘른베르크 PD).
+  - **korea**: battlemap4국면(남침~정전)·chart(전쟁3년vs분단73년)·voice(피란)·deepdive5(대리전·휴전체제·문민통제)·image(흥남철수 PD). compare·relations 유지.
+  - 전부 **엔진 변경 0**(데이터만, asia만 people 재빌드). 자산 기준=PD/CC0/**CC BY-SA**(출처표기). 소스(mid_eun)·배포(jwj-nick.github.io) 양쪽 push.
+  - ⚠️ **anne(섹션2)는 미상**(Nick URL목록 제외) — 감성 입구라 톤보존 경량패스 대기. **asia 균형 hist-audit 권장.**
 - (0607) **첫 대상 '위기의 조선' 심층 개선 ✅ 라이브** — 신규 재사용 엔진 **battlemap**(Leaflet+ant-path, 동학+청일/러일) + **deepdive**(계층적 깊이 '더 깊이': 인과사슬·갑오개혁·인내천·명칭논쟁·전봉준 공초) + voice(공초 1차사료)+compare(갑오개혁). 동학 marchmap→battlemap 승격(위치/겹침 해소).
 - (0607) **C 1단계 — 동학 marchmap ✅ 라이브(리뷰 대기)** — 신규 marchmap 엔진(역사지도 위 SVG 곡선 진격로 + 단계 스테퍼 + dashoffset 애니, 저항/침탈 색). imperialism/korea 우금치 6국면. 좌표=표준 bounds 계산(시각 미세조정은 Nick 리뷰 후).
 - (0607) **후속 아이디어 3종 ✅ 라이브** — ① 인물 도감 18인(한국전쟁 6인 추가→역학도 노드 드릴다운) ② ww2 사라예보 '만약에?' 반사실 choice(도화선vs원인) ③ imperialism 조선 각축 역학도(청·일·러 3진영, relations 재사용·green 추가).
