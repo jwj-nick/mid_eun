@@ -48,3 +48,18 @@ hook → why(신규?) → oldmap(1914 세계지도) → cards → relations(동�
 
 ## 7. Nick 코멘트
 - (Nick) 
+
+---
+
+## Round 1 — 구현 완료 ✅ 배포 (NCC 권장 범위)
+> https://jwj-nick.github.io/history/ww2/ → 첫 섹션 "지도를 색칠하던 시대" (Pages 빌드 중)
+- ✅ **image[2]**: 1914 식민지 세계지도(CC BY, Andrew0921) + 사라예보 부부 마지막 사진(CC0, 암살 직전).
+- ✅ **relations**: 삼국협상(영·프·러) ↔ 삼국동맹(독·오·이) + 긴장선 3(건함경쟁·발칸·알자스로렌).
+- ✅ **battlemap**: 사라예보 암살 → 슐리펜(벨기에 침공) → 마른(저지) → 베르됭·솜(참호) — 침탈/저항 색, fit.
+- ✅ **chart**: 1914 주요국 상비군(대략값) — 무장한 평화.
+- ✅ **voice**(참호 속 병사 편지, ✍️상상) + **deepdive 5**(제국주의 동력·MAIN 4원인·발칸 화약고·7월 위기·총력전).
+- ✅ **order** 재배열: hook→why→식민지도→cards→relations→사라예보→voice→battlemap→chart→people→timeline→deepdive→…
+- 인물(페르디난트·프린치프) 유지. 엔진 변경 0(전부 기존 블록 재사용 — 데이터만).
+- **2차 후보(보류)**: globe(제국 전 지구) 승격, movies(서부전선 이상없다·1917).
+- 모티프: "사건이 사건을 부른다"로 **위기의 조선과 연결**.
+- ⏳ 라이브 curl 검증은 Nick 요청으로 생략(배포 push 완료, Pages 자동 빌드). Nick 직접 확인 후 코멘트 → Round 2.
