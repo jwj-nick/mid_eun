@@ -18,8 +18,18 @@
 | # | slug | 제목 | 단계 | 라이브 |
 |---|---|---|---|---|
 | 01 | `ww2` | 세계대전 이야기 | ✅ 배포 (스키마/빌드 전환 완료) | https://jwj-nick.github.io/history/ww2/ |
-| 02 | `imperialism` | 제국주의와 19세기 | ✅ 배포 (audit 0 치명·3 패치) | https://jwj-nick.github.io/history/imperialism/ |
-| — | `coldwar` | 냉전(F2) | 후보 (다음) | — |
+| 02 | `imperialism` | 제국주의와 19세기 | ✅ 배포 (8/8 풀 업그레이드) | https://jwj-nick.github.io/history/imperialism/ |
+| — | `coldwar` | 냉전(F2) | 후보 (보류) | — |
+
+## 🗺️ 시리즈 확장 로드맵 (0610 계획 — Nick 요청, 미착수)
+> 시대 사슬: **르네상스/종교개혁 → 대항해시대 → 계몽/시민혁명 → 산업혁명·유럽열강 → 제국주의(완성) → 세계대전(완성)** + **아메리카 별도 허브**
+| 우선순위 | 항목 | 계획 파일 | 상태 |
+|---|---|---|---|
+| ① | 유럽 열강 열전(`powers`, 나라별+인물) | `plan/0610_plan_episode_european-powers.md` | 계획 ✅ / 제작 대기 |
+| ② | 대항해시대(`exploration`, 시대 허브) | `plan/0610_plan_episode_age-of-exploration.md` | 계획 ✅ / 제작 대기 |
+| ③ | 아메리카 허브(`americas`: 북미·남미 2에피소드) | `plan/0610_plan_hub_americas.md` | 계획 ✅ / ①②후 |
+| KEEP | 계몽·시민혁명(`revolutions`) | `plan/0610_plan_FUTURE_enlightenment-revolutions.md` | 보관(future) |
+| KEEP | 르네상스·종교개혁(`renaissance`) | `plan/0610_plan_FUTURE_renaissance-reformation.md` | 보관(future) |
 
 ## 스킬 정련 상태 (추출형)
 | 스킬 | 상태 |
