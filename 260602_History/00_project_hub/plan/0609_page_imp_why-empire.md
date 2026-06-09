@@ -29,4 +29,10 @@ hook → why → lens → image:0 → cards → oldmap → relations → chart �
 - (Nick)
 
 ---
-## Round 1 — (구현 후 기록)
+## Round 1 — 구현 완료 ✅ 배포 (2026-06-09)
+- ✅ **image**: 〈The Rhodes Colossus〉(Punch 1892, **PD**) — 아프리카 위 거인, 야심의 시각화.
+- ✅ **relations**: 선발 제국(영·프) ↔ 후발 제국(독·이·일·미) + 긴장선(후발주자 불만·파쇼다·열강↔식민지) — **세계대전 씨앗 프레이밍**.
+- ✅ **chart**: 식민지 인구(영 4억 vs 독 1200만) — "작은 섬나라가 본토 10배를".
+- ✅ **deepdive 5**: 홉슨·레닌(경제 구조)·사회진화론(과학 가장한 차별)·문명화 위선·신제국주의 가속·후발주자 불만→세계대전.
+- ✅ **order**(13). hook/why/lens/cards 충실분 유지. globe 승격은 보류(oldmap도 생략, image+relations로 충분).
+- 엔진 변경 0. 소스·배포 push 완료.
