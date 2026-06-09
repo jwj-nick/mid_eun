@@ -27,4 +27,10 @@ hook → why → image:0 → cards → battlemap* → oldmap → relations → v
 - (Nick)
 
 ---
-## Round 1 — (구현 후 기록)
+## Round 1 — 구현 완료 ✅ 배포 (2026-06-09)
+- ✅ **image**: 네메시스호가 청 정크선 격파(E.Duncan 1843, **PD**) — 기술 격차.
+- ✅ **battlemap 2국면**: ①1차(난징조약, 삼원리 농민 저항 green) ②2차(베이징·원명원 방화).
+- ✅ **relations**: '자유무역' 명분 충돌(영·프 ↔ 청·임칙서).
+- ✅ **deepdive 5**: 삼각무역·자유무역의 폭력·불평등조약체계·원명원·태평천국+동아시아 충격.
+- ✅ **order**(16). 기존 voice(임칙서)·chart(아편수입)·people·map 유지.
+- 엔진 변경 0. 소스·배포 push.

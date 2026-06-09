@@ -69,6 +69,12 @@
   - **korea**: battlemap4국면(남침~정전)·chart(전쟁3년vs분단73년)·voice(피란)·deepdive5(대리전·휴전체제·문민통제)·image(흥남철수 PD). compare·relations 유지.
   - 전부 **엔진 변경 0**(데이터만, asia만 people 재빌드). 자산 기준=PD/CC0/**CC BY-SA**(출처표기). 소스(mid_eun)·배포(jwj-nick.github.io) 양쪽 push.
   - ⚠️ **anne(섹션2)는 미상**(Nick URL목록 제외) — 감성 입구라 톤보존 경량패스 대기. **asia 균형 hist-audit 권장.**
+- (0609 ★★) **전 페이지 풀 업그레이드 완료 — 두 에피소드 8/8씩 = 16섹션 전부 ✅ 배포** (Nick "끝까지 자율 진행" 지시):
+  - **ww2 anne**(경량 패스, 톤 보존): image(은신처 책장 CC0)·deepdive3(미프 히스·홀로코스트 구조·일기가 살아남기까지). battlemap/chart 미사용, 실제 일기 인용·voice·choice 유지. → **ww2 8/8 완성.**
+  - **imperialism 나머지 6**: industry(역직기·맨체스터·아동노동)·why-empire(Rhodes Colossus·선발↔후발 제국·홉슨레닌)·scramble(저항 battlemap 아도와·분할속도, 이미지 기존 재사용)·india(1857항쟁·탈산업화 25%→2%)·opium-china(네메시스·삼각무역·원명원)·japan-meiji(이와쿠라·청일러일·철도급증)·toward-war(1914 풍자지도·동맹사슬·발칸→ww2 다리). → **imperialism 8/8 완성.**
+  - 자산(전부 PD/CC0/CC BY-SA, 출처표기): munich·dday·pearl_harbor·liberation·nuremberg·korea_war·anne_bookcase(CC0) / imp: industrial_city·imperialism_cartoon·india_1857·opium_war·iwakura_mission·europe_1914_satire. 인물 an-junggeun·yun-dongju. 소싱=urllib Commons API(격리 네트워크), PIL 리사이즈, file 검증. 저작권 논란(Max Desfor AP 등) 회피.
+  - 패턴: 섹션별 battlemap(보통 2~4국면)+image+voice+deepdive5+(chart/relations)+order, **엔진 변경 0**(데이터만; asia만 people 재빌드). 계획=`plan/0609_page_{ww2,imp}_*.md` 13개(각 Round1 기록).
+  - **남은 권장**: asia 균형 hist-audit / 딸과 함께 보기 → 피드백 / (선택) 인물 더 확장(미프 히스·간디 등) / globe·territory 엔진 승격(why-empire·postwar)은 보류.
 - (0607) **첫 대상 '위기의 조선' 심층 개선 ✅ 라이브** — 신규 재사용 엔진 **battlemap**(Leaflet+ant-path, 동학+청일/러일) + **deepdive**(계층적 깊이 '더 깊이': 인과사슬·갑오개혁·인내천·명칭논쟁·전봉준 공초) + voice(공초 1차사료)+compare(갑오개혁). 동학 marchmap→battlemap 승격(위치/겹침 해소).
 - (0607) **C 1단계 — 동학 marchmap ✅ 라이브(리뷰 대기)** — 신규 marchmap 엔진(역사지도 위 SVG 곡선 진격로 + 단계 스테퍼 + dashoffset 애니, 저항/침탈 색). imperialism/korea 우금치 6국면. 좌표=표준 bounds 계산(시각 미세조정은 Nick 리뷰 후).
 - (0607) **후속 아이디어 3종 ✅ 라이브** — ① 인물 도감 18인(한국전쟁 6인 추가→역학도 노드 드릴다운) ② ww2 사라예보 '만약에?' 반사실 choice(도화선vs원인) ③ imperialism 조선 각축 역학도(청·일·러 3진영, relations 재사용·green 추가).

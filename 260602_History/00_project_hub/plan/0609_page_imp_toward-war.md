@@ -29,4 +29,10 @@ hook → why → image:0 → cards → relations → oldmap → voice → timeli
 - (Nick)
 
 ---
-## Round 1 — (구현 후 기록)
+## Round 1 — 구현 완료 ✅ 배포 (2026-06-09) — imperialism 에피소드 완성
+- ✅ **image**: 1914 유럽 풍자지도(Humoristische Karte, **PD**) — 한 장으로 보는 '화약고'.
+- ✅ **relations**: 삼국협상(영·프·러) ↔ 삼국동맹(독·오·이) + 긴장선(건함경쟁·발칸·알자스로렌).
+- ✅ **voice**(1914 직전 유럽 청년, ✍️상상) — "불안하면서 기다리는 이상한 시절".
+- ✅ **deepdive 5**: 군비경쟁·동맹 사슬(도미노)·발칸 화약고·민족주의·**ww2(에피소드01)로의 다리**.
+- ✅ **order**(12). ww2#imperialism과 호응하는 동맹 구도로 두 에피소드를 매듭.
+- 엔진 변경 0. 소스·배포 push. **→ imperialism 8/8 완성.**

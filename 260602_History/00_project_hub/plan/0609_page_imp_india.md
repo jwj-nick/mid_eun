@@ -30,4 +30,10 @@ hook → why → image:0 → cards → battlemap* → oldmap → chart → peopl
 - (Nick)
 
 ---
-## Round 1 — (구현 후 기록)
+## Round 1 — 구현 완료 ✅ 배포 (2026-06-09)
+- ✅ **image**: 1857 인도 항쟁 그림(**PD**).
+- ✅ **battlemap 2국면**: ①봉기(미루트·델리·잔시·러크나우) ②진압→British Raj.
+- ✅ **chart**: 세계 제조업 중 인도 비중 25%(1750)→2%(1900) — 탈산업화.
+- ✅ **voice**(인도 직공, ✍️상상)·**deepdive 5**(동인도회사·탈산업화·세포이 불씨·British Raj·빛과그림자+간디 불씨).
+- ✅ **order**(15). people(락슈미바이)·map 유지.
+- 엔진 변경 0. 소스·배포 push.
