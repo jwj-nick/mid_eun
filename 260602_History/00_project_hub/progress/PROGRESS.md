@@ -23,10 +23,10 @@
 
 ## 🗺️ 시리즈 확장 로드맵 (0610)
 > **구조 SSOT = `10_docs/SERIES_ROADMAP.md`** (시대 사슬 전체 지도, one hub=one plan). 아래는 진척 요약만.
-> 사슬: 르네상스/종교개혁 → 대항해시대 → 계몽/시민혁명 → 산업혁명·유럽열강 → **제국주의✅** → **세계대전✅** + 아메리카(병렬)
+> 사슬: 르네상스·종교개혁 → 대항해시대 → 계몽·시민혁명 → [유럽 열강 ↔ **제국주의✅**] → **세계대전✅** + 아메리카(병렬). (산업혁명=imperialism#industry가 home)
 | 우선 | 시대 허브 | slug | 계획 파일 | 상태 |
 |---|---|---|---|---|
-| ① | 산업혁명·유럽열강 | `powers` | `plan/0610_plan_hub_powers.md` | 🟡 계획 / 제작 대기 |
+| ① | 유럽 열강 | `powers` | `plan/0610_plan_hub_powers.md` | 🟡 계획 / 제작 대기 |
 | ② | 대항해시대 | `exploration` | `plan/0610_plan_hub_exploration.md` | 🟡 계획 / 제작 대기 |
 | ③ | 아메리카(지역) | `americas` | `plan/0610_plan_hub_americas.md` | 🟡 계획 / ①②후 |
 | ✅ | 제국주의 | `imperialism` | (배포 완료, 8/8) | ✅ |
