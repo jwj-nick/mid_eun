@@ -50,3 +50,19 @@
 
 ## 6. Nick 코멘트
 - (Nick)
+
+---
+
+## 7. ✅ 1차 릴리스 구현 기록 (NCC, 0611)
+- **배포**: `/history/powers/` — 5섹션(overview·britain·france·germany·belgium) 풀 업그레이드 표준으로 라이브. 인물 4인(빅토리아·세실 로즈·비스마르크·레오폴드 2세) 도감 21→25인. 게이트 G0~G2 + hist-audit 통과(`20_research/powers/audit.md`).
+- **자산**: PD 8점 — Imperial Federation map 1886(Walter Crane)·파쇼다 마르샹 원정대 사진 1898·Dropping the Pilot 1890(Tenniel)·In the Rubber Coils 1906(Sambourne) + 초상 4(전부 Commons extmetadata로 PD 실측 확인).
+- **구성 특징**: 나라별 '사건 파일' 탐정 프레임. 벨기에 섹션은 수탈의 길(red) ↔ 진실을 전한 길(green) 2국면 battlemap — 폭로자 서사(윌리엄스·케이스먼트·모렐·트웨인·도일)를 본문 축으로. 독일은 비스마르크 동맹망 relations + 헤레로(2021 독일 사과까지). imperialism#why-empire에 companion 교차링크.
+- **2차분 대기**: §1의 `russia`(그레이트 게임·부동항·러일전쟁→ww2 다리), `latecomers`(이탈리아 아도와 패배=아프리카 시점 강조·미국-스페인 전쟁·일본은 교차링크).
+
+## 8. 💡 추가 개선 아이디어 (제작 중 발견, NCC 0611)
+1. **도감 균형 — '맞선 사람들' 인물 추가**: 이번에 추가된 4인은 모두 제국 쪽. 폭로자·저항자 쪽을 더해 도감의 빛-그림자 균형을 맞추면 좋음 — 후보: **E.D. 모렐**(또는 케이스먼트), **압델카데르**(알제리 저항·포로 존중으로 적에게도 존경받음), **에밀리 홉하우스**(보어 수용소 폭로), 메넬리크 2세(아도와 승리, 2차분 latecomers와 함께).
+2. **companion 내비 표준화**: powers↔imperialism 교차링크를 지금은 connect 문장에 수동 삽입. 엔진에 `companion: {slug, label}` 메타를 두고 히어로/사이드바에 작은 배지로 자동 노출하면 시리즈가 늘수록 일관됨 (엔진 1회 수정, 전 에피소드 혜택).
+3. **oldmap 라이트박스(확대)**: Imperial Federation 지도(1600px)는 디테일이 생명 — image/oldmap 클릭 시 원본 크기 확대 보기(엔진 공통). 지도류 자산 전반에 효과.
+4. **'제국 스타일 비교' compare 블록**: overview에 간접통치(영)↔동화주의(프)↔사유지(벨) 토글 비교를 compare 블록으로 추가하면 한 화면 대비 학습 가능 (2차분 때 함께).
+5. **러시아 섹션 지도 기술 검토(2차분)**: 유라시아 육상 팽창은 battlemap 화살표가 길고 단조로울 수 있음 — 시베리아 횡단철도 경로를 단계 phase로 끊어 보여 주는 구성 권장.
+6. **딸 학습 동선 메모**: powers는 처음부터 끝까지 읽는 에피소드라기보다 '도감처럼 골라 읽기'에 적합 — 허브 카드/홈 intro에 이미 '나라별 사건 파일' 프레임을 깔아 둠. imperialism 완주 후 관심 나라부터 골라 읽게 안내하면 부담이 적음.
