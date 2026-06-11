@@ -2371,6 +2371,490 @@
     }
    ],
    "reflect": "몸값을 받고도 약속을 깬 쪽은 어느 쪽이었나 — '문명'과 '야만'이라는 말을 다시 생각하게 하는 이 이야기에서, 너는 무엇을 느꼈어?"
+  },
+  {
+   "slug": "washington",
+   "face": "🎖️",
+   "names": {
+    "native": "George Washington",
+    "roman": "George Washington",
+    "pronun_ko": "조지 워싱턴",
+    "en": "George Washington",
+    "ko": "조지 워싱턴",
+    "alias": "건국의 아버지"
+   },
+   "nationality": "미국",
+   "lifespan": "1732~1799",
+   "oneLine": "독립군 총사령관 · 초대 대통령 · 권력을 스스로 내려놓은 사람",
+   "bio": [
+    "버지니아의 측량사·농장주 출신으로, 독립전쟁에서 13개 식민지 연합군 총사령관을 맡았어요. 8년의 열세 속에서 군대를 지켜 내며(밸리포지의 겨울) 요크타운의 승리까지 — 신생국의 구심점 그 자체였죠.",
+    "1789년 만장일치로 초대 대통령에 뽑혔고, 두 번의 임기를 마친 뒤 권력을 스스로 내려놓았어요. 전쟁 영웅이 왕이 되던 역사의 공식을 깬 이 선례가 '대통령제'라는 실험을 진짜로 만들었다는 평가를 받아요.",
+    "동시에 그는 평생 수백 명의 노예를 부린 대농장주였어요. 유언으로 자기 몫 노예의 해방을 지시했지만, 살아서는 도망친 노예를 끈질기게 추적했죠. 미국이라는 나라의 모순 — 자유의 선언과 노예제 — 이 그 한 사람 안에 그대로 들어 있어요."
+   ],
+   "personTimeline": [
+    {
+     "yr": "1732",
+     "t": "출생 (버지니아)"
+    },
+    {
+     "yr": "1775",
+     "t": "대륙군 총사령관 임명"
+    },
+    {
+     "yr": "1781",
+     "t": "요크타운 승리"
+    },
+    {
+     "yr": "1789",
+     "t": "초대 대통령 취임"
+    },
+    {
+     "yr": "1797",
+     "t": "두 임기 후 스스로 퇴임 — 선례를 만들다"
+    },
+    {
+     "yr": "1799",
+     "t": "사망"
+    }
+   ],
+   "lightShadow": "권력을 내려놓아 민주주의의 전통을 만든 사람 — 그리고 노예의 노동 위에서 살았던 사람. 한 인물의 빛과 그림자를 함께 들 수 있는지가, 이 도감 전체의 연습 문제예요.",
+   "portrait": {
+    "src": "img/washington.jpg",
+    "alt": "조지 워싱턴 초상 (길버트 스튜어트)",
+    "source": "Wikimedia Commons — Gilbert Stuart, George Washington",
+    "license": "퍼블릭 도메인",
+    "note": ""
+   },
+   "links": [
+    {
+     "label": "위키백과 (한국어)",
+     "url": "https://ko.wikipedia.org/wiki/조지_워싱턴",
+     "lang": "ko",
+     "type": "wiki"
+    },
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/wiki/George_Washington",
+     "lang": "en",
+     "type": "wiki"
+    },
+    {
+     "label": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/George-Washington",
+     "lang": "en",
+     "type": "encyclopedia"
+    }
+   ],
+   "related": [
+    {
+     "ep": "americas/north-america",
+     "section": "revolution",
+     "label": "미국 독립혁명",
+     "epLabel": "북아메리카"
+    }
+   ],
+   "reflect": "'권력을 내려놓는 것'이 왜 그렇게 어렵고, 왜 그렇게 중요할까? 역사에서 반대 사례를 하나 떠올려 비교해 보세요."
+  },
+  {
+   "slug": "lincoln",
+   "face": "🎩",
+   "names": {
+    "native": "Abraham Lincoln",
+    "roman": "Abraham Lincoln",
+    "pronun_ko": "에이브러햄 링컨",
+    "en": "Abraham Lincoln",
+    "ko": "에이브러햄 링컨",
+    "alias": ""
+   },
+   "nationality": "미국",
+   "lifespan": "1809~1865",
+   "oneLine": "제16대 대통령 — 연방을 지키고 노예제를 끝낸, 그리고 성장한 사람",
+   "bio": [
+    "켄터키의 통나무집에서 태어나 학교를 1년도 못 다녔지만, 빌린 책으로 독학해 변호사가 됐어요. '갈라진 집은 설 수 없다'는 연설로 전국에 이름을 알렸고, 1860년 대통령에 당선되자 남부 주들이 연방을 탈퇴 — 남북전쟁의 한복판에 서게 됩니다.",
+    "전쟁 중 노예해방선언(1863)을 내리고 수정헌법 13조(노예제 영구 폐지)를 밀어붙였으며, 게티즈버그에서 '국민의, 국민에 의한, 국민을 위한 정부'라는 272단어의 연설로 민주주의를 다시 정의했어요.",
+    "그가 처음부터 완성된 해방론자는 아니었다는 게 중요해요 — 초기엔 '연방 유지가 우선'이라 했고, 흑인 병사들의 희생과 더글러스 같은 흑인 지도자들과의 만남 속에서 입장이 자라났죠. 종전 닷새 뒤 암살당했어요(1865.4). '완성된 영웅'이 아니라 '성장한 사람'으로 기억하는 게 그에게도, 우리에게도 더 정확해요."
+   ],
+   "personTimeline": [
+    {
+     "yr": "1809",
+     "t": "출생 (켄터키 통나무집)"
+    },
+    {
+     "yr": "1860",
+     "t": "대통령 당선 → 남부 연방 탈퇴"
+    },
+    {
+     "yr": "1863.1",
+     "t": "노예해방선언"
+    },
+    {
+     "yr": "1863.11",
+     "t": "게티즈버그 연설"
+    },
+    {
+     "yr": "1865.4",
+     "t": "남군 항복 닷새 뒤 암살"
+    }
+   ],
+   "lightShadow": "노예제를 끝낸 대통령이지만 그 길은 직선이 아니었어요 — 정치적 신중함과 도덕적 성장이 뒤섞인 길이었죠. 사람이 자라듯 지도자도 자란다는 것, 그리고 그 성장을 끌어낸 건 흑인들 자신의 투쟁이었다는 것까지가 온전한 링컨이에요.",
+   "portrait": {
+    "src": "img/lincoln.jpg",
+    "alt": "에이브러햄 링컨 사진 (1863, 게티스버그 연설 무렵)",
+    "source": "Wikimedia Commons — Abraham Lincoln (Alexander Gardner, 1863)",
+    "license": "퍼블릭 도메인",
+    "note": ""
+   },
+   "links": [
+    {
+     "label": "위키백과 (한국어)",
+     "url": "https://ko.wikipedia.org/wiki/에이브러햄_링컨",
+     "lang": "ko",
+     "type": "wiki"
+    },
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/wiki/Abraham_Lincoln",
+     "lang": "en",
+     "type": "wiki"
+    },
+    {
+     "label": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Abraham-Lincoln",
+     "lang": "en",
+     "type": "encyclopedia"
+    }
+   ],
+   "related": [
+    {
+     "ep": "americas/north-america",
+     "section": "civil-war",
+     "label": "남북전쟁",
+     "epLabel": "북아메리카"
+    }
+   ],
+   "reflect": "링컨은 비판자(더글러스)를 만나고 생각을 바꿨어요. 너는 최근에 누군가의 말로 생각이 바뀐 적이 있니? 그 순간을 적어 보세요."
+  },
+  {
+   "slug": "sitting-bull",
+   "face": "🦬",
+   "names": {
+    "native": "Tȟatȟáŋka Íyotake",
+    "roman": "Sitting Bull",
+    "pronun_ko": "시팅 불 (타탕카 이요타케)",
+    "en": "Sitting Bull",
+    "ko": "시팅 불",
+    "alias": "앉은 소"
+   },
+   "nationality": "라코타 (헝크파파)",
+   "lifespan": "1831?~1890",
+   "oneLine": "라코타의 지도자 · 리틀빅혼의 승리자 — '우리 방식대로 살 권리'의 상징",
+   "bio": [
+    "대평원 라코타의 전사이자 성자(위차샤 와칸)였어요. 미국이 블랙힐스(라코타의 성지 — 금이 발견되자 조약을 깨고 침입했죠)를 빼앗으려 하자, 여러 민족을 모아 맞섰어요.",
+    "1876년 리틀빅혼 전투에서 그의 연합은 커스터의 제7기병대를 전멸시켰어요 — 원주민 저항 사상 가장 큰 승리였죠. 그러나 들소가 절멸되고 보급이 끊기며 결국 투항해야 했고, 보호구역에 갇힌 뒤에도 '우리 땅을 팔지 않는다'는 입장을 굽히지 않았어요.",
+    "1890년 '고스트 댄스' 운동(빼앗긴 세계의 회복을 비는 종교 운동)을 두려워한 당국이 그를 체포하려다 — 그 과정에서 살해됐어요. 2주 뒤 운디드니 학살이 이어집니다. 그는 이렇게 말했다고 전해져요. \"나는 내 민족이 살아온 방식 그대로 살았을 뿐, 그것이 죄라면 나는 죄인이다.\""
+   ],
+   "personTimeline": [
+    {
+     "yr": "1831?",
+     "t": "출생 (지금의 사우스다코타)"
+    },
+    {
+     "yr": "1876",
+     "t": "리틀빅혼 전투 — 커스터 기병대 격파"
+    },
+    {
+     "yr": "1881",
+     "t": "들소 절멸·기아 속 투항"
+    },
+    {
+     "yr": "1890.12",
+     "t": "체포 과정에서 피살 — 2주 뒤 운디드니"
+    }
+   ],
+   "lightShadow": "그의 '그림자'는 그 자신의 것이 아니라 시대의 것이에요 — 이긴 전투로도 막을 수 없던 구조(들소 절멸·조약 파기)의 비극이죠. 패배한 쪽의 지도자를 '용감한 적'으로만 박제하지 않고, 그가 지키려 한 것이 무엇이었는지 묻는 것 — 이 카드의 목적이에요.",
+   "portrait": {
+    "src": "img/sitting-bull.jpg",
+    "alt": "시팅 불 사진 (1883년경)",
+    "source": "Wikimedia Commons — Sitting Bull (D.F. Barry 사진)",
+    "license": "퍼블릭 도메인",
+    "note": ""
+   },
+   "links": [
+    {
+     "label": "위키백과 (한국어)",
+     "url": "https://ko.wikipedia.org/wiki/시팅_불",
+     "lang": "ko",
+     "type": "wiki"
+    },
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/wiki/Sitting_Bull",
+     "lang": "en",
+     "type": "wiki"
+    },
+    {
+     "label": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Sitting-Bull",
+     "lang": "en",
+     "type": "encyclopedia"
+    }
+   ],
+   "related": [
+    {
+     "ep": "americas/north-america",
+     "section": "expansion",
+     "label": "서부 개척과 눈물의 길",
+     "epLabel": "북아메리카"
+    }
+   ],
+   "reflect": "'내 민족의 방식대로 살았을 뿐'이라는 말이 죄가 되는 세상 — 그런 세상을 만든 건 무엇이었을까? 너의 생각을 적어 보세요."
+  },
+  {
+   "slug": "toussaint",
+   "face": "⛓️",
+   "names": {
+    "native": "Toussaint Louverture",
+    "roman": "Toussaint Louverture",
+    "pronun_ko": "투생 루베르튀르",
+    "en": "Toussaint Louverture",
+    "ko": "투생 루베르튀르",
+    "alias": "검은 스파르타쿠스"
+   },
+   "nationality": "아이티 (생도맹그)",
+   "lifespan": "1743?~1803",
+   "oneLine": "노예에서 장군으로 — 아이티 혁명의 지도자",
+   "bio": [
+    "생도맹그(아이티)의 플랜테이션에서 노예로 태어나, 마부 일을 하며 어깨너머로 글과 의술과 병법을 익혔어요. 1791년 노예 대봉기가 일어나자 합류해 곧 가장 뛰어난 지휘관으로 떠올랐죠 — 그의 별명 '루베르튀르(여는 자)'는 적진 어디서든 돌파구를 연다고 붙었다고 전해져요.",
+    "스페인군·영국군·프랑스 본국군을 차례로 상대하며 13년 혁명의 중심에 섰고, 한때 섬 전체를 통치하며 노예제 폐지를 헌법에 새겼어요. 점령지에서 백인 농장주에 대한 보복을 금지한 절제의 통치자이기도 했죠.",
+    "1802년 나폴레옹이 보낸 대군과 싸우다 협상 자리에서 함정에 빠져 체포, 프랑스 알프스의 추운 감옥에서 숨졌어요(1803). 그러나 '자유의 나무는 뿌리가 깊다'던 그의 말대로 — 1년 뒤 부하 데살린이 독립을 완성합니다. 워즈워스가 그를 위해 소네트를 썼을 만큼, 당대에 이미 세계적 인물이었어요."
+   ],
+   "personTimeline": [
+    {
+     "yr": "1743?",
+     "t": "출생 (생도맹그, 노예 신분)"
+    },
+    {
+     "yr": "1791",
+     "t": "노예 봉기 합류 — 혁명의 지도자로"
+    },
+    {
+     "yr": "1801",
+     "t": "헌법 제정 — 노예제 영구 폐지 명문화"
+    },
+    {
+     "yr": "1802",
+     "t": "나폴레옹군의 함정 — 체포·압송"
+    },
+    {
+     "yr": "1803",
+     "t": "프랑스 감옥에서 사망 — 이듬해 아이티 독립"
+    }
+   ],
+   "lightShadow": "노예제·인종주의·식민주의를 한 번에 부정한 혁명의 얼굴 — 그림자라면, 통치 말기에 플랜테이션 경제를 되살리려 강제성 있는 노동 규율을 도입해 옛 동지들의 반발을 산 일이에요. 해방된 나라를 먹여 살리는 일의 어려움 — 혁명가에서 통치자로 넘어가는 문턱의 고민이었죠.",
+   "portrait": {
+    "src": "img/toussaint.jpg",
+    "alt": "투생 루베르튀르 초상 (19세기 판화)",
+    "source": "Wikimedia Commons — Toussaint Louverture (판화)",
+    "license": "퍼블릭 도메인",
+    "note": "생전 실물 초상은 확실치 않아요 — 후대 판화입니다."
+   },
+   "links": [
+    {
+     "label": "위키백과 (한국어)",
+     "url": "https://ko.wikipedia.org/wiki/투생_루베르튀르",
+     "lang": "ko",
+     "type": "wiki"
+    },
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/wiki/Toussaint_Louverture",
+     "lang": "en",
+     "type": "wiki"
+    },
+    {
+     "label": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Toussaint-Louverture",
+     "lang": "en",
+     "type": "encyclopedia"
+    }
+   ],
+   "related": [
+    {
+     "ep": "americas/latin-america",
+     "section": "independence",
+     "label": "독립의 물결 — 아이티 혁명",
+     "epLabel": "라틴아메리카"
+    }
+   ],
+   "reflect": "'자유의 나무는 뿌리가 깊다' — 한 사람을 없애도 운동이 죽지 않으려면 무엇이 필요할까? 우리 역사의 사례와 함께 생각해 보세요."
+  },
+  {
+   "slug": "bolivar",
+   "face": "🗡️",
+   "names": {
+    "native": "Simón Bolívar",
+    "roman": "Simón Bolívar",
+    "pronun_ko": "시몬 볼리바르",
+    "en": "Simón Bolívar",
+    "ko": "시몬 볼리바르",
+    "alias": "엘 리베르타도르 (해방자)"
+   },
+   "nationality": "베네수엘라 (대콜롬비아)",
+   "lifespan": "1783~1830",
+   "oneLine": "남미 북부 5개국의 해방자 — 그리고 통합의 꿈이 꺾인 사람",
+   "bio": [
+    "카라카스의 부유한 크리오요 집안에서 태어나 유럽에서 계몽사상을 흡수했어요. 로마의 언덕에서 '조국을 해방하기 전엔 쉬지 않겠다'고 맹세했다는 일화가 전해지죠. 어린 시절 그를 키운 노예 유모 이폴리타를 평생 '어머니'라 불렀어요.",
+    "패배와 망명을 거듭하면서도(아이티의 도움으로 재기 — 조건은 노예 해방이었어요) 우기의 늪과 안데스 고개를 넘는 허를 찌르는 작전으로 보야카(1819)에서 승리, 베네수엘라·콜롬비아·에콰도르·페루·볼리비아를 차례로 해방했어요. 볼리비아는 아예 그의 이름을 딴 나라죠.",
+    "그의 진짜 꿈은 독립 너머 — 라틴아메리카가 하나의 큰 연방으로 서는 것이었어요. 그러나 지역 간 갈등과 카우디요들의 발호 속에 대콜롬비아는 분열했고, 암살 미수까지 겪은 그는 '혁명에 봉사한 자는 바다를 갈아엎은 셈'이라는 말을 남기고 47세에 결핵으로 죽었어요. 그의 통합의 꿈은 지금도 라틴아메리카 정치에서 '볼리바르주의'라는 이름으로 소환되곤 해요."
+   ],
+   "personTimeline": [
+    {
+     "yr": "1783",
+     "t": "출생 (카라카스)"
+    },
+    {
+     "yr": "1816",
+     "t": "아이티의 지원으로 재기 — 노예 해방 약속"
+    },
+    {
+     "yr": "1819",
+     "t": "안데스 횡단·보야카 승리 — 콜롬비아 해방"
+    },
+    {
+     "yr": "1824",
+     "t": "아야쿠초 — 남미 독립 확정"
+    },
+    {
+     "yr": "1830",
+     "t": "대콜롬비아 분열 속 사망"
+    }
+   ],
+   "lightShadow": "대륙의 절반을 해방한 영웅 — 그러나 말년에는 통합을 지키겠다며 독재적 권력에 기댔고, 그 모순 속에서 꿈도 건강도 무너졌어요. '해방의 기술'과 '건국의 기술'은 다르다는 것, 워싱턴의 선례와 비교하며 읽으면 더 깊어지는 인물이에요.",
+   "portrait": {
+    "src": "img/bolivar.jpg",
+    "alt": "시몬 볼리바르 초상",
+    "source": "Wikimedia Commons — Simón Bolívar portrait",
+    "license": "퍼블릭 도메인",
+    "note": ""
+   },
+   "links": [
+    {
+     "label": "위키백과 (한국어)",
+     "url": "https://ko.wikipedia.org/wiki/시몬_볼리바르",
+     "lang": "ko",
+     "type": "wiki"
+    },
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/wiki/Simón_Bolívar",
+     "lang": "en",
+     "type": "wiki"
+    },
+    {
+     "label": "Wikipedia (Español·스페인어)",
+     "url": "https://es.wikipedia.org/wiki/Simón_Bolívar",
+     "lang": "es",
+     "type": "wiki"
+    },
+    {
+     "label": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Simon-Bolivar",
+     "lang": "en",
+     "type": "encyclopedia"
+    }
+   ],
+   "related": [
+    {
+     "ep": "americas/latin-america",
+     "section": "independence",
+     "label": "독립의 물결",
+     "epLabel": "라틴아메리카"
+    }
+   ],
+   "reflect": "'바다를 갈아엎은 셈' — 평생의 일이 헛되다 느껴질 때, 그래도 그 일은 의미가 있었을까? 볼리바르에게 답장을 써 보세요."
+  },
+  {
+   "slug": "san-martin",
+   "face": "🐎",
+   "names": {
+    "native": "José de San Martín",
+    "roman": "José de San Martín",
+    "pronun_ko": "호세 데 산마르틴",
+    "en": "José de San Martín",
+    "ko": "산마르틴",
+    "alias": "남부의 해방자"
+   },
+   "nationality": "아르헨티나",
+   "lifespan": "1778~1850",
+   "oneLine": "아르헨티나·칠레·페루의 해방자 — 그리고 스스로 무대에서 내려온 사람",
+   "bio": [
+    "지금의 아르헨티나에서 태어나 스페인에서 직업 군인으로 성장했어요 — 나폴레옹군과 싸운 베테랑이었죠. 고향의 독립 소식에 경력을 버리고 돌아와 독립군의 기둥이 됩니다.",
+    "그의 걸작은 1817년의 안데스 횡단이에요. '리마로 가는 길은 바다가 아니라 산맥'이라는 역발상으로, 5,000여 명의 군대를 해발 4,000m의 고개들로 넘겨 칠레의 왕당파를 기습했죠 — 한니발·나폴레옹의 알프스 횡단에 견줘지는 작전이에요. 이어 해군을 만들어 페루로 북상, 1821년 리마에서 독립을 선언했어요.",
+    "1822년 과야킬에서 볼리바르를 만난 뒤, 그는 모든 직위를 내려놓고 유럽으로 떠났어요 — '한 무대에 두 해방자는 필요 없다'는 판단이었다고 전해지죠(회담 내용은 비밀에 부쳐져 역사의 수수께끼로 남았어요). 권력 다툼 없이 물러난 드문 영웅으로, 아르헨티나의 '국부'로 기려져요."
+   ],
+   "personTimeline": [
+    {
+     "yr": "1778",
+     "t": "출생 (현 아르헨티나)"
+    },
+    {
+     "yr": "1812",
+     "t": "귀향 — 독립군 합류"
+    },
+    {
+     "yr": "1817",
+     "t": "안데스 횡단 — 차카부코 승리, 칠레 해방"
+    },
+    {
+     "yr": "1821",
+     "t": "리마 입성 — 페루 독립 선언"
+    },
+    {
+     "yr": "1822",
+     "t": "과야킬 회담 후 모든 직위 사퇴"
+    },
+    {
+     "yr": "1850",
+     "t": "프랑스에서 사망"
+    }
+   ],
+   "lightShadow": "안데스를 넘은 명장이자 권력에서 스스로 물러난 절제의 인물 — 다만 그 퇴장이 페루 정국의 공백과 혼란으로 이어졌다는 평가도 있어요. '머무는 책임'과 '떠나는 미덕' 사이의 줄타기를 생각하게 해요.",
+   "portrait": {
+    "src": "img/san-martin.jpg",
+    "alt": "호세 데 산마르틴 초상",
+    "source": "Wikimedia Commons — José de San Martín portrait",
+    "license": "퍼블릭 도메인",
+    "note": ""
+   },
+   "links": [
+    {
+     "label": "위키백과 (한국어)",
+     "url": "https://ko.wikipedia.org/wiki/호세_데_산마르틴",
+     "lang": "ko",
+     "type": "wiki"
+    },
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/wiki/José_de_San_Martín",
+     "lang": "en",
+     "type": "wiki"
+    },
+    {
+     "label": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Jose-de-San-Martin",
+     "lang": "en",
+     "type": "encyclopedia"
+    }
+   ],
+   "related": [
+    {
+     "ep": "americas/latin-america",
+     "section": "independence",
+     "label": "독립의 물결",
+     "epLabel": "라틴아메리카"
+    }
+   ],
+   "reflect": "산마르틴의 퇴장과 워싱턴의 퇴임, 볼리바르의 버티기 — 셋 중 누구의 선택이 가장 어려웠을까? 너의 순위와 이유를 적어 보세요."
   }
  ]
 }
