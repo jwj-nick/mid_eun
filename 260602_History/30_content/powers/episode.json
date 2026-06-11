@@ -266,13 +266,23 @@
     "voice",
     "relations",
     "chart",
+    "image",
     "timeline",
     "connect",
     "deepdive",
     "yt",
     "quiz",
     "reflect"
-   ]
+   ],
+   "image": {
+    "h": "한 장의 지도 — 1914년, 색칠된 세계 🗺️",
+    "story": "1914년의 세계 지도예요. 분홍은 영국, 파랑은 프랑스, 진회색은 독일, 검정은 벨기에(콩고), 보라는 러시아 — 회색이 그나마 '어느 제국에도 속하지 않은 곳'인데, 얼마 남지 않았죠. 이 에피소드에서 만날 네 나라의 색을 먼저 눈에 담아 두세요. 그리고 한 가지 더 — 이 지도에는 그 땅에 살던 수억 명의 이름이 없어요. 색으로 칠해진 쪽의 이야기를 함께 읽어야 하는 이유예요.",
+    "src": "img/world_empires_1914.jpg",
+    "alt": "1914년 세계 식민 제국 지도 — 영국·프랑스·독일·벨기에·러시아 등 제국별 색 구분",
+    "caption": "1914년의 세계 제국·식민지 분포. 오른쪽 범례의 국기로 어느 나라 색인지 알 수 있어요.",
+    "source": "Wikimedia Commons — World 1914 empires colonies territory (Andrew0921)",
+    "license": "CC BY 3.0"
+   }
   },
   {
    "id": "britain",
