@@ -20,7 +20,7 @@
 | 순서 | 시대 허브 | slug | 시기 | 한 줄 범위 | 상태 | 상세 계획 파일 |
 |---|---|---|---|---|---|---|
 | 1 | 르네상스·종교개혁 | `renaissance` | 14~16C | 신→인간 중심, 근대 정신의 출발 | 🔵 KEEP(future) | `plan/0610_plan_hub_renaissance.md` |
-| 2 | 대항해시대 | `exploration` | 15~17C | 유럽이 바다로 — 탐험·정복·노예 | 🟡 계획됨 | `plan/0610_plan_hub_exploration.md` |
+| 2 | 대항해시대 | `exploration` | 15~17C | 유럽이 바다로 — 탐험·정복·노예 | ✅ 배포(0611, 8/8) | `plan/0610_plan_hub_exploration.md` |
 | 3 | 계몽·시민혁명 | `revolutions` | 17C후~19C초 | 왕의 시대→국민의 시대, 자유·인권 | 🔵 KEEP(future) | `plan/0610_plan_hub_revolutions.md` |
 | 4 | 유럽 열강 | `powers` | 19C | 나라별 제국 열전(영·프·독·러·벨)+인물 | ✅ 1차 배포(0611: 도입·영·프·독·벨 5섹션, 러·후발=2차) | `plan/0610_plan_hub_powers.md` |
 | 5 | 제국주의 | `imperialism` | 19C | 제국주의의 흐름(8섹션) | ✅ 배포 완료 | (제작 기록: `plan/0608_*`, `plan/0609_page_imp_*`) |
@@ -31,7 +31,7 @@
 
 ## 🛠️ 제작 우선순위 (Nick 지시)
 1. ~~**`powers`** (유럽 열강)~~ → ✅ 1차 배포(0611). 남은 것: 러시아·후발주자(latecomers) 2차분.
-2. **`exploration`** (대항해시대) — 시대 사슬 뿌리, 아메리카로의 다리.
+2. ~~**`exploration`** (대항해시대)~~ → ✅ 배포(0611, 8섹션). 아메리카 허브로의 다리 완성.
 3. **`americas`** — ①② 완료 후. 북미→남미.
 4. (KEEP) `revolutions`, `renaissance` — Nick 결정 시 본격화.
 > 냉전(`coldwar`)은 세계대전 이후 확장 후보로 별도 보류.

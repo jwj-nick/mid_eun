@@ -336,6 +336,7 @@
     "cards",
     "voice",
     "battlemap*",
+    "image",
     "chart",
     "timeline",
     "connect",
@@ -343,7 +344,16 @@
     "yt",
     "quiz",
     "reflect"
-   ]
+   ],
+   "image": {
+    "h": "한 장의 그림 — 바다로 나가는 배들 📷",
+    "story": "16세기 포르투갈의 카락선(캐러벨보다 큰 원양 범선)들을 그린 그림이에요. 둥근 돛에 바람을 가득 안고 항구를 떠나는 저 배들이 향신료와 지도와 — 그리고 이 에피소드의 모든 빛과 그림자를 싣고 다니게 됩니다. 나무로 만든 저 작은 배로 지구 반대편까지 갔다는 게 이 시대의 출발점이에요.",
+    "src": "img/carracks.jpg",
+    "alt": "16세기 포르투갈 카락선들을 그린 유화",
+    "caption": "〈Portuguese Carracks off a Rocky Coast〉(16세기경) — 원양 항해 시대를 연 배들.",
+    "source": "Wikimedia Commons — Royal Museums Greenwich 소장",
+    "license": "퍼블릭 도메인"
+   }
   },
   {
    "id": "pioneers",
@@ -652,6 +662,7 @@
     "cards",
     "people",
     "battlemap*",
+    "image",
     "voice",
     "timeline",
     "connect",
@@ -659,7 +670,16 @@
     "yt",
     "quiz",
     "reflect"
-   ]
+   ],
+   "image": {
+    "h": "한 장의 그림 — 캘리컷에 닿은 다 가마 📷",
+    "story": "바스쿠 다 가마가 1498년 인도 캘리컷에 도착하는 장면이에요. 다만 탐정의 눈으로 한 가지 — 이 그림은 사건으로부터 400년 뒤, 포르투갈 화가가 자기 나라의 영광을 기리며 그린 거예요. 다 가마 일행은 당당하게, 인도는 이국적인 배경처럼 그려져 있죠. 그림도 기록처럼 그린 사람의 시점을 갖는다는 것, 기억해 두세요.",
+    "src": "img/dagama_calicut.jpg",
+    "alt": "바스쿠 다 가마의 캘리컷 도착을 그린 19세기 말~20세기 초 그림",
+    "caption": "〈다 가마의 캘리컷 도착, 1498〉 — 후대(1900년경) 포르투갈에서 제작된 기념 그림.",
+    "source": "Wikimedia Commons — A chegada de Vasco da Gama a Calicute em 1498",
+    "license": "퍼블릭 도메인"
+   }
   },
   {
    "id": "columbus",
@@ -966,6 +986,7 @@
     "cards",
     "people",
     "battlemap*",
+    "image",
     "voice",
     "chart",
     "timeline",
@@ -975,7 +996,16 @@
     "yt",
     "quiz",
     "reflect"
-   ]
+   ],
+   "image": {
+    "h": "한 장의 그림 — 그리고 그림의 연출 📷",
+    "story": "미국 국회의사당에 걸린 〈콜럼버스의 상륙〉(1847)이에요. 빛은 콜럼버스에게 쏟아지고, 깃발과 칼이 하늘을 향하죠. 그런데 구석을 보세요 — 이 땅의 주인인 타이노 사람들은 어두운 가장자리에 작게, 숨거나 엎드린 모습으로 그려져 있어요. 350년 뒤 미국이 콜럼버스를 영웅으로 만들면서 그린 그림이거든요. 그림이 사실의 기록이 아니라 기억의 연출일 수 있다는 것 — 이 파일에 꼭 맞는 증거물이에요.",
+    "src": "img/columbus_landing.jpg",
+    "alt": "존 밴덜린의 〈콜럼버스의 상륙〉(1847) — 콜럼버스 일행이 해변에 깃발을 세우는 장면",
+    "caption": "존 밴덜린, 〈콜럼버스의 상륙〉(1847, 미국 국회의사당) — 누가 빛 속에, 누가 그늘에 그려졌나.",
+    "source": "Wikimedia Commons — Landing of Columbus (Vanderlyn)",
+    "license": "퍼블릭 도메인"
+   }
   },
   {
    "id": "magellan",
@@ -1344,6 +1374,7 @@
     "cards",
     "people",
     "battlemap*",
+    "image",
     "voice",
     "chart",
     "timeline",
@@ -1352,7 +1383,16 @@
     "yt",
     "quiz",
     "reflect"
-   ]
+   ],
+   "image": {
+    "h": "한 장의 그림 — 지도에 새겨진 배 한 척 📷",
+    "story": "1589년의 세계지도(오르텔리우스, 태평양 부분)에 그려진 빅토리아호예요. 배 아래 라틴어가 새겨져 있어요 — \"나는 돛을 달고 처음으로 세계를 돌았다(Prima ego velivolis ambivi cursibus Orbem)\". 지도 제작자가 배에게 직접 말을 시킨 거죠. 18명과 함께 살아 돌아온 이 배는, 그렇게 지도 위의 전설이 됐어요.",
+    "src": "img/victoria_ship.jpg",
+    "alt": "오르텔리우스 1589년 지도에 그려진 마젤란 함대의 빅토리아호",
+    "caption": "오르텔리우스 태평양 지도(1589) 속 빅토리아호 — \"나는 처음으로 세계를 돌았다\".",
+    "source": "Wikimedia Commons — Detail from a map of Ortelius",
+    "license": "퍼블릭 도메인"
+   }
   },
   {
    "id": "conquest",
@@ -1444,7 +1484,7 @@
           -96.14
          ],
          "kind": "start",
-         "label": "베라크루스 상륙 1519 — 배를 불태우다"
+         "label": "베라크루스 상륙 1519 — 배를 가라앉히다(퇴로 차단)"
         },
         {
          "at": [
@@ -1695,6 +1735,7 @@
     "cards",
     "people",
     "battlemap*",
+    "image",
     "voice",
     "chart",
     "timeline",
@@ -1703,7 +1744,16 @@
     "yt",
     "quiz",
     "reflect"
-   ]
+   ],
+   "image": {
+    "h": "한 장의 그림 — 둑길 위의 전쟁 📷",
+    "story": "17세기에 그려진 〈코르테스의 멕시코 정복〉 연작 중 한 장면이에요. 호수 위 도시 테노치티틀란의 둑길에서 벌어진 전투가 보이죠 — 멀리 피라미드 신전과 운하의 도시가 정교하게 그려져 있어요. 그림 속에서도 확인할 수 있어요. 이 도시는 짓밟기엔 너무나 정교한 문명이었다는 것을.",
+    "src": "img/tenochtitlan.jpg",
+    "alt": "17세기 〈코르테스의 멕시코 정복〉 그림 — 호수 위 도시 테노치티틀란의 전투 장면",
+    "caption": "〈Conquista de México por Cortés〉(17세기) — 호수 위 도시에서 벌어진 마지막 전투.",
+    "source": "Wikimedia Commons — Conquista de México por Cortés (작자 미상, 17세기)",
+    "license": "퍼블릭 도메인"
+   }
   },
   {
    "id": "slave-trade",
@@ -2010,6 +2060,7 @@
     "lens",
     "cards",
     "battlemap*",
+    "image",
     "voice",
     "chart",
     "timeline",
@@ -2018,7 +2069,16 @@
     "yt",
     "quiz",
     "reflect"
-   ]
+   ],
+   "image": {
+    "h": "한 장의 도면 — 세계를 바꾼 인포그래픽 📷",
+    "story": "1788년 영국의 노예제 폐지 운동가들이 인쇄해 뿌린 노예선 브룩스호의 적재 도면이에요. 잔혹한 장면은 하나도 없어요 — 그저 사람이 어떻게 \"배치\"되는지를 보여 주는 차가운 설계도일 뿐이죠. 그래서 더 강력했어요. 이 종이 한 장이 노예무역의 비인간성을 누구도 부정할 수 없게 증명했고, 폐지 운동의 상징이 됐습니다. 역사상 가장 영향력 있는 인포그래픽으로 불려요.",
+    "src": "img/brookes_1788.jpg",
+    "alt": "1788년 노예선 브룩스호의 적재 도면 — 폐지 운동의 상징이 된 인쇄물",
+    "caption": "브룩스호 도면(1788) — 그림 한 장이 양심을 깨운 사건.",
+    "source": "Wikimedia Commons — Stowage of the British slave ship Brookes (1788)",
+    "license": "퍼블릭 도메인"
+   }
   },
   {
    "id": "commerce",
@@ -2195,6 +2255,7 @@
     "lens",
     "cards",
     "compare",
+    "image",
     "voice",
     "chart",
     "timeline",
@@ -2203,7 +2264,16 @@
     "yt",
     "quiz",
     "reflect"
-   ]
+   ],
+   "image": {
+    "h": "한 장의 그림 — 돌아온 함대, 태어난 회사 📷",
+    "story": "1599년 7월, 동인도(향신료 제도)에서 돌아온 네덜란드 함대가 암스테르담 앞바다에 들어서는 장면이에요. 온 도시가 마중 나왔죠 — 이 항해 하나가 투자금의 몇 배를 벌어다 줬거든요. 이런 대박과 (돌아오지 못하는 배들의) 쪽박이 반복되자 네덜란드 사람들은 답을 찾아요. \"위험을 모두가 나누자\" — 3년 뒤 세계 최초의 주식회사 VOC가 태어납니다.",
+    "src": "img/amsterdam_return.jpg",
+    "alt": "1599년 동인도 원정대의 암스테르담 귀항을 그린 17세기 유화",
+    "caption": "에이르트벨트, 〈제2차 동인도 원정대의 귀항, 1599〉 — VOC 탄생 직전의 풍경.",
+    "source": "Wikimedia Commons — Andries van Eertvelt 작",
+    "license": "퍼블릭 도메인"
+   }
   },
   {
    "id": "toward-modern",
@@ -2376,13 +2446,23 @@
     "lens",
     "cards",
     "relations",
+    "oldmap",
     "timeline",
     "connect",
     "deepdive",
     "yt",
     "quiz",
     "reflect"
-   ]
+   ],
+   "oldmap": {
+    "h": "옛 지도로 보는 그때 — 1635년, 완성되어 가는 세계 🗺️",
+    "story": "네덜란드의 지도 명가 블라우가 1635년에 만든 세계지도예요. 1400년의 지도와 비교하면 기적 같죠 — 아메리카가 있고, 태평양이 있고, 아프리카의 해안선이 정확해요. 다만 호주는 아직 반쪽이고, 가장자리엔 각 대륙의 사람들이 유럽인의 상상으로 그려져 있어요. 세계는 이어졌지만, 서로를 아는 일은 이제 시작이었던 거예요.",
+    "src": "img/blaeu_1635.jpg",
+    "alt": "빌럼 블라우의 1635년 세계지도(Nova Totius Terrarum Orbis)",
+    "caption": "블라우, 〈Nova Totius Terrarum Orbis〉(1635) — 200년 항해가 그려 낸 세계.",
+    "source": "Wikimedia Commons — Willem Blaeu, 1635",
+    "license": "퍼블릭 도메인"
+   }
   }
  ]
 }

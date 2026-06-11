@@ -20,6 +20,7 @@
 | 01 | `ww2` | 세계대전 이야기 | ✅ 배포 (스키마/빌드 전환 완료) | https://jwj-nick.github.io/history/ww2/ |
 | 02 | `imperialism` | 제국주의와 19세기 | ✅ 배포 (8/8 풀 업그레이드) | https://jwj-nick.github.io/history/imperialism/ |
 | 03 | `powers` | 유럽 열강 열전 | ✅ 1차 배포 (5섹션: 도입·영·프·독·벨 / 러·후발=2차분) | https://jwj-nick.github.io/history/powers/ |
+| 04 | `exploration` | 바다 너머로 — 대항해시대 | ✅ 배포 (8/8 풀 업그레이드, 도감 31인) | https://jwj-nick.github.io/history/exploration/ |
 | — | `coldwar` | 냉전(F2) | 후보 (보류) | — |
 
 ## 🗺️ 시리즈 확장 로드맵 (0610)
@@ -28,7 +29,7 @@
 | 우선 | 시대 허브 | slug | 계획 파일 | 상태 |
 |---|---|---|---|---|
 | ① | 유럽 열강 | `powers` | `plan/0610_plan_hub_powers.md` | ✅ 1차 배포(0611, 5섹션) / 2차분(러·후발) 대기 |
-| ② | 대항해시대 | `exploration` | `plan/0610_plan_hub_exploration.md` | 🟡 계획 / 제작 대기 |
+| ② | 대항해시대 | `exploration` | `plan/0610_plan_hub_exploration.md` | ✅ 배포(0611, 8/8) |
 | ③ | 아메리카(지역) | `americas` | `plan/0610_plan_hub_americas.md` | 🟡 계획 / ①②후 |
 | ✅ | 제국주의 | `imperialism` | (배포 완료, 8/8) | ✅ |
 | ✅ | 세계대전 | `ww2` | (배포 완료, 8/8) | ✅ |
