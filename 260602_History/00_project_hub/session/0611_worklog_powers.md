@@ -51,4 +51,16 @@
 - 벨기에 섹션 균형 설계: '수탈의 길(red) ↔ 진실을 전한 길(green)' 2국면 지도로, 어두운 이야기를 '폭로와 연대의 이야기'로 닫음 — 감성적 입구(딸 성향)와 무게의 균형.
 - G1 강화 절차(데이터+엔진 분리 검사)는 다음 에피소드부터 표준으로.
 
-(이하 배포 검증 라운드 append)
+## Round 3 — 배포·라이브 검증 (NCC, 0611, 실측)
+
+| 항목 | 실측 결과 |
+|---|---|
+| 소스 push | `mid_eun` main `4c89611..2fafc00` ✅ (1차 push는 도구결과 손실 → 멱등 프로브로 미반영 확인 후 재시도 성공 — 프로토콜 C 작동) |
+| 배포 push | `jwj-nick.github.io` main `126459c..c79bfbe` ✅ |
+| 라이브 `/history/powers/` | 200 (캐시버스트 유한 폴링, 약 3분 내 전파) + HTML 내 비스마르크·rubber_coils 마커 확인 ✅ |
+| 라이브 허브 `/history/` | EP03 카드 + 사이드바 03 표시 확인(WebFetch) ✅ |
+| 라이브 자산 | `powers/img/rubber_coils_1906.jpg` 200·345KB / `people/bismarck/` 200 ✅ |
+
+**URL**: https://jwj-nick.github.io/history/powers/ · 인물 도감 25인 https://jwj-nick.github.io/history/people/
+**비고**: 커밋 2fafc00에 0608 plan 파일의 미커밋 Nick 코멘트 확정 기록(2줄)이 함께 포함됨 — 정상 세션 기록이라 유지.
+**다음 후보**: powers 2차분(러시아·latecomers) 또는 `exploration`(대항해시대) 신규 — plan §8 개선 아이디어(도감 균형 인물·companion 배지·oldmap 라이트박스) 참조.
