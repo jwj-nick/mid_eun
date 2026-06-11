@@ -44,4 +44,15 @@
 - yt는 전부 search형(허위 ID 금지 원칙) — 핀 교체는 백로그(plan §7-1).
 - 8섹션 일괄 제작도 '섹션별 임시 JSON→조립 검증' 패턴으로 무사고 — 이 패턴을 신규 에피소드 표준으로.
 
-(이하 배포 검증 라운드 append)
+## Round 3 — 배포·라이브 검증 (NCC, 0611, 실측)
+| 항목 | 실측 결과 |
+|---|---|
+| 소스 push | `mid_eun` `d5ef9ff`(콘텐츠) → `315dabf`(완성) ✅ |
+| 배포 push | `jwj-nick.github.io` `794c2f0` ✅ |
+| 라이브 `/history/exploration/` | 200 + 마젤란·blaeu 마커 확인 ✅ |
+| 라이브 자산·도감 | columbus_landing.jpg 200(254KB) / people/atahualpa 200 ✅ |
+| 허브 | exploration 링크 2곳(사이드바+카드) 확인 ✅ |
+| (동일 세션) powers#overview 1914 세계지도 | world_empires_1914.jpg 200(107KB) ✅ |
+
+**URL**: https://jwj-nick.github.io/history/exploration/ · 도감 31인 https://jwj-nick.github.io/history/people/
+**다음 후보**: ③ `americas`(북미·남미, plan 준비됨 — exploration의 conquest/slave-trade가 프롤로그) 또는 powers 2차분(러시아·latecomers). KEEP: revolutions·renaissance.
