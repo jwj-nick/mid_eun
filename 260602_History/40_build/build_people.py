@@ -10,14 +10,16 @@
 데이터↔엔진 분리: 인물을 늘리려면 people.json + img 만 추가하고 이 스크립트를 다시 돌린다.
 역링크: 상세 페이지 related[] → /history/<ep>/#<section> (에피소드 SPA가 hash로 해당 섹션을 연다).
 """
-import json, pathlib, shutil, html as _html
+import json, pathlib, shutil, sys, html as _html
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SRC = ROOT / "30_content" / "people"
 OUT = ROOT / "50_app" / "people"
 
-# 에피소드 표시 순서(이야기 흐름). related[].ep 로 그룹핑.
-EP_ORDER = ["ww2", "imperialism"]
+# 에피소드 표시 순서(시대 사슬 순). related[].ep 로 그룹핑.
+# 목록에 없는 ep 의 인물은 build_index 의 fallback 그룹으로 — 조용한 누락 금지.
+EP_ORDER = ["exploration", "powers", "imperialism", "ww2",
+            "americas/north-america", "americas/latin-america"]
 
 
 def esc(s):
@@ -167,13 +169,20 @@ def index_card(p):
 
 def build_index(people):
     groups = []
+    shown = set()
     for ep in EP_ORDER:
         grp = [p for p in people if p.get("related") and p["related"][0].get("ep") == ep]
         if not grp:
             continue
+        shown.update(p["slug"] for p in grp)
         eplabel = grp[0]["related"][0].get("epLabel", ep)
         cards = "".join(index_card(p) for p in grp)
         groups.append('<h2 class="eph">에피소드 · %s</h2><div class="people">%s</div>' % (esc(eplabel), cards))
+    rest = [p for p in people if p["slug"] not in shown]
+    if rest:
+        cards = "".join(index_card(p) for p in rest)
+        groups.append('<h2 class="eph">그 밖의 인물</h2><div class="people">%s</div>' % cards)
+        sys.stdout.write("  [warn] EP_ORDER fallback group: %d people\n" % len(rest))
     body = "\n".join(groups)
     page = INDEX_TMPL.replace("__CSS__", CSS).replace("__BODY__", body).replace("__COUNT__", str(len(people)))
     (OUT / "index.html").write_text(page, encoding="utf-8")
