@@ -606,11 +606,13 @@
      "desc": "작은 나라 포르투갈이 80년에 걸쳐 인도 항로를 연 이야기를 한국어 영상으로 찾아보세요."
     },
     {
-     "type": "search",
-     "q": "Prince Henry navigator Vasco da Gama India route",
-     "title": "Portugal's Age of Exploration (영어로 찾기)",
+     "type": "video",
+     "id": "NjEGncridoQ",
+     "title": "Columbus, de Gama, and Zheng He — 15th Century Mariners (Crash Course #21)",
+     "channel": "CrashCourse",
+     "length": "약 12분",
      "lang": "en",
-     "desc": "엔히크의 항해 프로젝트와 다 가마의 인도 항로를 다룬 영어 영상을 찾아보세요."
+     "desc": "다 가마·정화·콜럼버스를 한 화면에 — 이 에피소드 앞부분의 완벽한 요약이에요."
     }
    ],
    "quiz": [
@@ -902,11 +904,13 @@
      "desc": "1492년 항해의 두 얼굴을 다룬 한국어 영상을 찾아보세요."
     },
     {
-     "type": "search",
-     "q": "history vs Christopher Columbus TED-Ed",
-     "title": "History vs. Christopher Columbus (영어로 찾기)",
+     "type": "video",
+     "id": "GD3dgiDreGc",
+     "title": "History vs. Christopher Columbus (TED-Ed)",
+     "channel": "TED-Ed",
+     "length": "약 6분",
      "lang": "en",
-     "desc": "콜럼버스를 법정에 세우는 형식의 TED-Ed 애니메이션 — 양쪽 주장을 모두 들어볼 수 있어요."
+     "desc": "콜럼버스를 법정에 세우는 애니메이션 — 양쪽 주장을 모두 듣고 네가 판결해 보세요."
     }
    ],
    "choice": {
@@ -1995,11 +1999,13 @@
      "desc": "대서양 노예무역의 구조와 그에 맞선 사람들을 다룬 한국어 영상을 찾아보세요."
     },
     {
-     "type": "search",
-     "q": "Atlantic slave trade crash course",
-     "title": "The Atlantic Slave Trade (영어로 찾기)",
+     "type": "video",
+     "id": "dnV_MTFEGIY",
+     "title": "The Atlantic Slave Trade (Crash Course World History #24)",
+     "channel": "CrashCourse",
+     "length": "약 11분",
      "lang": "en",
-     "desc": "삼각무역의 구조와 규모를 차분히 정리한 영어 영상을 찾아보세요."
+     "desc": "대서양 노예무역의 구조와 규모를 차분하게 정리한 영상이에요."
     }
    ],
    "quiz": [
@@ -2391,11 +2397,13 @@
      "desc": "이 시대가 세계를 어떻게 바꿨는지 정리한 한국어 영상을 찾아보세요."
     },
     {
-     "type": "search",
-     "q": "Columbian Exchange crash course world history",
-     "title": "The Columbian Exchange (영어로 찾기)",
+     "type": "video",
+     "id": "HQPA5oNpfM4",
+     "title": "The Columbian Exchange (Crash Course World History #23)",
+     "channel": "CrashCourse",
+     "length": "약 12분",
      "lang": "en",
-     "desc": "콜럼버스 교환의 양면을 정리한 영어 영상을 찾아보세요."
+     "desc": "콜럼버스 교환의 양면 — 이 시대의 정산에 딱 맞는 마무리 영상이에요."
     }
    ],
    "quiz": [

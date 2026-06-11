@@ -22,6 +22,10 @@
     "to": "korea"
    },
    "pathLabel": "하나로 이어지는 이야기"
+  },
+  "companion": {
+   "slug": "powers",
+   "label": "유럽 열강 열전 (나라별 편)"
   }
  },
  "terms": {
