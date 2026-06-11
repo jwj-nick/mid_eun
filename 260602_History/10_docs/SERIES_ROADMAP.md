@@ -22,7 +22,7 @@
 | 1 | 르네상스·종교개혁 | `renaissance` | 14~16C | 신→인간 중심, 근대 정신의 출발 | 🔵 KEEP(future) | `plan/0610_plan_hub_renaissance.md` |
 | 2 | 대항해시대 | `exploration` | 15~17C | 유럽이 바다로 — 탐험·정복·노예 | ✅ 배포(0611, 8/8) | `plan/0610_plan_hub_exploration.md` |
 | 3 | 계몽·시민혁명 | `revolutions` | 17C후~19C초 | 왕의 시대→국민의 시대, 자유·인권 | 🔵 KEEP(future) | `plan/0610_plan_hub_revolutions.md` |
-| 4 | 유럽 열강 | `powers` | 19C | 나라별 제국 열전(영·프·독·러·벨)+인물 | ✅ 1차 배포(0611: 도입·영·프·독·벨 5섹션, 러·후발=2차) | `plan/0610_plan_hub_powers.md` |
+| 4 | 유럽 열강 | `powers` | 19C | 나라별 제국 열전(영·프·독·러·벨·후발)+인물 | ✅ 완성(0611, 7/7 — 러시아·latecomers 2차분 포함) | `plan/0610_plan_hub_powers.md` |
 | 5 | 제국주의 | `imperialism` | 19C | 제국주의의 흐름(8섹션) | ✅ 배포 완료 | (제작 기록: `plan/0608_*`, `plan/0609_page_imp_*`) |
 | 6 | 세계대전 | `ww2` | 20C | 양차대전 + 한국전쟁(8섹션) | ✅ 배포 완료 | (제작 기록: `plan/0608_*`, `plan/0609_page_ww2_*`) |
 | ＋ | 아메리카(지역) | `americas` | 통사 | 북미·남미 두 대륙(2 에피소드) | ✅ 배포(0611: 랜딩+`americas/north-america` 6섹션+`americas/latin-america` 5섹션) | `plan/0610_plan_hub_americas.md` |
@@ -30,7 +30,7 @@
 상태 범례: ✅ 배포 / 🟡 계획됨(제작 대기) / 🔵 KEEP(나중에 제작).
 
 ## 🛠️ 제작 우선순위 (Nick 지시)
-1. ~~**`powers`** (유럽 열강)~~ → ✅ 1차 배포(0611). 남은 것: 러시아·후발주자(latecomers) 2차분.
+1. ~~**`powers`** (유럽 열강)~~ → ✅ 완성(0611, 7/7 — 2차분 포함).
 2. ~~**`exploration`** (대항해시대)~~ → ✅ 배포(0611, 8섹션). 아메리카 허브로의 다리 완성.
 3. ~~**`americas`**~~ → ✅ 배포(0611). 남은 것: powers 2차분(러시아·latecomers).
 4. (KEEP) `revolutions`, `renaissance` — Nick 결정 시 본격화.

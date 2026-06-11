@@ -19,7 +19,7 @@
 |---|---|---|---|---|
 | 01 | `ww2` | 세계대전 이야기 | ✅ 배포 (스키마/빌드 전환 완료) | https://jwj-nick.github.io/history/ww2/ |
 | 02 | `imperialism` | 제국주의와 19세기 | ✅ 배포 (8/8 풀 업그레이드) | https://jwj-nick.github.io/history/imperialism/ |
-| 03 | `powers` | 유럽 열강 열전 | ✅ 1차 배포 (5섹션: 도입·영·프·독·벨 / 러·후발=2차분) | https://jwj-nick.github.io/history/powers/ |
+| 03 | `powers` | 유럽 열강 열전 | ✅ 완성 (7/7: 도입·영·프·독·러·벨·후발 / 도감 38인) | https://jwj-nick.github.io/history/powers/ |
 | 04 | `exploration` | 바다 너머로 — 대항해시대 | ✅ 배포 (8/8 풀 업그레이드) | https://jwj-nick.github.io/history/exploration/ |
 | 🌎 | `americas` | 아메리카 허브 (북미 6 + 남미 5섹션, 도감 37인) | ✅ 배포 (랜딩+2에피소드) | https://jwj-nick.github.io/history/americas/ |
 | — | `coldwar` | 냉전(F2) | 후보 (보류) | — |
@@ -29,7 +29,7 @@
 > 사슬: 르네상스·종교개혁 → 대항해시대 → 계몽·시민혁명 → [유럽 열강 ↔ **제국주의✅**] → **세계대전✅** + 아메리카(병렬). (산업혁명=imperialism#industry가 home)
 | 우선 | 시대 허브 | slug | 계획 파일 | 상태 |
 |---|---|---|---|---|
-| ① | 유럽 열강 | `powers` | `plan/0610_plan_hub_powers.md` | ✅ 1차 배포(0611, 5섹션) / 2차분(러·후발) 대기 |
+| ① | 유럽 열강 | `powers` | `plan/0610_plan_hub_powers.md` | ✅ 완성(0611, 7/7) |
 | ② | 대항해시대 | `exploration` | `plan/0610_plan_hub_exploration.md` | ✅ 배포(0611, 8/8) |
 | ③ | 아메리카(지역) | `americas` | `plan/0610_plan_hub_americas.md` | ✅ 배포(0611, 랜딩+11섹션) |
 | ✅ | 제국주의 | `imperialism` | (배포 완료, 8/8) | ✅ |

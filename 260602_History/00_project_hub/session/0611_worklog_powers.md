@@ -64,3 +64,10 @@
 **URL**: https://jwj-nick.github.io/history/powers/ · 인물 도감 25인 https://jwj-nick.github.io/history/people/
 **비고**: 커밋 2fafc00에 0608 plan 파일의 미커밋 Nick 코멘트 확정 기록(2줄)이 함께 포함됨 — 정상 세션 기록이라 유지.
 **다음 후보**: powers 2차분(러시아·latecomers) 또는 `exploration`(대항해시대) 신규 — plan §8 개선 아이디어(도감 균형 인물·companion 배지·oldmap 라이트박스) 참조.
+
+## Round 4 — 2차분 완성 (NCC, 0611, Nick 지시 "americas 이후 powers 2차분")
+1. ✅ `russia`(40)·`latecomers`(60) 작성 — 섹션 삽입·벨기에 50 재배열·connect 사슬 재연결(독일→러시아→벨기에→후발)·홈 intro 갱신. **7/7 완성.**
+2. ✅ 메넬리크 2세 도감 등재(38인) — '맞선 자' 축 보강(plan §8-1 아이디어 실행), 그 자신의 정복도 그림자로 명시.
+3. ✅ [네트워크·단독] 자산 3점: 프로쿠딘-고르스키 카마강 철교(PD 컬러)·아도와 에티오피아 전통화(CC BY-SA 4.0 — '붓의 주인 교체' 해설)·메넬리크 어좌 사진(PD). 육안 검수.
+4. ✅ audit 2차분(연도 교정 1건: 시베리아 동진 64년→약 57년). G1·G2 PASS.
+5. 설계 노트: latecomers는 '후발 3국(독·이·일)→추축국' 패턴과 '아도와 예외'를 함께 닫는 에피소드 피날레 — "구조는 경향을 만들고, 선택이 결말을 가른다"로 종결. 미국 태평양 battlemap에 −360 경도 기법 재사용.
