@@ -23,4 +23,17 @@
 
 **작업 순서:** ①[로컬] 북미 6섹션→②[로컬] 남미 5섹션→③people 6인→커밋→④[네트워크·단독] 이미지(섹션 ~11+초상 6) 소싱·육안 검수→⑤빌드·G0~G2·audit→⑥americas 랜딩+허브 연결+exploration 교차링크→⑦배포·라이브 검증→⑧문서.
 
-(진행하며 라운드 append)
+## Round 2 — 제작 기록 (NCC, 0611)
+1. ✅ [로컬] 북미 6섹션 + 남미 5섹션(임시 JSON→조립) + 인물 6인(도감 37). 커밋 `4c2d96d`.
+2. ✅ [네트워크·단독] Commons 17점 소싱(검색→다운로드, 실패 2건은 정확제목 재시도) — **전점 PD/CC 확인 + 육안 검수**. 눈물의 길(Lindneux)=비PD 사전 회피 → American Progress(1872)로 대체(연출 분석 콘텐츠화). 워싱턴 미완성 캔버스 상단 크롭.
+3. ✅ 이미지 11블록 연결 → 재빌드 → G1(데이터 스크립트 node check)·G2(6:6, 5:5) PASS. 도감 색인 6그룹 확인.
+4. ✅ hist-audit ×2 (수정 1건: 아르헨티나 실종자 '인권단체 추정' 명기). 기록 = `20_research/{north,latin}-america/audit.md`.
+5. ✅ americas 랜딩 작성(배포 repo) + 메인 허브 '지역 허브' 구획(사이드바·카드) + exploration 다리 2개(conquest·slave-trade) 추가·재빌드.
+6. ✅ 배포 복사: `history/americas/{index.html, north-america/, latin-america/}` + people 37인 + exploration.
+
+**결정/교훈:**
+- 중첩 배치(`americas/<ep>/`)는 엔진 백링크(`../index.html`)와 우연히 완벽 호환 — 지역 허브 계층이 엔진 변경 0으로 성립.
+- 색인 버그(EP_ORDER)처럼 '빌더의 조용한 누락'은 fallback+경고로 원천 차단하는 패턴이 옳음 — build_people에 적용 완료.
+- 11섹션 일괄 제작에서도 '섹션 임시 JSON→조립 검증' 패턴 무사고 유지.
+
+(이하 배포 검증 라운드 append)

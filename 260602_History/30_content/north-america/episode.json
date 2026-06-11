@@ -253,6 +253,7 @@
     "cards",
     "voice",
     "battlemap*",
+    "image",
     "chart",
     "timeline",
     "connect",
@@ -260,7 +261,16 @@
     "yt",
     "quiz",
     "reflect"
-   ]
+   ],
+   "image": {
+    "h": "한 장의 그림 — 들소와 함께 사는 사람들 📷",
+    "story": "1830년대 화가 조지 캐틀린이 대평원에서 직접 보고 그린 들소 사냥이에요. 캐틀린은 \"이 세계가 곧 사라질 것\"을 직감하고 수백 점의 그림으로 원주민들의 삶을 기록했죠. 들소는 식량이자 옷이자 집(가죽 천막)이자 신앙 — 평원 민족의 세계 그 자체였어요. 이 그림의 세계가 어떻게 무너지는지, 서부 개척 장에서 다시 만나게 됩니다.",
+    "src": "img/catlin_buffalo.jpg",
+    "alt": "조지 캐틀린의 들소 사냥 그림 (1830년대)",
+    "caption": "조지 캐틀린, 〈들소 사냥〉(1830년대) — 사라지기 전의 세계를 기록한 그림.",
+    "source": "Wikimedia Commons — George Catlin, Buffalo Hunt",
+    "license": "퍼블릭 도메인"
+   }
   },
   {
    "id": "colonies",
@@ -518,13 +528,23 @@
     "cards",
     "voice",
     "battlemap*",
+    "image",
     "timeline",
     "connect",
     "deepdive",
     "yt",
     "quiz",
     "reflect"
-   ]
+   ],
+   "image": {
+    "h": "한 장의 그림 — 플리머스의 메이플라워 📷",
+    "story": "겨울 바다에 닻을 내린 메이플라워호 — 1882년 핼솔이 그린 그림이에요. 쓸쓸하고 장엄하게 그려졌죠. 실제 첫 겨울은 그림보다 혹독해서 102명 중 절반이 죽었고, 살아남은 절반은 왐파노아그 사람들의 도움으로 버텼어요. 그림이 주는 \"경건한 시작\"의 인상과, 그 시작이 서 있던 땅의 원래 주인들 — 둘을 함께 기억하며 보세요.",
+    "src": "img/mayflower.jpg",
+    "alt": "윌리엄 핼솔의 〈플리머스 항의 메이플라워호〉(1882)",
+    "caption": "핼솔, 〈플리머스 항의 메이플라워호〉(1882) — 신화가 된 배.",
+    "source": "Wikimedia Commons — William Halsall, Mayflower in Plymouth Harbor",
+    "license": "퍼블릭 도메인"
+   }
   },
   {
    "id": "revolution",
@@ -801,6 +821,7 @@
     "cards",
     "people",
     "battlemap*",
+    "image",
     "voice",
     "chart",
     "timeline",
@@ -809,7 +830,16 @@
     "yt",
     "quiz",
     "reflect"
-   ]
+   ],
+   "image": {
+    "h": "한 장의 그림 — 독립선언의 방 📷",
+    "story": "존 트럼불의 〈독립선언〉(1819) — 미국 국회의사당에 걸려 있고 2달러 지폐에도 들어간 그림이에요. 가운데 서 있는 다섯 명이 기초위원(키 큰 제퍼슨이 문서를 내려놓고 있죠, 그 옆이 프랭클린·애덤스). 탐정의 눈으로 보면 — 이 방의 56명 서명자 중 상당수가 노예 소유주였고, 이 그림에 여성·흑인·원주민은 없어요. \"모든 사람\"의 방에 누가 없었는지까지 읽으면, 이 그림은 두 배로 많은 것을 말해 줍니다.",
+    "src": "img/declaration.jpg",
+    "alt": "존 트럼불의 〈독립선언〉(1819) — 대륙회의에 선언문을 제출하는 장면",
+    "caption": "트럼불, 〈독립선언〉(1819) — 그려진 사람들과 그려지지 않은 사람들.",
+    "source": "Wikimedia Commons — John Trumbull, Declaration of Independence",
+    "license": "퍼블릭 도메인"
+   }
   },
   {
    "id": "expansion",
@@ -1106,6 +1136,7 @@
     "cards",
     "people",
     "battlemap*",
+    "image",
     "voice",
     "chart",
     "timeline",
@@ -1114,7 +1145,16 @@
     "yt",
     "quiz",
     "reflect"
-   ]
+   ],
+   "image": {
+    "h": "한 장의 그림 — '명백한 운명'의 자화상 📷",
+    "story": "1872년 존 개스트의 〈미국의 전진〉 — 이 시대의 생각을 한 장에 담은 그림이에요. 빛의 여신이 전신줄을 끌며 서쪽으로 날아가고, 그 뒤로 철도·역마차·농부가 따라오죠. 그런데 왼쪽 어두운 곳을 보세요 — 원주민들과 들소가 어둠 속으로 밀려나고 있어요. 화가는 이걸 \"문명이 야만을 밀어내는 영광\"으로 그렸지만, 150년 뒤의 우리는 같은 그림에서 정반대의 이야기를 읽을 수 있죠. 그림은 그대로인데 보는 눈이 자란 거예요.",
+    "src": "img/american_progress.jpg",
+    "alt": "존 개스트의 〈미국의 전진〉(1872) — 명백한 운명을 그린 우의화",
+    "caption": "개스트, 〈미국의 전진〉(1872) — 빛과 어둠의 배치가 곧 이 시대의 세계관.",
+    "source": "Wikimedia Commons — John Gast, American Progress",
+    "license": "퍼블릭 도메인"
+   }
   },
   {
    "id": "civil-war",
@@ -1438,6 +1478,7 @@
     "cards",
     "people",
     "battlemap*",
+    "image",
     "voice",
     "chart",
     "timeline",
@@ -1446,7 +1487,16 @@
     "yt",
     "quiz",
     "reflect"
-   ]
+   ],
+   "image": {
+    "h": "한 장의 그림 — 게티즈버그 📷",
+    "story": "남북전쟁 최대의 격전 게티즈버그(1863.7, 사흘간 약 5만 명 사상)를 그린 툴스트럽의 그림이에요. 화약 연기 속 푸른 군복(북군)과 회색 군복(남군) — 같은 말을 쓰고 같은 노래를 부르던 사람들이었어요. 링컨이 넉 달 뒤 이 들판에서 그 유명한 연설을 했죠. \"이들의 죽음을 헛되이 하지 않겠다고, 여기서 우리가 다짐합시다.\"",
+    "src": "img/gettysburg.jpg",
+    "alt": "툴스트럽의 〈게티즈버그 전투〉 석판화",
+    "caption": "툴스트럽, 〈게티즈버그 전투〉(1887년 인쇄) — 내전의 한복판.",
+    "source": "Wikimedia Commons — Thure de Thulstrup, Battle of Gettysburg (L. Prang & Co.)",
+    "license": "퍼블릭 도메인"
+   }
   },
   {
    "id": "modern",
@@ -1616,6 +1666,7 @@
     "lens",
     "cards",
     "voice",
+    "image",
     "chart",
     "timeline",
     "connect",
@@ -1623,7 +1674,16 @@
     "yt",
     "quiz",
     "reflect"
-   ]
+   ],
+   "image": {
+    "h": "한 장의 사진 — 엘리스섬의 대기줄 📷",
+    "story": "1904년 엘리스섬 이민국 건물 안 — 방금 배에서 내린 사람들이 입국 심사를 기다리는 실제 사진이에요. 옷깃의 번호표, 난간으로 나뉜 줄들. 이 줄에 선 사람들의 손자·손녀가 지금 미국인의 큰 부분이에요. 어쩌면 이 사진 속 누군가의 후손이 달에 갔거나, 영화를 만들었거나, 대통령이 됐을지도 — 줄 서 있는 한 사람 한 사람이 가능성이었던 거죠.",
+    "src": "img/ellis_island.jpg",
+    "alt": "1904년 엘리스섬 이민국에서 입국 심사를 기다리는 이민자들 사진",
+    "caption": "엘리스섬 이민국(1904) — 1,200만 명이 거쳐 간 문.",
+    "source": "Wikimedia Commons — Underwood & Underwood (1904)",
+    "license": "퍼블릭 도메인"
+   }
   }
  ]
 }
