@@ -1901,6 +1901,476 @@
     }
    ],
    "reflect": "레오폴드는 '자선'이라는 말로 세계를 속였어요. 좋은 말을 하는 사람과 좋은 일을 하는 사람을 구별하는 너만의 방법이 있니?"
+  },
+  {
+   "slug": "henrique",
+   "face": "🧭",
+   "names": {
+    "native": "Infante Dom Henrique",
+    "roman": "Henrique o Navegador",
+    "pronun_ko": "엔히크",
+    "en": "Prince Henry the Navigator",
+    "ko": "엔히크 항해왕자",
+    "alias": "항해왕자"
+   },
+   "nationality": "포르투갈",
+   "lifespan": "1394~1460",
+   "oneLine": "아프리카 항로 개척을 설계한 왕자 — 빛과 그림자가 같은 장부에",
+   "bio": [
+    "포르투갈 왕의 셋째 아들로, 1415년 세우타 원정에 참가한 뒤 평생을 바다 탐험 후원에 바쳤어요. 본인이 먼 항해에 나선 적은 거의 없지만, 항해사·지도제작자·천문학자를 모으고 항해 기록을 쌓아 다음 항해에 넘기는 '지식 축적 시스템'을 만들었죠.",
+    "그의 집요한 후원으로 '세상의 끝'이라 불리던 보자도르 곶의 공포가 깨졌고(1434), 포르투갈 배들은 한 해 한 해 아프리카 해안을 남하했어요. 그가 죽은 뒤에도 이 시스템은 굴러가 희망봉(1488)과 인도 항로(1498)로 이어집니다.",
+    "하지만 같은 장부에 그림자가 적혀 있어요 — 그가 후원한 항해들은 1440년대부터 서아프리카 사람들을 사로잡아 파는 노예무역을 시작했고, 그 수익이 탐험 자금이 됐죠. '항해왕자'의 영광과 대서양 노예무역의 시작은 같은 사업의 양면이었어요."
+   ],
+   "personTimeline": [
+    {
+     "yr": "1394",
+     "t": "출생 (포르투)"
+    },
+    {
+     "yr": "1415",
+     "t": "세우타 원정 참가"
+    },
+    {
+     "yr": "1434",
+     "t": "후원한 항해가 보자도르 곶 돌파"
+    },
+    {
+     "yr": "1440s",
+     "t": "후원 항해들, 노예무역 시작 (그림자)"
+    },
+    {
+     "yr": "1460",
+     "t": "사망 — 시스템은 인도 항로까지 이어짐"
+    }
+   ],
+   "lightShadow": "탐험을 '한 영웅의 모험'에서 '축적되는 국가 프로젝트'로 바꾼 설계자 — 그러나 그 프로젝트의 수익원에 노예무역이 있었어요. 위대한 업적의 자금 출처를 묻는 것, 역사 탐정의 기본기예요.",
+   "portrait": {
+    "src": "img/henrique.jpg",
+    "alt": "엔히크 항해왕자 초상",
+    "source": "Wikimedia Commons — Henry the Navigator",
+    "license": "퍼블릭 도메인",
+    "note": ""
+   },
+   "links": [
+    {
+     "label": "위키백과 (한국어)",
+     "url": "https://ko.wikipedia.org/wiki/엔히크_드_아비스",
+     "lang": "ko",
+     "type": "wiki"
+    },
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/wiki/Prince_Henry_the_Navigator",
+     "lang": "en",
+     "type": "wiki"
+    },
+    {
+     "label": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Henry-the-Navigator",
+     "lang": "en",
+     "type": "encyclopedia"
+    }
+   ],
+   "related": [
+    {
+     "ep": "exploration",
+     "section": "pioneers",
+     "label": "개척자들 — 포르투갈의 80년",
+     "epLabel": "바다 너머로"
+    }
+   ],
+   "reflect": "직접 바다에 나가지 않고도 '항해의 시대'를 연 사람 — 시스템을 만드는 일과 직접 뛰는 일, 어느 쪽이 역사를 더 크게 움직일까?"
+  },
+  {
+   "slug": "columbus",
+   "face": "🧭",
+   "names": {
+    "native": "Cristoforo Colombo",
+    "roman": "Christophorus Columbus",
+    "pronun_ko": "콜럼버스",
+    "en": "Christopher Columbus",
+    "ko": "크리스토퍼 콜럼버스",
+    "alias": ""
+   },
+   "nationality": "제노바(이탈리아) 출신 · 스페인 후원",
+   "lifespan": "1451~1506",
+   "oneLine": "1492년 대서양 횡단 — 두 세계를 이은, 역사상 가장 논쟁적인 항해가",
+   "bio": [
+    "제노바의 직조공 집안에서 태어나 바다에서 잔뼈가 굵었어요. 지구 크기를 실제보다 훨씬 작게 계산하고는 '서쪽으로 가면 아시아가 가깝다'고 확신, 포르투갈·스페인 왕실을 10년 가까이 설득한 끝에 1492년 세 척으로 출항해 카리브에 닿았죠. 죽을 때까지 그곳을 아시아라 믿었어요.",
+    "그의 항해는 아메리카와 나머지 세계를 잇는 '콜럼버스 교환'의 문을 열었어요 — 감자·옥수수·고추가 세계로 퍼진 것도, 천연두가 아메리카를 휩쓴 것도 이 문을 통해서였죠. 인류사 최대의 연결이자, 카리브 사람들에겐 재앙의 시작이었어요.",
+    "히스파니올라 총독으로서 타이노인들에게 금 할당량을 강요하고 노예로 보냈으며, 통치가 너무 가혹해 스페인 왕실이 그를 체포·소환했을 정도예요(1500). 오늘날 '콜럼버스의 날'을 '원주민의 날'로 바꾸는 도시들이 늘어나는 것 — 그에 대한 평가가 지금도 진행 중이라는 뜻이에요."
+   ],
+   "personTimeline": [
+    {
+     "yr": "1451",
+     "t": "출생 (제노바)"
+    },
+    {
+     "yr": "1492.10.12",
+     "t": "과나하니(카리브) 도착 — 두 세계의 만남"
+    },
+    {
+     "yr": "1493~1504",
+     "t": "2~4차 항해 · 히스파니올라 식민 통치"
+    },
+    {
+     "yr": "1500",
+     "t": "가혹한 통치로 체포·소환"
+    },
+    {
+     "yr": "1506",
+     "t": "사망 — 끝까지 아시아라 믿은 채"
+    }
+   ],
+   "lightShadow": "항해의 집념과 성취는 역사를 바꿨지만, 그 '발견'은 이미 사람이 살던 땅의 비극으로 이어졌어요. 영웅과 침략자라는 두 평가 사이 — 어느 한쪽만 외우는 게 아니라 증거를 놓고 직접 판단해 보는 게 이 인물을 공부하는 법이에요.",
+   "portrait": {
+    "src": "img/columbus.jpg",
+    "alt": "콜럼버스 초상 (사후 제작)",
+    "source": "Wikimedia Commons — Portrait of a Man, Said to be Christopher Columbus (1519)",
+    "license": "퍼블릭 도메인",
+    "note": "생전 초상은 남아 있지 않아요 — 이 그림도 사후에 그려진 '상상 초상'이에요."
+   },
+   "links": [
+    {
+     "label": "위키백과 (한국어)",
+     "url": "https://ko.wikipedia.org/wiki/크리스토퍼_콜럼버스",
+     "lang": "ko",
+     "type": "wiki"
+    },
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/wiki/Christopher_Columbus",
+     "lang": "en",
+     "type": "wiki"
+    },
+    {
+     "label": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Christopher-Columbus",
+     "lang": "en",
+     "type": "encyclopedia"
+    }
+   ],
+   "related": [
+    {
+     "ep": "exploration",
+     "section": "columbus",
+     "label": "콜럼버스 — 같은 날의 두 기록",
+     "epLabel": "바다 너머로"
+    }
+   ],
+   "reflect": "1492년 10월 12일에 너라면 어떤 이름을 붙일래 — 발견, 침략, 만남? 이유와 함께 적어 보세요."
+  },
+  {
+   "slug": "magellan",
+   "face": "🌏",
+   "names": {
+    "native": "Fernão de Magalhães",
+    "roman": "Ferdinand Magellan",
+    "pronun_ko": "마젤란",
+    "en": "Ferdinand Magellan",
+    "ko": "페르디난드 마젤란",
+    "alias": ""
+   },
+   "nationality": "포르투갈 출신 · 스페인 후원",
+   "lifespan": "1480~1521",
+   "oneLine": "최초 세계일주 함대의 대장 — 지구가 둥글다는 것을 증명한 항해, 본인은 미완",
+   "bio": [
+    "포르투갈 하급 귀족 출신 군인·항해가예요. 조국이 자신의 서쪽 항로 계획을 거절하자 경쟁국 스페인 왕을 설득해 1519년 다섯 척, 약 270명으로 출항했어요. 목표는 서쪽으로 가서 향신료 제도에 닿는 것.",
+    "폭풍과 반란을 뚫고 남아메리카 남쪽 끝의 해협(마젤란 해협)을 찾아냈고, 98일간의 굶주림 끝에 태평양을 횡단했어요. '평화로운 바다(태평양)'라는 이름도 그가 붙였죠. 그러나 1521년 필리핀 막탄 섬에서 현지 지도자 라푸라푸와의 전투 중 전사합니다.",
+    "남은 선원들을 이끈 엘카노가 1522년 단 한 척, 18명으로 귀환하며 인류 최초의 세계일주가 완성됐어요. 지구는 둥글고 바다는 모두 이어져 있다는 것이 몸으로 증명된 순간 — 다만 필리핀에서는 그의 도착이 333년 식민 지배의 서막으로 기억되고, 그를 물리친 라푸라푸가 영웅으로 기려져요."
+   ],
+   "personTimeline": [
+    {
+     "yr": "1480",
+     "t": "출생 (포르투갈)"
+    },
+    {
+     "yr": "1519.9",
+     "t": "세비야 출항 (5척, 약 270명)"
+    },
+    {
+     "yr": "1520.11",
+     "t": "마젤란 해협 통과 — 태평양 진입"
+    },
+    {
+     "yr": "1521.4",
+     "t": "막탄 전투에서 전사 (라푸라푸 승리)"
+    },
+    {
+     "yr": "1522.9",
+     "t": "(사후) 엘카노, 18명으로 일주 완성"
+    }
+   ],
+   "lightShadow": "인류의 세계관을 바꾼 항해의 설계자이자, 닿은 땅에서는 무력으로 굴복을 요구한 침입자. 스페인의 영웅, 필리핀의 침략자, 그리고 '마젤란의 일주'라는 이름에 가려진 완성자 엘카노까지 — 한 항해에 얽힌 여러 기억을 함께 봐야 해요.",
+   "portrait": {
+    "src": "img/magellan.jpg",
+    "alt": "마젤란 초상 (작자 미상)",
+    "source": "Wikimedia Commons — Ferdinand Magellan portrait",
+    "license": "퍼블릭 도메인",
+    "note": "확실한 생전 초상은 남아 있지 않아요."
+   },
+   "links": [
+    {
+     "label": "위키백과 (한국어)",
+     "url": "https://ko.wikipedia.org/wiki/페르디난드_마젤란",
+     "lang": "ko",
+     "type": "wiki"
+    },
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/wiki/Ferdinand_Magellan",
+     "lang": "en",
+     "type": "wiki"
+    },
+    {
+     "label": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Ferdinand-Magellan",
+     "lang": "en",
+     "type": "encyclopedia"
+    }
+   ],
+   "related": [
+    {
+     "ep": "exploration",
+     "section": "magellan",
+     "label": "마젤란 — 최초의 세계일주",
+     "epLabel": "바다 너머로"
+    }
+   ],
+   "reflect": "시작한 사람(마젤란)과 끝낸 사람(엘카노), 막은 사람(라푸라푸) — 역사는 누구를 어떻게 기억해야 공정할까?"
+  },
+  {
+   "slug": "cortes",
+   "face": "⚔️",
+   "names": {
+    "native": "Hernán Cortés",
+    "roman": "Hernán Cortés",
+    "pronun_ko": "에르난 코르테스",
+    "en": "Hernán Cortés",
+    "ko": "코르테스",
+    "alias": ""
+   },
+   "nationality": "스페인",
+   "lifespan": "1485~1547",
+   "oneLine": "아스텍 제국을 무너뜨린 콘키스타도르 — 능력과 파괴가 한 몸",
+   "bio": [
+    "스페인 하급 귀족 출신으로 카리브 식민지에서 경력을 쌓다, 1519년 약 500명을 이끌고 멕시코에 상륙했어요. 도착하자 배를 못 쓰게 만들어 퇴로를 없앤 일화로 유명하죠 — 돌아갈 길을 스스로 끊은 거예요.",
+    "그의 진짜 무기는 칼보다 정치였어요. 아스텍의 지배에 시달리던 틀락스칼라 등의 불만을 읽어 수만의 동맹군을 만들었고, 통역 말린체의 도움으로 협상과 정보전을 펼쳤죠. 천연두가 테노치티틀란을 휩쓴 뒤, 1521년 도시를 함락시켜 한 문명의 수도를 폐허로 만들었어요.",
+    "그 폐허 위에 멕시코시티가 세워졌고, 살아남은 사람들에게는 강제 노동(엔코미엔다)이 기다렸어요. 말년에는 왕실의 견제 속에 쓸쓸히 죽었죠. 멕시코에는 그의 동상이 거의 없어요 — 정복자를 기념하지 않겠다는 그 나라의 대답이에요."
+   ],
+   "personTimeline": [
+    {
+     "yr": "1485",
+     "t": "출생 (스페인 메데인)"
+    },
+    {
+     "yr": "1519",
+     "t": "멕시코 상륙 — 배를 불태우다"
+    },
+    {
+     "yr": "1520",
+     "t": "'슬픔의 밤' — 아스텍의 반격으로 퇴각"
+    },
+    {
+     "yr": "1521.8",
+     "t": "테노치티틀란 함락 — 아스텍 멸망"
+    },
+    {
+     "yr": "1547",
+     "t": "스페인에서 사망"
+    }
+   ],
+   "lightShadow": "결단력·정치 감각·동맹술은 비범했지만, 그 모든 능력이 향한 곳은 한 문명의 파괴였어요. '유능함'이 '올바름'을 보증하지 않는다는 것 — 비스마르크 편에서 본 그 단서의 가장 극단적인 사례예요.",
+   "portrait": {
+    "src": "img/cortes.jpg",
+    "alt": "에르난 코르테스 초상",
+    "source": "Wikimedia Commons — Hernán Cortés portrait",
+    "license": "퍼블릭 도메인",
+    "note": ""
+   },
+   "links": [
+    {
+     "label": "위키백과 (한국어)",
+     "url": "https://ko.wikipedia.org/wiki/에르난_코르테스",
+     "lang": "ko",
+     "type": "wiki"
+    },
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/wiki/Hernán_Cortés",
+     "lang": "en",
+     "type": "wiki"
+    },
+    {
+     "label": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Hernan-Cortes",
+     "lang": "en",
+     "type": "encyclopedia"
+    }
+   ],
+   "related": [
+    {
+     "ep": "exploration",
+     "section": "conquest",
+     "label": "정복 — 아스텍과 잉카",
+     "epLabel": "바다 너머로"
+    }
+   ],
+   "reflect": "멕시코에 코르테스 동상이 거의 없는 것과, 우리가 침략의 역사를 기념하지 않는 것 — 기억의 방식에서 닮은 점을 찾아볼래?"
+  },
+  {
+   "slug": "moctezuma",
+   "face": "🦅",
+   "names": {
+    "native": "Motēuczōma Xōcoyōtzin",
+    "roman": "Moctezuma II",
+    "pronun_ko": "목테수마",
+    "en": "Moctezuma II",
+    "ko": "목테수마 2세",
+    "alias": "몬테수마"
+   },
+   "nationality": "아스텍 제국",
+   "lifespan": "1466?~1520",
+   "oneLine": "아스텍 최전성기의 황제 — 무너지는 제국을 지켜봐야 했던 마지막 위엄",
+   "bio": [
+    "아스텍 제국이 가장 넓고 화려하던 시기의 황제예요. 그의 테노치티틀란은 인구 약 20만의 호수 위 계획도시로, 당시 유럽의 어떤 도시보다 컸어요. 정교한 달력과 수경 농업, 거대한 시장 — '미개'와는 정반대의 문명을 다스렸죠.",
+    "1519년 낯선 침입자들 앞에서 그는 무력 대신 선물과 외교로 시간을 벌려 했어요. 신중한 정보 수집이었는지 치명적 주저였는지, 역사가들의 평가는 갈려요. 분명한 건 그가 곧 스페인군의 인질이 되어 제국의 권위가 흔들리는 것을 지켜봐야 했다는 거예요.",
+    "1520년 혼란 속에 목숨을 잃었어요 — 성난 군중의 돌에 맞았다는 스페인 측 기록과, 스페인군이 살해했다는 원주민 측 기록이 엇갈리죠. 죽음의 진실조차 기록 싸움이 된 것 — 패배한 쪽의 역사가 어떻게 쓰이는지 보여 주는 인물이에요."
+   ],
+   "personTimeline": [
+    {
+     "yr": "1466?",
+     "t": "출생"
+    },
+    {
+     "yr": "1502",
+     "t": "아스텍 황제 즉위 — 제국 최전성기"
+    },
+    {
+     "yr": "1519.11",
+     "t": "코르테스 일행 입성 — 이후 인질로"
+    },
+    {
+     "yr": "1520.6",
+     "t": "혼란 속 사망 (기록 엇갈림)"
+    }
+   ],
+   "lightShadow": "찬란한 문명의 통치자이자, 침입 앞에서 판단이 엇갈린 지도자. 그를 '우유부단한 패배자'로만 기록한 것은 대부분 승자의 펜이었다는 점을 기억하세요 — 그의 도시와 문명이 얼마나 정교했는지가 함께 기억되어야 공정해요.",
+   "portrait": {
+    "src": "img/moctezuma.jpg",
+    "alt": "목테수마 2세 초상 (후대 제작)",
+    "source": "Wikimedia Commons — Moctezuma II portrait",
+    "license": "퍼블릭 도메인",
+    "note": "당대 실물 초상은 남아 있지 않아요 — 후대 화가의 상상 초상이에요."
+   },
+   "links": [
+    {
+     "label": "위키백과 (한국어)",
+     "url": "https://ko.wikipedia.org/wiki/목테수마_2세",
+     "lang": "ko",
+     "type": "wiki"
+    },
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/wiki/Moctezuma_II",
+     "lang": "en",
+     "type": "wiki"
+    },
+    {
+     "label": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Montezuma-II",
+     "lang": "en",
+     "type": "encyclopedia"
+    }
+   ],
+   "related": [
+    {
+     "ep": "exploration",
+     "section": "conquest",
+     "label": "정복 — 아스텍과 잉카",
+     "epLabel": "바다 너머로"
+    }
+   ],
+   "reflect": "낯설고 강한 상대를 만났을 때 — 싸움, 협상, 시간 벌기. 목테수마의 자리에서 너라면 무엇을 골랐을까? (정답 없는 질문이에요.)"
+  },
+  {
+   "slug": "atahualpa",
+   "face": "👑",
+   "names": {
+    "native": "Atawallpa",
+    "roman": "Atahualpa",
+    "pronun_ko": "아타우알파",
+    "en": "Atahualpa",
+    "ko": "아타우알파",
+    "alias": ""
+   },
+   "nationality": "잉카 제국",
+   "lifespan": "1502?~1533",
+   "oneLine": "잉카의 마지막 황제 — 역사상 가장 큰 몸값, 그리고 지켜지지 않은 약속",
+   "bio": [
+    "안데스 4,000km를 도로망으로 잇고 키푸(매듭 문자)로 제국을 관리하던 잉카의 황제예요. 천연두로 아버지 황제가 급사한 뒤 형제와의 내전에서 막 승리한 참이었죠 — 그 절묘하게 나쁜 타이밍에 피사로의 168명이 들이닥쳤어요.",
+    "1532년 카하마르카에서 기습으로 사로잡힌 그는, 자신의 몸값으로 '방 하나를 금으로, 두 방을 은으로 채우겠다'고 제안하고 실제로 지켰어요 — 역사상 가장 큰 몸값으로 불리죠. 사로잡힌 뒤에도 위엄을 잃지 않았고, 감시병들에게 체스를 배워 이겼다는 일화도 전해져요.",
+    "그러나 스페인은 몸값을 다 받고도 1533년 그를 처형했어요. 제국은 머리를 잃었지만 저항은 끝나지 않았죠 — 빌카밤바의 신(新)잉카가 1572년까지 40년을 버텼고, 잉카의 언어 케추아어는 지금도 수백만 명이 쓰는 살아 있는 언어예요."
+   ],
+   "personTimeline": [
+    {
+     "yr": "1502?",
+     "t": "출생"
+    },
+    {
+     "yr": "1532 초",
+     "t": "내전 승리 — 황제로"
+    },
+    {
+     "yr": "1532.11",
+     "t": "카하마르카 기습 — 생포"
+    },
+    {
+     "yr": "1533.7",
+     "t": "몸값 완납 후 처형"
+    },
+    {
+     "yr": "~1572",
+     "t": "(사후) 빌카밤바 신잉카 40년 항전"
+    }
+   ],
+   "lightShadow": "사로잡혀서도 품위를 지킨 거대 제국의 황제 — 그의 비극은 '약속을 지킨 쪽'과 '약속을 깬 쪽'이 누구였는지를 분명히 보여 줘요. '문명이 야만을 정복했다'는 옛 서사를 뒤집는 가장 강력한 증거 중 하나예요.",
+   "portrait": {
+    "src": "img/atahualpa.jpg",
+    "alt": "아타우알파 초상 (후대 제작)",
+    "source": "Wikimedia Commons — Atahualpa portrait",
+    "license": "퍼블릭 도메인",
+    "note": "당대 실물 초상은 남아 있지 않아요 — 후대의 초상이에요."
+   },
+   "links": [
+    {
+     "label": "위키백과 (한국어)",
+     "url": "https://ko.wikipedia.org/wiki/아타우알파",
+     "lang": "ko",
+     "type": "wiki"
+    },
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/wiki/Atahualpa",
+     "lang": "en",
+     "type": "wiki"
+    },
+    {
+     "label": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Atahuallpa",
+     "lang": "en",
+     "type": "encyclopedia"
+    }
+   ],
+   "related": [
+    {
+     "ep": "exploration",
+     "section": "conquest",
+     "label": "정복 — 아스텍과 잉카",
+     "epLabel": "바다 너머로"
+    }
+   ],
+   "reflect": "몸값을 받고도 약속을 깬 쪽은 어느 쪽이었나 — '문명'과 '야만'이라는 말을 다시 생각하게 하는 이 이야기에서, 너는 무엇을 느꼈어?"
   }
  ]
 }
