@@ -36,4 +36,12 @@
 - 색인 버그(EP_ORDER)처럼 '빌더의 조용한 누락'은 fallback+경고로 원천 차단하는 패턴이 옳음 — build_people에 적용 완료.
 - 11섹션 일괄 제작에서도 '섹션 임시 JSON→조립 검증' 패턴 무사고 유지.
 
-(이하 배포 검증 라운드 append)
+## Round 3 — 배포·라이브 검증 (NCC, 0611, 실측)
+| 항목 | 실측 결과 |
+|---|---|
+| 소스 push | `4c2d96d`(콘텐츠) → `f3ea8f1`(완성) ✅ |
+| 배포 push | `d762b2e` ✅ |
+| 라이브 | `/history/americas/` 200 + north-america/latin-america 200 + 자산(american_progress·machu_picchu) 200 + 도감(sitting-bull·bolivar) 200 + 북미 본문 '눈물의 길' 마커 ✅ |
+
+**URL**: https://jwj-nick.github.io/history/americas/ (랜딩) → north-america(6섹션)·latin-america(5섹션) · 도감 https://jwj-nick.github.io/history/people/
+**이후 같은 세션에서 powers 2차분(러시아·latecomers)까지 완성 — `0611_worklog_powers.md` Round 4 참조. 시리즈 현황: 에피소드 4 + 지역 허브 1(에피소드 2) = 총 6 SPA, 27섹션, 도감 38인.**
