@@ -81,6 +81,15 @@ CSS = """
   .plist.compact .pname{font-size:15px;}
   .plist.compact .pone{display:none;}
   .plist.compact .pmeta{margin-top:1px;}
+  /* ---- 패싯(지역·시대) 칩 ---- */
+  .facets{margin-top:10px;display:grid;gap:7px;}
+  .fbar{display:flex;gap:6px;flex-wrap:wrap;align-items:center;}
+  .fbar .fl{font-size:11px;color:var(--muted);font-weight:800;flex:0 0 34px;letter-spacing:.02em;}
+  .chip{font-family:inherit;font-size:12.5px;font-weight:700;color:var(--navy);background:#fff;border:1px solid var(--line);border-radius:999px;padding:5px 12px;cursor:pointer;line-height:1.2;}
+  .chip:hover{border-color:var(--accent);}
+  .chip.on{background:var(--accent);color:#fff;border-color:var(--accent);}
+  .chip .c{opacity:.55;font-weight:600;margin-left:5px;font-size:10.5px;}
+  .chip.on .c{opacity:.85;}
   /* ---- 상세 ---- */
   .portrait{text-align:center;margin:4px 0 20px;}
   .portrait img{max-width:260px;width:60%;border-radius:14px;border:1px solid var(--line);box-shadow:var(--shadow);}
@@ -181,6 +190,7 @@ INDEX_TMPL = """<!DOCTYPE html>
     <div class="intro">역사는 사건이 아니라 <b>사람</b>의 이야기예요. 사진을 보고, 그 나라 말로 이름을 읽어 보고, 한 사람의 삶을 따라가 보세요. 누구나 <b>빛과 그림자</b>를 함께 가지고 있답니다. (탐구학습 '인물 조사'에 바로 쓸 수 있어요.)</div>
     <div class="toolbar">
       <input id="q" class="search" type="search" placeholder="🔍 이름·나라·키워드로 찾기 (예: 혁명, 조선, 화가, Napoleon)" autocomplete="off">
+      __FACETS__
       <div class="ctrls">
         <span class="lbl">정렬</span>
         <select id="sort">
@@ -200,12 +210,17 @@ INDEX_TMPL = """<!DOCTYPE html>
     var cards=[].slice.call(list.querySelectorAll('.pcard'));
     var q=document.getElementById('q'),sortSel=document.getElementById('sort'),
         viewBtn=document.getElementById('view'),countEl=document.getElementById('count');
-    var compact=false;
+    var chips=[].slice.call(document.querySelectorAll('.chip'));
+    var compact=false,sel={region:'',era:''};
     function norm(s){return (s||'').toLowerCase();}
     function render(){
-      var term=norm(q.value).trim();
-      var mode=sortSel.value;
-      var vis=cards.filter(function(c){return !term||norm(c.getAttribute('data-search')).indexOf(term)>=0;});
+      var term=norm(q.value).trim(),mode=sortSel.value;
+      var vis=cards.filter(function(c){
+        if(term&&norm(c.getAttribute('data-search')).indexOf(term)<0)return false;
+        if(sel.region&&c.getAttribute('data-region')!==sel.region)return false;
+        if(sel.era&&c.getAttribute('data-era')!==sel.era)return false;
+        return true;
+      });
       if(mode==='ko'){vis.sort(function(a,b){return a.getAttribute('data-ko').localeCompare(b.getAttribute('data-ko'),'ko');});}
       else if(mode==='birth'){vis.sort(function(a,b){return (+a.getAttribute('data-birth'))-(+b.getAttribute('data-birth'));});}
       else{vis.sort(function(a,b){var d=(+a.getAttribute('data-ep'))-(+b.getAttribute('data-ep'));return d||(+a.getAttribute('data-i'))-(+b.getAttribute('data-i'));});}
@@ -216,12 +231,19 @@ INDEX_TMPL = """<!DOCTYPE html>
         list.appendChild(c);
       });
       list.className='plist'+(compact?' compact':'');
-      countEl.textContent=term?(vis.length+'명 / 전체 '+cards.length+'명'):(cards.length+'명');
-      if(!vis.length){var e=document.createElement('div');e.className='nohit';e.textContent='검색 결과가 없어요. 다른 말로 찾아보세요.';list.appendChild(e);}
+      chips.forEach(function(ch){var f=ch.getAttribute('data-facet'),v=ch.getAttribute('data-val');ch.classList.toggle('on',sel[f]===v);});
+      var f=(sel.region||sel.era||term)?(vis.length+'명 / 전체 '+cards.length+'명'):(cards.length+'명');
+      countEl.textContent=f;
+      if(!vis.length){var e=document.createElement('div');e.className='nohit';e.textContent='해당하는 인물이 없어요. 다른 조건으로 찾아보세요.';list.appendChild(e);}
     }
     q.addEventListener('input',render);
     sortSel.addEventListener('change',render);
     viewBtn.addEventListener('click',function(){compact=!compact;viewBtn.textContent=compact?'카드 보기':'목록 보기';render();});
+    chips.forEach(function(ch){ch.addEventListener('click',function(){
+      var f=ch.getAttribute('data-facet'),v=ch.getAttribute('data-val');
+      sel[f]=(sel[f]===v)?'':v;  // 같은 칩 다시 누르면 해제. '전체'(v='')는 항상 해제
+      render();
+    });});
     render();
   })();
   </script>
@@ -286,7 +308,43 @@ def era_of(p):
     return (qc.get("era") if qc else "") or p.get("lifespan", "")
 
 
-def index_card(p, i, ep_idx, eplabel):
+# 지역(출신) 패싯 — nationality 문자열 매칭. p["region"]으로 개별 override 가능.
+REGION_RULES = [
+    (["대한", "조선", "한국", "북한"], "한국"),
+    (["일본", "청나라", "중국", "중화"], "일본·중국"),
+    (["아스텍", "아즈텍", "잉카", "아이티", "생도맹", "베네수", "대콜롬비아", "아르헨", "멕시코", "페루", "라틴"], "라틴아메리카"),
+    (["에티오피아", "콩고"], "아프리카"),
+    (["인도", "잔시"], "남아시아"),
+    (["미국", "미합중국", "라코타", "헝크파파"], "북아메리카"),
+]
+REGION_ORDER = ["한국", "일본·중국", "유럽", "북아메리카", "라틴아메리카", "아프리카", "남아시아"]
+# 시대(출생 연도) 패싯 — (상한 미만, 라벨, 정렬키). 빈 버킷은 칩에서 자동 제외.
+ERA_BUCKETS = [(1500, "르네상스·대항해", 1), (1600, "종교개혁·정복", 2), (1700, "절대왕정·과학혁명", 3),
+               (1800, "계몽·혁명", 4), (1850, "혁명과 국민국가", 5), (1900, "제국주의 절정", 6),
+               (3000, "세계대전·현대", 7)]
+
+
+def region_of(p):
+    if p.get("region"):
+        return p["region"]
+    nat = p.get("nationality", "")
+    for keys, label in REGION_RULES:
+        if any(k in nat for k in keys):
+            return label
+    return "유럽"  # 나머지(유럽 국가가 대부분)
+
+
+def era_tag(p):
+    y = birth_year(p)
+    if y == 9999:
+        return ("기타", 9)
+    for ub, label, order in ERA_BUCKETS:
+        if y < ub:
+            return (label, order)
+    return ("세계대전·현대", 7)
+
+
+def index_card(p, i, ep_idx, eplabel, region, era):
     src = esc(p["portrait"]["src"])
     name = esc(p["names"]["ko"])
     one = esc(p.get("oneLine", ""))
@@ -294,10 +352,10 @@ def index_card(p, i, ep_idx, eplabel):
     n = p["names"]
     kws = (p.get("quickCard") or {}).get("keywords", [])
     blob = " ".join(x for x in [n.get("ko"), n.get("native"), n.get("roman"), n.get("en"),
-                                n.get("alias"), p.get("nationality"), era_of(p), one] + kws if x)
+                                n.get("alias"), p.get("nationality"), era_of(p), region, era, one] + kws if x)
     return (
-        '<a class="pcard" href="%s/index.html" data-i="%d" data-ep="%d" data-eplabel="%s" data-ko="%s" data-birth="%d" data-search="%s">'
-        % (esc(p["slug"]), i, ep_idx, esc(eplabel), name, birth_year(p), esc(blob))
+        '<a class="pcard" href="%s/index.html" data-i="%d" data-ep="%d" data-eplabel="%s" data-ko="%s" data-birth="%d" data-region="%s" data-era="%s" data-search="%s">'
+        % (esc(p["slug"]), i, ep_idx, esc(eplabel), name, birth_year(p), esc(region), esc(era), esc(blob))
         + '<img class="ph" src="%s" alt="%s" loading="lazy">' % (src, esc(p["portrait"].get("alt", name)))
         + '<div class="pinfo"><div class="pname">%s</div><div class="pone">%s</div><div class="pmeta">%s · %s</div></div>'
         % (name, one, esc(eplabel), meta)
@@ -305,20 +363,39 @@ def index_card(p, i, ep_idx, eplabel):
     )
 
 
+def facet_bar(label, name, items):
+    chips = ['<button class="chip on" type="button" data-facet="%s" data-val="">전체</button>' % name]
+    for val, cnt in items:
+        chips.append('<button class="chip" type="button" data-facet="%s" data-val="%s">%s<span class="c">%d</span></button>'
+                     % (name, esc(val), esc(val), cnt))
+    return '<div class="fbar"><span class="fl">%s</span>%s</div>' % (label, "".join(chips))
+
+
 def build_index(people):
-    # 시대 사슬 순으로 미리 정렬해 둠(JS 'ep' 모드의 기본 순서·data-i 안정).
+    # 시대 사슬 순으로 미리 정렬(JS 'ep' 기본 순서·data-i 안정).
     ordered = sorted(enumerate(people), key=lambda t: (ep_meta(t[1])[0], t[0]))
-    cards = []
-    rest = 0
+    cards, rest = [], 0
+    reg_count, era_count, era_order = {}, {}, {}
     for i, (_, p) in enumerate(ordered):
         ep_idx, eplabel = ep_meta(p)
         if ep_idx == len(EP_ORDER):
             rest += 1
-        cards.append(index_card(p, i, ep_idx, eplabel))
+        region = region_of(p)
+        era, eo = era_tag(p)
+        reg_count[region] = reg_count.get(region, 0) + 1
+        era_count[era] = era_count.get(era, 0) + 1
+        era_order[era] = eo
+        cards.append(index_card(p, i, ep_idx, eplabel, region, era))
     if rest:
         sys.stdout.write("  [warn] EP_ORDER fallback group: %d people\n" % rest)
+    reg_items = [(r, reg_count[r]) for r in REGION_ORDER if r in reg_count]
+    reg_items += [(r, c) for r, c in reg_count.items() if r not in REGION_ORDER]
+    era_items = sorted(era_count.items(), key=lambda kv: era_order[kv[0]])
+    facets = '<div class="facets">%s%s</div>' % (facet_bar("지역", "region", reg_items),
+                                                 facet_bar("시대", "era", era_items))
     body = '<div id="plist" class="plist">%s</div>' % "".join(cards)
-    page = INDEX_TMPL.replace("__CSS__", CSS).replace("__BODY__", body).replace("__COUNT__", str(len(people)))
+    page = (INDEX_TMPL.replace("__CSS__", CSS).replace("__FACETS__", facets)
+            .replace("__BODY__", body).replace("__COUNT__", str(len(people))))
     (OUT / "index.html").write_text(page, encoding="utf-8")
 
 
