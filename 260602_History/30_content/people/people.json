@@ -4233,6 +4233,13 @@
       "title": "스탠딩록 보호구역",
       "note": "그가 살해된 곳 — 2016년 송유관 반대 시위로도 알려진 땅."
      }
+    ],
+    "media": [
+     {
+      "title": "HISTORY 다큐 〈Sitting Bull〉 (2025)",
+      "note": "🟢 라코타 배우·제작진이 함께 만든 2025년 다큐시리즈의 한 장면 — 미군에 맞선 저항.",
+      "url": "https://www.youtube.com/watch?v=bvw4har4dyc"
+     }
     ]
    },
    "journey": {
@@ -4308,7 +4315,33 @@
      ]
     ],
     "caption": "현재 지도 위 경로예요. 가장 큰 전투를 이기고도, 들소가 사라진 평원에서는 살아갈 방법이 없었어요 — 한 사람의 용기로는 막을 수 없는 구조의 비극이죠."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/sittingbull_buffalobill.jpg",
+     "title": "시팅 불과 버펄로 빌 (1885)",
+     "alt": "스튜디오에서 함께 촬영한 라코타 사람들과 버펄로 빌의 단체 사진",
+     "caption": " — 가운데 깃털 머리장식을 쓰고 앉은 이가 시팅 불, 뒤에 선 긴 머리의 백인이 버펄로 빌이에요. 자신을 무찌른 나라의 무대에 선 전사 — 묘한 장면이죠.",
+     "source": "Wikimedia Commons (Notman studio)",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/sittingbull_littlebighorn.jpg",
+     "title": "〈커스터의 마지막 전투〉 석판화",
+     "alt": "리틀빅혼 전투를 묘사한 화려한 상업용 석판화",
+     "caption": " — 리틀빅혼 전투를 그린 유명한 상업용 석판화(맥주 회사가 광고로 뿌렸어요). 철저히 '미국 쪽 시선'으로 그린 영웅화지만 — 정작 그 전투의 승자는 시팅 불의 연합이었다는 걸 떠올리며 보세요.",
+     "source": "Wikimedia Commons (F. Otto Becker)",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/sittingbull_battlefield.jpg",
+     "title": "리틀빅혼 전장 (몬태나, 현재)",
+     "alt": "황금빛 풀밭에 흰 비석들이 흩어진 리틀빅혼 전장",
+     "caption": " — 지금의 리틀빅혼 국립기념지예요. 풀밭의 하얀 비석들은 쓰러진 병사들이 있던 자리를 표시해요. 이긴 전투였지만, 그 뒤에 온 것은 평원 전체의 비극이었죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY 4.0"
+    }
+   ]
   },
   {
    "slug": "toussaint",
@@ -4485,6 +4518,13 @@
       "note": "투생이 갇혀 숨진 추운 산악 감옥.",
       "url": "https://en.wikipedia.org/wiki/Fort_de_Joux"
      }
+    ],
+    "media": [
+     {
+      "title": "TED-Ed 〈아이티의 처음이자 마지막 왕〉",
+      "note": "🟢 투생의 혁명이 낳은 나라 아이티를 다룬 TED-Ed 애니메이션 — 동료 크리스토프를 통해 혁명 전체를 봐요(영어/자막).",
+      "url": "https://www.youtube.com/watch?v=q7lfSjjMNU8"
+     }
     ]
    },
    "journey": {
@@ -4560,7 +4600,33 @@
      ]
     ],
     "caption": "현재 지도 위 경로예요. 카리브해의 농장에서 알프스의 감옥까지 — 그러나 그가 연 자유의 길은 그가 죽은 자리에서 끊기지 않았어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/toussaint_general.jpg",
+     "title": "투생 루베르튀르 (19세기 판화)",
+     "alt": "장군 모자를 쓴 투생 루베르튀르의 판화 초상",
+     "caption": " — 장군의 모자를 쓴 투생이에요. 노예로 태어나 혁명군 최고 지휘관이 된 사람이죠. 생전 실물 초상은 드물어 대부분 후대의 판화로 전해져요.",
+     "source": "Wikimedia Commons (L. Dumont 판화)",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/toussaint_revolt.jpg",
+     "title": "카프프랑세의 화재 (1791)",
+     "alt": "1791년 노예 봉기로 불타는 항구 도시를 그린 채색 판화",
+     "caption": " — 1791년 노예 대봉기로 불타는 항구 도시 카프프랑세를 그린 당대의 채색 판화예요. 투생이 합류한 바로 그 봉기죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/toussaint_fortdejoux.jpg",
+     "title": "샤토 드 주 (프랑스 쥐라산맥)",
+     "alt": "프랑스 산악 지대의 돌로 지은 요새",
+     "caption": " — 투생이 갇혀 숨진 알프스 자락의 추운 산악 요새예요. 카리브의 더운 섬에서 온 그에게는 가혹한 곳이었죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 3.0"
+    }
+   ]
   },
   {
    "slug": "bolivar",
@@ -4747,6 +4813,13 @@
       "title": "산타마르타 (콜롬비아)",
       "note": "분열 속에 그가 마지막 숨을 거둔 곳."
      }
+    ],
+    "media": [
+     {
+      "title": "영화 〈The Liberator (해방자)〉 공식 예고편",
+      "note": "🟢 에드가르 라미레스가 볼리바르를 연기한 2013년 영화 — 미국 배급사(Cohen Media) 공식 예고편(영어).",
+      "url": "https://www.youtube.com/watch?v=_HKFK_FZLqU"
+     }
     ]
    },
    "journey": {
@@ -4835,7 +4908,33 @@
      ]
     ],
     "caption": "현재 지도 위 경로예요. 대륙의 절반을 해방했지만 '하나의 라틴아메리카'라는 꿈은 그의 손에서 흩어졌어요 — 마지막 화살표가 다시 카리브 해안의 쓸쓸한 죽음으로 향한 게 이 인물의 그림자예요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/bolivar_andes.jpg",
+     "title": "안데스를 넘는 해방군 (판화)",
+     "alt": "좁은 산길을 말과 함께 넘는 군대를 그린 19세기 판화",
+     "caption": " — 우기의 늪과 얼어붙은 고개를 넘는 볼리바르의 군대를 그린 19세기 판화예요. 이 무모해 보이는 횡단이 보야카의 승리로 이어졌죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/bolivar_boyaca.jpg",
+     "title": "마르틴 토바르 이 토바르 〈보야카 전투〉",
+     "alt": "1819년 보야카 전투의 격전을 그린 역사화",
+     "caption": " — 1819년 보야카 전투를 그린 베네수엘라의 대표적 역사화예요. 노랑·파랑·빨강 깃발은 볼리바르가 세운 '대콜롬비아'의 것이죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/bolivar_statue.jpg",
+     "title": "시몬 볼리바르 동상 (카라카스)",
+     "alt": "카라카스 도심에 선 볼리바르 동상",
+     "caption": " — 오늘날 카라카스 도심에 선 볼리바르예요. 베네수엘라를 비롯한 여러 나라가 그를 '해방자'로 기려요. 통합의 꿈은 깨졌지만 그의 이름은 대륙에 남았죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY 3.0"
+    }
+   ]
   },
   {
    "slug": "san-martin",
@@ -5946,6 +6045,13 @@
       "note": "그의 망원경과 (보존된) 손가락이 전시된 곳.",
       "url": "https://en.wikipedia.org/wiki/Museo_Galileo"
      }
+    ],
+    "media": [
+     {
+      "title": "PBS NOVA 〈Galileo's Battle for the Heavens〉",
+      "note": "🟢 내가 추천한 책 『갈릴레오의 딸』을 바탕으로 만든 다큐멘터리 — PBS 공식 페이지에서 볼 수 있어요(영어).",
+      "url": "https://www.pbs.org/wgbh/nova/video/galileos-battle-for-the-heavens/"
+     }
     ]
    },
    "journey": {
@@ -6021,7 +6127,33 @@
      ]
     ],
     "caption": "현재 지도 위 경로예요. 하늘을 향했던 망원경이, 결국 작은 시골집의 연금으로 끝났어요 — 그러나 그가 그 집에서 쓴 마지막 책이 뉴턴에게 닿았죠."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/galilei_moon.jpg",
+     "title": "갈릴레이의 달 스케치 vs 실제 달",
+     "alt": "왼쪽 갈릴레이의 1610년 달 잉크 스케치, 오른쪽 같은 위상의 실제 달 사진",
+     "caption": " — 왼쪽은 갈릴레이가 1610년 망원경으로 보고 그린 달, 오른쪽은 같은 위상의 실제 사진이에요. 산과 분화구까지 — 그가 얼마나 정확히 봤는지 보이죠. '하늘은 완벽한 구슬'이라던 옛 믿음이 깨진 순간이에요.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/galilei_trial.jpg",
+     "title": "로베르플뢰리 〈종교재판 앞의 갈릴레이〉",
+     "alt": "추기경들 앞에 선 늙은 갈릴레이를 그린 19세기 회화",
+     "caption": " — 1633년 종교재판 장면을 그린 19세기 그림이에요. 늙은 갈릴레이가 추기경들 앞에 섰죠. 진리를 알면서도 살아남기 위해 철회해야 했던, 과학사에서 가장 무거운 장면 중 하나예요.",
+     "source": "Wikimedia Commons (Robert-Fleury)",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/galilei_telescope.jpg",
+     "title": "갈릴레이의 망원경 (피렌체 갈릴레오 박물관)",
+     "alt": "나무로 만든 갈릴레이의 망원경 통 실물 근접 사진",
+     "caption": " — 갈릴레이가 직접 갈아 만든 망원경의 실물이에요. 이 작은 통 하나가 우주의 중심을 옮겼죠.",
+     "source": "Wikimedia Commons (Museo Galileo)",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "slug": "rousseau",
