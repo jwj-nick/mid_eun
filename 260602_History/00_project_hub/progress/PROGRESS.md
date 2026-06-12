@@ -21,6 +21,8 @@
 | 02 | `imperialism` | 제국주의와 19세기 | ✅ 배포 (8/8 풀 업그레이드) | https://jwj-nick.github.io/history/imperialism/ |
 | 03 | `powers` | 유럽 열강 열전 | ✅ 완성 (7/7: 도입·영·프·독·러·벨·후발 / 도감 38인) | https://jwj-nick.github.io/history/powers/ |
 | 04 | `exploration` | 바다 너머로 — 대항해시대 | ✅ 배포 (8/8 풀 업그레이드) | https://jwj-nick.github.io/history/exploration/ |
+| 05 | `renaissance` | 다시 태어난 인간 — 르네상스·종교개혁 | ✅ 배포 (7/7) | https://jwj-nick.github.io/history/renaissance/ |
+| 06 | `revolutions` | 자유를 향하여 — 계몽·시민혁명 | ✅ 배포 (7/7) | https://jwj-nick.github.io/history/revolutions/ |
 | 🌎 | `americas` | 아메리카 허브 (북미 6 + 남미 5섹션, 도감 37인) | ✅ 배포 (랜딩+2에피소드) | https://jwj-nick.github.io/history/americas/ |
 | — | `coldwar` | 냉전(F2) | 후보 (보류) | — |
 
@@ -34,8 +36,8 @@
 | ③ | 아메리카(지역) | `americas` | `plan/0610_plan_hub_americas.md` | ✅ 배포(0611, 랜딩+11섹션) |
 | ✅ | 제국주의 | `imperialism` | (배포 완료, 8/8) | ✅ |
 | ✅ | 세계대전 | `ww2` | (배포 완료, 8/8) | ✅ |
-| KEEP | 계몽·시민혁명 | `revolutions` | `plan/0610_plan_hub_revolutions.md` | 🔵 future |
-| KEEP | 르네상스·종교개혁 | `renaissance` | `plan/0610_plan_hub_renaissance.md` | 🔵 future |
+| ✅ | 계몽·시민혁명 | `revolutions` | `plan/0610_plan_hub_revolutions.md` | ✅ 배포(0612) |
+| ✅ | 르네상스·종교개혁 | `renaissance` | `plan/0610_plan_hub_renaissance.md` | ✅ 배포(0612) |
 
 ## 스킬 정련 상태 (추출형)
 | 스킬 | 상태 |
