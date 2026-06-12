@@ -2583,7 +2583,33 @@
      ]
     ],
     "caption": "현재 지도 위 경로예요. 외교관으로 유럽을 돌며 힘의 논리를 배운 사람이, 끝내 적국의 궁전에서 자기 제국을 선포한 길이에요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/bismarck_portrait.jpg",
+     "title": "오토 폰 비스마르크 (1873)",
+     "alt": "콧수염을 기른 비스마르크의 판화 초상",
+     "caption": " — '철혈 재상'으로 불린 그의 초상이에요. 외교관 시절을 거쳐 프로이센 재상이 된 무렵의 모습.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/bismarck_versailles.jpg",
+     "title": "안톤 폰 베르너 〈베르사유의 황제 선포〉 (1871)",
+     "alt": "베르사유 거울의 방에서 독일제국 선포 — 흰 군복의 비스마르크가 중앙에",
+     "caption": " — 프랑스 베르사유 궁전 '거울의 방'에서 독일제국이 선포되는 장면이에요. 한가운데 흰 군복을 입은 이가 비스마르크죠. 적국의 궁전에서 자기 제국을 세운, 그의 외교가 도달한 정점이에요.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/bismarck_pilot.jpg",
+     "title": "〈키잡이를 내리다 (Dropping the Pilot)〉 (1890)",
+     "alt": "배에서 내리는 늙은 항해사 비스마르크와 난간에서 지켜보는 빌헬름 2세",
+     "caption": " — 영국 풍자지 《펀치》의 유명한 만평이에요. 늙은 항해사(비스마르크)가 배에서 내리고, 젊은 황제 빌헬름 2세가 난간에서 지켜봐요. 통일을 이끈 재상이 새 황제와 갈라서 물러나는 순간 — 권력의 끝을 그린 그림이죠.",
+     "source": "Wikimedia Commons (Punch, 1890)",
+     "license": "퍼블릭 도메인"
+    }
+   ]
   },
   {
    "slug": "leopold-ii",
@@ -3301,34 +3327,39 @@
      {
       "title": "워싱턴 — 그의 생애 (Washington: A Life)",
       "by": "론 처노",
-      "note": "퓰리처상을 받은 표준 전기 — 신화가 아니라 인간 워싱턴을 입체적으로."
+      "note": "퓰리처상을 받은 표준 전기 — 신화가 아니라 인간 워싱턴을 입체적으로.",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=All&SearchWord=%EC%A1%B0%EC%A7%80%20%EC%9B%8C%EC%8B%B1%ED%84%B4%20%ED%8F%89%EC%A0%84"
      },
      {
       "title": "1776",
       "by": "데이비드 매컬러",
-      "note": "독립전쟁의 가장 위태로웠던 한 해 — 사령관 워싱턴이 거기 있어요."
+      "note": "독립전쟁의 가장 위태로웠던 한 해 — 사령관 워싱턴이 거기 있어요.",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=All&SearchWord=1776%20%EB%8D%B0%EC%9D%B4%EB%B9%84%EB%93%9C%20%EB%A7%A4%EC%BB%AC%EB%9F%AC"
      }
     ],
     "primary": [
      {
       "title": "워싱턴 고별사 전문",
-      "note": "당파와 외국 동맹에 대한 경고 — 지금 읽어도 놀랄 만큼 구체적이에요."
+      "note": "당파와 외국 동맹에 대한 경고 — 지금 읽어도 놀랄 만큼 구체적이에요.",
+      "url": "https://en.wikipedia.org/wiki/Washington%27s_Farewell_Address"
      },
      {
       "title": "워싱턴 유언장(노예 해방 조항)",
-      "note": "마운트버넌 공식 사이트에서 원문과 해설을 볼 수 있어요."
+      "note": "마운트버넌 — 유언으로 노예를 해방한 건국 세대의 드문 사례."
      }
     ],
     "media": [
      {
-      "title": "다큐 〈Washington〉 (히스토리 채널)",
-      "note": "🟢 군인·대통령·노예주라는 세 얼굴을 함께 다룬 미니시리즈."
+      "title": "다큐 〈Washington〉 (히스토리 채널, 2020)",
+      "note": "🟢 군인·대통령·노예주라는 세 얼굴을 함께 다룬 미니시리즈 — 공식 예고편.",
+      "url": "https://www.youtube.com/watch?v=i-bD7T0n_M8"
      }
     ],
     "places": [
      {
       "title": "마운트버넌 (버지니아)",
-      "note": "워싱턴의 농장 저택과 노예 거주지·묘 — 빛과 그림자가 한자리에 있어요."
+      "note": "워싱턴의 농장 저택과 노예 거주지·묘 — 빛과 그림자가 한자리에.",
+      "url": "https://en.wikipedia.org/wiki/Mount_Vernon"
      },
      {
       "title": "워싱턴 기념탑 (워싱턴 D.C.)",
@@ -3604,38 +3635,45 @@
      {
       "title": "권력의 조건 (Team of Rivals)",
       "by": "도리스 컨스 굿윈",
-      "note": "정적들을 내각에 끌어안은 링컨의 리더십 — 영화 〈링컨〉의 바탕이 된 책."
+      "note": "정적들을 내각에 끌어안은 링컨의 리더십 — 영화 〈링컨〉의 바탕이 된 책.",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=All&SearchWord=%EA%B6%8C%EB%A0%A5%EC%9D%98%20%EC%A1%B0%EA%B1%B4%20%EB%8F%84%EB%A6%AC%EC%8A%A4%20%EA%B5%BF%EC%9C%88"
      },
      {
       "title": "링컨 — 게티즈버그 연설의 비밀",
       "by": "게리 윌스",
-      "note": "272단어가 어떻게 미국을 다시 세웠는지 한 연설을 깊이 파고든 명저."
+      "note": "272단어가 어떻게 미국을 다시 세웠는지 한 연설을 깊이 파고든 명저.",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=All&SearchWord=%EA%B2%8C%ED%8B%B0%EC%A6%88%EB%B2%84%EA%B7%B8%20%EC%97%B0%EC%84%A4%20%EA%B2%8C%EB%A6%AC%20%EC%9C%8C%EC%8A%A4"
      }
     ],
     "primary": [
      {
-      "title": "게티즈버그 연설·제2차 취임사 전문",
-      "note": "둘 다 매우 짧아요 — 번역으로 직접 읽어 보면 어록의 무게가 달라져요."
+      "title": "노예해방선언 원문",
+      "note": "미국 국립문서기록관리청(NARA)에서 원본 이미지를 볼 수 있어요.",
+      "url": "https://www.archives.gov/exhibits/featured-documents/emancipation-proclamation"
      },
      {
-      "title": "노예해방선언 원문",
-      "note": "미국 국립문서기록관리청(NARA)에서 원본 이미지를 볼 수 있어요."
+      "title": "게티즈버그 연설 친필(니콜레이 사본)",
+      "note": "미국 의회도서관(LOC) — 링컨의 손글씨를 원문으로.",
+      "url": "https://www.loc.gov/exhibits/gettysburg-address/ext/trans-nicolay-inscribed.html"
      }
     ],
     "media": [
      {
       "title": "영화 〈링컨〉 (2012, 스필버그)",
-      "note": "🟡 수정헌법 13조 통과를 둘러싼 마지막 몇 달의 정치 드라마 — 다소 길지만 깊어요."
+      "note": "🟡 수정헌법 13조 통과를 둘러싼 마지막 몇 달의 정치 드라마 — 공식 예고편.",
+      "url": "https://www.youtube.com/watch?v=KJVuqYkI2jQ"
      }
     ],
     "places": [
      {
       "title": "링컨 기념관 (워싱턴 D.C.)",
-      "note": "게티즈버그 연설과 제2차 취임사가 벽에 새겨져 있어요."
+      "note": "게티즈버그 연설과 제2차 취임사가 벽에 새겨져 있어요.",
+      "url": "https://www.nps.gov/linc/index.htm"
      },
      {
       "title": "게티즈버그 국립군사공원 (펜실베이니아)",
-      "note": "연설이 행해진 전투 묘지 — '그들이 헛되이 죽지 않게'의 현장."
+      "note": "연설이 행해진 전투 묘지 — '그들이 헛되이 죽지 않게'의 현장.",
+      "url": "https://www.nps.gov/gett/index.htm"
      }
     ]
    },
@@ -4606,20 +4644,23 @@
    "study": {
     "books": [
      {
-      "title": "마르틴 루터 (Martin Luther: The Man Who Rediscovered God...)",
+      "title": "마르틴 루터 (Martin Luther)",
       "by": "에릭 메택사스",
-      "note": "보름스의 그 순간을 중심으로 루터의 생애를 생생히 그린 대중 전기."
+      "note": "보름스의 그 순간을 중심으로 루터의 생애를 생생히 그린 대중 전기.",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=All&SearchWord=%EB%A7%88%EB%A5%B4%ED%8B%B4%20%EB%A3%A8%ED%84%B0%20%EB%A9%94%ED%83%9D%EC%82%AC%EC%8A%A4"
      },
      {
       "title": "루터 — 한 인간의 운명",
       "by": "뤼시앵 페브르",
-      "note": "고전적 평전 — 영웅도 악인도 아닌 '시대 속 인간'으로 루터를 본 책."
+      "note": "고전적 평전 — 영웅도 악인도 아닌 '시대 속 인간'으로 루터를 본 책.",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=All&SearchWord=%EB%A7%88%EB%A5%B4%ED%8B%B4%20%EB%A3%A8%ED%84%B0%20%ED%8F%89%EC%A0%84"
      }
     ],
     "primary": [
      {
       "title": "95개조 반박문",
-      "note": "생각보다 짧아요 — 면죄부 비판이 어떤 논리였는지 직접 확인해 보세요."
+      "note": "생각보다 짧아요 — 면죄부 비판이 어떤 논리였는지 직접 확인해 보세요.",
+      "url": "https://ko.wikipedia.org/wiki/95%EA%B0%9C%EC%A1%B0_%EB%B0%98%EB%B0%95%EB%AC%B8"
      },
      {
       "title": "루터 성경(독일어 신약) 영인본",
@@ -4629,7 +4670,8 @@
     "media": [
      {
       "title": "영화 〈루터〉 (2003)",
-      "note": "🟡 95개조부터 보름스 의회까지를 그린 전기 영화 — 입문용으로 좋아요."
+      "note": "🟡 95개조부터 보름스 의회까지를 그린 전기 영화 — 공식 예고편이에요.",
+      "url": "https://www.youtube.com/watch?v=Oe84Aolmmcg"
      }
     ],
     "places": [
@@ -4639,7 +4681,8 @@
      },
      {
       "title": "바르트부르크 성 (아이제나흐)",
-      "note": "쫓기던 루터가 숨어 성경을 번역한 방이 남아 있어요."
+      "note": "쫓기던 루터가 숨어 성경을 번역한 방이 남아 있어요.",
+      "url": "https://www.wartburg.de/en/"
      }
     ]
    },
@@ -5145,18 +5188,21 @@
      {
       "title": "나폴레옹 (Napoleon: A Life)",
       "by": "앤드루 로버츠",
-      "note": "방대한 서한을 토대로 한 균형 잡힌 현대 표준 전기."
+      "note": "방대한 서한을 토대로 한 균형 잡힌 현대 표준 전기.",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=All&SearchWord=%EB%82%98%ED%8F%B4%EB%A0%88%EC%98%B9%20%EC%95%A4%EB%93%9C%EB%A3%A8%20%EB%A1%9C%EB%B2%84%EC%B8%A0"
      },
      {
       "title": "시민들 (Citizens)",
       "by": "사이먼 샤마",
-      "note": "프랑스 혁명 전체의 흐름 속에서 나폴레옹이 어디서 왔는지 보여 주는 책."
+      "note": "프랑스 혁명 전체의 흐름 속에서 나폴레옹이 어디서 왔는지 보여 주는 책.",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=All&SearchWord=%ED%94%84%EB%9E%91%EC%8A%A4%20%ED%98%81%EB%AA%85%20%EC%82%AC%EC%9D%B4%EB%A8%BC%20%EC%83%A4%EB%A7%88"
      }
     ],
     "primary": [
      {
-      "title": "나폴레옹 법전(프랑스 민법전) 번역",
-      "note": "제1조부터 읽어 보면 '혁명을 규칙으로 굳힌다'는 말의 뜻이 보여요."
+      "title": "나폴레옹 법전(프랑스 민법전)",
+      "note": "제1조부터 읽어 보면 '혁명을 규칙으로 굳힌다'는 말의 뜻이 보여요.",
+      "url": "https://en.wikipedia.org/wiki/Napoleonic_Code"
      },
      {
       "title": "세인트헬레나 회고(라스 카즈 기록)",
@@ -5165,14 +5211,16 @@
     ],
     "media": [
      {
-      "title": "다큐 〈나폴레옹〉 (BBC/PBS 등)",
-      "note": "🟡 전쟁 장면이 많아요 — 정복과 법 개혁을 함께 다룬 다큐로 균형을."
+      "title": "영화 〈나폴레옹〉 (2023, 리들리 스콧)",
+      "note": "🟡 공식 예고편(Sony). 전쟁 장면이 많아요 — 부모와 함께. 정복과 법 개혁을 함께 생각하며.",
+      "url": "https://www.youtube.com/watch?v=pGvza2HNqAU"
      }
     ],
     "places": [
      {
       "title": "앵발리드 (파리)",
-      "note": "나폴레옹의 거대한 석관이 안치된 돔 — 사후의 영광을 눈으로."
+      "note": "나폴레옹의 거대한 석관이 안치된 돔 — 사후의 영광을 눈으로.",
+      "url": "https://en.wikipedia.org/wiki/Les_Invalides"
      },
      {
       "title": "아르크 드 트리옴프(개선문, 파리)",
