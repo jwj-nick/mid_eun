@@ -169,7 +169,10 @@
 - **중1 본문은 그대로, 펼치면 고등/일반 심화**(인과·논쟁·1차 사료·정밀 용어). 앱 전체의 대상 수준 상향 장치.
 
 ## People-gallery (인물 도감)
-### v2 (0606~, ★현행) — 단일소스 `30_content/people/people.json`
+### v3 (0612~, ★현행) — v2 + 선택 확장 필드 (SSOT = **`10_docs/PEOPLE_GUIDE.md`**)
+- v2 전 필드 유지 + 선택: `quickCard{era,keywords[],oneQuestion}`(중1 10초 카드) · `whyHere`(선정 이유) · `quotes[{text,context,source}]`(어록 — 출처 필수) · `deepDive[{h,body,source}]`(성인/전문 접이식) · `network[{slug,name,relation}]`(도감 내 연결) · `figuresLink{section,label}`(인물 이야기 역링크) · `study{books[],primary[],media[],places[]}`(학습 시발점 — 항목 `{title,by?,note,url?}`, url은 200 검증 시만).
+- 없으면 해당 패널 생략(v2 완전 호환). 제작 절차·체크리스트 = PEOPLE_GUIDE §3·§4.
+### v2 (0606~) — 단일소스 `30_content/people/people.json`
 - 인물 상세를 에피소드에서 **분리**해 `30_content/people/people.json` 으로 승격(SSOT). `python 40_build/build_people.py` → **색인** `50_app/people/index.html` + **인물별 페이지** `50_app/people/<slug>/index.html` + 이미지 복사 `50_app/people/img/`.
 - Person(v2) 필드: `slug` · `face` · `names{native,roman,pronun_ko,en,ko,alias}` · `nationality` · `lifespan` · `oneLine` · `bio[]`(문단) · `personTimeline[{yr,t}]` · `lightShadow` · `portrait{src,alt,source,license,note}` · `links[{label,url,lang,type}]` · `related[{ep,section,label,epLabel}]`(→ `/history/<ep>/#<section>` 역링크) · `reflect`(편지).
 - 이미지: `30_content/people/img/<slug>.jpg`(Wikimedia, 파일페이지에서 라이선스·출처 확인 후 다운로드, figcaption에 출처표기). 인물 추가 = people.json + img 추가 후 빌더 재실행.

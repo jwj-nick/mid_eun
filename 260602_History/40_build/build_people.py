@@ -91,6 +91,34 @@ CSS = """
   .lang{flex:0 0 auto;font-size:10.5px;font-weight:800;letter-spacing:.03em;color:#fff;background:var(--navy);border-radius:6px;padding:2px 7px;}
   .lang.official,.lang.encyclopedia{background:var(--accent);}
   .links .ext{margin-left:auto;color:var(--muted);font-size:11px;}
+  /* ---- v3 패널 ---- */
+  .qcard{background:linear-gradient(135deg,#fff,#FBF4EC);border:1.5px solid var(--gold);border-radius:15px;padding:15px 18px;box-shadow:var(--shadow-sm);margin-bottom:14px;}
+  .qcard .qera{font-size:12px;color:var(--gold);font-weight:800;letter-spacing:.04em;}
+  .qcard .qkeys{display:flex;gap:7px;flex-wrap:wrap;margin:9px 0;}
+  .qcard .qkeys span{font-size:12.5px;font-weight:700;color:var(--navy);background:#fff;border:1px solid var(--line);border-radius:999px;padding:3px 11px;}
+  .qcard .qq{font-size:14.5px;margin-top:4px;}
+  .qcard .qq b{color:var(--accent);}
+  .whyhere{border-left:4px solid var(--accent);padding:4px 0 4px 14px;font-size:15px;}
+  .quotes{display:grid;gap:12px;}
+  .quote{background:var(--cream);border-radius:11px;padding:13px 16px;}
+  .quote .qt{font-size:15.5px;font-weight:700;color:var(--navy);line-height:1.7;}
+  .quote .qc{font-size:12.5px;color:var(--muted);margin-top:7px;}
+  .ddv{border:1px solid var(--line);border-radius:11px;margin-bottom:9px;background:var(--cream);overflow:hidden;}
+  .ddv summary{cursor:pointer;padding:12px 15px;font-size:14.5px;font-weight:800;color:var(--navy);list-style:none;}
+  .ddv summary::before{content:"\\25B8 ";color:var(--accent);}
+  .ddv[open] summary::before{content:"\\25BE ";}
+  .ddv .ddb{padding:0 15px 13px;font-size:14.5px;}
+  .ddv .dds{font-size:11.5px;color:var(--muted);margin-top:7px;}
+  .net{display:flex;gap:9px;flex-wrap:wrap;}
+  .net a{display:inline-flex;align-items:center;gap:7px;background:var(--cream);border:1px solid var(--line);border-radius:999px;padding:7px 14px;text-decoration:none;font-size:13.5px;color:var(--navy);font-weight:700;}
+  .net a:hover{border-color:var(--accent);}
+  .net .rel-l{font-size:11px;color:var(--muted);font-weight:400;}
+  .study .sgrp{margin-bottom:12px;}
+  .study .sgh{font-size:12.5px;font-weight:800;color:var(--gold);margin-bottom:6px;}
+  .study ul{list-style:none;display:grid;gap:6px;}
+  .study li{font-size:14px;background:var(--cream);border-radius:9px;padding:9px 13px;}
+  .study li b{color:var(--navy);}
+  .study li .sn{display:block;font-size:12.5px;color:var(--muted);margin-top:2px;}
   .reflect label{display:block;font-size:14.5px;margin-bottom:9px;}
   .reflect textarea{width:100%;min-height:96px;border:1px solid var(--line);border-radius:11px;padding:12px 14px;font-family:inherit;font-size:14.5px;line-height:1.7;resize:vertical;background:var(--cream);}
   .reflect textarea:focus{outline:none;border-color:var(--accent);background:#fff;}
@@ -204,6 +232,15 @@ def detail_body(p):
     fig += '</figcaption></figure>'
     parts.append(fig)
 
+    # (v3) 10초 카드 — 중1 quick review
+    qc = p.get("quickCard")
+    if qc:
+        keys = "".join("<span>%s</span>" % esc(k) for k in qc.get("keywords", []))
+        parts.append('<div class="qcard"><div class="qera">⏱️ 10초 카드 · %s</div>'
+                     '<div class="qkeys">%s</div>'
+                     '<div class="qq"><b>여는 질문</b> — %s</div></div>'
+                     % (esc(qc.get("era", "")), keys, esc(qc.get("oneQuestion", ""))))
+
     # 이름 블록
     rows = ['<div class="row"><span class="k">한국어</span><span class="v big">%s</span></div>' % esc(n["ko"])]
     if n.get("native"):
@@ -221,9 +258,23 @@ def detail_body(p):
     # 메타
     parts.append('<div class="meta"><b>%s</b> · %s</div>' % (esc(p.get("nationality", "")), esc(p.get("lifespan", ""))))
 
+    # (v3) 왜 이 사람인가 — 도감 선정 이유
+    if p.get("whyHere"):
+        parts.append('<div class="panel"><h2>왜 이 사람인가</h2><div class="whyhere">%s</div></div>' % esc(p["whyHere"]))
+
     # 생애
     bio = "".join("<p>%s</p>" % esc(par) for par in p.get("bio", []))
     parts.append('<div class="panel bio"><h2>생애</h2>%s</div>' % bio)
+
+    # (v3) 어록 — 출처 필수
+    if p.get("quotes"):
+        qs = []
+        for q in p["quotes"]:
+            ctx = esc(q.get("context", ""))
+            src = esc(q.get("source", ""))
+            qs.append('<div class="quote"><div class="qt">“%s”</div><div class="qc">%s%s</div></div>'
+                      % (esc(q.get("text", "")), ctx, (" · 출처: " + src) if src else ""))
+        parts.append('<div class="panel"><h2>남긴 말</h2><div class="quotes">%s</div></div>' % "".join(qs))
 
     # 연표
     if p.get("personTimeline"):
@@ -234,14 +285,56 @@ def detail_body(p):
     if p.get("lightShadow"):
         parts.append('<div class="panel"><div class="shadow"><span class="lbl">빛과 그림자</span>%s</div></div>' % esc(p["lightShadow"]))
 
-    # 관련 에피소드 역링크
-    if p.get("related"):
+    # (v3) 더 깊이 — 성인/전문 심화 (접이식)
+    if p.get("deepDive"):
+        dd = []
+        for d in p["deepDive"]:
+            src = esc(d.get("source", ""))
+            dd.append('<details class="ddv"><summary>%s</summary><div class="ddb">%s%s</div></details>'
+                      % (esc(d.get("h", "")), esc(d.get("body", "")),
+                         ('<div class="dds">참고: %s</div>' % src) if src else ""))
+        parts.append('<div class="panel"><h2>더 깊이 (고등·일반)</h2>%s</div>' % "".join(dd))
+
+    # (v3) 사람의 그물 — 도감 내 인물 연결
+    if p.get("network"):
+        nl = []
+        for nrec in p["network"]:
+            nl.append('<a href="../%s/index.html">%s <span class="rel-l">%s</span></a>'
+                      % (esc(nrec.get("slug", "")), esc(nrec.get("name", "")), esc(nrec.get("relation", ""))))
+        parts.append('<div class="panel"><h2>사람의 그물 — 함께 읽을 인물</h2><div class="net">%s</div></div>' % "".join(nl))
+
+    # 관련 에피소드 역링크 (+v3 figures)
+    if p.get("related") or p.get("figuresLink"):
         rl = []
-        for r in p["related"]:
+        for r in p.get("related", []):
             href = "../../%s/index.html#%s" % (esc(r.get("ep", "")), esc(r.get("section", "")))
             rl.append('<a href="%s"><span><span class="ep">%s</span><br>%s</span><span class="go">→ 이야기로</span></a>'
                       % (href, esc(r.get("epLabel", "")), esc(r.get("label", ""))))
+        fl = p.get("figuresLink")
+        if fl:
+            rl.append('<a href="../../figures/index.html#%s"><span><span class="ep">인물 이야기 ✉️</span><br>%s</span><span class="go">→ 짝으로 읽기</span></a>'
+                      % (esc(fl.get("section", "")), esc(fl.get("label", ""))))
         parts.append('<div class="panel"><h2>이 인물이 나오는 이야기</h2><div class="rel">%s</div></div>' % "".join(rl))
+
+    # (v3) 더 공부하기 — 학습 시발점
+    st = p.get("study")
+    if st:
+        def sgrp(title, items, icon):
+            if not items:
+                return ""
+            lis = []
+            for it in items:
+                t = esc(it.get("title", ""))
+                if it.get("url"):
+                    t = '<a href="%s" target="_blank" rel="noopener">%s ↗</a>' % (esc(it["url"]), t)
+                by = (" · " + esc(it["by"])) if it.get("by") else ""
+                note = ('<span class="sn">%s</span>' % esc(it["note"])) if it.get("note") else ""
+                lis.append("<li><b>%s</b>%s%s</li>" % (t, by, note))
+            return '<div class="sgrp"><div class="sgh">%s %s</div><ul>%s</ul></div>' % (icon, title, "".join(lis))
+        body = (sgrp("책으로", st.get("books"), "📚") + sgrp("1차 사료", st.get("primary"), "📜")
+                + sgrp("영상으로", st.get("media"), "🎬") + sgrp("가 볼 곳", st.get("places"), "📍"))
+        if body:
+            parts.append('<div class="panel study"><h2>더 공부하기 — 여기서 출발하세요</h2>%s</div>' % body)
 
     # 더 알아보기 링크
     if p.get("links"):
