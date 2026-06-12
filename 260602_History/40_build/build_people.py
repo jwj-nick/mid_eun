@@ -119,6 +119,20 @@ CSS = """
   .study li{font-size:14px;background:var(--cream);border-radius:9px;padding:9px 13px;}
   .study li b{color:var(--navy);}
   .study li .sn{display:block;font-size:12.5px;color:var(--muted);margin-top:2px;}
+  /* ---- v3.1: 시각자료 갤러리 + 경로 지도 ---- */
+  .gal{display:grid;gap:12px;grid-template-columns:1fr 1fr;}
+  @media(max-width:560px){.gal{grid-template-columns:1fr;}}
+  .gal figure{margin:0;background:var(--cream);border:1px solid var(--line);border-radius:12px;padding:10px;}
+  .gal img{width:100%;height:180px;object-fit:contain;display:block;cursor:zoom-in;background:#fff;border-radius:8px;}
+  .gal figcaption{font-size:12.5px;color:var(--muted);margin-top:8px;line-height:1.6;}
+  .gal figcaption b{color:var(--navy);display:block;font-size:13px;}
+  .lightbox{position:fixed;inset:0;background:rgba(22,19,16,.93);display:none;align-items:center;justify-content:center;z-index:99;padding:16px;cursor:zoom-out;}
+  .lightbox.show{display:flex;}
+  .lightbox img{max-width:96vw;max-height:90vh;border-radius:8px;box-shadow:0 12px 44px rgba(0,0,0,.55);}
+  .lightbox .lb-cap{position:fixed;left:0;right:0;bottom:10px;text-align:center;color:#E8C8C5;font-size:12px;padding:0 22px;}
+  .jmap{height:380px;border-radius:12px;border:1px solid var(--line);}
+  .jintro{font-size:14.5px;margin-bottom:11px;}
+  .jcap{font-size:12px;color:var(--muted);margin-top:9px;}
   .reflect label{display:block;font-size:14.5px;margin-bottom:9px;}
   .reflect textarea{width:100%;min-height:96px;border:1px solid var(--line);border-radius:11px;padding:12px 14px;font-family:inherit;font-size:14.5px;line-height:1.7;resize:vertical;background:var(--cream);}
   .reflect textarea:focus{outline:none;border-color:var(--accent);background:#fff;}
@@ -155,7 +169,7 @@ DETAIL_TMPL = """<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>__NAME__ — 인물 도감</title>
 <meta name="description" content="__ONELINE__">
-<style>__CSS__</style>
+__HEADX__<style>__CSS__</style>
 </head>
 <body>
   <div class="hero">
@@ -177,7 +191,7 @@ __BODY__
    ta.addEventListener('input',function(){try{localStorage.setItem(k,ta.value);}catch(e){}
      tag.textContent='저장됨 ✓';clearTimeout(t);t=setTimeout(function(){tag.textContent='';},1300);});})();
   </script>
-</body>
+__EXTRAX__</body>
 </html>
 """
 
@@ -266,6 +280,16 @@ def detail_body(p):
     bio = "".join("<p>%s</p>" % esc(par) for par in p.get("bio", []))
     parts.append('<div class="panel bio"><h2>생애</h2>%s</div>' % bio)
 
+    # (v3.1) 시각자료 갤러리
+    if p.get("gallery"):
+        gs = []
+        for g in p["gallery"]:
+            cap = "<b>%s</b>%s" % (esc(g.get("title", "")), esc(g.get("caption", "")))
+            src_line = esc(g.get("source", "")) + ((" · " + esc(g["license"])) if g.get("license") else "")
+            gs.append('<figure><img src="../%s" alt="%s" loading="lazy"><figcaption>%s<span>출처: %s</span></figcaption></figure>'
+                      % (esc(g.get("src", "")), esc(g.get("alt", "")), cap, src_line))
+        parts.append('<div class="panel"><h2>자료로 보기 — 유묵·사진</h2><div class="gal">%s</div></div>' % "".join(gs))
+
     # (v3) 어록 — 출처 필수
     if p.get("quotes"):
         qs = []
@@ -280,6 +304,14 @@ def detail_body(p):
     if p.get("personTimeline"):
         items = "".join('<li><span class="yr">%s</span>%s</li>' % (esc(e.get("yr", "")), esc(e.get("t", ""))) for e in p["personTimeline"])
         parts.append('<div class="panel"><h2>연표</h2><ul class="tl">%s</ul></div>' % items)
+
+    # (v3.1) 생애의 길 — 경로 지도 (Leaflet)
+    j = p.get("journey")
+    if j:
+        parts.append('<div class="panel"><h2>%s</h2>%s<div class="jmap" id="jmap"></div>%s</div>'
+                     % (esc(j.get("h", "생애의 길 🗺️")),
+                        ('<div class="jintro">%s</div>' % esc(j["intro"])) if j.get("intro") else "",
+                        ('<div class="jcap">%s</div>' % esc(j["caption"])) if j.get("caption") else ""))
 
     # 빛과 그림자
     if p.get("lightShadow"):
@@ -353,11 +385,49 @@ def detail_body(p):
     return "\n".join(parts)
 
 
+def detail_extras(p):
+    """(v3.1) journey 지도(Leaflet)·gallery 라이트박스 — 필요한 페이지에만 주입."""
+    headx, extras = "", []
+    if p.get("gallery"):
+        extras.append("""<script>
+(function(){var lb=document.createElement('div');lb.className='lightbox';
+lb.innerHTML='<img alt=""><div class="lb-cap"></div>';document.body.appendChild(lb);
+document.addEventListener('click',function(e){
+  if(e.target.closest('.lightbox')){lb.classList.remove('show');document.body.style.overflow='';return;}
+  var im=e.target.closest('.gal img, .portrait img');
+  if(im){lb.querySelector('img').src=im.src;lb.querySelector('.lb-cap').textContent=im.alt||'';
+    lb.classList.add('show');document.body.style.overflow='hidden';}
+});})();
+</script>""")
+    j = p.get("journey")
+    if j:
+        headx = '<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">\n'
+        jdata = json.dumps(j, ensure_ascii=False)
+        extras.append("""<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+(function(){var J=%s;var el=document.getElementById('jmap');if(!el||!window.L)return;
+var map=L.map('jmap',{scrollWheelZoom:false});
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap'}).addTo(map);
+var KIND={start:'🚩',city:'•',battle:'⚔️',win:'✔️',loss:'✖️',capital:'🏛️'};
+var pts=[];
+(J.markers||[]).forEach(function(m,i){
+  pts.push(m.at);
+  var ic=L.divIcon({className:'',html:'<div style="font-size:17px;text-shadow:0 1px 3px #fff,0 0 5px #fff">'+(KIND[m.kind]||'•')+'</div>',iconSize:[22,22],iconAnchor:[11,11]});
+  L.marker(m.at,{icon:ic}).addTo(map).bindPopup('<b>'+(i+1)+'. '+m.label+'</b>'+(m.desc?'<br>'+m.desc:''));
+});
+if(J.path){L.polyline(J.path,{color:'#B5546A',weight:3,opacity:.75,dashArray:'7 7'}).addTo(map);}
+if(pts.length){map.fitBounds(L.latLngBounds(pts).pad(0.18));}
+})();
+</script>""" % jdata)
+    return headx, "\n".join(extras)
+
+
 def build_detail(p):
     d = OUT / p["slug"]
     d.mkdir(parents=True, exist_ok=True)
     alias = p["names"].get("alias", "")
     alias_html = ('“%s” · ' % esc(alias)) if alias else ""
+    headx, extrax = detail_extras(p)
     page = (DETAIL_TMPL
             .replace("__CSS__", CSS)
             .replace("__NAME__", esc(p["names"]["ko"]))
@@ -365,6 +435,8 @@ def build_detail(p):
             .replace("__ALIAS__", alias_html)
             .replace("__ONELINE__", esc(p.get("oneLine", "")))
             .replace("__SLUG__", esc(p["slug"]))
+            .replace("__HEADX__", headx)
+            .replace("__EXTRAX__", extrax)
             .replace("__BODY__", detail_body(p)))
     (d / "index.html").write_text(page, encoding="utf-8")
 

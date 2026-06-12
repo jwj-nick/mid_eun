@@ -23,7 +23,9 @@
 | 13 | **더 공부하기** | `study{books[],primary[],media[],places[]}` | **성인/시발점** | 평전·1차 사료·다큐/영화·가 볼 곳 |
 | 14 | 더 알아보기 | `links[]` | 공통 | 백과·공식기관 — **200 검증 필수** |
 | 15 | 편지 | `reflect` | 중1 | 메모(localStorage) |
-- **v2 호환**: 굵은 필드(2·5·7·10·11·13)는 전부 선택 — 없으면 그 패널만 생략(점진 보강 가능).
+- **(v3.1) 시각자료** `gallery[{src,title,alt,caption,source,license}]` — 유묵·서신·현장 사진 등(어록 패널 앞, 그리드+클릭 확대). PD/명확한 CC만, 영화 포스터·책 표지는 **저작권상 이미지 금지 → 링크로 대체**(study의 url).
+- **(v3.1) 경로 지도** `journey{h,intro,markers[{at:[lat,lng],kind,label,desc}],path[[lat,lng]…],caption}` — Leaflet 지도(연표 앞). kind: start/city/battle/win/loss/capital. journey 있는 페이지에만 Leaflet 로드. caption에 '현재 지도' 명시.
+- **v2 호환**: 굵은 필드(2·5·7·10·11·13)와 v3.1 필드는 전부 선택 — 없으면 그 패널만 생략(점진 보강 가능).
 - 두 수준의 분리 원칙: 중1은 1~9에서 완결(quick review), 성인은 10·13이 학습 시발점. **deepDive는 에피소드 deepdive와 같은 정신**(접으면 안 보임).
 
 ## 2. study(더 공부하기) 작성 규칙
