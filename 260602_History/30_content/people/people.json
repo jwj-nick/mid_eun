@@ -3090,6 +3090,557 @@
     }
    ],
    "reflect": "모렐은 모두가 보던 장부에서 아무도 못 본 것을 읽었어요. '보는 것'과 '읽는 것'의 차이는 뭘까?"
+  },
+  {
+   "slug": "davinci",
+   "face": "🎨",
+   "names": {
+    "native": "Leonardo da Vinci",
+    "roman": "Leonardo da Vinci",
+    "pronun_ko": "레오나르도 다빈치",
+    "en": "Leonardo da Vinci",
+    "ko": "레오나르도 다빈치",
+    "alias": "르네상스인"
+   },
+   "nationality": "이탈리아 (피렌체·밀라노)",
+   "lifespan": "1452~1519",
+   "oneLine": "〈모나리자〉의 화가이자 해부학자·공학자 — '세계를 정확히 보는 일'에 바친 생애",
+   "bio": [
+    "토스카나의 작은 마을 빈치에서 공증인의 혼외자로 태어나 정규 교육을 거의 받지 못했어요 — 그래서 그는 책 대신 자연을 스승으로 삼았죠. '나는 경험의 제자'라는 그의 말이 르네상스 정신의 요약이에요.",
+    "〈모나리자〉·〈최후의 만찬〉 같은 걸작과 함께, 수천 쪽의 노트를 남겼어요 — 인체 해부도(심장 판막의 작동까지!), 새의 비행 분석, 비행기계·잠수함 스케치, 물의 소용돌이 연구. 그림과 과학이 그에게는 한 가지 일이었죠.",
+    "완벽주의로 완성작은 손에 꼽고, 의뢰를 끝내지 못해 떠돌기도 했어요. 말년에는 프랑스 왕의 초청으로 건너가 그곳에서 눈을 감았죠 — 〈모나리자〉가 루브르에 있는 이유예요."
+   ],
+   "personTimeline": [
+    {
+     "yr": "1452",
+     "t": "빈치에서 출생"
+    },
+    {
+     "yr": "1495~98",
+     "t": "〈최후의 만찬〉"
+    },
+    {
+     "yr": "1503~",
+     "t": "〈모나리자〉 — 평생 곁에 두고 고침"
+    },
+    {
+     "yr": "1519",
+     "t": "프랑스 앙부아즈에서 사망"
+    }
+   ],
+   "lightShadow": "'문과/이과' 구분 이전의 통합된 호기심이 무엇을 해내는지 보여 준 사람 — 그림자라면 미완성의 산더미와, 그의 노트가 수백 년 묻혀 있어 과학사에 직접 기여하진 못했다는 아이러니 정도예요.",
+   "portrait": {
+    "src": "img/davinci.jpg",
+    "alt": "레오나르도 다빈치 자화상(추정)",
+    "source": "Wikimedia Commons — 토리노 자화상(적색 초크)",
+    "license": "퍼블릭 도메인",
+    "note": "노년의 자화상으로 전해지는 그림이에요(자화상 여부는 논쟁이 있어요)."
+   },
+   "links": [
+    {
+     "label": "위키백과 (한국어)",
+     "url": "https://ko.wikipedia.org/wiki/레오나르도_다_빈치",
+     "lang": "ko",
+     "type": "wiki"
+    },
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci",
+     "lang": "en",
+     "type": "wiki"
+    },
+    {
+     "label": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Leonardo-da-Vinci",
+     "lang": "en",
+     "type": "encyclopedia"
+    }
+   ],
+   "related": [
+    {
+     "ep": "renaissance",
+     "section": "renaissance",
+     "label": "르네상스 — 인간의 재발견",
+     "epLabel": "다시 태어난 인간"
+    }
+   ],
+   "reflect": "'나는 경험의 제자' — 책에서 배운 것과 직접 해 보고 배운 것, 너에게는 어느 쪽이 더 오래 남았어?"
+  },
+  {
+   "slug": "gutenberg",
+   "face": "📖",
+   "names": {
+    "native": "Johannes Gutenberg",
+    "roman": "Johannes Gutenberg",
+    "pronun_ko": "요하네스 구텐베르크",
+    "en": "Johannes Gutenberg",
+    "ko": "구텐베르크",
+    "alias": ""
+   },
+   "nationality": "독일 (마인츠)",
+   "lifespan": "1400?~1468",
+   "oneLine": "유럽 활판 인쇄의 실용화 — 지식 폭발의 방아쇠를 당긴 사람",
+   "bio": [
+    "마인츠의 금속 세공사 집안에서 태어나 금화 주조·보석 가공 기술을 익혔어요. 그 금속 기술이 운명을 바꿉니다 — 글자 하나하나를 균일한 금속 활자로 대량 주조하는 법을 찾아낸 거죠.",
+    "활자 주조기, 유성 잉크, 포도주 압착기를 개조한 인쇄기 — 개별 기술들을 하나의 '대량 생산 시스템'으로 묶은 것이 그의 진짜 발명이에요. 1450년대의 42행 성서는 그 시스템의 첫 걸작이고요.",
+    "그러나 동업자 푸스트와의 소송에서 패해 인쇄소와 성서 재고를 통째로 넘겨야 했고, 만년은 대주교의 연금으로 버텼어요. 세상을 바꾼 발명가가 그 열매를 누리지 못한 채 — 그의 기계만 50년 만에 유럽을 책으로 덮었죠. (금속활자 자체는 고려가 78년 앞섰다는 것 — 직지! — 도 함께 기억해요.)"
+   ],
+   "personTimeline": [
+    {
+     "yr": "1400?",
+     "t": "마인츠에서 출생"
+    },
+    {
+     "yr": "1450년경",
+     "t": "인쇄 시스템 완성"
+    },
+    {
+     "yr": "1455년경",
+     "t": "42행 성서 인쇄"
+    },
+    {
+     "yr": "1455",
+     "t": "푸스트 소송 패소 — 인쇄소 상실"
+    },
+    {
+     "yr": "1468",
+     "t": "사망"
+    }
+   ],
+   "lightShadow": "지식의 가격을 폭락시켜 종교개혁·과학혁명의 무대를 깔았지만, 본인은 소송과 가난 속에 저물었어요 — 혁신과 보상이 따로 노는 문제의 첫 기록 중 하나예요.",
+   "portrait": {
+    "src": "img/gutenberg.jpg",
+    "alt": "구텐베르크 초상(후대 제작)",
+    "source": "Wikimedia Commons — Gutenberg portrait",
+    "license": "퍼블릭 도메인",
+    "note": "생전 초상은 없어요 — 후대(16세기)의 상상 초상이에요."
+   },
+   "links": [
+    {
+     "label": "위키백과 (한국어)",
+     "url": "https://ko.wikipedia.org/wiki/요하네스_구텐베르크",
+     "lang": "ko",
+     "type": "wiki"
+    },
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/wiki/Johannes_Gutenberg",
+     "lang": "en",
+     "type": "wiki"
+    },
+    {
+     "label": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Johannes-Gutenberg",
+     "lang": "en",
+     "type": "encyclopedia"
+    }
+   ],
+   "related": [
+    {
+     "ep": "renaissance",
+     "section": "printing",
+     "label": "인쇄술 혁명",
+     "epLabel": "다시 태어난 인간"
+    }
+   ],
+   "reflect": "구텐베르크의 진짜 발명은 '부품들을 시스템으로 묶은 것'이었어요. 네 주변의 흩어진 것들을 묶으면 새것이 될 만한 조합이 있을까?"
+  },
+  {
+   "slug": "luther",
+   "face": "⛪",
+   "names": {
+    "native": "Martin Luther",
+    "roman": "Martin Luther",
+    "pronun_ko": "마르틴 루터",
+    "en": "Martin Luther",
+    "ko": "마르틴 루터",
+    "alias": ""
+   },
+   "nationality": "독일 (작센)",
+   "lifespan": "1483~1546",
+   "oneLine": "95개조로 천 년의 교회에 질문을 던진 수도사 — 종교개혁의 문을 연 사람",
+   "bio": [
+    "광부의 아들로 태어나 법학도였다가, 벼락 속의 서원으로 수도사가 됐어요. 누구보다 진지한 수도사였죠 — '나는 죄인인데 어떻게 구원받는가'를 스스로에게 끝까지 물었고, '믿음으로'라는 답에 이르렀어요.",
+    "1517년 면벌부 판매를 비판하는 95개조를 내걸었고, 1521년 황제 앞에서 철회를 거부했어요 — '내 양심은 신의 말씀에 묶여 있습니다. 나는 달리 행동할 수 없습니다.' 숨어 지낸 바르트부르크 성에서 성서를 일상의 독일어로 옮겨, 누구나 직접 읽는 신앙과 표준 독일어의 길을 함께 열었죠.",
+    "그림자도 분명해요 — 농민전쟁(1524~25)에서 봉기한 농민이 아니라 제후들의 진압 편에 섰고, 말년에는 유대인에 대한 증오의 글을 남겨 400년 뒤 나치가 악용했어요(에피소드 01의 어두운 연결). 빛이 큰 만큼 그림자도 정면으로 봐야 하는 인물이에요."
+   ],
+   "personTimeline": [
+    {
+     "yr": "1483",
+     "t": "아이슬레벤에서 출생"
+    },
+    {
+     "yr": "1517.10.31",
+     "t": "95개조"
+    },
+    {
+     "yr": "1521",
+     "t": "보름스 의회 — 철회 거부·파문"
+    },
+    {
+     "yr": "1522",
+     "t": "독일어 신약성서"
+    },
+    {
+     "yr": "1546",
+     "t": "사망"
+    }
+   ],
+   "lightShadow": "'최고 권위에도 근거를 묻는다'는 선례와 '모두의 언어'를 남긴 빛 — 농민 진압 촉구와 반유대 저작이라는 그림자. 한 사람 안의 명암을 통째로 드는 연습 문제로, 이 도감에서 손꼽히는 인물이에요.",
+   "portrait": {
+    "src": "img/luther.jpg",
+    "alt": "마르틴 루터 초상 (크라나흐)",
+    "source": "Wikimedia Commons — Lucas Cranach the Elder, Martin Luther",
+    "license": "퍼블릭 도메인",
+    "note": ""
+   },
+   "links": [
+    {
+     "label": "위키백과 (한국어)",
+     "url": "https://ko.wikipedia.org/wiki/마르틴_루터",
+     "lang": "ko",
+     "type": "wiki"
+    },
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/wiki/Martin_Luther",
+     "lang": "en",
+     "type": "wiki"
+    },
+    {
+     "label": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Martin-Luther",
+     "lang": "en",
+     "type": "encyclopedia"
+    }
+   ],
+   "related": [
+    {
+     "ep": "renaissance",
+     "section": "reformation",
+     "label": "종교개혁",
+     "epLabel": "다시 태어난 인간"
+    }
+   ],
+   "reflect": "'나는 달리 행동할 수 없습니다' — 모두가 반대해도 물러설 수 없는 너만의 한 가지가 있다면 뭘까?"
+  },
+  {
+   "slug": "galilei",
+   "face": "🔭",
+   "names": {
+    "native": "Galileo Galilei",
+    "roman": "Galileo Galilei",
+    "pronun_ko": "갈릴레오 갈릴레이",
+    "en": "Galileo Galilei",
+    "ko": "갈릴레이",
+    "alias": "근대 과학의 아버지"
+   },
+   "nationality": "이탈리아 (피사·피렌체)",
+   "lifespan": "1564~1642",
+   "oneLine": "망원경으로 우주의 중심을 옮긴 사람 — '책과 하늘이 다르면 하늘 말을 듣는다'",
+   "bio": [
+    "피사의 몰락한 귀족 음악가의 아들로, 의학도였다가 수학으로 돌아섰어요. 경사면 실험으로 낙하 법칙을 밝혀 '주장 말고 측정'이라는 근대 과학의 방법을 세웠죠.",
+    "1609년 직접 갈아 만든 망원경으로 달의 산맥, 목성의 위성들, 금성의 위상을 관측해 『별의 전령』으로 발표했어요 — 지동설의 결정적 증거들이었죠. 라틴어 대신 이탈리아어로 책을 써서 과학을 학자들의 골방에서 광장으로 끌어낸 것도 그예요.",
+    "1633년 종교재판에서 지동설 철회를 강요당해 서명했고, 가택연금 속에서도 『새로운 두 과학』을 몰래 출판해 역학의 기초를 완성했어요. '그래도 지구는 돈다'는 전설의 한마디는 기록엔 없지만 — 그의 삶 전체가 그 말을 살았죠. 교황청의 공식 과오 인정은 1992년, 359년 뒤였어요."
+   ],
+   "personTimeline": [
+    {
+     "yr": "1564",
+     "t": "피사에서 출생"
+    },
+    {
+     "yr": "1609~10",
+     "t": "망원경 관측 — 『별의 전령』"
+    },
+    {
+     "yr": "1632",
+     "t": "『두 우주 체계에 관한 대화』 — 재판의 빌미"
+    },
+    {
+     "yr": "1633",
+     "t": "종교재판 — 철회·가택연금"
+    },
+    {
+     "yr": "1642",
+     "t": "사망 (그해 뉴턴 출생)"
+    }
+   ],
+   "lightShadow": "증거로 권위에 맞선 빛 — 그리고 재판 앞에서 철회를 택한 그림자(혹은 살아남아 더 큰 책을 남긴 지혜?). 순교와 생존 사이의 그 선택을 어떻게 평가할지는, 이 도감이 너에게 넘기는 숙제예요.",
+   "portrait": {
+    "src": "img/galilei.jpg",
+    "alt": "갈릴레오 갈릴레이 초상 (유스투스 수스테르만스)",
+    "source": "Wikimedia Commons — Justus Sustermans, Galileo",
+    "license": "퍼블릭 도메인",
+    "note": ""
+   },
+   "links": [
+    {
+     "label": "위키백과 (한국어)",
+     "url": "https://ko.wikipedia.org/wiki/갈릴레오_갈릴레이",
+     "lang": "ko",
+     "type": "wiki"
+    },
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/wiki/Galileo_Galilei",
+     "lang": "en",
+     "type": "wiki"
+    },
+    {
+     "label": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Galileo-Galilei",
+     "lang": "en",
+     "type": "encyclopedia"
+    }
+   ],
+   "related": [
+    {
+     "ep": "renaissance",
+     "section": "scientific",
+     "label": "과학혁명",
+     "epLabel": "다시 태어난 인간"
+    }
+   ],
+   "reflect": "철회하고 살아남아 다음 책을 쓴 갈릴레이 — 너라면 어떤 선택을 했을까? '굽히지 않는 것'과 '살아남아 잇는 것' 중에."
+  },
+  {
+   "slug": "rousseau",
+   "face": "🖋️",
+   "names": {
+    "native": "Jean-Jacques Rousseau",
+    "roman": "Jean-Jacques Rousseau",
+    "pronun_ko": "장자크 루소",
+    "en": "Jean-Jacques Rousseau",
+    "ko": "루소",
+    "alias": ""
+   },
+   "nationality": "제네바 출신 · 프랑스 활동",
+   "lifespan": "1712~1778",
+   "oneLine": "『사회계약론』 — '주권은 국민의 것'이라는 혁명의 연료를 만든 사람",
+   "bio": [
+    "제네바의 시계공 아들로 태어나 어머니를 출산 중에 잃고, 떠돌이로 자라며 거의 독학했어요 — 살롱의 귀족 철학자들 사이에서 평생 이방인이었던 이력이 그의 사상의 색을 만들었죠.",
+    "'인간은 자유롭게 태어났으나 어디서나 사슬에 묶여 있다'(『사회계약론』, 1762) — 주권은 왕도 의회도 아닌 국민 전체의 것이며 양도할 수 없다는 그의 주장은 당대 가장 급진적이었고, 프랑스혁명가들의 성경이 됐어요. 교육 소설 『에밀』은 아동을 '작은 어른'이 아닌 고유한 존재로 본 근대 교육학의 출발점이고요.",
+    "그림자 — 정작 자신의 다섯 아이를 모두 고아원에 보냈고, 『에밀』의 여성 교육론은 '남성을 기쁘게 하는 법'에 머물렀어요. 사상의 크기와 삶의 크기가 일치하지 않는 대표 사례죠. 그의 유해는 혁명 후 팡테옹에 — 그가 흔든 세상의 한가운데에 — 안장됐어요."
+   ],
+   "personTimeline": [
+    {
+     "yr": "1712",
+     "t": "제네바에서 출생"
+    },
+    {
+     "yr": "1762",
+     "t": "『사회계약론』·『에밀』 — 금서가 되다"
+    },
+    {
+     "yr": "1778",
+     "t": "사망"
+    },
+    {
+     "yr": "1794",
+     "t": "혁명 정부, 팡테옹에 이장"
+    }
+   ],
+   "lightShadow": "국민주권이라는 현대 민주주의의 심장을 만든 빛 — 버려진 다섯 아이와 좁은 여성관이라는 그림자. '문장은 주인보다 크다'(살롱 하녀의 단서)는 말이 그에게 가장 잘 들어맞아요.",
+   "portrait": {
+    "src": "img/rousseau.jpg",
+    "alt": "장자크 루소 초상 (모리스 캉탱 드 라투르)",
+    "source": "Wikimedia Commons — Maurice Quentin de La Tour, Rousseau",
+    "license": "퍼블릭 도메인",
+    "note": ""
+   },
+   "links": [
+    {
+     "label": "위키백과 (한국어)",
+     "url": "https://ko.wikipedia.org/wiki/장자크_루소",
+     "lang": "ko",
+     "type": "wiki"
+    },
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau",
+     "lang": "en",
+     "type": "wiki"
+    },
+    {
+     "label": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Jean-Jacques-Rousseau",
+     "lang": "en",
+     "type": "encyclopedia"
+    }
+   ],
+   "related": [
+    {
+     "ep": "revolutions",
+     "section": "enlightenment",
+     "label": "계몽사상",
+     "epLabel": "자유를 향하여"
+    }
+   ],
+   "reflect": "루소의 문장은 그보다 좋은 사람이 됐어요. 말과 삶이 어긋난 사람의 좋은 말 — 받아들여야 할까, 경계해야 할까?"
+  },
+  {
+   "slug": "robespierre",
+   "face": "🕯️",
+   "names": {
+    "native": "Maximilien Robespierre",
+    "roman": "Maximilien Robespierre",
+    "pronun_ko": "막시밀리앵 로베스피에르",
+    "en": "Maximilien Robespierre",
+    "ko": "로베스피에르",
+    "alias": "부패할 수 없는 자"
+   },
+   "nationality": "프랑스",
+   "lifespan": "1758~1794",
+   "oneLine": "이상주의자가 공포정치의 설계자가 되기까지 — 확신에 찬 선의의 경고",
+   "bio": [
+    "아라스의 가난한 변호사로, 약자의 사건을 도맡고 사형제 폐지를 주장하던 청렴의 화신이었어요 — '부패할 수 없는 자'라는 별명이 빈말이 아니었죠. 혁명 초기엔 보통선거와 노예제 폐지, 사형 폐지를 가장 앞서 외친 사람이 그였어요.",
+    "그러나 전쟁·내전·음모의 1793년, 그는 공안위원회의 중심에서 '혁명을 지키기 위한' 공포를 정당화해 가요 — '미덕 없는 공포는 재앙이지만, 공포 없는 미덕은 무력하다.' 혐의자법, 그리고 변호인도 증인도 없앤 프레리알 법까지.",
+    "1794년 7월(테르미도르), 다음 차례를 직감한 동료들에게 체포돼 — 자신이 만든 절차 없는 재판으로 하루 만에 단두대에 섰어요. 36세. 그의 생애는 '악인'의 이야기가 아니라서 더 무겁습니다 — 절차와 견제 없는 선의가 어디까지 가는지의 기록이니까요."
+   ],
+   "personTimeline": [
+    {
+     "yr": "1758",
+     "t": "아라스에서 출생"
+    },
+    {
+     "yr": "1789",
+     "t": "삼부회 대표 — 민중의 변호인"
+    },
+    {
+     "yr": "1793",
+     "t": "공안위원회 — 공포정치의 중심으로"
+    },
+    {
+     "yr": "1794.7",
+     "t": "테르미도르 — 처형 (36세)"
+    }
+   ],
+   "lightShadow": "빛과 그림자가 분리되지 않는 인물 — 같은 확신이 민중 옹호와 단두대를 모두 낳았어요. '나는 옳다'가 '그러니 절차는 생략한다'로 넘어가는 순간을 감시하라는, 도감 전체에서 가장 서늘한 경고예요.",
+   "portrait": {
+    "src": "img/robespierre.jpg",
+    "alt": "로베스피에르 초상",
+    "source": "Wikimedia Commons — Robespierre portrait (카르나발레 박물관)",
+    "license": "퍼블릭 도메인",
+    "note": ""
+   },
+   "links": [
+    {
+     "label": "위키백과 (한국어)",
+     "url": "https://ko.wikipedia.org/wiki/막시밀리앵_드_로베스피에르",
+     "lang": "ko",
+     "type": "wiki"
+    },
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/wiki/Maximilien_Robespierre",
+     "lang": "en",
+     "type": "wiki"
+    },
+    {
+     "label": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Maximilien-Robespierre",
+     "lang": "en",
+     "type": "encyclopedia"
+    }
+   ],
+   "related": [
+    {
+     "ep": "revolutions",
+     "section": "terror",
+     "label": "공포정치",
+     "epLabel": "자유를 향하여"
+    }
+   ],
+   "reflect": "'확신에 찬 선의'가 위험해지는 순간의 신호는 뭘까? 로베스피에르의 삶에서 그 신호를 하나 찾아보세요."
+  },
+  {
+   "slug": "napoleon",
+   "face": "👑",
+   "names": {
+    "native": "Napoléon Bonaparte",
+    "roman": "Napoleon Bonaparte",
+    "pronun_ko": "나폴레옹 보나파르트",
+    "en": "Napoleon Bonaparte",
+    "ko": "나폴레옹",
+    "alias": ""
+   },
+   "nationality": "프랑스 (코르시카 출신)",
+   "lifespan": "1769~1821",
+   "oneLine": "혁명이 낳은 황제 — 한 손에 법전, 한 손에 왕관",
+   "bio": [
+    "코르시카의 시골 귀족 아들로, 혁명이 신분의 천장을 부수자 재능 하나로 26세에 장군이 됐어요 — '기회의 평등'이 풀어놓은 에너지의 가장 극적인 증명이죠. 1799년 쿠데타로 권력을 잡고 1804년 스스로 황제관을 썼어요.",
+    "안으로는 나폴레옹 법전(법 앞의 평등·재산권·신앙의 자유)으로 혁명을 제도화했고, 은행·학교(리세)·행정 체계까지 — 오늘날 프랑스의 골격 상당 부분이 그의 설계예요. 밖으로는 정복 전쟁으로 그 법전을 유럽에 퍼뜨렸고, 의도치 않게 각지의 민족주의를 깨웠죠(독일 통일 → 에피소드 03!).",
+    "그림자 — 쿠데타와 검열, 식민지 노예제 부활(아이티 원정 — 그리고 패배!), 수백만 명이 죽은 전쟁들. 러시아의 겨울(1812)에 제국이 꺾이고 워털루(1815) 후 세인트헬레나섬에서 생을 마쳤어요. '내 진짜 영광은 전승이 아니라 민법전'이라던 그의 예언은 적중했죠 — 제국은 10년, 법전은 200년을 넘게 살고 있으니까요."
+   ],
+   "personTimeline": [
+    {
+     "yr": "1769",
+     "t": "코르시카에서 출생"
+    },
+    {
+     "yr": "1799",
+     "t": "브뤼메르 쿠데타"
+    },
+    {
+     "yr": "1804",
+     "t": "법전 공포 · 황제 즉위"
+    },
+    {
+     "yr": "1812",
+     "t": "러시아 원정 — 파국"
+    },
+    {
+     "yr": "1815",
+     "t": "워털루 — 세인트헬레나 유배"
+    },
+    {
+     "yr": "1821",
+     "t": "사망"
+    }
+   ],
+   "lightShadow": "해방자이자 정복자, 혁명의 전파자이자 배신자 — 이 도감에서 '빛과 그림자' 연습의 종합 문제 같은 인물이에요. 유럽 각국에서 그에 대한 평가가 지금도 갈리는 이유죠.",
+   "portrait": {
+    "src": "img/napoleon.jpg",
+    "alt": "나폴레옹 초상 (자크루이 다비드, 서재의 나폴레옹)",
+    "source": "Wikimedia Commons — Jacques-Louis David, The Emperor Napoleon in His Study",
+    "license": "퍼블릭 도메인",
+    "note": ""
+   },
+   "links": [
+    {
+     "label": "위키백과 (한국어)",
+     "url": "https://ko.wikipedia.org/wiki/나폴레옹_보나파르트",
+     "lang": "ko",
+     "type": "wiki"
+    },
+    {
+     "label": "Wikipedia (English)",
+     "url": "https://en.wikipedia.org/wiki/Napoleon",
+     "lang": "en",
+     "type": "wiki"
+    },
+    {
+     "label": "Wikipedia (Français·프랑스어)",
+     "url": "https://fr.wikipedia.org/wiki/Napoléon_Ier",
+     "lang": "fr",
+     "type": "wiki"
+    },
+    {
+     "label": "Encyclopædia Britannica",
+     "url": "https://www.britannica.com/biography/Napoleon-I",
+     "lang": "en",
+     "type": "encyclopedia"
+    }
+   ],
+   "related": [
+    {
+     "ep": "revolutions",
+     "section": "napoleon",
+     "label": "나폴레옹",
+     "epLabel": "자유를 향하여"
+    }
+   ],
+   "reflect": "'제국은 10년, 법전은 200년' — 힘으로 남는 것과 제도로 남는 것의 차이를 너의 말로 정리해 보세요."
   }
  ]
 }

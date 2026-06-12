@@ -18,7 +18,7 @@ OUT = ROOT / "50_app" / "people"
 
 # 에피소드 표시 순서(시대 사슬 순). related[].ep 로 그룹핑.
 # 목록에 없는 ep 의 인물은 build_index 의 fallback 그룹으로 — 조용한 누락 금지.
-EP_ORDER = ["exploration", "powers", "imperialism", "ww2",
+EP_ORDER = ["renaissance", "exploration", "revolutions", "powers", "imperialism", "ww2",
             "americas/north-america", "americas/latin-america"]
 
 
