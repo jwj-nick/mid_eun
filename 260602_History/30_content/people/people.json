@@ -163,20 +163,23 @@
    "study": {
     "books": [
      {
-      "title": "안네의 일기 (비평판/완역본)",
+      "title": "안네의 일기 (완역·비평판)",
       "by": "안네 프랑크",
-      "note": "축약본 말고 가능하면 완역·비평판으로 — 편집되기 전 안네의 진짜 목소리가 거기 있어요."
+      "note": "축약본 말고 가능하면 완역·비평판으로 — 편집되기 전 안네의 진짜 목소리가 거기 있어요.",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=All&SearchWord=%EC%95%88%EB%84%A4%EC%9D%98%20%EC%9D%BC%EA%B8%B0"
      },
      {
       "title": "안네 프랑크 — 한 소녀의 일생",
       "by": "멜리사 뮐러",
-      "note": "일기 밖 안네의 삶과 가족, 밀고와 최후까지 추적한 표준 전기."
+      "note": "일기 밖 안네의 삶과 가족, 밀고와 최후까지 추적한 표준 전기.",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=All&SearchWord=%EC%95%88%EB%84%A4%20%ED%94%84%EB%9E%91%ED%81%AC%20%EC%A0%84%EA%B8%B0%20%EB%A9%9C%EB%A6%AC%EC%82%AC%20%EB%AE%90%EB%9F%AC"
      }
     ],
     "primary": [
      {
       "title": "안네 프랑크 하우스 온라인 아카이브",
-      "note": "은신처 3D 투어·가족 사진·연표를 공식 기관에서 직접."
+      "note": "은신처 3D 투어·가족 사진·연표를 공식 기관에서 직접.",
+      "url": "https://www.annefrank.org/en/anne-frank/"
      },
      {
       "title": "일기 원본 3개 판본(A·B·C)",
@@ -185,14 +188,16 @@
     ],
     "media": [
      {
-      "title": "다큐 〈안네 프랑크의 못다 한 이야기〉",
-      "note": "🟢 생존 친구·가족 증언으로 일기 이후를 채우는 다큐멘터리."
+      "title": "〈Who was Anne Frank?〉 (안네 프랑크 하우스 공식)",
+      "note": "🟢 박물관이 만든 짧은 공식 영상 — 안네의 삶을 5분에. (영어, 자막)",
+      "url": "https://www.youtube.com/watch?v=7o8jSbCanv0"
      }
     ],
     "places": [
      {
       "title": "안네 프랑크 하우스 (암스테르담)",
-      "note": "실제 은신처와 그 책장 문 — 이 페이지의 실물판."
+      "note": "실제 은신처와 그 회전 책장 — 이 페이지의 실물판.",
+      "url": "https://www.annefrank.org/en/museum/"
      },
      {
       "title": "베르겐-벨젠 추모지 (독일)",
@@ -286,7 +291,33 @@
      ]
     ],
     "caption": "현재 지도 위에 표시한 경로예요(당시 국경과 달라요). 집에서 시작해 수용소로 이어지는 화살표 — 그 길이 곧 600만 명의 길이었어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/anne_bookcase.jpg",
+     "title": "은신처로 통하는 회전 책장",
+     "alt": "서류 바인더가 꽂힌 책장 — 뒤에 은신처 입구가 숨겨져 있다",
+     "caption": " — 서류철로 가득한 평범한 이 책장이, 옆으로 돌면 은신처(Achterhuis) 입구가 나와요. 여덟 사람이 2년간 이 문 뒤에서 숨죽여 살았죠. 안네의 일기도 이 안에서 쓰였어요.",
+     "source": "Wikimedia Commons (Anne Frank House)",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/anne_statue.jpg",
+     "title": "안네 프랑크 동상 (암스테르담)",
+     "alt": "하늘을 올려다보는 안네 프랑크의 청동 동상",
+     "caption": " — 조각가 마리 안드리센이 만든 동상이에요. 은신처에서 멀지 않은 서교회 옆에 서서, 작은 얼굴이 하늘을 올려다보고 있어요.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "src": "img/anne_belsen.jpg",
+     "title": "베르겐-벨젠의 추모비",
+     "alt": "마르고와 안네 프랑크의 이름이 새겨진 추모석, 돌과 꽃이 놓여 있다",
+     "caption": " — 언니 마르고(1926~1945)와 안네(1929~1945)를 함께 기리는 추모석이에요. 정확한 무덤은 없어요 — 수용소에 묻혔으니까요. 사람들이 두고 간 돌과 수용소 줄무늬 천이 그 빈자리를 채우고 있어요.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 3.0"
+    }
+   ]
   },
   {
    "slug": "lakshmibai",
@@ -1169,24 +1200,32 @@
      {
       "title": "사다코와 천 마리 종이학",
       "by": "엘리너 코어",
-      "note": "사다코를 세계에 알린 동화 — 짧고 어린 독자도 읽을 수 있어요(각색이 있다는 점은 알고 읽기)."
+      "note": "사다코를 세계에 알린 동화 — 짧고 어린 독자도 읽을 수 있어요(각색이 있다는 점은 알고 읽기).",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=All&SearchWord=%EC%82%AC%EB%8B%A4%EC%BD%94%EC%99%80%20%EC%B2%9C%20%EB%A7%88%EB%A6%AC%20%EC%A2%85%EC%9D%B4%ED%95%99"
      },
      {
       "title": "오빠가 들려주는 사다코 이야기",
       "by": "사사키 마사히로",
-      "note": "동생이 직접 쓴 기록 — 전설이 아니라 실제 누나가 어떤 아이였는지."
+      "note": "동생이 직접 쓴 기록 — 전설이 아니라 실제 누나가 어떤 아이였는지.",
+      "url": "https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=All&SearchWord=%EC%82%AC%EB%8B%A4%EC%BD%94%20%EC%82%AC%EC%82%AC%ED%82%A4%20%EC%A2%85%EC%9D%B4%ED%95%99"
      }
     ],
     "primary": [
      {
+      "title": "사다코 이야기 (미국 국립공원관리청)",
+      "note": "사실에 기반한 짧은 영문 정리 — 전설과 실제를 함께.",
+      "url": "https://www.nps.gov/articles/000/the-story-of-sadako-sasaki.htm"
+     },
+     {
       "title": "사다코가 접은 실제 종이학",
-      "note": "히로시마 평화기념자료관에 일부가 전시·보존되어 있어요(일부는 세계 여러 곳에 기증)."
+      "note": "히로시마 평화기념자료관에 일부가 보존·전시(일부는 세계 여러 곳에 기증)."
      }
     ],
     "media": [
      {
-      "title": "히로시마 평화기념공원 어린이 평화비 영상 자료",
-      "note": "🟢 공원 공식·교육 영상으로 비석과 종이학의 의미를 만나 보세요."
+      "title": "〈Hiroshima: Sadako and the paper cranes〉 (BBC News)",
+      "note": "🟢 가족 증언이 담긴 BBC 뉴스 영상 — 종이학의 진짜 이야기.",
+      "url": "https://www.youtube.com/watch?v=TbI3an0h5h0"
      }
     ],
     "places": [
@@ -1196,9 +1235,84 @@
      },
      {
       "title": "히로시마 평화기념자료관",
-      "note": "사다코의 종이학과 유품, 원폭 피해의 실물 기록."
+      "note": "사다코의 종이학과 유품, 원폭 피해의 실물 기록.",
+      "url": "https://hpmmuseum.jp/?lang=eng"
      }
     ]
+   },
+   "gallery": [
+    {
+     "src": "img/sadako_dome.jpg",
+     "title": "원폭 돔 (히로시마)",
+     "alt": "강가에 남은 원폭 돔의 앙상한 철골 지붕",
+     "caption": " — 1945년 8월 6일 그 폭탄이 떨어진 자리예요. 두 살 사다코는 이곳에서 1.6km 떨어진 집에 있었어요. 겉으론 멀쩡히 자랐지만, 10년 뒤 그 방사선이 백혈병으로 돌아왔죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 2.5"
+    },
+    {
+     "src": "img/sadako_cranes.jpg",
+     "title": "천 마리 종이학",
+     "alt": "분홍·노랑·파랑·초록으로 접힌 수많은 종이학",
+     "caption": " — '천 마리를 접으면 소원이 이뤄진대.' 병상의 사다코가 약 봉지까지 펴서 접은 작은 학들. 지금도 세계 곳곳의 아이들이 접은 종이학이 히로시마로 끝없이 보내져 와요.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "src": "img/sadako_monument.jpg",
+     "title": "어린이 평화비 (히로시마 평화공원)",
+     "alt": "어린이 평화비 둘레에 놓인 종이학 전시 부스들",
+     "caption": " — 사다코가 죽자 반 친구들이 모금해 세운 기념비예요(1958). 비석 둘레는 전 세계에서 온 종이학으로 늘 가득해요. 비문은 이렇게 말해요 — '이것이 우리의 외침입니다. 세계에 평화를.'",
+     "source": "Wikimedia Commons",
+     "license": "CC BY 2.0"
+    }
+   ],
+   "journey": {
+    "h": "사다코의 히로시마 — 한 도시 안의 길 🗺️",
+    "intro": "멀리 가지 못한 짧은 삶이에요. 세 곳 모두 한 도시 안, 그것도 폭탄이 떨어진 곳 가까이예요. 번호를 눌러 보세요.",
+    "markers": [
+     {
+      "at": [
+       34.4076,
+       132.453
+      ],
+      "kind": "start",
+      "label": "집 (1945.8.6 피폭)",
+      "desc": "폭심에서 약 1.6km — 두 살 사다코가 피폭된 곳. 그땐 멀쩡해 보였어요"
+     },
+     {
+      "at": [
+       34.3795,
+       132.4575
+      ],
+      "kind": "loss",
+      "label": "히로시마 적십자병원 (1955)",
+      "desc": "백혈병으로 입원 — 종이학을 접으며 투병하다 열두 살에 떠남"
+     },
+     {
+      "at": [
+       34.3954,
+       132.4516
+      ],
+      "kind": "capital",
+      "label": "어린이 평화비 (1958~)",
+      "desc": "친구들이 세운 기념비 — 죽음이 평화의 상징이 된 자리"
+     }
+    ],
+    "path": [
+     [
+      34.4076,
+      132.453
+     ],
+     [
+      34.3795,
+      132.4575
+     ],
+     [
+      34.3954,
+      132.4516
+     ]
+    ],
+    "caption": "현재 지도 위에 표시했어요. 세 점이 모두 한 도시 안에 있다는 것 — 폭탄 하나가 한 사람의 온 생애를 얼마나 좁은 곳에 가뒀는지를 보여 줘요."
    }
   },
   {
