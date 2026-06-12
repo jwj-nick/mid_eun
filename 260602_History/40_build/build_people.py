@@ -10,7 +10,7 @@
 데이터↔엔진 분리: 인물을 늘리려면 people.json + img 만 추가하고 이 스크립트를 다시 돌린다.
 역링크: 상세 페이지 related[] → /history/<ep>/#<section> (에피소드 SPA가 hash로 해당 섹션을 연다).
 """
-import json, pathlib, shutil, sys, html as _html
+import json, pathlib, shutil, sys, re, html as _html
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SRC = ROOT / "30_content" / "people"
@@ -58,6 +58,29 @@ CSS = """
   .pcard .pone{font-size:12.5px;color:var(--muted);margin-top:2px;}
   .pcard .pmeta{font-size:11.5px;color:var(--accent);margin-top:5px;font-weight:700;}
   .pcard .parrow{margin-left:auto;color:var(--rose);font-size:18px;align-self:center;}
+  .pcard .pinfo{min-width:0;}
+  /* ---- 색인 도구막대(검색·정렬·보기) ---- */
+  .toolbar{position:sticky;top:0;z-index:5;background:var(--cream);padding:12px 0 14px;margin-bottom:6px;border-bottom:1px solid var(--line);}
+  .search{width:100%;font-size:15px;font-family:inherit;border:1.5px solid var(--line);border-radius:12px;padding:12px 15px;background:#fff;color:var(--ink);}
+  .search:focus{outline:none;border-color:var(--accent);}
+  .ctrls{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:10px;}
+  .ctrls .lbl{font-size:12px;color:var(--muted);font-weight:700;}
+  .ctrls select{font-family:inherit;font-size:13px;border:1px solid var(--line);border-radius:9px;padding:7px 10px;background:#fff;color:var(--navy);font-weight:700;}
+  .ctrls .vbtn{font-family:inherit;font-size:13px;font-weight:700;color:var(--navy);background:#fff;border:1px solid var(--line);border-radius:9px;padding:7px 13px;cursor:pointer;}
+  .ctrls .vbtn:hover{border-color:var(--accent);}
+  .rescount{margin-left:auto;font-size:12.5px;color:var(--accent);font-weight:800;}
+  .nohit{grid-column:1/-1;text-align:center;color:var(--muted);font-size:14px;padding:30px 0;}
+  /* ---- 색인 리스트(카드/목록 보기) ---- */
+  .plist{display:grid;gap:14px;}
+  @media(min-width:640px){.plist{grid-template-columns:1fr 1fr;}}
+  .plist .eph{grid-column:1/-1;}
+  .plist.compact{grid-template-columns:1fr;gap:7px;}
+  .plist.compact .eph{margin:18px 0 7px;}
+  .plist.compact .pcard{padding:8px 13px;gap:11px;}
+  .plist.compact .ph{flex-basis:40px;width:40px;height:40px;border-radius:9px;}
+  .plist.compact .pname{font-size:15px;}
+  .plist.compact .pone{display:none;}
+  .plist.compact .pmeta{margin-top:1px;}
   /* ---- 상세 ---- */
   .portrait{text-align:center;margin:4px 0 20px;}
   .portrait img{max-width:260px;width:60%;border-radius:14px;border:1px solid var(--line);box-shadow:var(--shadow);}
@@ -156,8 +179,52 @@ INDEX_TMPL = """<!DOCTYPE html>
   </div>
   <div class="wrap">
     <div class="intro">역사는 사건이 아니라 <b>사람</b>의 이야기예요. 사진을 보고, 그 나라 말로 이름을 읽어 보고, 한 사람의 삶을 따라가 보세요. 누구나 <b>빛과 그림자</b>를 함께 가지고 있답니다. (탐구학습 '인물 조사'에 바로 쓸 수 있어요.)</div>
+    <div class="toolbar">
+      <input id="q" class="search" type="search" placeholder="🔍 이름·나라·키워드로 찾기 (예: 혁명, 조선, 화가, Napoleon)" autocomplete="off">
+      <div class="ctrls">
+        <span class="lbl">정렬</span>
+        <select id="sort">
+          <option value="ep">에피소드(시대 사슬)</option>
+          <option value="ko">가나다순</option>
+          <option value="birth">출생 연도순</option>
+        </select>
+        <button id="view" class="vbtn" type="button">목록 보기</button>
+        <span id="count" class="rescount"></span>
+      </div>
+    </div>
     __BODY__
   </div>
+  <script>
+  (function(){
+    var list=document.getElementById('plist');
+    var cards=[].slice.call(list.querySelectorAll('.pcard'));
+    var q=document.getElementById('q'),sortSel=document.getElementById('sort'),
+        viewBtn=document.getElementById('view'),countEl=document.getElementById('count');
+    var compact=false;
+    function norm(s){return (s||'').toLowerCase();}
+    function render(){
+      var term=norm(q.value).trim();
+      var mode=sortSel.value;
+      var vis=cards.filter(function(c){return !term||norm(c.getAttribute('data-search')).indexOf(term)>=0;});
+      if(mode==='ko'){vis.sort(function(a,b){return a.getAttribute('data-ko').localeCompare(b.getAttribute('data-ko'),'ko');});}
+      else if(mode==='birth'){vis.sort(function(a,b){return (+a.getAttribute('data-birth'))-(+b.getAttribute('data-birth'));});}
+      else{vis.sort(function(a,b){var d=(+a.getAttribute('data-ep'))-(+b.getAttribute('data-ep'));return d||(+a.getAttribute('data-i'))-(+b.getAttribute('data-i'));});}
+      list.innerHTML='';
+      var last=null;
+      vis.forEach(function(c){
+        if(mode==='ep'){var lab=c.getAttribute('data-eplabel');if(lab!==last){var h=document.createElement('h2');h.className='eph';h.textContent='에피소드 · '+lab;list.appendChild(h);last=lab;}}
+        list.appendChild(c);
+      });
+      list.className='plist'+(compact?' compact':'');
+      countEl.textContent=term?(vis.length+'명 / 전체 '+cards.length+'명'):(cards.length+'명');
+      if(!vis.length){var e=document.createElement('div');e.className='nohit';e.textContent='검색 결과가 없어요. 다른 말로 찾아보세요.';list.appendChild(e);}
+    }
+    q.addEventListener('input',render);
+    sortSel.addEventListener('change',render);
+    viewBtn.addEventListener('click',function(){compact=!compact;viewBtn.textContent=compact?'카드 보기':'목록 보기';render();});
+    render();
+  })();
+  </script>
 </body>
 </html>
 """
@@ -196,36 +263,61 @@ __EXTRAX__</body>
 """
 
 
-def index_card(p):
+def ep_meta(p):
+    """(ep_idx, eplabel) — 시대 사슬 정렬 키. EP_ORDER 밖이면 fallback."""
+    if p.get("related"):
+        ep = p["related"][0].get("ep")
+        if ep in EP_ORDER:
+            return EP_ORDER.index(ep), p["related"][0].get("epLabel", ep)
+    return len(EP_ORDER), "그 밖의 인물"
+
+
+def birth_year(p):
+    """정렬용 출생 연도. '기원전'은 음수. 없으면 9999(맨 뒤)."""
+    m = re.search(r"(기원전\s*)?(\d{1,4})", p.get("lifespan", ""))
+    if not m:
+        return 9999
+    y = int(m.group(2))
+    return -y if m.group(1) else y
+
+
+def era_of(p):
+    qc = p.get("quickCard")
+    return (qc.get("era") if qc else "") or p.get("lifespan", "")
+
+
+def index_card(p, i, ep_idx, eplabel):
     src = esc(p["portrait"]["src"])
     name = esc(p["names"]["ko"])
     one = esc(p.get("oneLine", ""))
     meta = esc(p.get("nationality", "")) + " · " + esc(p.get("lifespan", ""))
+    n = p["names"]
+    kws = (p.get("quickCard") or {}).get("keywords", [])
+    blob = " ".join(x for x in [n.get("ko"), n.get("native"), n.get("roman"), n.get("en"),
+                                n.get("alias"), p.get("nationality"), era_of(p), one] + kws if x)
     return (
-        '<a class="pcard" href="%s/index.html">' % esc(p["slug"])
+        '<a class="pcard" href="%s/index.html" data-i="%d" data-ep="%d" data-eplabel="%s" data-ko="%s" data-birth="%d" data-search="%s">'
+        % (esc(p["slug"]), i, ep_idx, esc(eplabel), name, birth_year(p), esc(blob))
         + '<img class="ph" src="%s" alt="%s" loading="lazy">' % (src, esc(p["portrait"].get("alt", name)))
-        + '<div><div class="pname">%s</div><div class="pone">%s</div><div class="pmeta">%s</div></div>' % (name, one, meta)
+        + '<div class="pinfo"><div class="pname">%s</div><div class="pone">%s</div><div class="pmeta">%s · %s</div></div>'
+        % (name, one, esc(eplabel), meta)
         + '<div class="parrow">→</div></a>'
     )
 
 
 def build_index(people):
-    groups = []
-    shown = set()
-    for ep in EP_ORDER:
-        grp = [p for p in people if p.get("related") and p["related"][0].get("ep") == ep]
-        if not grp:
-            continue
-        shown.update(p["slug"] for p in grp)
-        eplabel = grp[0]["related"][0].get("epLabel", ep)
-        cards = "".join(index_card(p) for p in grp)
-        groups.append('<h2 class="eph">에피소드 · %s</h2><div class="people">%s</div>' % (esc(eplabel), cards))
-    rest = [p for p in people if p["slug"] not in shown]
+    # 시대 사슬 순으로 미리 정렬해 둠(JS 'ep' 모드의 기본 순서·data-i 안정).
+    ordered = sorted(enumerate(people), key=lambda t: (ep_meta(t[1])[0], t[0]))
+    cards = []
+    rest = 0
+    for i, (_, p) in enumerate(ordered):
+        ep_idx, eplabel = ep_meta(p)
+        if ep_idx == len(EP_ORDER):
+            rest += 1
+        cards.append(index_card(p, i, ep_idx, eplabel))
     if rest:
-        cards = "".join(index_card(p) for p in rest)
-        groups.append('<h2 class="eph">그 밖의 인물</h2><div class="people">%s</div>' % cards)
-        sys.stdout.write("  [warn] EP_ORDER fallback group: %d people\n" % len(rest))
-    body = "\n".join(groups)
+        sys.stdout.write("  [warn] EP_ORDER fallback group: %d people\n" % rest)
+    body = '<div id="plist" class="plist">%s</div>' % "".join(cards)
     page = INDEX_TMPL.replace("__CSS__", CSS).replace("__BODY__", body).replace("__COUNT__", str(len(people)))
     (OUT / "index.html").write_text(page, encoding="utf-8")
 
