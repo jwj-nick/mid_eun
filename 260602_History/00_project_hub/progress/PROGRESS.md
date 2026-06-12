@@ -24,6 +24,7 @@
 | 05 | `renaissance` | 다시 태어난 인간 — 르네상스·종교개혁 | ✅ 배포 (7/7) | https://jwj-nick.github.io/history/renaissance/ |
 | 06 | `revolutions` | 자유를 향하여 — 계몽·시민혁명 | ✅ 배포 (7/7) | https://jwj-nick.github.io/history/revolutions/ |
 | 🌎 | `americas` | 아메리카 허브 (북미 6 + 남미 5섹션, 도감 37인) | ✅ 배포 (랜딩+2에피소드) | https://jwj-nick.github.io/history/americas/ |
+| ✉️ | `figures` | 사람의 자리 — 짝으로 읽는 인물 이야기 | ✅ 배포 (6섹션, 도감 가로지르기) | https://jwj-nick.github.io/history/figures/ |
 | — | `coldwar` | 냉전(F2) | 후보 (보류) | — |
 
 ## 🗺️ 시리즈 확장 로드맵 (0610)

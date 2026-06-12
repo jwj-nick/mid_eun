@@ -25,6 +25,7 @@
 | 4 | 유럽 열강 | `powers` | 19C | 나라별 제국 열전(영·프·독·러·벨·후발)+인물 | ✅ 완성(0611, 7/7 — 러시아·latecomers 2차분 포함) | `plan/0610_plan_hub_powers.md` |
 | 5 | 제국주의 | `imperialism` | 19C | 제국주의의 흐름(8섹션) | ✅ 배포 완료 | (제작 기록: `plan/0608_*`, `plan/0609_page_imp_*`) |
 | 6 | 세계대전 | `ww2` | 20C | 양차대전 + 한국전쟁(8섹션) | ✅ 배포 완료 | (제작 기록: `plan/0608_*`, `plan/0609_page_ww2_*`) |
+| ＋ | 인물 이야기 | `figures` | 가로지르기 | 도감 47인 기반 '짝으로 읽기'(5짝+미션) | ✅ 배포(0612, 6섹션) | `plan/0612_plan_hub_figures.md` |
 | ＋ | 아메리카(지역) | `americas` | 통사 | 북미·남미 두 대륙(2 에피소드) | ✅ 배포(0611: 랜딩+`americas/north-america` 6섹션+`americas/latin-america` 5섹션) | `plan/0610_plan_hub_americas.md` |
 
 상태 범례: ✅ 배포 / 🟡 계획됨(제작 대기) / 🔵 KEEP(나중에 제작).
