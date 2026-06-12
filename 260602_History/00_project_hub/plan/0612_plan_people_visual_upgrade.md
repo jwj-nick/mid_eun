@@ -55,7 +55,8 @@
 - **남은 floor 작업(B0)**: 위 6인 + 사다코 + (figuresLink 없는 비스마르크) → **gallery 이미지 + 검증 링크**(다음 세션 네트워크 격리 배치). 사다코 journey=정주형이라 gallery 우선.
 - **0612 — 색인 지역×시대 패싯 ✅ 라이브 (Nick 추가 지시)**: 검색·정렬 위에 **지역(출신 7) × 시대(출생연도 6버킷)** 칩 패싯. 선택 카테고리만 표시·조합 가능(입체적). 라이브 기능검증: 한국→7, 한국×제국주의절정→4, 라틴→5, 리셋→47, 칩 하이라이트 OK. region_of/era_tag(빈 1600s 버킷 자동 제외). data-region/era 속성+JS sel{}.
 - **0612 — B0a gallery 4인 floor 도달 ✅ 라이브**: 나폴레옹·루터·링컨·워싱턴 각 PD 3점. urllib Commons API 소싱(extmetadata 라이선스 실측 11 PD+마운트버넌 CC BY-SA)→thumburl 760px→**Read 툴 전점 12장 육안검수(오선정 0)**. 라이브: gallery 이미지 200·렌더(naturalWidth>0)·journey 7마커 확인. **이 4인 = v3+journey+gallery = 안중근 floor 첫 도달군.** 커밋 소스 `591445e`·배포 `95751b0`.
-- **floor 도달 누계: 5인**(안중근 + 나폴레옹·루터·링컨·워싱턴). 남은 B0: 안네·사다코·비스마르크 gallery(저작권 주의군) + 전원 검증링크. 이후 B1 ★잔여6.
+- **0612 — B0 검증 링크 + bismarck gallery ✅ 라이브 (Nick: "제목만 말고 실제 링크")**: napoleon·luther·lincoln·washington study에 실제 url 주입 — **영상=oembed로 title+채널 검증한 공식 예고편**(나폴레옹=Sony Pictures Releasing Australia / 링컨·루터=Rotten Tomatoes (Classic) Trailers / 워싱턴=감독 Roel Reiné 업로드), **책=Aladin 검색 200**, **1차사료=NARA 노예해방선언·LOC 게티즈버그친필·Napoleonic Code·95개조(위키)**, **장소=NPS Lincoln/Gettysburg·Wartburg 200**. ⚠️검증으로 죽은 URL 배제(나폴레옹 트레일러 후보 1건 404). 검증 방식=urllib oembed/200(curl 회피, ask-list 우회). bismarck gallery 3점(초상·베르사유 황제선포·Dropping the Pilot, 육안검수 PD). 커밋 소스 `1831185`·배포 `50ee946`.
+- **floor 도달 누계: 6인**(안중근 + 나폴레옹·루터·링컨·워싱턴·비스마르크). 링크 정책=책(Aladin 검색)·영상(oembed 공식)·사료/장소(기관 200 or 신뢰 위키) 모두 검증 url. 남은 B0: 안네·사다코 gallery(저작권 주의군). 이후 B1 ★잔여6.
 
 ## 8. Nick 코멘트
 - (Nick)
