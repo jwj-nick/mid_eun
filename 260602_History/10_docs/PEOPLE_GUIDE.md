@@ -3,6 +3,7 @@
 
 > 인물 도감의 **스키마·제작 절차·품질 체크리스트**의 단일 진실 원천.
 > 관련 문서: 스키마 요약 = `EPISODE_SCHEMA.md §People-gallery` · 설계 사상 = `0606_people_gallery_upgrade.md` · 개선 계획 = `plan/0612_plan_people_v3.md`
+> **실행 스킬 = `.claude/skills/hist-person`** (절차 7단계의 실행기 — 이 가이드가 법전, 스킬이 집행)
 > 데이터 = `30_content/people/people.json` / 빌더 = `40_build/build_people.py` / 산출 = `50_app/people/`
 
 ## 1. 페이지 구성 (v3 렌더 순서)
