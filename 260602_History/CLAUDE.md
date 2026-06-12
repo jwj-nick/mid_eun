@@ -78,7 +78,7 @@
 260602_History/
 ├── CLAUDE.md / README.md / APP_PRINCIPLES.md
 ├── .claude/
-│   ├── skills/hist-*/SKILL.md      ← 제작 스킬 7개 (AgentSkill 스펙)
+│   ├── skills/hist-*/SKILL.md      ← 제작 스킬 9개 (AgentSkill 스펙) — 에피소드 6단계 + hist-page-review + hist-distill + hist-person(인물 도감)
 │   └── agents/hist-episode-orchestrator.md  ← 에피소드 자율 제작 오케스트레이터
 ├── 00_project_hub/{plan, session, progress}   ← 계획·라운드대화·추적(PROGRESS.md)
 ├── 10_docs/        ← learner-profile, content-map_<slug>, EPISODE_SCHEMA.md
@@ -94,6 +94,8 @@
 > **제작 방식 = 데이터(JSON) ↔ 엔진(템플릿) 분리.** 콘텐츠는 `30_content/<slug>/episode.json`(스키마: `10_docs/EPISODE_SCHEMA.md`), 빌드는 `python 40_build/build.py <slug>`. 파이프라인: plan→research→write→build→audit→deploy (스킬+오케스트레이터). 상세 = `00_project_hub/plan/0604_buildsystem_and_skills.md`.
 > 배포 계층: 허브 `/history/` → 에피소드 `/history/<slug>/` (Ep01=`ww2`). 진행 추적 = `00_project_hub/progress/PROGRESS.md`.
 > 파일명 규칙: plan/session 파일은 `mmdd_` 프리픽스.
+>
+> **인물 도감(People gallery) 서브시스템** — 에피소드와 별개의 파이프라인. 데이터 `30_content/people/people.json`(v3 스키마, SSOT) → 빌더 `40_build/build_people.py` → 산출 `50_app/people/`(색인 + 인물별 `<slug>/` + `img/`) → 배포 `/history/people/`. **법전 = `10_docs/PEOPLE_GUIDE.md`**(15패널 구성·작성 규칙·7단계 절차·audit 체크리스트), **집행 스킬 = `hist-person`**(추가·보강), **표준 견본 = 안중근(an-junggeun)**. 두 수준(중1 quick review 1~9패널 + 성인 학습 시발점 10·13패널). 인물 audit은 hist-audit(에피소드용)이 아니라 PEOPLE_GUIDE §4 체크리스트.
 
 ---
 

@@ -20,7 +20,7 @@ metadata:
 ## 동작
 0. **배포 전 빌드·검증 게이트(G0~G2) 통과 필수** — 아래 §검증 워크플로우.
 1. `cp 50_app/<slug>/index.html  <repo>/history/<slug>/index.html`. **이미지 자산 있으면** `50_app/<slug>/img/` → `<repo>/history/<slug>/img/`도 복사.
-1b. **인물 도감 v2**: `python 40_build/build_people.py` → **트리 전체 복사**(index + 인물별 `<slug>/` + `img/`): `rm -rf <repo>/history/people && cp -r 50_app/people/. <repo>/history/people/`.
+1b. **인물 도감(v3/v3.1)**: `PYTHONIOENCODING=utf-8 python 40_build/build_people.py` → **트리 전체 복사**(index + 인물별 `<slug>/` + `img/`): `rm -rf <repo>/history/people && cp -r 50_app/people/. <repo>/history/people/`. (인물 추가·보강 자체는 **`hist-person` 스킬** / 법전 `10_docs/PEOPLE_GUIDE.md` — 이 단계는 그 산출의 배포만.)
 2. **허브 카드**: `<repo>/history/index.html` 에피소드 목록에 카드 삽입/갱신.
 3. **변경 파일만** 스테이징·커밋·푸시. **무관 변경(mid1/map 등) 금지.** 커밋 푸터 `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>`.
 4. **라이브 검증(G3)** — 아래.

@@ -10,7 +10,7 @@
 | Episode Content Schema | ✅ | `10_docs/EPISODE_SCHEMA.md` |
 | 렌더 엔진(템플릿) | ✅ | `40_build/templates/episode.html` |
 | 빌더 | ✅ | `40_build/build.py` |
-| 스킬 7개 | 🟡 seed (app-build=✅validated) | `.claude/skills/hist-*` |
+| 스킬 9개 | 🟡 seed (app-build=✅validated) | `.claude/skills/hist-*` (에피소드 6단계 + page-review + distill + **hist-person**) |
 | 오케스트레이터 | 🟡 seed | `.claude/agents/hist-episode-orchestrator.md` |
 | 배포 계층(허브/에피소드/mid1링크) | ✅ | `jwj-nick.github.io/history/` |
 
@@ -46,6 +46,7 @@
 | hist-app-build | ✅ validated (ww2 재현) |
 | hist-episode-plan / research / content-write / audit / deploy / distill | 🟡 seed — Ep02에서 정련 |
 | hist-page-review (신설 0607) | 🟡 seed — 페이지 완결성·깊이·일관성 점검(hist-audit 보완) |
+| **hist-person (신설 0612)** | 🟡 seed — 인물 도감 v3/v3.1 추가·보강. 법전 `10_docs/PEOPLE_GUIDE.md`, 표준 견본 안중근 |
 
 ## Enrichment (콘텐츠/품질 개선)
 - 아이디어 보드: `session/0604_enrichment_ideas.md`

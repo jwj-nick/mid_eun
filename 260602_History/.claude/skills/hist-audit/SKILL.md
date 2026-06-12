@@ -13,6 +13,8 @@ metadata:
 
 배포 전 품질 게이트. math-story-telling의 se-audit-* 통합판. 4개 페르소나(병렬 Agent 가능).
 
+> **범위 = 에피소드(`30_content/<slug>/episode.json`).** 인물 도감(people) 페이지는 이 스킬이 아니라 **`hist-person` + `10_docs/PEOPLE_GUIDE.md` §4 인물 audit 체크리스트**로 감수한다.
+
 ## 입력
 - `30_content/<slug>/episode.json` + `50_app/<slug>/index.html` + `20_research/<slug>/`
 
