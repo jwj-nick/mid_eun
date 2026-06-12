@@ -36,5 +36,10 @@
 - 2순위(한국 연관·figures 등장): 이토·명성황후·전봉준·윤동주·임칙서….
 - 페이스: 세션당 4~6명(리서치 품질 유지). 신규 등재보다 **기존 47인 보강 우선**.
 
-## 5. 구현 기록 / Nick 코멘트
-- (실행 후 append)
+## 5. ✅ 구현 기록 (NCC, 0612 파일럿)
+- PEOPLE_GUIDE.md 신설(절차 SSOT) + EPISODE_SCHEMA §v3 포인터. 빌더 detail_body 7패널 확장(전부 선택 — v2 45인 하위 호환 실측 확인).
+- 파일럿 배포: 안중근(bio 3→5문단, +어록 3·deepDive 5·network 3·study 11항목·figures 역링크·10초카드·whyHere — 페이지 분량 약 4배) / 비스마르크(+어록 3·deepDive 5·network 3·study 6항목). 어록 6건 출처 전수 점검(직접/요지/전언 구분), 서지 실존 확인. 라이브 200.
+- before/after와 발전 방향 = 채팅 보고. 확산은 Nick 평가 후(§4 로드맵).
+
+## 6. Nick 코멘트
+- (Nick)
