@@ -1828,6 +1828,14 @@
       "title": "코노피슈테 성 (체코)",
       "note": "그가 가족과 살던 거처."
      }
+    ],
+    "media": [
+     {
+      "title": "다큐 — 사라예보 1914: 세계대전을 부른 암살",
+      "by": "SLICE History",
+      "note": "그날의 경위와 전쟁으로의 길을 다룬 영어 다큐멘터리.",
+      "url": "https://www.youtube.com/watch?v=R3fDb26viG0"
+     }
     ]
    },
    "journey": {
@@ -1877,7 +1885,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 빈에서 사라예보까지의 이 방문이, 4년간 1천만 명이 죽는 전쟁의 시작이 됐어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/franz_lastphoto.jpg",
+     "title": "사라예보 시청사를 떠나는 부부 (1914.6.28)",
+     "alt": "사라예보 시청사 앞 무개차에 탄 페르디난트 부부",
+     "caption": "암살 당일 아침, 시청사를 나서는 두 사람이에요. 이 사진을 찍고 몇 분 뒤 차는 길을 잘못 들었고, 비극이 일어났죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/franz_car.jpg",
+     "title": "암살 당시의 자동차 (빈 군사사 박물관)",
+     "alt": "박물관에 전시된 페르디난트가 타던 그레프운트슈티프트 자동차",
+     "caption": "그날 두 사람이 탔던 바로 그 차예요. 지금은 빈의 박물관에 보존돼 있죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "src": "img/franz_family.jpg",
+     "title": "페르디난트 가족 (1908)",
+     "alt": "페르디난트와 부인 조피, 세 자녀의 가족 사진",
+     "caption": "부인 조피, 세 아이와 함께한 가족사진이에요. 사라예보에서 부부가 함께 숨지면서, 세 아이는 하루아침에 고아가 됐어요.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    }
+   ]
   },
   {
    "slug": "gavrilo-princip",
@@ -2039,6 +2073,14 @@
       "title": "테레진 (체코)",
       "note": "그가 수감되어 숨진 감옥이 있던 곳."
      }
+    ],
+    "media": [
+     {
+      "title": "영상 — 페르디난트 암살은 어떻게 일어났나 (댄 스노)",
+      "by": "History Hit",
+      "note": "역사가 댄 스노가 사라예보 현장을 따라가는 영어 영상.",
+      "url": "https://www.youtube.com/watch?v=OfO7TduevHA"
+     }
     ]
    },
    "journey": {
@@ -2101,7 +2143,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 한 청년의 좁은 길이, 1천만 명의 운명과 얽히게 됐어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/princip_arrest.jpg",
+     "title": "사라예보의 용의자 연행 (1914)",
+     "alt": "1914년 사라예보 거리에서 한 남자가 경관들에게 붙들리는 사진",
+     "caption": "암살 당일 사라예보에서 한 용의자가 붙들리는 장면이에요. 오랫동안 '프린치프의 체포'로 알려졌지만, 실은 다른 사람이라는 연구도 있어요 — 유명한 사진이 늘 사실인 건 아니죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/princip_bridge.jpg",
+     "title": "라틴 다리 (사라예보, 현재)",
+     "alt": "사라예보 밀랴츠카 강 위의 라틴 다리",
+     "caption": "암살이 일어난 바로 그 다리예요. 다리 옆 건물은 지금 그날을 기억하는 박물관이 됐어요.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY 2.0"
+    },
+    {
+     "src": "img/princip_illus.jpg",
+     "title": "암살을 그린 신문 삽화 (르 프티 주르날, 1914)",
+     "alt": "차 안에서 쓰러지는 부부와 붙잡히는 암살자를 그린 채색 삽화",
+     "caption": "사건을 전한 프랑스 신문의 표지 삽화예요. 빠르게 퍼진 이런 그림들이 사람들의 분노와 전쟁 분위기를 키웠죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    }
+   ]
   },
   {
    "slug": "oskar-schindler",
@@ -2267,6 +2335,14 @@
       "title": "야드 바셈 (예루살렘)",
       "note": "'열방의 의인'을 기리는 홀로코스트 기념관."
      }
+    ],
+    "media": [
+     {
+      "title": "영화 예고편 — 쉰들러 리스트 (1993)",
+      "by": "Universal Pictures (예고편)",
+      "note": "그의 실화를 옮긴 스필버그 영화의 공식 예고편.",
+      "url": "https://www.youtube.com/watch?v=-fuKN-XDdo0"
+     }
     ]
    },
    "journey": {
@@ -2329,7 +2405,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 돈을 좇아 크라쿠프에 온 사람이, 마지막엔 그가 구한 사람들의 땅에 묻혔어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/schindler_factory.jpg",
+     "title": "쉰들러 공장 박물관 (크라쿠프)",
+     "alt": "쉰들러가 구한 사람들의 사진이 창문을 가득 채운 공장 박물관 외벽",
+     "caption": "그의 공장이 지금은 박물관이에요. 창문을 가득 채운 건 그가 구한 사람들의 얼굴 사진 — 명단의 이름들이 곧 생명이었죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY 2.0"
+    },
+    {
+     "src": "img/schindler_grave.jpg",
+     "title": "오스카 쉰들러의 묘 (예루살렘)",
+     "alt": "방문객들이 올려놓은 돌로 뒤덮인 쉰들러의 묘",
+     "caption": "예루살렘에 있는 그의 묘예요. 위에 쌓인 돌은 유대교에서 '당신을 기억합니다'라는 뜻 — 찾아온 사람들이 하나씩 놓고 간 거예요.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "src": "img/schindler_plaszow.jpg",
+     "title": "플라슈프 수용소 추모비 (크라쿠프)",
+     "alt": "플라슈프 강제수용소 터에 선 추모 기념비",
+     "caption": "그가 노동자들을 빼내려 한 크라쿠프의 강제수용소 터예요. '쉰들러 리스트'에 이름을 올린다는 건, 이런 곳으로 가지 않는다는 뜻이었죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY 4.0"
+    }
+   ]
   },
   {
    "slug": "wladyslaw-szpilman",
@@ -2495,6 +2597,14 @@
       "title": "게토 영웅 기념비 (바르샤바)",
       "note": "게토에서 스러진 이들을 기리는 기념물."
      }
+    ],
+    "media": [
+     {
+      "title": "영화 예고편 — 피아니스트 (2002)",
+      "by": "Rotten Tomatoes Classic Trailers",
+      "note": "그의 회고록을 옮긴 폴란스키 영화의 예고편.",
+      "url": "https://www.youtube.com/watch?v=BFwGqLa_oAo"
+     }
     ]
    },
    "journey": {
@@ -2557,7 +2667,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요(대략 위치). 한 도시 안의 좁은 거리들이, 그에게는 삶과 죽음의 갈림길이었어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/szpilman_umschlag.jpg",
+     "title": "움슐라크플라츠 기념비 (바르샤바)",
+     "alt": "바르샤바 움슐라크플라츠의 흰 대리석 기념벽",
+     "caption": "게토의 유대인들이 죽음의 수용소행 기차에 실린 광장이에요. 슈필만의 가족도 이곳에서 끌려갔고, 그는 마지막 순간 홀로 남겨졌죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY 3.0"
+    },
+    {
+     "src": "img/szpilman_ghetto.jpg",
+     "title": "게토 영웅 기념비 (바르샤바)",
+     "alt": "게토 봉기를 기리는 청동 부조 기념비와 추모의 불꽃",
+     "caption": "바르샤바 게토에서 스러진 이들과 봉기를 기리는 기념비예요. 거대한 비극의 한가운데서도 사람들은 저항했어요.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "src": "img/szpilman_ruins.jpg",
+     "title": "폐허가 된 바르샤바 게토 (전쟁 후)",
+     "alt": "완전히 파괴되어 교회 하나만 남은 바르샤바 게토 항공사진",
+     "caption": "전쟁이 끝난 뒤의 게토 일대예요. 건물 하나만 덩그러니 남은 이 폐허 속을, 슈필만은 유령처럼 숨어 다니며 살아남았죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    }
+   ]
   },
   {
    "slug": "oppenheimer",
