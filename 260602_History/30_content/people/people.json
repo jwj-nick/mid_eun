@@ -2909,6 +2909,13 @@
       "title": "콩고강 분지",
       "note": "레오폴드가 한 번도 밟지 않은 그의 '소유지'."
      }
+    ],
+    "media": [
+     {
+      "title": "다큐 〈King Leopold II & the Congo〉 (The People Profiles)",
+      "note": "🟡 콩고 자유국의 실상을 다룬 장편 전기 다큐 — 무거운 내용이라 어른과 함께 보길 권해요(영어).",
+      "url": "https://www.youtube.com/watch?v=pYprPGkwG08"
+     }
     ]
    },
    "journey": {
@@ -2971,7 +2978,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 위쪽 두 점(브뤼셀·베를린)에서 서류로 결정한 일이, 아래 두 점(콩고)에서 수백만의 비극이 됐어요 — 그는 그곳에 한 번도 가지 않았죠."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/leopold_portrait.jpg",
+     "title": "레오폴드 2세 (1905년 초상)",
+     "alt": "군복과 붉은 띠를 두른 레오폴드 2세의 회화 초상",
+     "caption": " — 벨기에 국왕의 위엄 있는 초상이에요. 이 점잖은 얼굴의 왕이, 한 번도 가 보지 않은 콩고를 서류와 숫자로 다스리며 수백만의 비극을 만들었죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/leopold_cartoon.jpg",
+     "title": "〈고무 덩굴에 휘감겨〉 — 『펀치』 풍자화 (1906)",
+     "alt": "왕관을 쓴 레오폴드가 뱀이 되어 콩고 사람을 휘감은 풍자화",
+     "caption": " — 영국 잡지 『펀치』의 풍자화예요. 왕관을 쓴 레오폴드가 고무 덩굴 같은 뱀이 되어 콩고 사람을 휘감고 있죠. 'Free State(자유국)'라는 이름에 따옴표를 친 제목이 모든 걸 말해 줘요.",
+     "source": "Wikimedia Commons (Punch, 1906)",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/leopold_tervuren.jpg",
+     "title": "테르뷔런 아프리카박물관 (벨기에)",
+     "alt": "연못에 비친 거대한 궁전형 박물관 건물",
+     "caption": " — 레오폴드가 콩고에서 번 부로 지은 화려한 박물관이에요. 콩고에서 가져온 것들로 채워졌고, 최근에야 그 식민의 과거를 다시 묻기 시작했죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "slug": "henrique",
@@ -5193,6 +5226,13 @@
       "title": "아디스아바바",
       "note": "메넬리크가 세운 '새 꽃'이라는 뜻의 수도."
      }
+    ],
+    "media": [
+     {
+      "title": "Extra History 〈아도와 전투〉",
+      "note": "🟢 에티오피아 제국 시리즈 중 아도와 편 — 애니메이션 교육 채널(영어/자막).",
+      "url": "https://www.youtube.com/watch?v=HI5A_2DKm_0"
+     }
     ]
    },
    "journey": {
@@ -5255,7 +5295,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 북쪽 아도와에서 유럽을 꺾어 독립을 지킨 같은 손이, 남·동쪽을 정복해 제국을 넓히기도 했어요 — 한 사람 안의 두 얼굴을 함께 보세요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/menelik_portrait.jpg",
+     "title": "메넬리크 2세 (당대 판화)",
+     "alt": "머리 천을 두른 메넬리크 2세의 측면 초상",
+     "caption": " — 아도와에서 유럽 열강을 꺾고 독립을 지킨 에티오피아 황제예요. 시대를 정확히 읽고 군을 근대화한 '준비된' 군주였죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/menelik_adwa.jpg",
+     "title": "아도와 전투 (에티오피아 전통화)",
+     "alt": "에티오피아 전통 회화로 그린 아도와 전투 — 양쪽 군대가 맞선 장면",
+     "caption": " — 1896년 아도와 전투를 에티오피아 사람들이 직접 그린 전통 회화예요. 오른쪽 줄지어 선 군대가 이탈리아군, 왼쪽이 메넬리크의 군대죠 — '유럽이 그린 아프리카'가 아니라 '아프리카가 그린 자기 승리'라는 점이 특별해요.",
+     "source": "Wikimedia Commons",
+     "license": "CC0"
+    },
+    {
+     "src": "img/menelik_taytu.jpg",
+     "title": "황후 타이투 — 르 프티 주르날 (1896)",
+     "alt": "1896년 프랑스 신문 표지에 실린 에티오피아 황후 타이투의 채색 초상",
+     "caption": " — 아도와 직후 프랑스 신문이 표지에 실은 에티오피아 황후 타이투예요. 그녀는 전장에 직접 나가 군을 이끌었죠. 유럽이 '패배를 안긴 나라의 황후'를 표지에 올렸다는 것 자체가 아도와의 충격을 말해 줘요.",
+     "source": "Wikimedia Commons (Le Petit Journal)",
+     "license": "퍼블릭 도메인"
+    }
+   ]
   },
   {
    "slug": "douglass",
