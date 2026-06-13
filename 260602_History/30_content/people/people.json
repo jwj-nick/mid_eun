@@ -580,6 +580,13 @@
       "title": "임칙서 기념관 (푸저우)",
       "note": "그의 고향에 세워진 기념관."
      }
+    ],
+    "media": [
+     {
+      "title": "Extra History 〈The Righteous Minister〉 (아편전쟁)",
+      "note": "🟢 아편전쟁에서 임칙서의 역할을 다룬 애니메이션 교육 영상(영어/자막).",
+      "url": "https://www.youtube.com/watch?v=qHmuuc7m1AA"
+     }
     ]
    },
    "journey": {
@@ -642,7 +649,33 @@
      ]
     ],
     "caption": "현재 지도 위 경로예요. 남쪽 바닷가에서 아편을 불태운 강직한 관리가, 그 옳은 일 때문에 서북쪽 사막 끝으로 유배됐어요 — '옳음'과 '결과'가 어긋난 한 사람의 길이죠."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/lin_portrait.jpg",
+     "title": "임칙서 (초상화)",
+     "alt": "청나라 관복과 관모를 쓴 임칙서의 초상화",
+     "caption": " — 청나라의 강직한 관리 임칙서예요. 아편이라는 명백한 악에 맞선, 청렴함의 상징이었죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/lin_opium.jpg",
+     "title": "후먼의 아편 폐기 (1839)",
+     "alt": "바닷가 구덩이에서 아편을 폐기하는 장면을 그린 당대의 그림",
+     "caption": " — 임칙서(가운데 차양 아래)가 거둬들인 아편을 바닷가 구덩이에서 폐기하는 장면을 그린 당대의 그림이에요. 오른쪽 위에는 이를 지켜보는 외국인들이 있죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/lin_memorial.jpg",
+     "title": "아편전쟁박물관 (후먼)",
+     "alt": "붉은 인물 조형물이 있는 아편전쟁박물관 기념비",
+     "caption": " — 임칙서가 아편을 폐기한 바로 그 후먼에 세워진 박물관과 기념 조형물이에요. 중국에서 그는 '민족의 영웅'으로 기려져요.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY 2.0"
+    }
+   ]
   },
   {
    "slug": "ito-hirobumi",
@@ -820,6 +853,13 @@
       "note": "1909년 의거의 현장 — 지금은 안중근 기념 공간이 있어요.",
       "url": "https://en.wikipedia.org/wiki/Harbin_railway_station"
      }
+    ],
+    "media": [
+     {
+      "title": "KBS 〈제국주의의 두 얼굴, 이토 히로부미를 사살하다〉",
+      "note": "🟢 KBS 역사 다큐 — 일본의 영웅이자 한국의 침탈자라는 '두 얼굴'을 함께 다뤄요(한국어).",
+      "url": "https://www.youtube.com/watch?v=Iz3vtLRbtb4"
+     }
     ]
    },
    "journey": {
@@ -882,7 +922,33 @@
      ]
     ],
     "caption": "현재 지도 위 경로예요. 일본에서 한국으로, 그리고 만주로 — 그가 움직인 길이 곧 일본 제국주의가 뻗어 간 길이었고, 그 끝에서 한 한국 청년의 총과 마주쳤어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/ito_portrait.jpg",
+     "title": "이토 히로부미 (통감 시절, 1905)",
+     "alt": "화려한 예복을 입고 선 이토 히로부미의 전신 사진",
+     "caption": " — 대한제국 통감 시절의 이토예요. 일본의 화려한 예복을 입은 이 모습이, 한국에서는 국권 침탈의 얼굴로 기억돼요.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/ito_jungmyeongjeon.jpg",
+     "title": "중명전 (덕수궁) — 을사늑약의 현장",
+     "alt": "덕수궁 안의 서양식 붉은 벽돌 2층 건물",
+     "caption": " — 1905년 이곳에서 이토가 군대로 궁을 에워싼 채 을사늑약을 강제했어요. 서양식 붉은 벽돌 건물 안에서 한 나라의 외교권이 사라졌죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "src": "img/ito_harbin.jpg",
+     "title": "하얼빈역 (옛 모습)",
+     "alt": "마차가 오가던 20세기 초 하얼빈역 건물",
+     "caption": " — 1909년 이토가 안중근 의사의 총탄에 쓰러진 만주 하얼빈역이에요. 일본 제국이 뻗어 간 길의 끝이 바로 여기였죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    }
+   ]
   },
   {
    "slug": "empress-myeongseong",
@@ -1048,6 +1114,13 @@
       "title": "홍릉 (남양주)",
       "note": "고종과 함께 모셔진 능."
      }
+    ],
+    "media": [
+     {
+      "title": "KBS 역사저널 그날 〈명성황후 시해 사건, 우리가 몰랐던 이야기〉",
+      "note": "🟢 KBS 역사 다큐 — 을미사변을 차분히 사실 중심으로 짚어요(한국어).",
+      "url": "https://www.youtube.com/watch?v=j5RpUgQoIfo"
+     }
     ]
    },
    "journey": {
@@ -1097,7 +1170,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 경기·서울의 좁은 반경 안에서 한 사람의 삶이 펼쳐졌지만, 그 중심의 경복궁에서 벌어진 일은 나라 전체의 운명을 흔들었어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/myeongseong_geoncheong.jpg",
+     "title": "경복궁 건청궁 — 을미사변의 현장",
+     "alt": "경복궁 안의 한옥 건청궁 건물",
+     "caption": " — 왕비가 살던 곳이자, 1895년 일본 세력에게 시해된 바로 그 자리예요. ※명성황후의 '진짜 얼굴' 사진은 지금도 논란이라, 이 도감은 확실한 '장소'들로 그를 기억해요.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "src": "img/myeongseong_gyeongbok.jpg",
+     "title": "경복궁 근정전",
+     "alt": "경복궁의 중심 건물 근정전의 정면",
+     "caption": " — 조선 왕실의 중심 궁궐이에요. 명성황후는 이 궁궐을 무대로, 열강 사이에서 외교로 나라를 지키려 했죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "src": "img/myeongseong_birthplace.jpg",
+     "title": "명성황후 생가 (여주)",
+     "alt": "경기도 여주에 있는 명성황후 생가 한옥",
+     "caption": " — 그가 태어난 경기도 여주의 한옥이에요. 한 시골 양반가의 딸이, 격동의 시대 한복판으로 걸어 들어갔죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "slug": "jeon-bongjun",
@@ -1261,6 +1360,13 @@
       "title": "우금치 전적지 (공주)",
       "note": "농민군이 마지막으로 싸운 고개 — 위령탑이 있어요."
      }
+    ],
+    "media": [
+     {
+      "title": "KBS 〈동학농민혁명 — 갑오년의 노래〉",
+      "note": "🟢 KBS 로드 다큐 — 1894년 농민군의 길을 따라가요(한국어).",
+      "url": "https://www.youtube.com/watch?v=rWdV7dbUZDE"
+     }
     ]
    },
    "journey": {
@@ -1323,7 +1429,33 @@
      ]
     ],
     "caption": "현재 지도 위 경로예요. 호남의 작은 고을에서 시작된 외침이 충청을 거쳐 서울로 끌려가며 끝났지만 — 마지막 화살표가 향한 곳에서 그의 이야기는 노래가 되어 다시 시작됐어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/jeon_arrest.jpg",
+     "title": "전봉준",
+     "alt": "흰 한복을 입은 전봉준의 얼굴 사진",
+     "caption": " — 남아 있는 전봉준의 사진으로 전해지는 모습이에요. 작은 키에 '녹두장군'이라 불렸지만, 그 눈빛에는 억눌린 백성의 분노가 담겨 있죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/jeon_birthplace.jpg",
+     "title": "전봉준 생가 (정읍)",
+     "alt": "초가지붕의 전봉준 생가",
+     "caption": " — 녹두장군이 태어난 초가집이에요. 가난한 시골 선비의 집에서 거대한 농민운동이 시작됐죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY 4.0"
+    },
+    {
+     "src": "img/jeon_memorial.jpg",
+     "title": "동학농민혁명기념관 (정읍)",
+     "alt": "넓은 광장 너머의 현대식 기념관 건물",
+     "caption": " — 봉기가 시작된 고장에 세워진 기념관이에요. '패배한 싸움'을 우리가 어떻게 기억하는지를 보여 주죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY 4.0"
+    }
+   ]
   },
   {
    "slug": "franz-ferdinand",
@@ -2962,6 +3094,13 @@
       "title": "도시샤대학 윤동주 시비 (교토)",
       "note": "그가 유학한 대학에 세워진 〈서시〉 시비."
      }
+    ],
+    "media": [
+     {
+      "title": "영화 〈동주〉 메인 예고편 (이준익, 2016)",
+      "note": "🟢 강하늘이 윤동주를 연기한 영화 — 배급사 플러스엠 공식 예고편(한국어).",
+      "url": "https://www.youtube.com/watch?v=bWiKri1msvo"
+     }
     ]
    },
    "journey": {
@@ -3024,7 +3163,33 @@
      ]
     ],
     "caption": "현재 지도 위 경로예요. 별이 가득하던 북간도에서 출발해, 빛을 6개월 앞둔 차가운 형무소에서 길이 끊겼어요 — 그러나 그가 숨겨 둔 시는 끝내 살아남아 우리에게 닿았죠."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/yun_portrait.jpg",
+     "title": "윤동주 (연희전문 시절)",
+     "alt": "교복을 입은 청년 윤동주의 흑백 사진",
+     "caption": " — 교복을 입은 청년 윤동주예요. 맑고 단단한 이 얼굴이 '죽는 날까지 하늘을 우러러 한 점 부끄럼이 없기를'을 쓴 시인이죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/yun_munhakgwan.jpg",
+     "title": "윤동주 문학관 (서울 청운동)",
+     "alt": "언덕 위 흰색 윤동주 문학관 건물",
+     "caption": " — 옛 수도가압장을 고쳐 만든 작은 문학관이에요. 그의 시와 삶을 조용히 들려주는 공간이죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 2.0"
+    },
+    {
+     "src": "img/yun_monument.jpg",
+     "title": "윤동주 시비 (교토 도시샤대학)",
+     "alt": "꽃이 놓인 윤동주 시비 — 그의 시가 새겨진 돌",
+     "caption": " — 그가 유학한 일본 도시샤대학에 세워진 〈서시〉 시비예요. 그를 기리는 꽃이 늘 놓여 있죠 — 그가 떠난 바로 그 나라에서도요.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    }
+   ]
   },
   {
    "slug": "victoria",
