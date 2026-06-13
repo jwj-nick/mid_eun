@@ -62,6 +62,8 @@
 - **0613 — B1 텍스트+journey 6인 ✅ (로컬 체크포인트)**: 6인 전원 v3 텍스트(quickCard·whyHere·quotes2·deepDive5·network·study books/primary/places) + Leaflet journey. figuresLink 4건=figures/episode.json 실재 섹션 대조 확인(washington-bolivar/sitting-bull-an/galilei-oppenheimer/leopold-morel). G0/G1 통과. 소스 `83f0228`.
 - **0613 — B1 gallery+검증영상 4인 floor 도달 ✅ 라이브**: 투생·시팅불·볼리바르·갈릴레이 각 gallery 3점(Commons urllib 소싱, 429 레이트리밋은 정확 파일명+지연으로 우회, **전 12장 Read 육안검수·오선정 0**). 검증영상=투생 TED-Ed / 시팅불 HISTORY공식(2025 라코타제작) / 볼리바르 Cohen Media공식예고편 / 갈릴레이 PBS NOVA공식페이지(비공식 유튜브업로드 회피). ⚠️oembed로 dead 트레일러(3x9PtYN83hQ=403) 사전 차단. G0/G1/G2 통과, 소스 `af7661e`·배포 `a605073`. **G3 라이브: 4페이지 gallery+journey + 샘플이미지 200 확인(GH Pages ~48s 재빌드).**
 - **★ B1 부분완료 = floor 도달 누계 12인** (B0 8 + 투생·시팅불·볼리바르·갈릴레이). **B1 잔여 2인=메넬리크·레오폴드2세**: 텍스트+journey 완료, **gallery만 남음**(다음 턴 네트워크 패스). 그 뒤 B2 한국연관 5인.
+- **0613 — ★B1 완료: 메넬리크·레오폴드2세 gallery+영상 ✅ 라이브**: 메넬리크 gallery 3(당대초상 PD·**아도와 에티오피아 전통화 CC0=비서구 시선**·황후 타이투 르프티주르날1896 PD)+Extra History 아도와편. 레오폴드 gallery 3(1905 왕실초상 PD·**'In the Rubber Coils' 펀치 풍자화 PD=비잔혹 알레고리**·테르뷔런 아프리카박물관 CC BY-SA4)+People Profiles 전기다큐(🟡 무거운내용). ⚠️교정 2건: adwa 자동선택이 Segale전투(1916)→정확본, 레오폴드초상 왕비포함→단독본. oembed로 dead(K8KaQToKJR4=404) 배제. 전 6장 육안검수. G0/G1/G2/G3 통과. 소스 `76b82cd`·배포 `6367177`.
+- **★★ B1 전체 완료 = floor 도달 누계 14인** (B0 8 + B1 6: 투생·시팅불·볼리바르·갈릴레이·메넬리크·레오폴드2세). **남은 33.** 다음 = **B2 한국 연관 5인**(이토·명성황후·전봉준·윤동주·임칙서[lin-zexu]).
 
 ## 8. Nick 코멘트
 - (Nick)
