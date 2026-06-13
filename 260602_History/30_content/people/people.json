@@ -4125,6 +4125,13 @@
       "title": "라구스 (포르투갈)",
       "note": "항해의 출발항이자 — 유럽 최초의 노예시장이 선 곳."
      }
+    ],
+    "media": [
+     {
+      "title": "〈포르투갈 제국과 대항해시대〉 다큐",
+      "note": "🟡 엔히크가 연 포르투갈의 항해를 큰 흐름으로 보는 다큐 — 영광과 함께 노예무역의 그림자도 떠올리며 보세요(영어).",
+      "url": "https://www.youtube.com/watch?v=mgWBqPI8lwE"
+     }
     ]
    },
    "journey": {
@@ -4187,7 +4194,33 @@
      ]
     ],
     "caption": "현재 지도 위 경로예요. 포르투갈 남단에서 아프리카 해안을 따라 내려간 이 길이 인도 항로로 이어졌지만 — 같은 길로 노예무역도 시작됐어요. 한 화살표의 두 얼굴이죠."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/henrique_portrait.jpg",
+     "title": "엔히크 항해왕자 (성 비센트 제단화)",
+     "alt": "검은 모자를 쓴 엔히크로 전해지는 15세기 제단화 인물",
+     "caption": " — 15세기 제단화 속 엔히크로 전해지는 인물이에요. 그는 정작 먼 바다에 나가지 않고, 항해를 '시스템'으로 설계한 사람이었죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/henrique_caravel.jpg",
+     "title": "포르투갈 카라벨선",
+     "alt": "삼각돛을 단 포르투갈 카라벨선 그림",
+     "caption": " — 삼각돛(라틴 세일)을 단 카라벨은 역풍에도 나아갈 수 있어, 아프리카 해안을 한 해 한 해 남하하게 해 줬어요. 엔히크가 후원한 항해 기술의 핵심이죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/henrique_monument.jpg",
+     "title": "발견 기념비 (리스본)",
+     "alt": "뱃머리 모양의 거대한 석조 기념비, 맨 앞에 엔히크",
+     "caption": " — 배의 뱃머리 모양 기념비예요. 맨 앞에 엔히크가 서 있죠. 영광스러운 기념비지만 — 그 항해의 자금에 노예무역이 있었다는 것도 함께 기억해야 해요.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "slug": "columbus",
@@ -4929,6 +4962,13 @@
       "title": "베라크루스 (멕시코)",
       "note": "코르테스가 상륙해 배를 가라앉힌 해안."
      }
+    ],
+    "media": [
+     {
+      "title": "Kings and Generals 〈테노치티틀란의 함락〉",
+      "note": "🟢 코르테스의 상륙부터 '슬픔의 밤', 함락까지를 지도와 함께 따라가는 애니메이션 다큐(영어/자막).",
+      "url": "https://www.youtube.com/watch?v=391JhiSsByI"
+     }
     ]
    },
    "journey": {
@@ -5004,7 +5044,33 @@
      ]
     ],
     "caption": "현재 지도 위 경로예요. 해안에서 고원의 호수 도시로 올라간 그 길의 끝에서, 한 문명의 수도가 사라졌어요 — 그 자리가 지금의 멕시코시티예요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/cortes_portrait.jpg",
+     "title": "코르테스 초상 (1525)",
+     "alt": "갑옷을 입은 코르테스의 초상화와 문장",
+     "caption": " — 갑옷을 입은 정복자 코르테스예요. '오아하카 계곡의 후작'이라는 칭호가 적혀 있죠. 멕시코에는 지금도 그의 동상이 거의 없어요.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/cortes_lienzo.jpg",
+     "title": "〈틀락스칼라 화폭〉 — 원주민이 그린 정복",
+     "alt": "코덱스 양식으로 그린 틀락스칼라 전사와 스페인 기병",
+     "caption": " — 아스텍에 맞서 코르테스와 동맹한 틀락스칼라 사람들이 직접 그린 그림이에요. 아스텍을 무너뜨린 건 스페인군만이 아니라 눌려 있던 이웃들이기도 했음을, '그들의 시선'으로 보여 주죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/cortes_fall.jpg",
+     "title": "테노치티틀란 정복 (당대 그림)",
+     "alt": "말을 탄 코르테스와 군대가 수도로 진격하는 장면",
+     "caption": " — 말을 탄 코르테스와 스페인·동맹군이 수도로 밀고 드는 장면이에요. 천연두로 약해진 도시는 1521년 함락됐죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    }
+   ]
   },
   {
    "slug": "moctezuma",
@@ -5177,6 +5243,13 @@
       "title": "국립인류학박물관 (멕시코시티)",
       "note": "아스텍 달력석 등 — 그 문명의 정교함이 모인 곳."
      }
+    ],
+    "media": [
+     {
+      "title": "〈테노치티틀란 — 아스텍의 수도〉 3D 복원",
+      "note": "🟢 호수 위 20만 도시가 어떤 모습이었는지 3D로 되살린 영상 — '미개'라는 편견이 깨져요(영어/영상).",
+      "url": "https://www.youtube.com/watch?v=VdUiVfxVB0I"
+     }
     ]
    },
    "journey": {
@@ -5226,7 +5299,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 소식은 동쪽 해안에서 왔고, 비극은 호수 위 도시에서 끝났어요 — 화살표가 다시 도시로 돌아오는 게 이 이야기의 슬픔이에요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/moctezuma_portrait.jpg",
+     "title": "목테수마 2세 초상 (후대作)",
+     "alt": "아스텍 예복과 깃털 관을 갖춘 목테수마의 전신 초상",
+     "caption": " — 아스텍 예복을 갖춘 목테수마예요. 생전 초상은 남지 않아 후대에 그린 그림이지만, '미개한 패배자'라는 편견과는 다른 위엄을 담았죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/moctezuma_sunstone.jpg",
+     "title": "아스텍 태양석 (달력석)",
+     "alt": "중앙에 얼굴이 새겨진 거대한 원형 아스텍 달력석",
+     "caption": " — 지름 약 3.6m, 무게 24톤의 거대한 돌에 아스텍의 우주관과 달력을 새겼어요. '미개'와는 정반대인, 정교한 문명의 증거죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC0"
+    },
+    {
+     "src": "img/moctezuma_templo.jpg",
+     "title": "템플로 마요르 (멕시코시티)",
+     "alt": "발굴된 아스텍 대신전 유적과 뒤편 식민 시대 건물",
+     "caption": " — 테노치티틀란 대신전의 발굴 유적이에요. 뒤로 스페인 식민 시대 건물이 보이죠 — 한 문명을 묻고 그 위에 세운 도시의 단면이에요.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "slug": "atahualpa",
@@ -5404,6 +5503,13 @@
       "title": "쿠스코·마추픽추 (페루)",
       "note": "잉카 문명의 정교함이 돌에 새겨진 곳."
      }
+    ],
+    "media": [
+     {
+      "title": "Kings and Generals 〈잉카 제국의 정복〉",
+      "note": "🟢 카하마르카의 함정과 168명의 정복을 지도와 함께 — 잉카 쪽 사정까지 짚어요(영어/자막).",
+      "url": "https://www.youtube.com/watch?v=xPm8E-zWwsQ"
+     }
     ]
    },
    "journey": {
@@ -5466,7 +5572,33 @@
      ]
     ],
     "caption": "현재 지도 위 경로예요. 안데스를 따라 북에서 남으로 — 황제는 카하마르카에서 스러졌지만, 그 남쪽 깊은 산속에서 저항은 40년을 더 이어졌어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/atahualpa_portrait.jpg",
+     "title": "아타우알파 — 잉카 14대 황제 (식민기 초상)",
+     "alt": "이마 술 장식과 태양 문장을 한 잉카 황제의 초상",
+     "caption": " — 쿠스코 화파가 그린 잉카 황제 연작 중 하나예요. 이마의 술 장식(마스카파이차)과 태양 문장이 잉카 황제의 표식이죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/atahualpa_cajamarca.jpg",
+     "title": "카하마르카 '몸값의 방'",
+     "alt": "잉카식 돌로 쌓은 카하마르카의 몸값의 방 건물",
+     "caption": " — 사로잡힌 아타우알파가 금으로 채우려 한 바로 그 방이에요. 카하마르카에 남은 유일한 잉카 석조 건물이죠 — 약속은 지켜졌지만, 그는 처형됐어요.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "src": "img/atahualpa_machu.jpg",
+     "title": "마추픽추 (잉카)",
+     "alt": "안데스 산봉우리 사이의 잉카 석조 도시 마추픽추",
+     "caption": " — 글자 없이도 4천km를 다스린 잉카 문명의 정교함이 돌에 새겨져 있어요. '문명이 야만을 정복했다'는 옛 서사가 얼마나 틀렸는지 보여 주죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 3.0"
+    }
+   ]
   },
   {
    "slug": "washington",
