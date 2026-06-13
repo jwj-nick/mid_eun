@@ -68,3 +68,9 @@
 
 ## 8. 진행 기록 (NCC)
 - 0614: 계획 수립. 착수 = episode.json origin~fall 작성.
+- **0614 ✅ 완료·배포·라이브**: 8섹션 전부 작성·빌드·배포. https://jwj-nick.github.io/history/coldwar/ (G3 200·91KB·마커3).
+  - 자산 5점 전점 Read 검수(크로스로드 핵실험 PD·베를린장벽 CC BY-SA·스푸트니크/아폴로 PD NASA·89붕괴 CC BY-SA). terms 20·deepdive 16.
+  - 허브 랜딩 EP07 카드+flow밴드 활성화. SERIES_ROADMAP·PROGRESS 갱신. 소스 `5b105a4`·배포 `5ae9783`.
+  - **도감 3인 floor 추가(47→50)**: 케네디·흐루쇼프·고르바초프. 자산 11점 Read 검수(전부 PD/CC BY-SA). network·related로 냉전↔도감 연결. 외부링크 200 검증. 소스 `51552ac`·배포 `6022031`. G3 라이브 200.
+  - **hist-audit 통과**: `20_research/coldwar/audit.md` (4페르소나, 사실오류 0, 양진영 균형, 저작권·링크 OK).
+- **다음 = 마스터플랜 P2(globalization 탈냉전·세계화) 또는 P3(tracks/sci-tech).** 사슬 다음칸 vs 분야축 1호.
