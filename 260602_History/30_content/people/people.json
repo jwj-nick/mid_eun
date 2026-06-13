@@ -7894,6 +7894,14 @@
       "title": "불로뉴쉬르메르 (프랑스)",
       "note": "권력을 내려놓고 떠나 눈을 감은 곳."
      }
+    ],
+    "media": [
+     {
+      "title": "다큐 — 산마르틴: 조용한 해방자",
+      "by": "Heroes and Legends Documentary",
+      "note": "안데스를 넘은 해방자의 생애를 다룬 영어 다큐.",
+      "url": "https://www.youtube.com/watch?v=G7HbH9dgu_M"
+     }
     ]
    },
    "journey": {
@@ -7969,7 +7977,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 멘도사에서 산티아고로 이어진 선이 바로 그 유명한 '안데스 횡단'이에요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/sanmartin_andes.jpg",
+     "title": "안데스 횡단 (역사화)",
+     "alt": "눈 덮인 안데스 고개를 말을 타고 넘는 산마르틴과 병사들을 그린 그림",
+     "caption": "5,000여 명을 해발 4,000m의 안데스로 넘긴 작전이에요. 한니발·나폴레옹의 알프스 횡단에 견줘지죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/sanmartin_guayaquil.jpg",
+     "title": "과야킬 회담 (산마르틴·볼리바르)",
+     "alt": "두 해방자 산마르틴과 볼리바르가 마주 서서 대화하는 채색 판화",
+     "caption": "북에서 온 볼리바르와 남에서 온 산마르틴이 만난 1822년 회담이에요. 직후 산마르틴은 모든 권력을 내려놓고 떠났죠 — 내용은 지금도 수수께끼예요.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/sanmartin_monument.jpg",
+     "title": "안데스군 기념비 (멘도사, 영광의 언덕)",
+     "alt": "승리의 여신과 기마 산마르틴 등이 조각된 안데스군 기념비",
+     "caption": "'조국이 안데스군에게' — 멘도사 '영광의 언덕'에 선 기념비예요. 산을 넘은 군대를 기리죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    }
+   ]
   },
   {
    "slug": "menelik",
@@ -8425,6 +8459,14 @@
       "title": "시더 힐 / 더글러스 국가사적지 (워싱턴 DC)",
       "note": "말년을 보낸 집, 지금은 기념관."
      }
+    ],
+    "media": [
+     {
+      "title": "다큐 — Becoming Frederick Douglass",
+      "by": "PBS America",
+      "note": "노예에서 시대의 목소리로 — PBS 다큐멘터리(영어).",
+      "url": "https://www.youtube.com/watch?v=NuQ7m5haBes"
+     }
     ]
    },
    "journey": {
@@ -8500,7 +8542,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 남쪽 농장에서 북쪽 자유주로 향한 이 길이, 수많은 노예가 목숨을 걸고 오른 '자유로 가는 길'이었어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/douglass_elder.jpg",
+     "title": "노년의 프레더릭 더글러스 (약 1879)",
+     "alt": "백발과 흰 수염의 노년 더글러스 사진",
+     "caption": "그는 '사진이 편견을 깬다'며 당대 가장 많이 촬영된 사람 중 하나가 되길 자처했어요. 위엄 있는 이 얼굴 자체가 그의 주장이었죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/douglass_narrative.jpg",
+     "title": "자서전 표제지 (1845)",
+     "alt": "'미국 노예 프레더릭 더글러스의 삶, 본인이 직접 씀' 1845년 표제지",
+     "caption": "'본인이 직접 씀(Written by Himself)' — 이 한 줄이 강력했어요. 노예가 자기 삶을 직접 쓸 수 있다는 것 자체가 증거였으니까요.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/douglass_cedarhill.jpg",
+     "title": "시더 힐 — 더글러스의 집 (워싱턴 DC)",
+     "alt": "언덕 위 흰색 빅토리아풍 저택, 더글러스 국가사적지",
+     "caption": "말년을 보낸 워싱턴 DC의 집이에요. 노예로 태어난 사람이 수도를 내려다보는 언덕 위 집의 주인이 됐죠. 지금은 기념관이에요.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    }
+   ]
   },
   {
    "slug": "morel",
@@ -10073,6 +10141,14 @@
       "title": "에르므농빌 (파리 근교)",
       "note": "말년을 보내고 처음 묻힌 곳."
      }
+    ],
+    "media": [
+     {
+      "title": "영상 — 루소와 〈사회계약론〉",
+      "by": "Then & Now",
+      "note": "'일반의지'와 국민주권을 풀어 주는 영어 해설.",
+      "url": "https://www.youtube.com/watch?v=qvjrE5nc4xs"
+     }
     ]
    },
    "journey": {
@@ -10161,7 +10237,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 금서 처분으로 쫓겨 다닌 그가, 죽은 뒤엔 프랑스가 가장 떠받드는 자리에 묻혔어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/rousseau_contract.jpg",
+     "title": "〈사회계약론〉 표제지 (1762)",
+     "alt": "'정치적 권리의 원리' J.J.루소 — 1762년 초판 표제지",
+     "caption": "'주권은 국민의 것' — 이 책의 첫 문장이 혁명의 불씨가 됐어요. 1762년 암스테르담에서 나온 초판 표제지예요.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "src": "img/rousseau_emile.jpg",
+     "title": "〈에밀〉 표제지 (1762)",
+     "alt": "'에밀, 또는 교육에 대하여' 1762년 표제지",
+     "caption": "같은 해 나온 교육 소설 〈에밀〉이에요. '아이는 작은 어른이 아니다' — 근대 교육이 여기서 출발했죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/rousseau_tomb.jpg",
+     "title": "루소의 묘 (팡테옹)",
+     "alt": "'자연과 진리의 인간이 잠들다'라고 새겨진 루소의 관 모양 묘",
+     "caption": "팡테옹에 놓인 그의 묘예요. '자연과 진리의 인간이 여기 잠들다'라고 새겨졌고, 횃불을 든 손이 관 밖으로 나와 있죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "slug": "robespierre",
@@ -10337,6 +10439,14 @@
       "title": "카르나발레 박물관 (파리)",
       "note": "프랑스혁명 유물·초상을 모은 곳."
      }
+    ],
+    "media": [
+     {
+      "title": "다큐 — 로베스피에르, 공포의 설계자",
+      "by": "The People Profiles",
+      "note": "이상주의자가 공포정치로 간 과정을 다룬 영어 다큐.",
+      "url": "https://www.youtube.com/watch?v=ygP-1pQAwoY"
+     }
     ]
    },
    "journey": {
@@ -10399,7 +10509,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 지방에서 파리로 올라간 5년의 길이, 혁명의 이상과 공포를 모두 담고 있어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/robespierre_festival.jpg",
+     "title": "최고 존재의 축제 (1794.6)",
+     "alt": "샹드마르스에 세운 인공 산 위에서 열린 최고 존재의 축제 채색 판화",
+     "caption": "그가 주도한 '최고 존재의 축제'예요(1794년 6월). 이상의 정점이었지만, 불과 한 달여 뒤 그는 무너졌어요.",
+     "source": "Wikimedia Commons",
+     "license": "CC0"
+    },
+    {
+     "src": "img/robespierre_caricature.jpg",
+     "title": "'여기 프랑스 전체가 잠들다' (당대 풍자화)",
+     "alt": "단두대들이 늘어선 가운데 로베스피에르가 사형집행인마저 처형하는 풍자화",
+     "caption": "모두를 단두대에 보낸 끝에, 마지막 남은 사형집행인까지 처형하는 로베스피에르 — 공포의 끝을 비꼰 그림이에요. 피라미드엔 '여기 프랑스 전체가 잠들다'.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/robespierre_execution.jpg",
+     "title": "로베스피에르의 처형 (1794.7)",
+     "alt": "단두대에 오르는 로베스피에르를 그린 채색 판화",
+     "caption": "테르미도르의 반격으로 체포된 그는, 자신이 만든 절차 없는 재판으로 하루 만에 처형됐어요. 36세였죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    }
+   ]
   },
   {
    "slug": "napoleon",
