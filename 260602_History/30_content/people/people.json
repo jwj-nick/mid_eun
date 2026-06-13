@@ -2869,6 +2869,14 @@
       "title": "트리니티 사이트 (앨라모고도)",
       "note": "첫 핵실험이 일어난 곳 — 일 년에 며칠만 공개돼요."
      }
+    ],
+    "media": [
+     {
+      "title": "영화 예고편 — 오펜하이머 (2023)",
+      "by": "Universal Pictures UK",
+      "note": "그의 생애를 다룬 놀런 감독 영화의 공식 예고편.",
+      "url": "https://www.youtube.com/watch?v=keydELfWuMQ"
+     }
     ]
    },
    "journey": {
@@ -2944,7 +2952,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 그가 만든 사막의 섬광은, 곧 지구 반대편 두 도시의 운명이 됐어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/oppenheimer_trinity.jpg",
+     "title": "트리니티 — 첫 핵실험 (1945.7)",
+     "alt": "사막 위로 부풀어 오른 첫 원자폭탄 폭발의 불덩이",
+     "caption": "인류 최초의 핵폭발 실험이에요. 폭발 0.016초 뒤의 모습으로, 이 섬광 앞에서 그는 기뻐하기보다 두려워했죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/oppenheimer_groundzero.jpg",
+     "title": "폭심지의 오펜하이머와 그로브스",
+     "alt": "트리니티 실험장 폭심지에서 녹아내린 철탑 잔해 옆에 선 오펜하이머와 그로브스 장군",
+     "caption": "실험 뒤 폭심지를 살펴보는 오펜하이머(왼쪽)와 책임 장군 그로브스예요. 발밑의 녹아 버린 철탑이 그 힘을 말해 주죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/oppenheimer_cloud.jpg",
+     "title": "나가사키 상공의 버섯구름 (1945.8.9)",
+     "alt": "나가사키 상공으로 솟아오른 거대한 원자폭탄 버섯구름",
+     "caption": "그가 만든 무기가 도시 위에 떨어진 모습이에요. 이 구름 아래에서 수많은 삶이 사라졌고 — 도감의 '사다코'가 바로 그 아래를 살아 낸 한 사람이에요.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    }
+   ]
   },
   {
    "slug": "sadako-sasaki",
@@ -3600,6 +3634,14 @@
       "title": "백악관 (워싱턴 DC)",
       "note": "원폭과 한국전쟁을 결정한 자리."
      }
+    ],
+    "media": [
+     {
+      "title": "다큐 — 트루먼: 폭탄을 떨어뜨린 대통령",
+      "by": "The People Profiles",
+      "note": "원폭과 냉전, 그의 결정을 다룬 영어 다큐멘터리.",
+      "url": "https://www.youtube.com/watch?v=M6XnnMgliQs"
+     }
     ]
    },
    "journey": {
@@ -3649,7 +3691,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 미주리의 한 사람이 내린 결정들이, 일본과 한반도의 운명에 닿았어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/truman_portrait.jpg",
+     "title": "트루먼 대통령 공식 초상 (1947)",
+     "alt": "미국 국회의사당을 배경으로 한 해리 트루먼 대통령의 초상화",
+     "caption": "미국 33대 대통령의 공식 초상화예요. 평범한 정치인이던 그는, 20세기에서 가장 무거운 결정들을 짊어지게 됐죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/truman_potsdam.jpg",
+     "title": "포츠담 회담 (1945)",
+     "alt": "포츠담 회담에서 나란히 앉은 처칠, 트루먼, 스탈린",
+     "caption": "전쟁 막바지, 세 강대국 지도자(처칠·트루먼·스탈린)가 전후 세계를 논의한 회담이에요. 트루먼이 원폭 결정으로 향하던 즈음이죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/truman_buck.jpg",
+     "title": "'모든 책임은 여기서 멈춘다'",
+     "alt": "백악관 책상에 앉은 트루먼과 'The BUCK STOPS here!' 팻말",
+     "caption": "그의 책상에 놓였던 팻말이에요. 결정을 미루지 않고 끝까지 책임지겠다는 그의 태도를 보여 주죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    }
+   ]
   },
   {
    "slug": "macarthur",
@@ -3819,6 +3887,14 @@
       "title": "맥아더 기념관 (노퍽, 버지니아)",
       "note": "그가 묻힌 곳이자 기념관."
      }
+    ],
+    "media": [
+     {
+      "title": "영상 — 인천·서울 전투 (한국전쟁)",
+      "by": "Marine Corps Association",
+      "note": "인천상륙작전과 서울 수복을 담은 기록 영상.",
+      "url": "https://www.youtube.com/watch?v=jkCW5c7FFX8"
+     }
     ]
    },
    "journey": {
@@ -3881,7 +3957,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 인천에서의 성공과 워싱턴에서의 퇴장이 불과 몇 달 사이의 일이었어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/macarthur_inchon.jpg",
+     "title": "인천상륙작전 (1950.9)",
+     "alt": "연기가 피어오르는 인천 앞바다로 접근하는 상륙정들",
+     "caption": "모두가 무모하다던 인천상륙작전이에요. 이 도박 같은 작전이 성공하며 한국전쟁의 전세가 단번에 뒤집혔죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/macarthur_leyte.jpg",
+     "title": "'나는 돌아왔다' — 레이테 상륙 (1944)",
+     "alt": "필리핀 레이테 해안으로 물을 헤치며 상륙하는 맥아더와 참모들",
+     "caption": "일본에 밀려 떠났던 필리핀으로, 약속대로 돌아온 순간이에요. 'I shall return'을 지킨 거죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/macarthur_portrait.jpg",
+     "title": "더글러스 맥아더",
+     "alt": "군모를 쓰고 허리에 손을 얹은 맥아더의 초상 사진",
+     "caption": "특유의 군모를 쓴 맥아더예요. 뛰어난 전략가였지만, 강한 자기 확신이 끝내 그를 해임으로 이끌었죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    }
+   ]
   },
   {
    "slug": "syngman-rhee",
@@ -4055,6 +4157,14 @@
       "title": "국립서울현충원",
       "note": "그가 안장된 곳."
      }
+    ],
+    "media": [
+     {
+      "title": "다큐 — KBS 한국사전: 이승만 1부",
+      "by": "KBS 히스토리",
+      "note": "초대 대통령 이승만의 생애를 다룬 KBS 역사 다큐멘터리.",
+      "url": "https://www.youtube.com/watch?v=SqMOfDesFXQ"
+     }
     ]
    },
    "journey": {
@@ -4130,7 +4240,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 독립을 위해 떠난 바닷길이, 마지막엔 그를 다시 그 바다 너머로 데려갔어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/rhee_desk.jpg",
+     "title": "청년 이승만 (1931, 독립운동기)",
+     "alt": "책상에 앉아 일하는 젊은 시절 이승만의 사진",
+     "caption": "해외에서 외교로 독립을 호소하던 시절의 모습이에요. 그는 미국에서 박사 학위를 받은 드문 지식인이었죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/rhee_founding.jpg",
+     "title": "대한민국 정부 수립 (1948.8.15)",
+     "alt": "1948년 정부 수립을 선포하며 연설하는 이승만",
+     "caption": "1948년, 대한민국 초대 대통령으로 정부 수립을 선포하는 모습이에요. 새 나라가 시작된 순간이죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/rhee_portrait.jpg",
+     "title": "노년의 이승만 대통령",
+     "alt": "백발의 노년 이승만 대통령 초상 사진",
+     "caption": "건국의 공과 독재의 과를 함께 남긴 그의 만년이에요. 한 사람을 한쪽으로만 보지 않는 연습이 필요한 인물이죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    }
+   ]
   },
   {
    "slug": "heungseon-daewongun",
