@@ -4204,6 +4204,13 @@
       "title": "팔로스 데 라 프론테라 (스페인)",
       "note": "1492년 세 척이 출항한 항구."
      }
+    ],
+    "media": [
+     {
+      "title": "CrashCourse 〈15세기의 항해가들〉 (콜럼버스·다가마·정화)",
+      "note": "🟢 콜럼버스를 정화(중국)와 함께 다뤄 균형 잡힌 교육 영상(영어/자막).",
+      "url": "https://www.youtube.com/watch?v=NjEGncridoQ"
+     }
     ]
    },
    "journey": {
@@ -4279,7 +4286,33 @@
      ]
     ],
     "caption": "현재 지도 위 경로예요. 대서양을 건너 두 세계를 이은 그 항로가, 한쪽에는 '연결'을, 다른 쪽에는 '재앙'을 가져왔어요 — 같은 화살표의 두 얼굴이죠."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/columbus_landing.jpg",
+     "title": "〈콜럼버스의 상륙〉 (밴덜린)",
+     "alt": "카리브 해안에 깃발을 들고 선 콜럼버스와 일행을 그린 판화",
+     "caption": " — 깃발을 꽂는 콜럼버스를 영웅처럼 그린 19세기 그림이에요. 가장자리에 웅크린 원주민들이 보이죠 — 누구의 시선으로 그린 '발견'인지 생각하며 보세요.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/columbus_portrait.jpg",
+     "title": "콜럼버스 초상 (후대作)",
+     "alt": "검은 옷과 모자를 쓴 콜럼버스라고 전해지는 남자의 초상",
+     "caption": " — 세바스티아노 델 피옴보가 그린 초상이에요. 사실 콜럼버스의 생전 초상은 남아 있지 않아, 이 그림도 죽은 뒤 상상해 그린 거예요('콜럼버스라고 전해지는 남자').",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/columbus_ship.jpg",
+     "title": "산타마리아호 (복원)",
+     "alt": "항구에 정박한 콜럼버스의 범선 복원선",
+     "caption": " — 콜럼버스가 1492년 대서양을 건넌 배의 복원선이에요. 이렇게 작은 배 세 척으로 미지의 바다를 건넜죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    }
+   ]
   },
   {
    "slug": "magellan",
@@ -4451,6 +4484,13 @@
       "title": "막탄 섬 (필리핀 세부)",
       "note": "마젤란이 전사하고 라푸라푸가 승리한 곳 — 라푸라푸 기념비가 있어요."
      }
+    ],
+    "media": [
+     {
+      "title": "Simple History 〈마젤란 — 최초의 세계일주〉",
+      "note": "🟢 마젤란-엘카노 항해를 애니메이션으로 따라가는 교육 영상(영어/자막).",
+      "url": "https://www.youtube.com/watch?v=ylwiOLab5AA"
+     }
     ]
    },
    "journey": {
@@ -4526,7 +4566,33 @@
      ]
     ],
     "caption": "현재 지도 위 경로예요. 마지막 화살표가 출발지 세비야로 되돌아온다는 게 핵심 — 지구가 둥글다는 걸 한 바퀴로 증명했죠. 다만 그 귀환을 본 사람은 마젤란이 아니라 엘카노였어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/magellan_portrait.jpg",
+     "title": "마젤란 초상 (후대作)",
+     "alt": "검은 모자와 수염의 마젤란 초상화",
+     "caption": " — 라틴어로 '해협을 정복한 이'라 적힌 초상이에요. 마젤란의 생전 초상도 확실치 않아, 후대에 그린 그림이죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/magellan_victoria.jpg",
+     "title": "빅토리아호 (복원)",
+     "alt": "스페인 깃발을 단 범선 빅토리아호의 복원선",
+     "caption": " — 다섯 척 중 유일하게 세계일주를 마치고 돌아온 배 '빅토리아호'의 복원선이에요. 270명 중 단 18명만이 이 배로 살아 돌아왔죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 3.0"
+    },
+    {
+     "src": "img/magellan_lapulapu.jpg",
+     "title": "라푸라푸 기념 명판 (막탄, 필리핀)",
+     "alt": "라푸라푸를 기리는 청동 명판",
+     "caption": " — 마젤란을 물리친 라푸라푸를 기리는 명판이에요. '식민 세력에 맞선 첫 아시아인'이라 새겨져 있죠. 한 항해가 '발견'으로도 '침략'으로도 기억된다는 걸 보여 줘요. (한국의 한 단체가 세운 것이기도 해요.)",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "slug": "cortes",
@@ -6930,6 +6996,13 @@
       "title": "클로 뤼세 (앙부아즈, 프랑스)",
       "note": "말년을 보내고 눈을 감은 집."
      }
+    ],
+    "media": [
+     {
+      "title": "PBS 켄 번스 〈Leonardo da Vinci〉 예고편",
+      "note": "🟢 켄 번스의 2부작 다큐멘터리 — 예술가이자 과학자였던 다빈치(PBS 공식, 영어).",
+      "url": "https://www.youtube.com/watch?v=5UnwIgfe6uM"
+     }
     ]
    },
    "journey": {
@@ -7005,7 +7078,33 @@
      ]
     ],
     "caption": "현재 지도 위 경로예요. 이탈리아 곳곳을 떠돌던 그가 마지막에 프랑스로 건너갔기에, 〈모나리자〉도 지금 파리 루브르에 있어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/davinci_monalisa.jpg",
+     "title": "레오나르도 〈모나리자〉",
+     "alt": "신비한 미소를 띤 모나리자의 초상",
+     "caption": " — 세상에서 가장 유명한 그림이죠. 얼굴 근육을 해부로 익히고, 안개처럼 윤곽을 흐리는 '스푸마토'로 살아 있는 듯한 미소를 그렸어요 — 예술이 곧 과학이었죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/davinci_lastsupper.jpg",
+     "title": "레오나르도 〈최후의 만찬〉 (밀라노)",
+     "alt": "긴 식탁에 둘러앉은 예수와 열두 제자를 그린 벽화",
+     "caption": " — 밀라노 수도원 벽에 그린 벽화예요. 한 점으로 모이는 원근법으로 깊은 공간을 만들고, 열두 제자의 감정을 순간처럼 포착했죠. 지금은 많이 바랬지만 그래서 더 귀해요.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/davinci_vitruvian.jpg",
+     "title": "〈비트루비우스적 인간〉",
+     "alt": "원과 정사각형 안에 팔다리를 벌린 사람을 그린 소묘",
+     "caption": " — 원과 정사각형 안에 사람을 그려 '인체의 비례'를 탐구한 그림이에요. 거울 글씨 메모와 함께 — 예술·수학·해부가 한 장에 담긴, 다빈치 그 자체죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    }
+   ]
   },
   {
    "slug": "gutenberg",
@@ -7182,6 +7281,13 @@
       "title": "청주 고인쇄박물관 (한국)",
       "note": "『직지』의 고장에 세워진 인쇄 문화 박물관."
      }
+    ],
+    "media": [
+     {
+      "title": "〈The Machine That Made Us〉 (스티븐 프라이, BBC)",
+      "note": "🟢 배우 스티븐 프라이가 직접 구텐베르크 인쇄기를 복원하며 따라가는 BBC 다큐(영어).",
+      "url": "https://www.youtube.com/watch?v=uQ88yC35NjI"
+     }
     ]
    },
    "journey": {
@@ -7244,7 +7350,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 라인강 변의 좁은 반경 안에서 평생을 보냈지만, 그가 만든 기계는 단 50년 만에 유럽 전체를 책으로 덮었어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/gutenberg_bible.jpg",
+     "title": "구텐베르크 42행 성서",
+     "alt": "붉은 장식 머리글자가 있는 두 단 인쇄 성서 펼침면",
+     "caption": " — 그의 인쇄 시스템이 낳은 첫 걸작이에요. 손으로 쓴 책 못지않게 아름다우면서도, 똑같은 책을 여러 부 찍어낼 수 있었죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 2.0"
+    },
+    {
+     "src": "img/gutenberg_press.jpg",
+     "title": "구텐베르크식 인쇄기 (복원)",
+     "alt": "나사로 누르는 나무 인쇄기",
+     "caption": " — 포도주 압착기를 개조한 나무 인쇄기예요. 활자를 짜 잉크를 묻히고, 이 나사로 종이를 눌러 찍었죠 — 책을 '대량 생산'한 첫 기계예요.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/gutenberg_jikji.jpg",
+     "title": "직지심체요절 (고려, 1377)",
+     "alt": "한자가 세로로 인쇄된 고려의 금속활자 책 펼침면",
+     "caption": " — 구텐베르크 성서보다 78년 앞선, 현존 세계에서 가장 오래된 금속활자 인쇄본이에요. 끝부분에 '청주 흥덕사에서 금속활자로 찍었다'는 기록이 또렷이 남아 있죠. '누가 먼저인가'를 함께 기억하는 그림이에요.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    }
+   ]
   },
   {
    "slug": "luther",
