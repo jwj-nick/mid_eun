@@ -500,6 +500,14 @@
       "title": "락슈미바이 동상",
       "note": "잔시·그왈리오르 등 인도 곳곳에 세워진 기마상."
      }
+    ],
+    "media": [
+     {
+      "title": "영상 — 잔시의 여왕 락슈미바이 (어린이용)",
+      "by": "Mocomi Kids",
+      "note": "초·중학생 눈높이로 풀어낸 락슈미바이 이야기(영어).",
+      "url": "https://www.youtube.com/watch?v=tysemPBn4UI"
+     }
     ]
    },
    "journey": {
@@ -571,7 +579,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 그가 지킨 잔시 요새는 지금도 인도 우타르프라데시에 남아 있어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/lakshmibai_painting.jpg",
+     "title": "기마 초상 (약 1860, 인도 회화)",
+     "alt": "창을 들고 백마에 올라탄 락슈미바이를 그린 인도 전통 회화",
+     "caption": "그가 살던 시대에 가까운 인도 그림이에요. 백마에 올라 창을 든 모습 — 서양인이 아니라 인도인의 눈으로 그린 초상이죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/lakshmibai_fort.jpg",
+     "title": "잔시 요새 (1857년경 사진)",
+     "alt": "언덕 위 잔시 요새를 멀리서 담은 19세기 흑백 사진",
+     "caption": "그가 끝까지 지키려 한 잔시 요새예요. 항쟁 직후 찍힌 이 사진엔 성벽과 낙타, 사람들이 함께 담겼어요.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/lakshmibai_statue.jpg",
+     "title": "락슈미바이 기마상 (현대)",
+     "alt": "칼을 치켜든 채 앞발을 든 말 위에 올라탄 락슈미바이의 금속 동상",
+     "caption": "오늘날 인도 곳곳에 선 기마상이에요. 칼을 든 말 탄 여왕의 모습은 인도에서 저항과 용기의 상징으로 사랑받아요.",
+     "source": "Wikimedia Commons",
+     "license": "CC0"
+    }
+   ]
   },
   {
    "slug": "lin-zexu",
@@ -3542,6 +3576,14 @@
       "title": "빅토리아 기념비 (버킹엄궁 앞)",
       "note": "제국의 정점을 기리는 대형 기념물."
      }
+    ],
+    "media": [
+     {
+      "title": "다큐 — 빅토리아 여왕과 빅토리아 시대",
+      "by": "The People Profiles",
+      "note": "여왕의 생애와 그 시대를 함께 보는 영어 다큐멘터리.",
+      "url": "https://www.youtube.com/watch?v=kk3wcR-u1Fk"
+     }
     ]
    },
    "journey": {
@@ -3604,7 +3646,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 빅토리아는 제국을 다스렸지만, 정작 본인은 영국 밖으로 거의 나가지 않았어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/victoria_coronation.jpg",
+     "title": "즉위 초상 (1838, 조지 헤이터)",
+     "alt": "왕관과 홀을 든 채 옥좌에 앉은 젊은 빅토리아 여왕의 회화",
+     "caption": "열여덟에 즉위한 직후의 모습이에요. 이 작은 체구의 젊은 여왕이 63년을 다스리게 되리라곤 아무도 몰랐죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/victoria_family.jpg",
+     "title": "왕실 가족 (1846, 빈터할터 화풍)",
+     "alt": "빅토리아·앨버트 부부와 다섯 자녀를 그린 가족 초상화",
+     "caption": "빅토리아·앨버트 부부와 아이들이에요. 이 아이들과 손주들이 유럽 곳곳의 왕실로 퍼져, 그는 '유럽의 할머니'가 됐죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/victoria_jubilee.jpg",
+     "title": "즉위 60주년 기념 금메달 (1897)",
+     "alt": "베일을 쓴 노년 빅토리아의 옆모습이 새겨진 금메달",
+     "caption": "재위 60주년(다이아몬드 주빌리)을 기린 메달이에요. 베일을 쓴 노년의 옆모습은 제국 전성기의 상징처럼 쓰였어요.",
+     "source": "Wikimedia Commons (MET)",
+     "license": "퍼블릭 도메인"
+    }
+   ]
   },
   {
    "slug": "cecil-rhodes",
@@ -3791,6 +3859,14 @@
       "title": "옥스퍼드 오리엘 칼리지",
       "note": "동상 철거 논쟁(Rhodes Must Fall)의 현장."
      }
+    ],
+    "media": [
+     {
+      "title": "다큐 — 세실 로즈와 제국주의",
+      "by": "The People Profiles",
+      "note": "케이프 식민지·로디지아로 이어진 그의 제국주의를 다룬 영어 다큐.",
+      "url": "https://www.youtube.com/watch?v=Ic2vkKAq3wM"
+     }
     ]
    },
    "journey": {
@@ -3866,7 +3942,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 그가 '로디지아'라 부른 땅은 오늘날의 짐바브웨·잠비아로, 이미 그 이름을 버렸어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/cecil_rhodes_colossus.jpg",
+     "title": "'로즈의 거인' (1892, Punch 풍자화)",
+     "alt": "아프리카 대륙을 가로질러 두 발을 디딘 거인으로 그려진 세실 로즈",
+     "caption": "케이프타운에서 카이로까지 한 발씩 디딘 거인 — 그의 끝없는 야심을 비꼰 당대의 유명한 풍자화예요.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/cecil_rhodes_mine.jpg",
+     "title": "킴벌리 '빅 홀' (다이아몬드 광산)",
+     "alt": "사람 손으로 파낸 거대한 구덩이 형태의 킴벌리 다이아몬드 광산",
+     "caption": "그의 부는 여기서 시작됐어요. 사람들이 손으로 파낸 이 거대한 구덩이가 한때 세계 최대 규모의 다이아몬드 광산이었죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "src": "img/cecil_rhodes_memorial.jpg",
+     "title": "세실 로즈 동상 (케이프타운)",
+     "alt": "북쪽을 손가락으로 가리키는 세실 로즈의 청동 동상",
+     "caption": "북쪽(카이로 방향)을 가리키는 동상이에요. 이런 동상들이 지금 'Rhodes Must Fall' — 철거 논쟁의 한가운데에 있어요.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "slug": "bismarck",
@@ -8203,6 +8305,14 @@
       "title": "리버풀 항 (영국)",
       "note": "그가 장부를 읽어 진실을 발견한 도시."
      }
+    ],
+    "media": [
+     {
+      "title": "다큐 — 레오폴드 2세와 콩고 식민지",
+      "by": "The People Profiles",
+      "note": "콩고의 비극과 모렐·케이스먼트의 폭로를 다룬 영어 다큐.",
+      "url": "https://www.youtube.com/watch?v=pYprPGkwG08"
+     }
     ]
    },
    "journey": {
@@ -8265,7 +8375,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 그가 한 번도 밟지 않은 콩고를, 숫자가 그에게 데려다 주었어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/morel_desk.jpg",
+     "title": "책상의 모렐 (1900년대)",
+     "alt": "아프리카 지도를 등지고 서류 더미에 둘러싸여 책상에 앉은 모렐",
+     "caption": "뒤에 걸린 건 아프리카 지도, 앞엔 서류 더미. 그는 콩고에 가 본 적 없이 이 '책상'에서 진실을 읽어 냈어요.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/morel_cartoon.jpg",
+     "title": "'고무 덩굴에 휘감겨' (1906, Punch)",
+     "alt": "레오폴드 2세를 고무 덩굴 뱀으로 그려 콩고인을 휘감는 모습의 풍자화",
+     "caption": "레오폴드 2세를 콩고인을 휘감는 고무 덩굴 뱀으로 그린 풍자화예요. 모렐이 맞서 싸운 '고무의 폭력'을 상징하죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/morel_congomap.jpg",
+     "title": "콩고의 크기 (벨기에 국기를 입힌 지도)",
+     "alt": "콩고 영토 윤곽에 벨기에 국기(검정·노랑·빨강)를 입힌 지도",
+     "caption": "콩고 땅에 벨기에 국기 색을 입힌 현대 지도예요. 1908년 이곳은 벨기에 식민지가 됐어요 — 그 전까지는 레오폴드 2세 '개인'의 땅이었죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 3.0"
+    }
+   ]
   },
   {
    "slug": "davinci",
