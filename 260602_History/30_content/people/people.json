@@ -3414,6 +3414,14 @@
       "title": "볼고그라드(옛 스탈린그라드)",
       "note": "2차대전의 분수령이 된 전투의 도시."
      }
+    ],
+    "media": [
+     {
+      "title": "다큐 — 스탈린: 역사상 가장 두려운 독재자",
+      "by": "The People Profiles",
+      "note": "혁명가에서 독재자로 — 그의 통치를 다룬 영어 다큐멘터리.",
+      "url": "https://www.youtube.com/watch?v=DSBKBSh9nFU"
+     }
     ]
    },
    "journey": {
@@ -3476,7 +3484,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 그가 움직인 결정들은 소련 국경을 넘어, 멀리 한반도의 운명에까지 닿았어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/stalin_yalta.jpg",
+     "title": "얄타 회담 (1945)",
+     "alt": "얄타 회담에서 나란히 앉은 처칠·루스벨트·스탈린",
+     "caption": "2차대전 막바지, 세 강대국 지도자가 전후 세계를 나눈 회담이에요. 오른쪽이 스탈린 — 곧 미국과 맞서는 냉전이 시작되죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/stalin_poster.jpg",
+     "title": "'2+2=5' — 5개년 계획 포스터 (1931)",
+     "alt": "노동자와 공장, 큰 숫자 '2+2=5'가 그려진 소비에트 선전 포스터",
+     "caption": "'노동자의 열정을 더하면 2+2도 5가 된다' — 무리한 공업화를 밀어붙인 소련의 선전 포스터예요. 그 이면엔 강제와 굶주림이 있었죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/stalin_stalingrad.jpg",
+     "title": "스탈린그라드 전투 (1942~43)",
+     "alt": "스탈린그라드 전투의 여러 장면을 모은 사진",
+     "caption": "독일의 침공을 막아 낸 2차대전의 분수령이에요. 엄청난 희생 끝에 거둔 이 승리로 그는 '전쟁 영웅'으로도 불렸죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "slug": "mao-zedong",
@@ -3650,6 +3684,14 @@
       "title": "톈안먼 광장 (베이징)",
       "note": "1949년 그가 새 나라를 선포한 곳."
      }
+    ],
+    "media": [
+     {
+      "title": "다큐 — 마오쩌둥의 흥망",
+      "by": "Timeline - World History",
+      "note": "중국을 세우고 비극을 부른 그의 생애를 다룬 영어 다큐.",
+      "url": "https://www.youtube.com/watch?v=B0hsxtrdSi4"
+     }
     ]
    },
    "journey": {
@@ -3712,7 +3754,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 굵은 선이 그 유명한 '대장정' — 죽음을 무릅쓴 행군이 그를 지도자로 만들었어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/mao_yanan.jpg",
+     "title": "옌안의 마오와 미군 사절단 (1944)",
+     "alt": "옌안에서 미군 딕시 사절단 장교와 나란히 선 젊은 마오쩌둥",
+     "caption": "권력을 잡기 전, 옌안 시절의 마오예요. 일본과 싸우던 때 미군 사절단(딕시 미션)과 만난 모습이죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/mao_longmarch.jpg",
+     "title": "대장정 경로 (1934~35)",
+     "alt": "중국 지도 위에 붉은 화살표로 표시된 대장정의 행군 경로",
+     "caption": "세력이 위기에 몰렸을 때 1만 km를 행군한 '대장정'이에요. 엄청난 희생 속에 살아남아, 그를 혁명의 지도자로 만들었죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/mao_tiananmen.jpg",
+     "title": "톈안먼 (베이징)",
+     "alt": "마오의 초상이 걸린 베이징 톈안먼 성루의 야경",
+     "caption": "1949년 마오가 이 성루에서 중화인민공화국 수립을 선포했어요. 지금도 그의 초상이 걸려 있죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    }
+   ]
   },
   {
    "slug": "kim-il-sung",
@@ -3878,6 +3946,14 @@
       "title": "비무장지대(DMZ)",
       "note": "휴전선을 따라 남과 북을 가르는 띠."
      }
+    ],
+    "media": [
+     {
+      "title": "다큐 — 한국전쟁 3부 '폭풍'(6·25의 새벽)",
+      "by": "KBS 다큐",
+      "note": "1950년 6월 25일 남침의 그날을 다룬 KBS 특별기획 다큐멘터리.",
+      "url": "https://www.youtube.com/watch?v=MmsB7vMcjzk"
+     }
     ]
    },
    "journey": {
@@ -3940,7 +4016,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 38선을 넘은 한 번의 결정이, 같은 민족 수백만의 삶을 무너뜨렸어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/kim_war625.jpg",
+     "title": "1950년 6월 25일 — 한국전쟁 발발",
+     "alt": "갈라진 한반도와 사방을 겨눈 탱크를 그린 그림, 'JUNE 25 1950'",
+     "caption": "그가 38선 너머로 기습 공격한 날이에요. 같은 민족끼리 총을 겨눈 비극, 한국전쟁이 시작됐죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/kim_armistice.jpg",
+     "title": "정전협정 조인 (1953, 판문점)",
+     "alt": "1953년 판문점에서 정전협정 문서에 서명하는 장면",
+     "caption": "3년간의 전쟁이 어느 쪽도 이기지 못한 채 멈춘 순간이에요. '끝'이 아니라 '멈춤'이었고, 분단은 그대로 남았죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/kim_dmz.jpg",
+     "title": "판문점 공동경비구역 (오늘날)",
+     "alt": "판문점 공동경비구역의 파란 건물들과 경비 군인들",
+     "caption": "전쟁이 멈춘 자리, 남과 북이 마주 선 판문점이에요. 그가 일으킨 전쟁의 상처가 70년 넘게 이어지고 있죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY 2.0"
+    }
+   ]
   },
   {
    "slug": "truman",
@@ -4978,7 +5080,33 @@
      ]
     ],
     "caption": "현재 지도 위 표시예요. 한 나라를 호령하던 권력자가 이웃 나라에 납치돼 억류되던 시절, 조선은 그만큼 위태로웠어요."
-   }
+   },
+   "gallery": [
+    {
+     "src": "img/daewongun_portrait.jpg",
+     "title": "흥선대원군 초상",
+     "alt": "금관과 붉은 관복 차림으로 앉은 이하응(흥선대원군)의 초상화",
+     "caption": "권력의 정점에 선 대원군의 초상이에요. 무너진 왕실의 권위를 다시 세우려 한 그의 야심이 엿보이죠.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "src": "img/daewongun_cheokhwabi.jpg",
+     "title": "척화비",
+     "alt": "오래된 돌에 글씨가 새겨진 척화비",
+     "caption": "'서양과 화친함은 나라를 파는 것'이라는 글을 새겨 전국에 세운 비석이에요. 쇄국의 의지를 돌에 새긴 거죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC0"
+    },
+    {
+     "src": "img/daewongun_gyeongbok.jpg",
+     "title": "경복궁 근정전",
+     "alt": "경복궁의 정전인 근정전과 마당",
+     "caption": "대원군이 막대한 비용을 들여 다시 지은(중건) 경복궁이에요. 왕실의 위엄은 살아났지만, 백성의 부담도 컸죠.",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 4.0"
+    }
+   ]
   },
   {
    "slug": "an-junggeun",
