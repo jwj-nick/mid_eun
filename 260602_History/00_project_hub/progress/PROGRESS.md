@@ -26,7 +26,8 @@
 | 🌎 | `americas` | 아메리카 허브 (북미 6 + 남미 5섹션, 도감 37인) | ✅ 배포 (랜딩+2에피소드) | https://jwj-nick.github.io/history/americas/ |
 | ✉️ | `figures` | 사람의 자리 — 짝으로 읽는 인물 이야기 | ✅ 배포 (6섹션, 도감 가로지르기) | https://jwj-nick.github.io/history/figures/ |
 | 07 | `coldwar` | 냉전 — 총성 없는 50년 (8/8: 두진영·핵·베를린·쿠바·대리전·우주·데탕트·장벽붕괴) | ✅ 배포 (0614) | https://jwj-nick.github.io/history/coldwar/ |
-| — | `globalization` / `new-order` / `tracks/*` | 탈냉전·세계화 / 다극·미중·AI / 분야 트랙 | 🟡 계획됨 (`plan/0614_masterplan_renaissance_to_ai.md`) | — |
+| 08 | `globalization` | 탈냉전과 세계화 (7/7: 소련해체·세계화·인터넷·9·11·EU·중국부상·세계화 명암) | ✅ 배포 (0614) | https://jwj-nick.github.io/history/globalization/ |
+| — | `new-order` / `tracks/*` | 다극·미중·AI / 분야 트랙(sci-tech 1호) | 🟡 계획됨 (`plan/0614_masterplan_renaissance_to_ai.md`) | — |
 
 ## 🗺️ 시리즈 확장 로드맵 (0610)
 > **구조 SSOT = `10_docs/SERIES_ROADMAP.md`** (시대 사슬 전체 지도, one hub=one plan). 아래는 진척 요약만.

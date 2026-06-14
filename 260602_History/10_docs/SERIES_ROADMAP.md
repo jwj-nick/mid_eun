@@ -27,7 +27,7 @@
 | 5 | 제국주의 | `imperialism` | 19C | 제국주의의 흐름(8섹션) | ✅ 배포 완료 | (제작 기록: `plan/0608_*`, `plan/0609_page_imp_*`) |
 | 6 | 세계대전 | `ww2` | 20C | 양차대전 + 한국전쟁(8섹션) | ✅ 배포 완료 | (제작 기록: `plan/0608_*`, `plan/0609_page_ww2_*`) |
 | 7 | 냉전 | `coldwar` | 1945~1991 | 미·소 양극 — 핵·베를린·쿠바·대리전·우주·데탕트·장벽붕괴(8섹션) | ✅ 배포(0614, 8/8) | `plan/0614_plan_hub_coldwar.md` |
-| 🟡 | 탈냉전·세계화 | `globalization` | 1991~2008 | 소련붕괴·단극·세계화·9·11·중국부상 | 🟡 계획됨 | `plan/0614_masterplan_renaissance_to_ai.md` ❷ |
+| 8 | 탈냉전·세계화 | `globalization` | 1991~2008 | 소련붕괴·단극·세계화·인터넷·9·11·EU·중국부상(7섹션) | ✅ 배포(0614, 7/7) | `plan/0614_plan_hub_globalization.md` |
 | 🟡 | 다극·미중·AI | `new-order` | 2008~현재 | 금융위기·미중경쟁·반도체전쟁·AI 시대(본문 언급) | 🟡 계획됨 | `plan/0614_masterplan_renaissance_to_ai.md` ❸ |
 | 🟡 | 분야 트랙 | `tracks/*` | 통사(가로지르기) | 과학기술(1호)·예술·문화·체육·금융 — AI 상세 here | 🟡 계획됨 | `plan/0614_masterplan_renaissance_to_ai.md` §3 |
 | ＋ | 인물 이야기 | `figures` | 가로지르기 | 도감 47인 기반 '짝으로 읽기'(5짝+미션) | ✅ 배포(0612, 6섹션) | `plan/0612_plan_hub_figures.md` |
