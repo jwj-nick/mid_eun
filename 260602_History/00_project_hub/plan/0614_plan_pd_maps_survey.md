@@ -133,4 +133,8 @@ exploration#commerce(교역로)·renaissance(reformation·renaissance·printing)
 - 완료 시 PROGRESS·이 파일 §체크 갱신.
 
 ## 7. 진행 기록
-- 0614: 전수 조사·계획 수립. 이미 완료(0614): coldwar#origin·globalization#soviet-collapse·china-rises·new-order#us-china·union. **다음 착수 = P1 5건(B1).**
+- 0614: 전수 조사·계획 수립. 이미 완료(0614): coldwar#origin·globalization#soviet-collapse·china-rises·new-order#us-china·union.
+- **0614 ✅ B1 완료·배포·라이브(G3)**: imperialism#why-empire(1914 식민제국 CC BY)·toward-war(1914 동맹 CC BY-SA)·revolutions#nationalism(1815 빈체제+독일통일 1871)·renaissance#wars-religion(1648 베스트팔렌). powers#overview는 기보유로 제외. 소스 `d1e9510`·배포 `dcce7ed`.
+- **0614 ✅ B2 완료·배포·라이브(G3)**: exploration#commerce(삼각무역 CC BY-SA)·coldwar#detente(중소분쟁 CC BY-SA)·latin-america#modern(독립연도 PD)·latin-america#colonial(토르데시야스 PD oldmap)·renaissance#renaissance(이탈리아1494 PD oldmap)·renaissance#reformation(유럽종교1560 PD oldmap). 소스 `8d8ccbd`·배포 `5320059`.
+- **보류(깔끔한 PD지도 부재):** renaissance#printing(인쇄술 확산)·coldwar#fall(1989 동유럽 혁명)·new-order#chip-war(반도체 공급망). 추후 적합 자산 발견 시 추가.
+- **★ 지도 보강 마무리.** 0614 신규 PD지도/이미지 총 ~18점(전점 Read 검수, PD/CC). 전쟁/탐험/제국 편은 battlemap으로 이미 충분.
