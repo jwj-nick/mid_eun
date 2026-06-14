@@ -45,5 +45,6 @@ metadata:
 - [ ] 사실 오류 0 (또는 정정 완료)
 - [ ] 수위·톤 중1 적합
 - [ ] 비서구 관점·논쟁 균형 확인
+- [ ] **각 섹션 대표 이미지 ≥2 (건물·명화·기념물·아이콘·상징; map/battlemap/chart 제외)** — 부족 시 hist-visuals 보강
 - [ ] APP_PRINCIPLES·접근성·링크정책 통과
 - [ ] (해당 시) quiz 정답·해설 정확, notes-export 동작
