@@ -51,3 +51,10 @@ episode.json 7섹션 → 이미지 격리 소싱+Read 검수 → (가능 시)인
 
 ## 7. 진행 기록 (NCC)
 - 0614: 계획 수립. 착수 = episode.json soviet-collapse~flat-world.
+- **0614 ✅ 완료·배포·라이브**: 7섹션 전부 작성·빌드·배포. https://jwj-nick.github.io/history/globalization/ (G3 200·83KB·마커2).
+  - 자산 5점 전점 Read 검수(크렘린상원 CC BY-SA·CERN 웹서버 CC BY-SA·9·11추모못 CC BY-SA·푸둥 CC BY-SA·새둥지 CC BY-SA). terms 17·deepdive 16.
+  - 9·11=공격 직접묘사 회피→추모못·voice(상상)·균형 lens(종교/민족 일반화 금지 quiz).
+  - **도감 2인 floor(50→52)**: 옐친·덩샤오핑. 자산 11점 Read 검수(전부 PD/CC BY-SA). 오선정 2건 교정(soviet_flag·deng_shenzhen). 외부링크 200(yeltsin.ru·wiki·Aladin).
+  - 허브 랜딩 EP08 카드+flow밴드. SERIES_ROADMAP·PROGRESS 갱신. 소스 `c755177`·배포 `0c7c3b8`.
+  - **hist-audit 통과**: `20_research/globalization/audit.md` (사실오류 0, 세계화 명암·9·11·중국 균형).
+- **다음 = 마스터플랜 P3(tracks/sci-tech 분야축 1호·AI 상세) 또는 ❸ new-order(다극·미중·AI 시간축 마지막칸).**
