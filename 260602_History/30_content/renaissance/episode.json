@@ -166,6 +166,7 @@
     "cards",
     "people",
     "image",
+    "oldmap",
     "voice",
     "timeline",
     "connect",
@@ -191,6 +192,15 @@
     "alt": "라파엘로의 〈아테네 학당〉 — 고대 철학자들이 한자리에 모인 프레스코",
     "caption": "라파엘로, 〈아테네 학당〉(1509~11, 바티칸) — 옛 현인들의 얼굴로 그린 르네상스의 자화상.",
     "source": "Wikimedia Commons — Raphael, The School of Athens",
+    "license": "퍼블릭 도메인"
+   },
+   "oldmap": {
+    "h": "옛 지도로 보기 — 도시국가의 이탈리아 🗺️",
+    "src": "img/italy_1494.jpg",
+    "alt": "1494년 무렵의 이탈리아 — 여러 도시국가로 나뉜 옛 지도.",
+    "story": "르네상스의 이탈리아는 하나의 나라가 아니었어요. <b>피렌체·베네치아·밀라노·교황령·나폴리</b> 등 여러 도시국가로 나뉘어 서로 경쟁했죠. 이 경쟁과 상업의 부(富)가, 예술가를 후원하는 르네상스의 토양이 됐어요.",
+    "caption": "1494년 무렵의 이탈리아 — 여러 도시국가로 나뉘어 경쟁했어요. (셰퍼드 역사지도)",
+    "source": "Wikimedia Commons",
     "license": "퍼블릭 도메인"
    }
   },
@@ -604,6 +614,7 @@
     "people",
     "battlemap*",
     "image",
+    "oldmap",
     "voice",
     "timeline",
     "connect",
@@ -629,6 +640,15 @@
     "alt": "안톤 폰 베르너의 〈보름스 의회의 루터〉(1877)",
     "caption": "베르너, 〈보름스 의회의 루터〉(1877) — 350년 뒤에 그려진 '그 장면'.",
     "source": "Wikimedia Commons — Anton von Werner, Luther at the Diet of Worms",
+    "license": "퍼블릭 도메인"
+   },
+   "oldmap": {
+    "h": "옛 지도로 보기 — 갈라진 신앙의 유럽 (1560) 🗺️",
+    "src": "img/religions_1560.jpg",
+    "alt": "1560년 무렵 유럽의 종교 분포를 보여 주는 옛 지도.",
+    "story": "종교개혁이 휩쓴 뒤 유럽의 신앙은 여러 갈래로 나뉘었어요. 가톨릭이 남은 곳, <b>루터파</b>·<b>칼뱅파</b>가 퍼진 곳이 지도 위에서 갈렸죠. 이 종교의 경계선이 곧 30년전쟁 같은 비극의 씨앗이 됐어요.",
+    "caption": "1560년 무렵 유럽의 종교 분포 — 가톨릭·루터파·칼뱅파로 갈렸어요.",
+    "source": "Wikimedia Commons",
     "license": "퍼블릭 도메인"
    }
   },

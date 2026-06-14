@@ -1142,12 +1142,22 @@
     "why",
     "compare",
     "relations",
+    "image",
     "connect",
     "deepdive",
     "yt",
     "quiz",
     "reflect"
-   ]
+   ],
+   "image": {
+    "h": "자료로 보기 — 갈라진 공산 세계 🗺️",
+    "src": "img/sino_soviet.png",
+    "alt": "중소 분쟁으로 갈라진 공산권 지도. 친소련(빨강)·친중국(노랑)·중립(검정).",
+    "story": "'공산권'은 하나의 덩어리가 아니었어요. 1960년대 소련과 중국이 갈라서면서, 공산 세계도 <b>친소련</b>(빨강)과 <b>친중국</b>(노랑)으로 나뉘었죠. 미국은 바로 이 틈을 파고들어 중국과 손을 잡았어요(데탕트).",
+    "caption": "중·소 분쟁(1980년 무렵) — 친소련(빨강)·친중국(노랑)·중립 공산국(검정).",
+    "source": "Wikimedia Commons",
+    "license": "CC BY-SA 4.0"
+   }
   },
   {
    "id": "fall",
