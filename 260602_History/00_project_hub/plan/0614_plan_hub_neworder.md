@@ -54,3 +54,11 @@ episode.json 7섹션 → 이미지 격리 소싱+Read 검수(현대 저작권 �
 
 ## 7. 진행 기록 (NCC)
 - 0614: 계획 수립. 착수 = episode.json crack~your-turn.
+- **0614 ✅ 완료·배포·라이브**: 7섹션 작성·빌드·배포. https://jwj-nick.github.io/history/new-order/ (G3 200·80KB·마커3 첫시도).
+  - ★ **시간 사슬 완성**: 르네상스(14C)→…→다극·미중·AI(현재). 본편 9 SPA.
+  - 자산 6점 전점 Read 검수(월스트리트 CC BY-SA·2017 G20 CC BY·실리콘웨이퍼 PD·기후시위 CC BY-SA·데이터센터 CC BY-SA·블루마블 NASA PD). terms 15·deepdive 8.
+  - **신규 道감 0**(현역 정치인 편향·저작권 회피). 흐름·구조 중심. AI=본문 개관, 상세는 tracks/sci-tech 예고.
+  - 균형: 미중 3시선 병렬·무단정·탈당파, 한국 위치, 팬데믹 책임공방 배제, AI 양면, 열린 결말(독자에게).
+  - 허브 EP09 카드+flow밴드(…그리고 너 ✨). SERIES_ROADMAP·PROGRESS 갱신(시간축 '현재' 도달). 소스 `254f5cd`·배포 `45b5eea`.
+  - **hist-audit 통과**: `20_research/new-order/audit.md` (균형 최우선 ★ 통과, 사실오류 0).
+- **다음 = 마스터플랜 P3: tracks/sci-tech (분야축 1호, AI 상세, Nick 강점).**
