@@ -12,9 +12,10 @@
 9정거장(화학·의학 추가) / codec deepdive=NCC초안→Nick검수(a) / AI수위 보수성↓ / 랜딩 지금 5칸 / 이 세션 B부터 자율.
 
 ## 🚧 RESUME HERE (다음 할 일)
-- **현재 Phase: C/D 진행 중** — episode.json에 S0·S1·S2 (1층+2층) 완료·빌드검증 OK(3섹션 69672B).
-- **다음 액션: S3 electric(★codec씨앗#1) → S4 life → S5 atom-space 를 episode.json sections 배열에 이어서 append.** 매 1~3정거장마다 `PYTHONIOENCODING=utf-8 python 40_build/build.py tracks/sci-tech` 빌드 검증. terms{}에 새 용어 추가.
-- ★ S3·S6·S7·S8 deepdive(codec/NPU 척추)는 작성 후 Nick 검수 대기로 표시할 것.
+- **현재 Phase: C/D 진행 중** — S0~S5 (6정거장) 1층+2층 완료·빌드검증 OK(6섹션 77908자, JSON 유효).
+- **다음 액션: S6 computer(★칩씨앗) → S7 internet(★codec씨앗#2, 압축) → S8 ai-chip(★클라이맥스, NPU·codec↔AI) 를 sections 배열에 append.** S7·S8 deepdive가 Nick 교집합 본론 — 작성 후 **Nick 검수 대기** 표시.
+- 그 후: Phase E(이미지 ≥2/정거장, 재사용+신규) → F(audit) → G(랜딩 5칸+배포) → H(SSOT).
+- 빌드: `PYTHONIOENCODING=utf-8 python 40_build/build.py tracks/sci-tech`.
 
 ## 📋 정거장 체크리스트 (9) — 칸별 [B리서치 C1층 D딥다이브 E시각 F감수]
 | # | id | 정거장 | B | C | D | E | 비고(★=codec척추) |
@@ -22,10 +23,10 @@
 | 0 | revolution | 과학혁명 | ✅ | ✅ | ✅ | ☐ | copernican_system 재사용 |
 | 1 | industry | 산업혁명 | ✅ | ✅ | ✅ | ☐ | crystal_palace 재사용 |
 | 2 | chemistry | 화학·물질 | ✅ | ✅ | ✅ | ☐ | 신규(라부아지에·주기율표·하버) |
-| 3 | electric | 전기·통신 | ☐ | ☐ | ☐ | ☐ | ★codec씨앗#1(신호) — **다음** |
-| 4 | life | 의학·생명 | ☐ | ☐ | ☐ | ☐ | 신규(세균설·DNA·mRNA) |
-| 5 | atom-space | 원자·우주 | ☐ | ☐ | ☐ | ☐ | apollo11 재사용 |
-| 6 | computer | 컴퓨터 | ☐ | ☐ | ☐ | ☐ | ★칩씨앗 |
+| 3 | electric | 전기·통신 | ✅ | ✅ | ✅ | ☐ | ★codec씨앗#1(신호) — '아빠의 분야 ①' |
+| 4 | life | 의학·생명 | ✅ | ✅ | ✅ | ☐ | 신규(세균설·DNA·프랭클린·mRNA) |
+| 5 | atom-space | 원자·우주 | ✅ | ✅ | ✅ | ☐ | apollo11 재사용 · choice(과학자책임) |
+| 6 | computer | 컴퓨터 | ☐ | ☐ | ☐ | ☐ | ★칩씨앗 — **다음** |
 | 7 | internet | 인터넷·디지털 | ☐ | ☐ | ☐ | ☐ | ★codec씨앗#2(압축) |
 | 8 | ai-chip | AI·반도체 | ☐ | ☐ | ☐ | ☐ | ★클라이맥스(NPU·codec↔AI) |
 
@@ -56,5 +57,6 @@
 - 커밋 푸터: `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>`. settings.local.json 제외. 260426_MathTelling/260601_Study_Seeun 손대지 않음.
 
 ## 📝 로그 (최신 위)
+- 0615 #3: S3 electric(★codec씨앗#1 '아빠의 분야 ①')·S4 life(세균설·DNA·프랭클린 공로·mRNA)·S5 atom-space(퀴리·E=mc²·choice 과학자책임) 추가 + 용어 11개. 빌드 OK(6섹션 77908자), choice·codec씨앗#1 주입 확인. 다음=S6~S8.
 - 0615 #2: episode.json 신설 — meta·terms(8) + S0 과학혁명·S1 산업혁명·S2 화학(각 1층 hook/why/lens/cards/timeline/connect/yt/quiz/reflect + 2층 deepdive + order). 빌드 검증 OK(3섹션 69672B), deepdive 주입 확인. 이미지 없음(Phase E). 다음=S3~.
 - 0615: Phase A 완료 — plan 0615 9정거장 확정, worklog 신설, 태스크 등록. Phase C 착수(episode.json).
