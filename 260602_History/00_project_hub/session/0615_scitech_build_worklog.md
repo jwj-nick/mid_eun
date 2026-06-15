@@ -26,14 +26,13 @@
 - **상태:** 셋업·계획 완료. **9페이지 콘텐츠 재정비 + `links` 엔진블록 = Nick 확인 후 실행 대기.**
 
 ## 🚧 RESUME HERE (다음 할 일)
-- **셋업 완료(0615 #3):** `tracks-write` 스킬 신설 + plan §3·§4 새 모델 반영. **현재 라이브 배포본은 0615#2 버전**(deepdive 있음, 고등/일반) — 새 모델(#3)로 재정비 대기.
-- **Nick 확인 후 실행:**
-  1. **엔진 `links` 블록 추가** — 템플릿 블록 registry+렌더HTML+CSS, `node --check`(G1), 재빌드. EPISODE_SCHEMA에 스펙 추가.
-  2. **9정거장 재정비** — `deepdive` 제거(코덱/NPU 핵심은 본문 고수준으로 흡수) + 정거장별 "📚 교과 연결" 한 줄 + `links`(위키백과 등, **200 검증**).
-  3. **이미지 ≥2/정거장**(재사용 5점: copernican_system·crystal_palace·apollo11·smartphones·data_center + 신규, 전점 Read 검수).
-  4. 재빌드 → **전문가(Nick) 검수**(코덱/NPU) → 재배포(cp→push 단독) → G3.
-- **남은 컨텍스트 문서:** CLAUDE.md(이중대상·모델), EPISODE_SCHEMA(`links`·deepdive 노트), hist-content-write/hist-audit(트랙=tracks-write), SERIES_ROADMAP, 메모리 + **소스 repo push**.
-- 빌드: `PYTHONIOENCODING=utf-8 python 40_build/build.py tracks/sci-tech`.
+- **모델 #3 실행 완료 + 라이브:** 엔진 `links` 블록 추가(JS검사 통과), 9정거장 deepdive 제거·교과연결·외부 위키백과 링크(27개 200검증), 재배포·G3 PASS. → https://jwj-nick.github.io/history/tracks/sci-tech/
+- **현재 진행 = Phase E (시각효과 개선, Nick 지시 '계속 진행'):**
+  1. 재사용 5점 복사+블록: copernican_system→S0, crystal_palace→S1, apollo11→S5, smartphones·data_center→S7. (원허브 img/ 복사 + 라이선스 메타)
+  2. 신규 소싱(urllib 단독·timeout): S2 라부아지에·주기율표 / S3 전화·맥스웰 / S4 파스퇴르·DNA도식 / S6 에니악·트랜지스터·튜링 / S8 칩다이·웨이퍼. **전점 Read 검수**, PD/CC.
+  3. 각 정거장 **≥2** 되게 image 블록 + order에 image:0,image:1 삽입. 재빌드 → 재배포 → G3.
+- **그 후:** ★Nick 코덱/NPU 본문 검수(S7 why·S8 why) / 컨텍스트 문서(CLAUDE·hist-* 스킬·SERIES_ROADMAP·메모리) / 소스 push.
+- 빌드: `PYTHONIOENCODING=utf-8 python 40_build/build.py tracks/sci-tech`. 배포 cp/push 프로토콜 아래.
 
 ## 📋 정거장 체크리스트 (9) — 칸별 [B리서치 C1층 D딥다이브 E시각 F감수]
 | # | id | 정거장 | B | C | D | E | 비고(★=codec척추) |
@@ -75,6 +74,8 @@
 - 커밋 푸터: `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>`. settings.local.json 제외. 260426_MathTelling/260601_Study_Seeun 손대지 않음.
 
 ## 📝 로그 (최신 위)
+- 0615 #6: 모델 #3 실행·배포 완료 — 엔진 `links` 블록(linksHTML+CSS, JS node --check OK) + 9정거장 deepdive 제거·교과연결·위키백과 링크 27개(전부 200검증). 빌드 9섹션 87872자, 배포 push(2d9c8bd)·G3 PASS(size 88769→87872). EPISODE_SCHEMA `links` 스펙 추가. 다음=Phase E 시각.
+- 0615 #5: (셋업) tracks-write 스킬 신설 + plan §3·§4 모델 재정의 + CLAUDE.md §D 제어권 규칙 강화(e8c456c).
 - 0615 #4: S6 computer(0/1·무어법칙 '아빠의 분야 ②')·S7 internet(★코덱 압축 원리 '③')·S8 ai-chip(★클라이맥스 코덱→NPU '④' + choice AI미래) 추가 + 용어 14개. **전 9정거장 1층+2층 완료**, 빌드 OK(9섹션 87322자). codec척추 deepdive 4칸 확인. S7·S8(+S3·S6) Nick 검수 대기. 다음=Phase E 시각.
 - 0615 #3: S3 electric(★codec씨앗#1 '아빠의 분야 ①')·S4 life(세균설·DNA·프랭클린 공로·mRNA)·S5 atom-space(퀴리·E=mc²·choice 과학자책임) 추가 + 용어 11개. 빌드 OK(6섹션 77908자), choice·codec씨앗#1 주입 확인. 다음=S6~S8.
 - 0615 #2: episode.json 신설 — meta·terms(8) + S0 과학혁명·S1 산업혁명·S2 화학(각 1층 hook/why/lens/cards/timeline/connect/yt/quiz/reflect + 2층 deepdive + order). 빌드 검증 OK(3섹션 69672B), deepdive 주입 확인. 이미지 없음(Phase E). 다음=S3~.
