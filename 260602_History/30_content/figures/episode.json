@@ -215,6 +215,8 @@
     "hook",
     "why",
     "people",
+    "image:0",
+    "image:1",
     "compare",
     "voice",
     "timeline",
@@ -222,6 +224,24 @@
     "deepdive",
     "quiz",
     "reflect"
+   ],
+   "image": [
+    {
+     "h": "두 소녀, 두 전쟁 — 안네 🕯️",
+     "src": "img/anne_statue.jpg",
+     "alt": "안네 프랑크 동상",
+     "caption": "안네 프랑크 — 일기로 남은 독일·네덜란드의 소녀(동상).",
+     "source": "Wikimedia Commons",
+     "license": "CC BY-SA 4.0"
+    },
+    {
+     "h": "두 소녀, 두 전쟁 — 사다코 🕊️",
+     "src": "img/sadako_monument.jpg",
+     "alt": "히로시마 어린이 평화기념비의 종이학",
+     "caption": "사사키 사다코 — 종이학을 접던 히로시마의 소녀(평화기념비).",
+     "source": "Wikimedia Commons",
+     "license": "CC BY 2.0"
+    }
    ]
   },
   {
@@ -336,6 +356,8 @@
     "hook",
     "why",
     "people",
+    "image:0",
+    "image:1",
     "compare",
     "voice",
     "timeline",
@@ -343,6 +365,24 @@
     "deepdive",
     "quiz",
     "reflect"
+   ],
+   "image": [
+    {
+     "h": "두 저항 — 시팅 불",
+     "src": "img/sitting_bull.jpg",
+     "alt": "시팅 불 사진",
+     "caption": "시팅 불 — 자기 땅과 사람들을 지킨 라코타의 지도자.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "h": "두 저항 — 안중근",
+     "src": "img/an_junggeun.jpg",
+     "alt": "안중근 의사 사진",
+     "caption": "안중근 — 나라의 주권을 위해 일어선 대한의 의사(義士).",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    }
    ]
   },
   {
@@ -457,6 +497,8 @@
     "hook",
     "why",
     "people",
+    "image:0",
+    "image:1",
     "compare",
     "voice",
     "timeline",
@@ -464,6 +506,24 @@
     "deepdive",
     "quiz",
     "reflect"
+   ],
+   "image": [
+    {
+     "h": "과학자의 양심 — 갈릴레오",
+     "src": "img/galilei.jpg",
+     "alt": "갈릴레오 갈릴레이 초상",
+     "caption": "갈릴레오 — 진실을 보았으나 침묵을 강요당한 과학자.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "h": "과학자의 양심 — 오펜하이머",
+     "src": "img/oppenheimer.jpg",
+     "alt": "J. 로버트 오펜하이머 사진",
+     "caption": "오펜하이머 — 원자폭탄을 만들고 그 무게에 짓눌린 과학자.",
+     "source": "Wikimedia Commons",
+     "license": "Attribution"
+    }
    ]
   },
   {
@@ -578,6 +638,8 @@
     "hook",
     "why",
     "people",
+    "image:0",
+    "image:1",
     "compare",
     "voice",
     "timeline",
@@ -585,6 +647,24 @@
     "deepdive",
     "quiz",
     "reflect"
+   ],
+   "image": [
+    {
+     "h": "두 해방자 — 워싱턴",
+     "src": "img/washington.jpg",
+     "alt": "조지 워싱턴 초상(길버트 스튜어트)",
+     "caption": "워싱턴 — 북아메리카를 독립으로 이끈 '건국의 아버지'.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "h": "두 해방자 — 볼리바르",
+     "src": "img/bolivar.jpg",
+     "alt": "시몬 볼리바르 초상",
+     "caption": "볼리바르 — 남아메리카 여러 나라를 해방한 '해방자'.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    }
    ]
   },
   {
@@ -699,6 +779,8 @@
     "hook",
     "why",
     "people",
+    "image:0",
+    "image:1",
     "compare",
     "voice",
     "timeline",
@@ -706,6 +788,24 @@
     "deepdive",
     "quiz",
     "reflect"
+   ],
+   "image": [
+    {
+     "h": "가해와 고발 — 레오폴 2세",
+     "src": "img/leopold.jpg",
+     "alt": "벨기에 국왕 레오폴 2세 사진",
+     "caption": "레오폴 2세 — 콩고를 사유지로 삼아 비극을 부른 왕.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    },
+    {
+     "h": "가해와 고발 — 모렐",
+     "src": "img/morel.jpg",
+     "alt": "E. D. 모렐 사진",
+     "caption": "E. D. 모렐 — 그 비극을 세상에 폭로한 양심의 고발자.",
+     "source": "Wikimedia Commons",
+     "license": "퍼블릭 도메인"
+    }
    ]
   }
  ]
