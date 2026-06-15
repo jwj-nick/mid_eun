@@ -18,14 +18,22 @@
 - **상향 방식(NCC 기본값):** ①문체 친근반말→**교양 과학서 평서체(~다/이다)** ②deepdive 2층=中1심화→**대학+/현업 심화**(codec/NPU 실제 공학: DCT·움직임예측·MAC어레이·dataflow 등) ③"아빠의 분야"→**"엔지니어의 시선"** 일반화(codec↔NPU 척추 내용 유지). ④terms도 고등 수준 정의.
 - **전체 컨텍스트 업데이트 대상:** plan 0615 · CLAUDE.md(이중대상) · hist-content-write/hist-audit 스킬 · EPISODE_SCHEMA(deepdive 노트) · SERIES_ROADMAP · 메모리.
 
+## ⚡ 모델 재정의 (0615 #3 — Nick) ★★ 중대
+- **접이식 deepdive '레벨링' 폐기.** 전체가 고등/일반이면 '같은 수준으로 더 깊이 펼치기'는 동어반복 → **본문을 처음부터 높은 수준으로.**
+- **학교 과학 교과와 자연 연결**(정거장↔물리/화학/생명과학/지구과학 단원). 실제 수업과 바로 이어지게.
+- **외부 심화 링크**: 위키백과·권위 자료로 자연 연결 → **신규 `links` 블록**(항상 표시, 200 검증).
+- **전용 워크플로 셋업 완료:** 신규 스킬 **`tracks-write`**(중1 `hist-content-write`와 분리). plan §3·§4 갱신 완료.
+- **상태:** 셋업·계획 완료. **9페이지 콘텐츠 재정비 + `links` 엔진블록 = Nick 확인 후 실행 대기.**
+
 ## 🚧 RESUME HERE (다음 할 일)
-- **Phase C(1층) + D(2층 초안) 전 9정거장 완료** — 빌드 OK(9섹션 87322자, JSON 유효, 용어 32, star=ai-chip, codec척추 4칸).
-- **다음 액션 = Phase E (시각, 정거장당 ≥2):**
-  1. 재사용 자산 복사: copernican_system→S0, crystal_palace→S1, apollo11→S5, smartphones·data_center→S7. (원허브 img/에서 복사 + 라이선스 메타 가져오기)
-  2. 신규 소싱(urllib·단독·최소): S0 갈릴레이망원경/뉴턴, S2 라부아지에·주기율표, S3 전화/전구/맥스웰, S4 파스퇴르/DNA도식, S5 아인슈타인, S6 에니악/트랜지스터/튜링, S8 칩다이/웨이퍼. 전점 Read 검수.
-  3. image 블록 추가 + 각 정거장 order에 image:0,image:1 삽입.
-- **★ Nick 검수 대기(배포 전 필수): S7 deepdive(코덱 원리) · S8 deepdive(코덱→NPU). + S3·S6도 codec척추라 확인 권장.** 검수 전이라도 E·F는 진행 가능.
-- 그 후: F(audit) → G(랜딩 5칸+시간허브 역링크+배포) → H(SSOT). 빌드: `PYTHONIOENCODING=utf-8 python 40_build/build.py tracks/sci-tech`.
+- **셋업 완료(0615 #3):** `tracks-write` 스킬 신설 + plan §3·§4 새 모델 반영. **현재 라이브 배포본은 0615#2 버전**(deepdive 있음, 고등/일반) — 새 모델(#3)로 재정비 대기.
+- **Nick 확인 후 실행:**
+  1. **엔진 `links` 블록 추가** — 템플릿 블록 registry+렌더HTML+CSS, `node --check`(G1), 재빌드. EPISODE_SCHEMA에 스펙 추가.
+  2. **9정거장 재정비** — `deepdive` 제거(코덱/NPU 핵심은 본문 고수준으로 흡수) + 정거장별 "📚 교과 연결" 한 줄 + `links`(위키백과 등, **200 검증**).
+  3. **이미지 ≥2/정거장**(재사용 5점: copernican_system·crystal_palace·apollo11·smartphones·data_center + 신규, 전점 Read 검수).
+  4. 재빌드 → **전문가(Nick) 검수**(코덱/NPU) → 재배포(cp→push 단독) → G3.
+- **남은 컨텍스트 문서:** CLAUDE.md(이중대상·모델), EPISODE_SCHEMA(`links`·deepdive 노트), hist-content-write/hist-audit(트랙=tracks-write), SERIES_ROADMAP, 메모리 + **소스 repo push**.
+- 빌드: `PYTHONIOENCODING=utf-8 python 40_build/build.py tracks/sci-tech`.
 
 ## 📋 정거장 체크리스트 (9) — 칸별 [B리서치 C1층 D딥다이브 E시각 F감수]
 | # | id | 정거장 | B | C | D | E | 비고(★=codec척추) |
