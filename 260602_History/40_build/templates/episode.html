@@ -168,6 +168,13 @@
   .deepdive summary:after{content:"▾"; margin-left:auto; color:var(--accent); transition:transform .2s;}
   .deepdive[open] summary:after{transform:rotate(180deg);}
   .deepdive summary:hover{background:rgba(181,84,106,.05);}
+  .links{display:grid; gap:10px; margin:6px 0 4px;}
+  .links .lk{display:block; padding:13px 16px; border:1px solid var(--line); border-radius:12px; background:#fff; text-decoration:none; transition:border-color .15s, transform .15s;}
+  .links .lk:hover{border-color:var(--accent); transform:translateY(-2px);}
+  .links .lk-label{display:block; font-weight:800; color:var(--navy); font-size:15px;}
+  .links .lk-label:after{content:" ↗"; color:var(--accent); font-weight:700;}
+  .links .lk-note{display:block; font-size:13.5px; color:var(--ink); margin-top:3px; line-height:1.6;}
+  .links .lk-src{display:block; font-size:12px; color:var(--muted); margin-top:4px;}
   .dd-body{padding:4px 18px 18px;}
   .dd-item{border-top:1px solid var(--line); padding:13px 0;}
   .dd-item:first-child{border-top:none;}
@@ -542,6 +549,14 @@ function deepdiveHTML(dd){
     +(it.source?'<div class="dd-src">📜 '+it.source+'</div>':'')+'</div>'; });
   return s+'</div></details>';
 }
+function linksHTML(arr){
+  let s='<h2 class="block">더 깊이 알아보기 🔗</h2><div class="links">';
+  arr.forEach(it=>{ s+='<a class="lk" href="'+it.url+'" target="_blank" rel="noopener">'
+    +'<span class="lk-label">'+it.label+'</span>'
+    +(it.note?'<span class="lk-note">'+T(it.note)+'</span>':'')
+    +(it.source?'<span class="lk-src">'+it.source+'</span>':'')+'</a>'; });
+  return s+'</div>';
+}
 function marchmapHTML(m,sid){
   const SY=1.55; // viewBox 0 0 100 155 (베이스맵 종횡비 ≈ 1866/2891)
   const P={}; (m.places||[]).forEach(p=>P[p.id]=p);
@@ -629,10 +644,11 @@ function renderBlocks(s){
     choice:()=>s.choice?choiceHTML(s.choice,s.id):'',
     quiz:()=>s.quiz?quizHTML(s.quiz,s.id):'',
     deepdive:()=>s.deepdive?deepdiveHTML(s.deepdive):'',
+    links:()=>s.links?linksHTML(s.links):'',
     reflect:()=>'<h2 class="block">내 생각 적어보기 ✍️</h2><div class="reflect">'
       +s.reflect.map((q,i)=>'<div class="q">'+q+'</div><textarea data-key="'+s.id+'_'+i+'" placeholder="여기에 자유롭게 적어보세요. 자동으로 저장돼요."></textarea><div class="saved" id="saved_'+s.id+'_'+i+'"></div>').join('')+'</div>'
   };
-  const DEFAULT=['hook','why','lens','voice','cards','people','map','image','oldmap','chart','compare','relations','marchmap','battlemap*','timeline','connect','yt','movies','choice','quiz','deepdive','reflect'];
+  const DEFAULT=['hook','why','lens','voice','cards','people','map','image','oldmap','chart','compare','relations','marchmap','battlemap*','timeline','connect','yt','movies','choice','quiz','deepdive','links','reflect'];
   const order=(s.order&&s.order.length)?s.order:DEFAULT;
   let html='';
   order.forEach(tok=>{
