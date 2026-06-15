@@ -143,4 +143,16 @@ B-LA(진행중) → B-REV → B-NA → B-EXP → B-IMP → B-REN → B-POW → B
 
 ## 6. 진행 기록 (NCC)
 - 0614: 전 에피소드 실측(84섹션/69 under) + 본 계획·표준 수립. 스킬 hist-visuals 신설 예정.
-- (이후 배치별 ✅ 추가)
+- **0614 ✅ B-LA 완료·배포·라이브(G3)**: civilizations +3유적(치첸이트사 CC-BY-SA3·템플로마요르 CC-BY-SA3·사크사이와만 CC-BY-SA4 → 마추픽추 포함 4점)·conquest +〈테노치티틀란 정복〉(PD)·colonial +포토시 세로리코(PD)·independence +〈산토도밍고 전투〉(PD). 5섹션 전부 대표이미지≥2. 소스 7c8db63·배포 8bfa717.
+- **0614 ✅ B-REV 완료·배포·라이브(G3)**: enlightenment(백과전서 권두화 PD)·glorious(윌리엄&메리 PD)·american-rev(트럼불 독립선언 PD)·french-rev(인간과시민의 권리선언 PD)·terror(로베스피에르 CC0)·napoleon(다비드 대관식 PD). 7섹션 전부 ≥2.
+- **0614 ✅ B-NA 완료·배포·라이브(G3)**: natives(메사베르데 절벽궁전 CC-BY-SA4)·colonies(첫 추수감사절 PD,균형캡션)·revolution(델라웨어 도하 PD)·expansion(대륙횡단철도 1869 PD)·civil-war(링컨 1863 PD)·modern(아폴로11 NASA PD). 6섹션 전부 ≥2.
+- **0614 ✅ B-EXP 완료·배포·라이브(G3)**: why-sea(아스트롤라베 PD)·pioneers(리스본 발견기념비 CC-BY2.5)·columbus(초상 PD)·magellan(초상 PD)·conquest(코르테스 PD)·slave-trade(엘미나성 CC-BY-SA3)·toward-modern(동인도 무역선 PD). 8섹션 전부 ≥2.
+- **0614 ✅ B-IMP 완료·배포·라이브(G3)**: industry(수정궁 1851 PD)·scramble(베를린회의 1884 PD)·india(델리 더르바르 1903 PD)·opium-china(원명원 폐허 CC-BY-SA4)·japan-meiji(메이지 천황 PD). 8섹션 전부 ≥2.
+- **0614 ✅ B-REN 완료·배포·라이브(G3)**: printing(인쇄작업장 PD)·scientific(코페르니쿠스 도해 PD)·absolutism(베르사유 거울의방 CC-BY-SA3)·toward-modern(라이트 오레리 PD). 7섹션 전부 ≥2.
+- **0614 ✅ B-POW 완료·배포·라이브(G3)**: overview(로즈 거상 PD)·britain(빅토리아 PD)·france(에펠탑 PD)·germany(비스마르크 PD)·russia(겨울궁전 CC-BY-SA4)·belgium(레오폴2세 PD,비판캡션)·latecomers(자유의여신상 PD). 7섹션 전부 ≥2.
+- **0614 ✅ B-WW2 완료·배포·라이브(G3)**: outbreak(뉘른베르크 전당대회 CC-BY-SA3de)·anne(안네 동상 CC-BY-SA2)·europe(스탈린그라드 CC-BY-SA3)·pacific(미주리함 항복 PD)·asia(카이로회담 PD)·postwar(포츠담회담 PD)·korea(인천상륙 PD). 8섹션 전부 ≥2, 비참혹·균형.
+- **0614 ✅ B-CW 완료·배포·라이브(G3)**: origin(얄타 PD)·balance(낙진대피소 CC-BY-SA3)·berlin(검문소찰리 PD)·cuba(U-2 미사일기지+봉쇄 PD, 0→2)·detente(닉슨-저우 PD)·fall(브란덴부르크1989 CC-BY-SA3). 8섹션 전부 ≥2.
+- **0614 ✅ B-GLO 완료·배포·라이브(G3)**: one-market(컨테이너선 CC-BY-SA2+증권거래소 PD)·connected(지구야경 PD)·nine-eleven(추모의빛 PD)·union(유럽의회+ECB CC-BY-SA3)·flat-world(스마트폰 CC-BY-SA2+데이터센터 CC-BY-SA3). 7섹션 전부 ≥2.
+- **0614 ✅ B-NO 완료·배포·라이브(G3)**: crack(리먼 CC-BY-SA3)·multipolar(UN안보리 CC-BY-SA3)·us-china(중국항 CC-BY4+LA항 CC-BY-SA3, 0→2)·chip-war(반도체칩 CC-BY-SA3)·connected-crisis(텅빈도시 CC-BY-SA4)·ai-arrives(로봇 CC-BY-SA3)·your-turn(지구돋이 PD). 7섹션 전부 ≥2. 현역정치인·당파·AI생성 회피.
+- **0614 ✅ B-FIG 완료·배포·라이브(G3)**: 5개 짝읽기 섹션에 두 인물 초상 2점씩(anne-sadako:동상+평화기념비 / sitting-bull-an:PD / galilei-oppenheimer:PD / washington-bolivar:PD / leopold-morel:PD). 도감 PD/CC 초상 재사용 + 오펜하이머 신소싱. how-to(안내)는 예외.
+- **★★ 캠페인 완료(0614).** 12개 허브 전부 배포·라이브. 실측: **84섹션 중 83섹션 대표이미지 ≥2** (유일 예외 figures#how-to=안내 섹션). 신규 이미지 총 ~83점, 전점 Read 검수·PD/CC·출처/라이선스/alt 표기. 잔혹·당파·현역정치인 영웅샷·AI생성 회피. 양 repo(소스 mid_eun / 배포 jwj-nick.github.io) 허브별 커밋.
