@@ -29,6 +29,7 @@
 | 08 | `globalization` | 탈냉전과 세계화 (7/7: 소련해체·세계화·인터넷·9·11·EU·중국부상·세계화 명암) | ✅ 배포 (0614) | https://jwj-nick.github.io/history/globalization/ |
 | 09 | `new-order` | 새로운 질서 — 다극·미중·AI (7/7: 금융위기·다극·미중·반도체·연결된위기·AI·열린결말) — **시간 사슬 끝** | ✅ 배포 (0614) | https://jwj-nick.github.io/history/new-order/ |
 | 🔬 | `tracks/sci-tech` | 과학기술 — 인류가 세상을 푸는 법 (12정거장·호기심 엔진·고등/일반) | ✅ 배포 (0616) | https://jwj-nick.github.io/history/tracks/sci-tech/ |
+| 💹 | `tracks/finance` | 경제·금융 — 돈은 어떻게 세상을 움직이나 (10정거장·호기심 엔진·고등/일반) | ✅ 배포 (0617) | https://jwj-nick.github.io/history/tracks/finance/ |
 | — | `tracks/*` (나머지) | 예술·문화·체육·금융 트랙 | 🟡 계획됨 (`plan/0614_masterplan_renaissance_to_ai.md` §3) | — |
 
 ## 🗺️ 시리즈 확장 로드맵 (0610)

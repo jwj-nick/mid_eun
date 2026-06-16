@@ -26,5 +26,6 @@
 stock_exchange·euro_tower(globalization), lehman(new-order). 신규 소싱: 로마 데나리우스·튤립버블·영란은행·1929군중·브레튼우즈·신용카드·바이마르지폐·비트코인 등.
 
 ## 📝 로그 (최신 위)
+- 0617 #3: ★F4~F7 완료·라이브. 이미지 20점(재사용3+신규17, 전점 Read검수, 남부연합지폐·PDF문서 오선정 2 교정), 자율감수 통과(투자권유0·암호화폐 경고·양면). deploy.py 배포(21/21)·G3 PASS, tracks 랜딩 금융 카드 활성+허브 카드 2트랙 반영, SERIES_ROADMAP/PROGRESS/메모리 갱신. **tracks/finance 완료.** https://jwj-nick.github.io/history/tracks/finance/
 - 0617 #2: F2 완료 — episode.json 10정거장(돈·상업혁명·주식·은행·대공황·달러·신용·★제국화폐타락·2008·코인). 호기심 엔진 spark·mind 10/10, 차트 2(대공황 실업률·로마 데나리우스 은함량), 링크 30, 용어 18. 빌드 OK(89006자). 이미지=F4. 다음=F3 링크 200검증(튤립 url 오타 의심→교정 예정).
 - 0617 #1: F1 — 호기심 엔진 tracks-write 승격(전 분야 트랙 표준, spark/wonder-first/mind-bender/장치≥3 게이트). 계획 plan/0617. 다음=F2.
