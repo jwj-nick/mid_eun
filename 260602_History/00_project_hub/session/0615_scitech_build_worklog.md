@@ -74,6 +74,8 @@
 - 커밋 푸터: `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>`. settings.local.json 제외. 260426_MathTelling/260601_Study_Seeun 손대지 않음.
 
 ## 📝 로그 (최신 위)
+- 0616 #8: ★배포 결과손실 근본수정 — 원인=작업폴더 밖 C:/Nick로의 셸 cp -r(2회 결과/부분손실). 해결=`40_build/deploy.py`(shutil 멱등·자가검증)+`run_in_background`(출력 파일→면역). CLAUDE.md §D 15b·메모리 기록. deploy.py로 재배포 DEPLOY_OK(6/6)·push(cc25bb7)·G3 PASS.
+- 0616 #7: 시각 1차 — 재사용 이미지 5점(코페르니쿠스 도해→S0·수정궁→S1·아폴로11→S5·스마트폰+데이터센터→S7) 추가, 전점 Read 검수, 빌드 88917자. S7 ≥2 충족 / S0·S1·S5 =1(신규 +1 필요) / S2·S3·S4·S6·S8 =0(신규 +2 필요). 커밋 b3dc71b.
 - 0615 #6: 모델 #3 실행·배포 완료 — 엔진 `links` 블록(linksHTML+CSS, JS node --check OK) + 9정거장 deepdive 제거·교과연결·위키백과 링크 27개(전부 200검증). 빌드 9섹션 87872자, 배포 push(2d9c8bd)·G3 PASS(size 88769→87872). EPISODE_SCHEMA `links` 스펙 추가. 다음=Phase E 시각.
 - 0615 #5: (셋업) tracks-write 스킬 신설 + plan §3·§4 모델 재정의 + CLAUDE.md §D 제어권 규칙 강화(e8c456c).
 - 0615 #4: S6 computer(0/1·무어법칙 '아빠의 분야 ②')·S7 internet(★코덱 압축 원리 '③')·S8 ai-chip(★클라이맥스 코덱→NPU '④' + choice AI미래) 추가 + 용어 14개. **전 9정거장 1층+2층 완료**, 빌드 OK(9섹션 87322자). codec척추 deepdive 4칸 확인. S7·S8(+S3·S6) Nick 검수 대기. 다음=Phase E 시각.
