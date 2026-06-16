@@ -75,6 +75,7 @@
 - 커밋 푸터: `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>`. settings.local.json 제외. 260426_MathTelling/260601_Study_Seeun 손대지 않음.
 
 ## 📝 로그 (최신 위)
+- 0616 #10: ★호기심 엔진 U1·U2 — Nick 피드백("엣지 없다, 그냥 역사 얘기")反映. spark 블록 엔진 신설(🤯 그 전엔 없던 세상+상식뒤집기, JS OK), 전용 스킬 sci-content 신설, 9정거장 hook을 경이/도발(wonder-first)로 전면 교체+spark(mind-bender) 삽입. 빌드 95105자. 커밋 bc8bd78. 계획=plan/0616. **다음: U3 신규 3정거장(빛·렌즈/시간·측정/비행)+이미지, U4 감수, U6 SSOT, U7 허브카드.** Nick 코덱/NPU 검수=OK(수정 불필요).
 - 0616 #9: ★Phase E 완료 — 전 9정거장 대표이미지 ≥2 충족(재사용 5 + 신규 13 = 18점). 신규는 위키미디어 커먼즈 PD/CC, 백그라운드 fetch+전점 Read 검수(maxwell 1차 오선정=타탄리본 → 재소싱 교정, wafer 429 → 재소싱). image 배열 2점+order image:0/image:1. 빌드 9섹션 91532자. 커밋 55bfca0. deploy.py 백그라운드 재배포 중.
 - 0616 #8: ★배포 결과손실 근본수정 — 원인=작업폴더 밖 C:/Nick로의 셸 cp -r(2회 결과/부분손실). 해결=`40_build/deploy.py`(shutil 멱등·자가검증)+`run_in_background`(출력 파일→면역). CLAUDE.md §D 15b·메모리 기록. deploy.py로 재배포 DEPLOY_OK(6/6)·push(cc25bb7)·G3 PASS.
 - 0616 #7: 시각 1차 — 재사용 이미지 5점(코페르니쿠스 도해→S0·수정궁→S1·아폴로11→S5·스마트폰+데이터센터→S7) 추가, 전점 Read 검수, 빌드 88917자. S7 ≥2 충족 / S0·S1·S5 =1(신규 +1 필요) / S2·S3·S4·S6·S8 =0(신규 +2 필요). 커밋 b3dc71b.
