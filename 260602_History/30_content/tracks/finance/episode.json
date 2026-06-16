@@ -39,6 +39,10 @@
  "sections": [
   {
    "id": "money",
+   "image": [
+    { "src": "img/lydian_coin.jpg", "alt": "리디아의 일렉트럼 주화", "caption": "리디아의 일렉트럼 주화(기원전 6세기) — 무게·순도를 보증한 인류 최초의 주화.", "source": "Wikimedia Commons", "license": "CC BY-SA 3.0" },
+    { "src": "img/chinese_coins.jpg", "alt": "구멍 뚫린 옛 중국 동전들", "caption": "옛 중국의 엽전 — 동아시아에서 천 년 넘게 쓰인 금속 화폐.", "source": "Wikimedia Commons", "license": "CC0" }
+   ],
    "num": "00",
    "label": "돈이란 무엇인가",
    "accent": "#4a5b3a",
@@ -71,10 +75,14 @@
    ],
    "quiz": [ { "q": "오늘날 지폐가 가치를 갖는 근본 이유는?", "options": ["종이에 금가루가 섞여 있어서", "모두가 그것을 돈으로 받아준다는 신뢰(약속) 때문에", "정부 금고에 같은 양의 금이 있어서"], "answer": 1, "explain": "현대 화폐는 금 보증이 없는 '명목화폐'다. 가치의 바탕은 '모두가 받아준다'는 사회적 신뢰다." } ],
    "reflect": [ "만약 돈이 사라지고 물물교환만 해야 한다면, 너의 하루는 어떻게 달라질까?" ],
-   "order": ["hook", "spark", "why", "lens", "cards", "timeline", "connect", "yt", "links", "quiz", "reflect"]
+   "order": ["hook", "spark", "why", "lens", "cards", "image:0", "image:1", "timeline", "connect", "yt", "links", "quiz", "reflect"]
   },
   {
    "id": "commerce",
+   "image": [
+    { "src": "img/medici.jpg", "alt": "코시모 데 메디치 초상", "caption": "코시모 데 메디치 — 은행으로 부를 쌓아 르네상스를 후원한 가문의 상징(브론치노 작).", "source": "Wikimedia Commons · Bronzino", "license": "퍼블릭 도메인(PD)" },
+    { "src": "img/pacioli.jpg", "alt": "루카 파치올리 초상", "caption": "루카 파치올리 — 복식부기를 책으로 정리해 퍼뜨린 '회계의 아버지'.", "source": "Wikimedia Commons", "license": "퍼블릭 도메인(PD)" }
+   ],
    "num": "01",
    "label": "상업혁명·복식부기",
    "accent": "#5b4a3a",
@@ -105,10 +113,14 @@
    ],
    "quiz": [ { "q": "복식부기가 가능하게 한 가장 큰 변화는?", "options": ["세금을 없앤 것", "손익을 정확히 측정해 '회사·투자'를 가능케 한 것", "금을 더 많이 캐낸 것"], "answer": 1, "explain": "정확한 손익 측정이 있어야 낯선 사람끼리도 안심하고 돈을 모은다 — 회사와 자본시장의 토대다." } ],
    "reflect": [ "용돈을 '들어온 돈/나간 돈' 양쪽으로 적어보면 무엇이 새롭게 보일까?" ],
-   "order": ["hook", "spark", "why", "lens", "cards", "timeline", "connect", "yt", "links", "quiz", "reflect"]
+   "order": ["hook", "spark", "why", "lens", "cards", "image:0", "image:1", "timeline", "connect", "yt", "links", "quiz", "reflect"]
   },
   {
    "id": "stocks",
+   "image": [
+    { "src": "img/stock_exchange.jpg", "alt": "분주한 증권거래소 객장", "caption": "증권거래소 — 회사의 '조각(주식)'을 사고파는 시장. 네덜란드에서 처음 열렸다.", "source": "Wikimedia Commons", "license": "퍼블릭 도메인(PD)" },
+    { "src": "img/tulip.jpg", "alt": "줄무늬가 든 셈페르 아우구스투스 튤립 그림", "caption": "'셈페르 아우구스투스' 튤립 — 한 뿌리가 집 한 채 값이던 인류 최초의 거품(1637).", "source": "Wikimedia Commons", "license": "퍼블릭 도메인(PD)" }
+   ],
    "num": "02",
    "label": "주식·첫 거품",
    "accent": "#5b513a",
@@ -140,10 +152,14 @@
    ],
    "quiz": [ { "q": "주식회사가 해결한 핵심 문제는?", "options": ["세금 회피", "큰 사업의 거대한 위험을 여럿이 나눠 짊어지게 한 것", "금을 보관하는 것"], "answer": 1, "explain": "주식은 자본을 모으고 위험을 잘게 분산한다. 덕분에 평범한 사람도 거대 사업에 참여(투자)할 수 있게 됐다." } ],
    "reflect": [ "'값이 오르니 더 산다'는 거품 심리를 오늘날 어디서 본 적 있어? 그때 어떻게 끝났어?" ],
-   "order": ["hook", "spark", "why", "lens", "cards", "timeline", "connect", "yt", "links", "quiz", "reflect"]
+   "order": ["hook", "spark", "why", "lens", "cards", "image:0", "image:1", "timeline", "connect", "yt", "links", "quiz", "reflect"]
   },
   {
    "id": "banks",
+   "image": [
+    { "src": "img/bank_of_england.jpg", "alt": "런던 영란은행 건물", "caption": "잉글랜드 은행(영란은행, 1694~) — 돈의 양을 조절하는 '중앙은행'의 원형.", "source": "Wikimedia Commons", "license": "CC BY-SA 3.0" },
+    { "src": "img/euro_tower.jpg", "alt": "프랑크푸르트 유럽중앙은행 건물", "caption": "유럽중앙은행(ECB) — 여러 나라가 '유로'라는 한 화폐를 함께 쓴다.", "source": "Wikimedia Commons", "license": "CC BY-SA 3.0" }
+   ],
    "num": "03",
    "label": "은행·없던 돈",
    "accent": "#3a4a5b",
@@ -175,10 +191,14 @@
    ],
    "quiz": [ { "q": "'신용창조'란 무엇인가?", "options": ["정부가 지폐를 인쇄하는 것", "은행이 예금의 일부만 남기고 대출해 시중의 돈을 불리는 것", "금을 캐는 것"], "answer": 1, "explain": "시중 통화의 대부분은 지폐가 아니라 은행 대출로 생긴 '예금(숫자)'이다. 그래서 신뢰가 무너지면(뱅크런) 위험하다." } ],
    "reflect": [ "모든 사람이 같은 날 은행에서 돈을 다 찾으려 하면 무슨 일이 벌어질까? 왜 그럴까?" ],
-   "order": ["hook", "spark", "why", "lens", "cards", "timeline", "connect", "yt", "links", "quiz", "reflect"]
+   "order": ["hook", "spark", "why", "lens", "cards", "image:0", "image:1", "timeline", "connect", "yt", "links", "quiz", "reflect"]
   },
   {
    "id": "depression",
+   "image": [
+    { "src": "img/breadline.jpg", "alt": "대공황 시기 무료급식을 기다리는 긴 줄", "caption": "대공황의 배급 줄 — 일자리를 잃은 사람들이 끼니를 기다린다(뉴욕).", "source": "Wikimedia Commons · NARA", "license": "퍼블릭 도메인(PD)" },
+    { "src": "img/crash_1929.jpg", "alt": "1929년 월스트리트에 몰린 군중", "caption": "1929년 대폭락 당일, 월스트리트로 몰려나온 군중.", "source": "Wikimedia Commons", "license": "퍼블릭 도메인(PD)" }
+   ],
    "num": "04",
    "label": "대공황 1929",
    "accent": "#4a3a3a",
@@ -210,10 +230,14 @@
    ],
    "quiz": [ { "q": "대공황 때 '물건은 있는데' 경제가 멈춘 까닭은?", "options": ["전쟁으로 공장이 파괴돼서", "살 돈과 신뢰(신용)가 사라지고 은행이 무너져서", "사람들이 갑자기 게을러져서"], "answer": 1, "explain": "생산 능력은 멀쩡했지만 신용·수요·신뢰가 붕괴했다. 그래서 정부가 수요를 살리려 적극 개입하게 됐다." } ],
    "reflect": [ "경제가 어려울 때 정부는 돈을 더 써야 할까, 아껴야 할까? 네 생각과 이유를 적어보자." ],
-   "order": ["hook", "spark", "why", "lens", "cards", "chart", "timeline", "connect", "yt", "links", "quiz", "reflect"]
+   "order": ["hook", "spark", "why", "lens", "cards", "image:0", "image:1", "chart", "timeline", "connect", "yt", "links", "quiz", "reflect"]
   },
   {
    "id": "dollar",
+   "image": [
+    { "src": "img/bretton_woods.jpg", "alt": "브레튼우즈 협정 서명 기념 명판", "caption": "브레튼우즈(1944) — '이 방에서 IMF 협정이 서명되었다'. 달러 중심 통화 질서가 태어난 곳.", "source": "Wikimedia Commons", "license": "CC BY-SA 3.0" },
+    { "src": "img/us_dollar.jpg", "alt": "미국 1달러 지폐", "caption": "미국 1달러 — 금의 보증 없이도 세계의 기준 통화(기축통화)로 쓰인다.", "source": "Wikimedia Commons", "license": "퍼블릭 도메인(PD)" }
+   ],
    "num": "05",
    "label": "달러의 시대",
    "accent": "#3a5b4a",
@@ -245,10 +269,14 @@
    ],
    "quiz": [ { "q": "금 태환이 끝난 뒤에도 달러가 기축통화로 남은 힘의 근거는?", "options": ["달러에 금이 들어 있어서", "미국 경제·군사력에 대한 세계의 신뢰", "달러가 가장 예뻐서"], "answer": 1, "explain": "1971년 이후 달러는 금 보증이 없다. 그럼에도 미국에 대한 신뢰가 달러를 세계 기준 통화로 떠받치고 있다." } ],
    "reflect": [ "한 나라의 돈이 '세계의 기준'이 되면 그 나라는 어떤 이득과 책임을 지게 될까?" ],
-   "order": ["hook", "spark", "why", "lens", "cards", "timeline", "connect", "yt", "links", "quiz", "reflect"]
+   "order": ["hook", "spark", "why", "lens", "cards", "image:0", "image:1", "timeline", "connect", "yt", "links", "quiz", "reflect"]
   },
   {
    "id": "credit",
+   "image": [
+    { "src": "img/diners_card.jpg", "alt": "다이너스클럽 신용카드", "caption": "신용카드(다이너스클럽) — '먼저 누리고 나중에 갚는' 시대를 열었다.", "source": "Wikimedia Commons", "license": "CC BY-SA 4.0" },
+    { "src": "img/supermarket_1955.jpg", "alt": "1955년 슈퍼마켓 내부", "caption": "1955년 슈퍼마켓 — 신용·할부와 함께 대량 소비 사회가 자리 잡았다.", "source": "Wikimedia Commons", "license": "CC BY 2.0" }
+   ],
    "num": "06",
    "label": "신용·카드",
    "accent": "#5b3a4a",
@@ -279,10 +307,14 @@
    ],
    "quiz": [ { "q": "카드로 결제하면 사실 무엇을 당겨쓰는 것인가?", "options": ["정부의 돈", "미래의 내 소득(신용)", "은행 금고의 금"], "answer": 1, "explain": "카드 결제는 '나중에 갚겠다'는 신용으로 미래 소득을 당겨 쓰는 것이다. 그래서 감당 가능한 범위가 중요하다." } ],
    "reflect": [ "'먼저 누리고 나중에 갚기'가 도움이 되는 경우와 함정이 되는 경우를 하나씩 들어보자." ],
-   "order": ["hook", "spark", "why", "lens", "cards", "timeline", "connect", "yt", "links", "quiz", "reflect"]
+   "order": ["hook", "spark", "why", "lens", "cards", "image:0", "image:1", "timeline", "connect", "yt", "links", "quiz", "reflect"]
   },
   {
    "id": "inflation",
+   "image": [
+    { "src": "img/denarius.jpg", "alt": "로마 은화 데나리우스", "caption": "로마 데나리우스 — 시간이 갈수록 은 함량이 줄어, 살인적 물가를 불렀다.", "source": "Wikimedia Commons", "license": "CC BY-SA 4.0" },
+    { "src": "img/weimar_money.jpg", "alt": "1923년 독일 천만 마르크 지폐", "caption": "1923년 독일의 1,000만 마르크 지폐 — 하이퍼인플레이션으로 돈이 사실상 휴지가 됐다.", "source": "Wikimedia Commons", "license": "퍼블릭 도메인(PD)" }
+   ],
    "num": "07",
    "label": "돈의 타락과 제국",
    "star": true,
@@ -317,10 +349,14 @@
    ],
    "quiz": [ { "q": "정부가 돈을 무한정 더 찍어내면 어떻게 될까?", "options": ["모두가 부자가 된다", "돈의 양이 물건보다 빨리 늘어 돈의 가치가 떨어진다(인플레이션)", "아무 일도 없다"], "answer": 1, "explain": "부는 물건·생산에서 나온다. 돈만 늘리면 같은 물건에 더 많은 돈이 붙어 물가가 오른다 — 로마·바이마르의 교훈이다." } ],
    "reflect": [ "세계 최강이던 제국들조차 '돈을 더 찍는 유혹'에 빠진 이유는 뭘까? 네가 그 시대 통치자라면 어떻게 했을까?" ],
-   "order": ["hook", "spark", "why", "lens", "cards", "chart", "timeline", "connect", "yt", "links", "quiz", "reflect"]
+   "order": ["hook", "spark", "why", "lens", "cards", "image:0", "image:1", "chart", "timeline", "connect", "yt", "links", "quiz", "reflect"]
   },
   {
    "id": "crisis-2008",
+   "image": [
+    { "src": "img/lehman.jpg", "alt": "세계지도 외벽의 리먼 브라더스 본사 건물", "caption": "리먼 브라더스 파산(2008.9) — 150년 된 거대 은행의 붕괴가 세계 금융을 마비 직전까지 몰았다.", "source": "Wikimedia Commons", "license": "CC BY-SA 3.0" },
+    { "src": "img/northern_rock.jpg", "alt": "노던록 은행 앞에 줄 선 사람들(2007)", "caption": "노던록 은행 앞 예금 인출 행렬(2007) — '내 돈 내놔'가 현실이 된 현대의 뱅크런.", "source": "Wikimedia Commons", "license": "CC BY-SA 2.0" }
+   ],
    "num": "08",
    "label": "2008 금융위기",
    "accent": "#3a3a55",
@@ -352,10 +388,14 @@
    ],
    "quiz": [ { "q": "미국 주택대출 부실이 '세계' 위기가 된 핵심 이유는?", "options": ["미국이 전쟁을 해서", "부실한 빚이 복잡한 상품으로 쪼개져 전 세계 금융회사에 퍼져 있어서", "사람들이 집을 너무 많이 지어서"], "answer": 1, "explain": "위험이 복잡한 파생상품에 숨겨져 전 세계로 퍼진 탓에, 미국 한 부문의 부실이 지구적 위기로 번졌다." } ],
    "reflect": [ "'위기를 만든 금융회사를 국민 세금으로 구해야 하나'에 대해 너는 어떻게 생각해? 이유는?" ],
-   "order": ["hook", "spark", "why", "lens", "cards", "timeline", "connect", "yt", "links", "quiz", "reflect"]
+   "order": ["hook", "spark", "why", "lens", "cards", "image:0", "image:1", "timeline", "connect", "yt", "links", "quiz", "reflect"]
   },
   {
    "id": "digital-money",
+   "image": [
+    { "src": "img/bitcoin.png", "alt": "실물 비트코인 기념 주화", "caption": "비트코인(2009) — 은행 없이 인터넷으로 주고받는 첫 암호화폐(새겨진 'Vires in Numeris' = 숫자에 힘이 있다).", "source": "Wikimedia Commons", "license": "CC BY-SA 4.0" },
+    { "src": "img/blockchain.jpg", "alt": "블록체인 작동 과정 도식", "caption": "블록체인 — 수많은 컴퓨터가 장부를 나눠 갖고 검증해, 중앙 관리자 없이 위조를 막는다.", "source": "Wikimedia Commons", "license": "CC BY-SA 4.0" }
+   ],
    "num": "09",
    "label": "디지털 화폐·코인",
    "accent": "#2f4a4a",
@@ -396,7 +436,7 @@
     ],
     "after": "정답은 없다 — 지금도 세계가 실험 중이다. 분명한 건, '무엇을 돈으로 믿을지'는 늘 인류가 함께 정해왔다는 것이다. ⚠️ 이건 투자 조언이 아니다."
    },
-   "order": ["hook", "spark", "why", "lens", "cards", "choice", "timeline", "connect", "yt", "links", "quiz", "reflect"]
+   "order": ["hook", "spark", "why", "lens", "cards", "image:0", "image:1", "choice", "timeline", "connect", "yt", "links", "quiz", "reflect"]
   }
  ],
  "people": []
