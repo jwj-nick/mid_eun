@@ -52,7 +52,10 @@
  "sections": [
   {
    "id": "revolution",
-   "image": { "src": "img/copernican_system.jpg", "alt": "태양을 중심에 둔 코페르니쿠스의 태양중심설 동심원 도해", "caption": "코페르니쿠스 태양중심설 도해 — 한가운데 태양(Sol), 그 둘레를 지구와 행성이 돈다.", "source": "Wikimedia Commons", "license": "퍼블릭 도메인(PD)" },
+   "image": [
+    { "src": "img/copernican_system.jpg", "alt": "태양을 중심에 둔 코페르니쿠스의 태양중심설 동심원 도해", "caption": "코페르니쿠스 태양중심설 도해 — 한가운데 태양(Sol), 그 둘레를 지구와 행성이 돈다.", "source": "Wikimedia Commons", "license": "퍼블릭 도메인(PD)" },
+    { "src": "img/galileo.jpg", "alt": "갈릴레오 갈릴레이 초상", "caption": "갈릴레오 갈릴레이 — 망원경으로 하늘을 관측해 천동설을 무너뜨렸다 (유스투스 수스테르만스 작).", "source": "Wikimedia Commons · Justus Sustermans (RMG)", "license": "퍼블릭 도메인(PD)" }
+   ],
    "num": "00",
    "label": "과학혁명",
    "accent": "#2f4858",
@@ -90,11 +93,14 @@
    "reflect": [
     "오늘날 '모두가 당연하게 받아들이지만 근거가 약한' 통념을 하나 골라, 그것을 검증하려면 어떤 관찰·실험이 필요할지 적어보자."
    ],
-   "order": ["hook", "why", "lens", "cards", "image", "timeline", "connect", "yt", "links", "quiz", "reflect"]
+   "order": ["hook", "why", "lens", "cards", "image:0", "image:1", "timeline", "connect", "yt", "links", "quiz", "reflect"]
   },
   {
    "id": "industry",
-   "image": { "src": "img/crystal_palace.jpg", "alt": "1851년 런던 만국박람회 수정궁 내부, 유리 천장 아래 전시물과 군중", "caption": "수정궁(1851 런던 만국박람회) — 철과 유리로 지은 산업혁명기 영국의 기술적 자신감.", "source": "Wikimedia Commons", "license": "퍼블릭 도메인(PD)" },
+   "image": [
+    { "src": "img/crystal_palace.jpg", "alt": "1851년 런던 만국박람회 수정궁 내부, 유리 천장 아래 전시물과 군중", "caption": "수정궁(1851 런던 만국박람회) — 철과 유리로 지은 산업혁명기 영국의 기술적 자신감.", "source": "Wikimedia Commons", "license": "퍼블릭 도메인(PD)" },
+    { "src": "img/watt_engine.jpg", "alt": "박물관에 전시된 볼턴·와트 증기기관", "caption": "볼턴·와트 증기기관(시드니 파워하우스 박물관) — 열을 회전 운동으로 바꾼 산업혁명의 심장.", "source": "Wikimedia Commons · Powerhouse Museum", "license": "CC BY 2.0" }
+   ],
    "num": "01",
    "label": "산업혁명",
    "accent": "#6b4a3a",
@@ -131,10 +137,14 @@
    "reflect": [
     "한 기술이 만들어내는 '부'와 그 부의 '분배'는 왜 별개의 문제일까? 오늘날 비슷한 사례를 하나 들어보자."
    ],
-   "order": ["hook", "why", "lens", "cards", "image", "timeline", "connect", "yt", "links", "quiz", "reflect"]
+   "order": ["hook", "why", "lens", "cards", "image:0", "image:1", "timeline", "connect", "yt", "links", "quiz", "reflect"]
   },
   {
    "id": "chemistry",
+   "image": [
+    { "src": "img/lavoisier.jpg", "alt": "라부아지에 부부 초상화", "caption": "라부아지에 부부(자크루이 다비드 작) — 정밀한 측정으로 근대 화학을 연 화학자.", "source": "Wikimedia Commons · Jacques-Louis David", "license": "퍼블릭 도메인(PD)" },
+    { "src": "img/periodic_table.png", "alt": "멘델레예프의 1869년 주기율표 원본", "caption": "멘델레예프의 1869년 주기율표 — 빈칸으로 미발견 원소를 예언했다(러시아어 원본).", "source": "Wikimedia Commons · 멘델레예프(1869)", "license": "퍼블릭 도메인(PD)" }
+   ],
    "num": "02",
    "label": "화학·물질",
    "accent": "#4a5b3a",
@@ -172,10 +182,14 @@
    "reflect": [
     "하버–보슈법처럼 '같은 원리가 생명을 살리기도, 해치기도 하는' 이중용도 기술의 예를 하나 들고, 사회가 그것을 어떻게 다뤄야 할지 적어보자."
    ],
-   "order": ["hook", "why", "lens", "cards", "timeline", "connect", "yt", "links", "quiz", "reflect"]
+   "order": ["hook", "why", "lens", "cards", "image:0", "image:1", "timeline", "connect", "yt", "links", "quiz", "reflect"]
   },
   {
    "id": "electric",
+   "image": [
+    { "src": "img/maxwell.jpg", "alt": "제임스 클러크 맥스웰 초상 판화", "caption": "제임스 클러크 맥스웰 — 전기·자기·빛을 네 개의 방정식으로 통합했다.", "source": "Wikimedia Commons", "license": "퍼블릭 도메인(PD)" },
+    { "src": "img/bell.jpg", "alt": "알렉산더 그레이엄 벨 초상 사진", "caption": "알렉산더 그레이엄 벨 — 음성을 전기 신호로 바꾼 전화를 발명했다.", "source": "Wikimedia Commons · National Portrait Gallery", "license": "CC0" }
+   ],
    "num": "03",
    "label": "전기·통신",
    "accent": "#3a3a6b",
@@ -213,10 +227,14 @@
    "reflect": [
     "'정보를 어떤 물리량(전압·빛·전파)에 실어 보낸다'는 발상은 오늘날 어디에 쓰이고 있을까? 주변의 예를 세 가지 찾아보자."
    ],
-   "order": ["hook", "why", "lens", "cards", "timeline", "connect", "yt", "links", "quiz", "reflect"]
+   "order": ["hook", "why", "lens", "cards", "image:0", "image:1", "timeline", "connect", "yt", "links", "quiz", "reflect"]
   },
   {
    "id": "life",
+   "image": [
+    { "src": "img/pasteur.jpg", "alt": "루이 파스퇴르 초상 사진", "caption": "루이 파스퇴르 — 세균설과 백신의 토대를 놓았다(폴 나다르 촬영).", "source": "Wikimedia Commons · Paul Nadar", "license": "퍼블릭 도메인(PD)" },
+    { "src": "img/dna_helix.png", "alt": "DNA 이중나선 구조와 염기쌍(A·T·G·C) 도해", "caption": "DNA 이중나선 — 네 염기(A·T·G·C)의 서열에 생명의 정보가 담긴다.", "source": "Wikimedia Commons", "license": "퍼블릭 도메인(PD)" }
+   ],
    "num": "04",
    "label": "의학·생명",
    "accent": "#2f6f5f",
@@ -255,11 +273,14 @@
    "reflect": [
     "생명을 '코드'로 다루는 기술(유전자 편집 등)이 열어줄 가능성과, 그것이 제기하는 윤리적 쟁점을 각각 하나씩 적어보자."
    ],
-   "order": ["hook", "why", "lens", "cards", "timeline", "connect", "yt", "links", "quiz", "reflect"]
+   "order": ["hook", "why", "lens", "cards", "image:0", "image:1", "timeline", "connect", "yt", "links", "quiz", "reflect"]
   },
   {
    "id": "atom-space",
-   "image": { "src": "img/apollo11.jpg", "alt": "달 표면에 선 우주비행사와 성조기", "caption": "아폴로 11호, 달 위의 버즈 올드린(1969) — 원자에서 우주까지 나아간 20세기 물리학의 상징.", "source": "Wikimedia Commons · NASA", "license": "퍼블릭 도메인(PD) — NASA" },
+   "image": [
+    { "src": "img/apollo11.jpg", "alt": "달 표면에 선 우주비행사와 성조기", "caption": "아폴로 11호, 달 위의 버즈 올드린(1969) — 원자에서 우주까지 나아간 20세기 물리학의 상징.", "source": "Wikimedia Commons · NASA", "license": "퍼블릭 도메인(PD) — NASA" },
+    { "src": "img/einstein.png", "alt": "알베르트 아인슈타인 1921년 초상", "caption": "알베르트 아인슈타인(1921) — 상대성이론으로 시간·공간·에너지를 다시 정의했다.", "source": "Wikimedia Commons · Mishkin(1921)", "license": "퍼블릭 도메인(PD)" }
+   ],
    "num": "05",
    "label": "원자·우주",
    "accent": "#2b2b55",
@@ -307,10 +328,14 @@
     ],
     "after": "정답은 없다. 같은 물음이 오늘날 인공지능 연구자들에게 거의 동일한 형태로 다시 제기되고 있다(→ AI·반도체 정거장)."
    },
-   "order": ["hook", "why", "lens", "cards", "image", "choice", "timeline", "connect", "yt", "links", "quiz", "reflect"]
+   "order": ["hook", "why", "lens", "cards", "image:0", "image:1", "choice", "timeline", "connect", "yt", "links", "quiz", "reflect"]
   },
   {
    "id": "computer",
+   "image": [
+    { "src": "img/eniac.jpg", "alt": "에니악 컴퓨터와 운영자들", "caption": "에니악(1945) — 진공관 약 1만 8천 개로 이뤄진 초기 대형 전자식 컴퓨터.", "source": "Wikimedia Commons · U.S. Army", "license": "퍼블릭 도메인(PD)" },
+    { "src": "img/first_transistor.jpg", "alt": "최초의 트랜지스터 복제품", "caption": "최초의 트랜지스터 복제품(벨연구소, 1947) — 진공관을 대체한 반도체 스위치.", "source": "Wikimedia Commons", "license": "CC BY-SA 4.0" }
+   ],
    "num": "06",
    "label": "컴퓨터",
    "accent": "#2f4a4a",
@@ -349,7 +374,7 @@
    "reflect": [
     "'성능'이 아니라 '단가 하락'이 기술 보급을 결정한 사례(컴퓨터 외에도)를 하나 찾아보고, 그 이유를 적어보자."
    ],
-   "order": ["hook", "why", "lens", "cards", "timeline", "connect", "yt", "links", "quiz", "reflect"]
+   "order": ["hook", "why", "lens", "cards", "image:0", "image:1", "timeline", "connect", "yt", "links", "quiz", "reflect"]
   },
   {
    "id": "internet",
@@ -398,6 +423,10 @@
   },
   {
    "id": "ai-chip",
+   "image": [
+    { "src": "img/microprocessor.jpg", "alt": "인텔 i486 마이크로프로세서", "caption": "마이크로프로세서(인텔 i486) — 수백만 개의 트랜지스터를 담은 칩.", "source": "Wikimedia Commons", "license": "CC BY-SA 4.0" },
+    { "src": "img/silicon_wafer.jpg", "alt": "여러 크기의 실리콘 웨이퍼", "caption": "실리콘 웨이퍼 — 한 장에 수많은 칩(다이)을 새겨 만든다. 반도체 산업의 출발점.", "source": "Wikimedia Commons", "license": "CC BY-SA 3.0" }
+   ],
    "num": "08",
    "label": "AI·반도체",
    "star": true,
@@ -446,7 +475,7 @@
     ],
     "after": "정답은 없다 — 지금 사회가 함께 풀고 있는 진행형 문제다. 분명한 것은, 이 물음의 답을 다음 세대가 만들어 간다는 점이다."
    },
-   "order": ["hook", "why", "lens", "cards", "choice", "timeline", "connect", "yt", "links", "quiz", "reflect"]
+   "order": ["hook", "why", "lens", "cards", "image:0", "image:1", "choice", "timeline", "connect", "yt", "links", "quiz", "reflect"]
   }
  ],
  "people": []
