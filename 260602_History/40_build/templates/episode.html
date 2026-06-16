@@ -175,6 +175,10 @@
   .links .lk-label:after{content:" ↗"; color:var(--accent); font-weight:700;}
   .links .lk-note{display:block; font-size:13.5px; color:var(--ink); margin-top:3px; line-height:1.6;}
   .links .lk-src{display:block; font-size:12px; color:var(--muted); margin-top:4px;}
+  .spark{margin:16px 0; padding:16px 18px 18px; border-left:5px solid var(--accent); border-radius:12px; background:linear-gradient(180deg,#fff8f3,#fdeee6); box-shadow:var(--shadow-sm);}
+  .spark-h{font-size:16px; font-weight:800; color:var(--accent); margin-bottom:7px; letter-spacing:-.01em;}
+  .spark-body{font-size:15.5px; line-height:1.85; color:var(--ink);}
+  .spark-mind{margin-top:11px; padding-top:10px; border-top:1px dashed var(--line); font-size:14.5px; color:var(--navy); line-height:1.7;}
   .dd-body{padding:4px 18px 18px;}
   .dd-item{border-top:1px solid var(--line); padding:13px 0;}
   .dd-item:first-child{border-top:none;}
@@ -557,6 +561,12 @@ function linksHTML(arr){
     +(it.source?'<span class="lk-src">'+it.source+'</span>':'')+'</a>'; });
   return s+'</div>';
 }
+function sparkHTML(sp){
+  let s='<div class="spark"><div class="spark-h">'+(sp.icon||'🤯')+' '+(sp.title||'상상해보기')+'</div>';
+  s+='<div class="spark-body">'+T(sp.body)+'</div>';
+  if(sp.mind) s+='<div class="spark-mind"><b>🌀 상식 뒤집기</b> — '+T(sp.mind)+'</div>';
+  return s+'</div>';
+}
 function marchmapHTML(m,sid){
   const SY=1.55; // viewBox 0 0 100 155 (베이스맵 종횡비 ≈ 1866/2891)
   const P={}; (m.places||[]).forEach(p=>P[p.id]=p);
@@ -621,6 +631,7 @@ function relationsHTML(r,sid){
 function renderBlocks(s){
   const B={
     hook:()=>'<p class="hook">'+T(s.hook)+'</p>'+(s.quote?quoteBlock(s.quote):''),
+    spark:()=>s.spark?sparkHTML(s.spark):'',
     why:()=>'<h2 class="block">왜 중요할까</h2><div class="why">'+s.why+'</div>',
     lens:()=>s.lens?lensBlock(s.lens):'',
     voice:()=>s.voice?voiceHTML(s.voice):'',
@@ -648,7 +659,7 @@ function renderBlocks(s){
     reflect:()=>'<h2 class="block">내 생각 적어보기 ✍️</h2><div class="reflect">'
       +s.reflect.map((q,i)=>'<div class="q">'+q+'</div><textarea data-key="'+s.id+'_'+i+'" placeholder="여기에 자유롭게 적어보세요. 자동으로 저장돼요."></textarea><div class="saved" id="saved_'+s.id+'_'+i+'"></div>').join('')+'</div>'
   };
-  const DEFAULT=['hook','why','lens','voice','cards','people','map','image','oldmap','chart','compare','relations','marchmap','battlemap*','timeline','connect','yt','movies','choice','quiz','deepdive','links','reflect'];
+  const DEFAULT=['hook','spark','why','lens','voice','cards','people','map','image','oldmap','chart','compare','relations','marchmap','battlemap*','timeline','connect','yt','movies','choice','quiz','deepdive','links','reflect'];
   const order=(s.order&&s.order.length)?s.order:DEFAULT;
   let html='';
   order.forEach(tok=>{
