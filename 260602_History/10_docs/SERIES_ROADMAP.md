@@ -29,7 +29,7 @@
 | 7 | 냉전 | `coldwar` | 1945~1991 | 미·소 양극 — 핵·베를린·쿠바·대리전·우주·데탕트·장벽붕괴(8섹션) | ✅ 배포(0614, 8/8) | `plan/0614_plan_hub_coldwar.md` |
 | 8 | 탈냉전·세계화 | `globalization` | 1991~2008 | 소련붕괴·단극·세계화·인터넷·9·11·EU·중국부상(7섹션) | ✅ 배포(0614, 7/7) | `plan/0614_plan_hub_globalization.md` |
 | 9 | 다극·미중·AI | `new-order` | 2008~현재 | 금융위기·다극·미중경쟁·반도체전쟁·연결된위기·AI·열린결말(7섹션) | ✅ 배포(0614, 7/7) — **시간 사슬 끝(현재)** | `plan/0614_plan_hub_neworder.md` |
-| 🟡 | 분야 트랙 | `tracks/*` | 통사(가로지르기) | 과학기술(1호·AI상세)·예술·문화·체육·금융 | 🟡 계획됨 — **다음 우선** | `plan/0614_masterplan_renaissance_to_ai.md` §3 |
+| 🟢 | 분야 트랙 (고등/일반 수준) | `tracks/*` | 통사(가로지르기) | **과학기술 ✅배포(12정거장·호기심 엔진)**·예술·문화·체육·금융(예정) | 🟢 sci-tech 라이브(0616) | `plan/0615_plan_track_scitech.md` · `0616_plan_scitech_curiosity_upgrade.md` |
 | ＋ | 인물 이야기 | `figures` | 가로지르기 | 도감 47인 기반 '짝으로 읽기'(5짝+미션) | ✅ 배포(0612, 6섹션) | `plan/0612_plan_hub_figures.md` |
 | ＋ | 아메리카(지역) | `americas` | 통사 | 북미·남미 두 대륙(2 에피소드) | ✅ 배포(0611: 랜딩+`americas/north-america` 6섹션+`americas/latin-america` 5섹션) | `plan/0610_plan_hub_americas.md` |
 

@@ -75,6 +75,7 @@
 - 커밋 푸터: `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>`. settings.local.json 제외. 260426_MathTelling/260601_Study_Seeun 손대지 않음.
 
 ## 📝 로그 (최신 위)
+- 0616 #12: ★U6 SSOT + U7 허브카드 + U4 자율감수 = **sci-tech 트랙 전체 완료**. SERIES_ROADMAP/PROGRESS 트랙행 🟢, 메모리 0615~16 섹션. 메인 허브 `/history/`에 '분야 트랙 — 과학기술' 카드 추가(soon 텍스트 갱신)·배포 push(043cbd8). U4 자율감수: 빌드OK·spark+mind 12/12·이미지24 검수·링크36 200·수치 통설/대략값 헤지 확인·AI choice 균형·과학사라 정치민감 낮음 → 통과(심층 다중페르소나는 선택 후속). **P3 tracks/sci-tech 종료.**
 - 0616 #11: ★U3 신규 3정거장 → **12정거장**. 빛·렌즈(01)·시간·측정(05)·비행(07) 삽입(호기심 엔진·교과연결·links·이미지≥2 포함), 번호 00~11 재정렬, 용어 6개. 신규 이미지 6점(현미경·뢴트겐 첫X선·해리슨 해상시계·GPS위성·라이트 첫비행·747) PD/CC 검수. 링크 36개 200검증(양력→항공역학 교정). 빌드 12섹션 103833자. 커밋 b64d9b3. **남음: U4 감수, U6 SSOT, U7 메인허브 카드.** ⚠️ episode.json이 renumber로 indent=1 재포맷됨(이후 Edit는 다중행 형식).
 - 0616 #10: ★호기심 엔진 U1·U2 — Nick 피드백("엣지 없다, 그냥 역사 얘기")反映. spark 블록 엔진 신설(🤯 그 전엔 없던 세상+상식뒤집기, JS OK), 전용 스킬 sci-content 신설, 9정거장 hook을 경이/도발(wonder-first)로 전면 교체+spark(mind-bender) 삽입. 빌드 95105자. 커밋 bc8bd78. 계획=plan/0616. **다음: U3 신규 3정거장(빛·렌즈/시간·측정/비행)+이미지, U4 감수, U6 SSOT, U7 허브카드.** Nick 코덱/NPU 검수=OK(수정 불필요).
 - 0616 #9: ★Phase E 완료 — 전 9정거장 대표이미지 ≥2 충족(재사용 5 + 신규 13 = 18점). 신규는 위키미디어 커먼즈 PD/CC, 백그라운드 fetch+전점 Read 검수(maxwell 1차 오선정=타탄리본 → 재소싱 교정, wafer 429 → 재소싱). image 배열 2점+order image:0/image:1. 빌드 9섹션 91532자. 커밋 55bfca0. deploy.py 백그라운드 재배포 중.
