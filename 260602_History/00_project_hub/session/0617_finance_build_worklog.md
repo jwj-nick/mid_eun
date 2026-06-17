@@ -29,12 +29,14 @@ stock_exchange·euro_tower(globalization), lehman(new-order). 신규 소싱: 로
 > 계획 SSOT = `plan/0617_plan_finance_expansion.md`. 구조: `tracks/finance/`=랜딩 + history(기존)·people·empire·wisdom.
 > 빌드 `build.py tracks/finance/<ep>` · 배포 `deploy.py tracks/finance/<ep>`(백그라운드) · 랜딩=손작성(`40_build/landing/finance_index.html`).
 
-### RESUME (확장)
-- **X0 ✅** 재구조화: 통사→`history/`(move+meta패치), build, 랜딩 손작성+staging, history 배포(21/21 OK).
-- **X1 people ✅작성·빌드(7섹션)** — 이미지 소싱 진행 중(_staging). 다음: Read검수→img/ 확정→재빌드→감수→deploy.
-- **다음 = X2 empire, X3 wisdom**(각 write→링크→이미지→build→감수→deploy→commit), **X4 마무리**(랜딩 4카드 live·허브카드·SSOT).
+### RESUME (확장) — ✅ 전부 완료 (0618)
+- **X0~X4 ✅ 완료·라이브.** `tracks/finance` = 4부작 허브(랜딩 + history10·people7·empire7·wisdom7 = 31정거장). deploy.py tracks/finance 52/52 OK. tracks 랜딩 finance 카드 4부작 갱신·배포.
+- 이미지: people 12(charles_v로 fuggerei 대체)·empire 13(bank_of_england/eccles 재사용)·wisdom 2(stock_exchange/market 재사용)+차트. 전점 Read 검수, 라이선스 파일 일치로 정정.
+- 링크 60개 중 2개 404 교정(런던시티→시티_오브_런던, AI에너지→Environmental_impact_of_AI). 자율감수: 이미지 0누락·퀴즈정답 정합·投資조언0 disclaimer·반유대 음모론 deepdive 확인.
+- 남은 것: (선택) Nick 리뷰 후 톤/내용 조정. 다음 분야 트랙=예술·문화·체육.
 
 ### 로그 (확장, 최신 위)
+- 0618 X2~X4: empire(돈의수도·런던·금고·선물·★연준·★페트로달러·AI에너지) + wisdom(편지·자본주의·★복리·삶의복리투자·주식지식·마음가짐·돈을아는어른) 작성·빌드·배포. 이미지 batch2~4 소싱(charles_v·nixon·연준·금괴·포트녹스·유전·데이터센터 등 전점 Read검수), 링크 60검증(2교정), 자율감수 통과. 허브 전체 deploy 52/52. SSOT(ROADMAP·PROGRESS) 갱신.
 - 0617 X1: people episode.json 7섹션(메디치·푸거·★유대인과돈[음모론 해체 deepdive+quiz2]·로스차일드[워털루 신화 해체]·J.P.모건[1907→연준]·연준의장들[볼커 인플레 차트]·버핏[복리]). build OK(85256자). 이미지 13 fetch 중.
 - 0617 X0: 통사 10정거장 → `tracks/finance/history/`로 이동(slug·brand·foot·hub 메타 패치). 랜딩(`finance_index.html`, 자녀 편지+4카드) 작성·50_app staging. history 배포 DEPLOY_OK 21/21. 기존 SPA는 허브 URL에 임시 잔존(X4에서 랜딩으로 교체).
 
