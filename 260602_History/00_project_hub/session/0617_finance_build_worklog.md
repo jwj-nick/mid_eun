@@ -25,7 +25,20 @@
 ## 🔁 재사용 자산 (sci-tech서 검증)
 stock_exchange·euro_tower(globalization), lehman(new-order). 신규 소싱: 로마 데나리우스·튤립버블·영란은행·1929군중·브레튼우즈·신용카드·바이마르지폐·비트코인 등.
 
-## 📝 로그 (최신 위)
+## 🚀 확장 (EXPANSION) — 단일 SPA → 4부작 허브
+> 계획 SSOT = `plan/0617_plan_finance_expansion.md`. 구조: `tracks/finance/`=랜딩 + history(기존)·people·empire·wisdom.
+> 빌드 `build.py tracks/finance/<ep>` · 배포 `deploy.py tracks/finance/<ep>`(백그라운드) · 랜딩=손작성(`40_build/landing/finance_index.html`).
+
+### RESUME (확장)
+- **X0 ✅** 재구조화: 통사→`history/`(move+meta패치), build, 랜딩 손작성+staging, history 배포(21/21 OK).
+- **X1 people ✅작성·빌드(7섹션)** — 이미지 소싱 진행 중(_staging). 다음: Read검수→img/ 확정→재빌드→감수→deploy.
+- **다음 = X2 empire, X3 wisdom**(각 write→링크→이미지→build→감수→deploy→commit), **X4 마무리**(랜딩 4카드 live·허브카드·SSOT).
+
+### 로그 (확장, 최신 위)
+- 0617 X1: people episode.json 7섹션(메디치·푸거·★유대인과돈[음모론 해체 deepdive+quiz2]·로스차일드[워털루 신화 해체]·J.P.모건[1907→연준]·연준의장들[볼커 인플레 차트]·버핏[복리]). build OK(85256자). 이미지 13 fetch 중.
+- 0617 X0: 통사 10정거장 → `tracks/finance/history/`로 이동(slug·brand·foot·hub 메타 패치). 랜딩(`finance_index.html`, 자녀 편지+4카드) 작성·50_app staging. history 배포 DEPLOY_OK 21/21. 기존 SPA는 허브 URL에 임시 잔존(X4에서 랜딩으로 교체).
+
+## 📝 로그 (통사, 최신 위)
 - 0617 #3: ★F4~F7 완료·라이브. 이미지 20점(재사용3+신규17, 전점 Read검수, 남부연합지폐·PDF문서 오선정 2 교정), 자율감수 통과(투자권유0·암호화폐 경고·양면). deploy.py 배포(21/21)·G3 PASS, tracks 랜딩 금융 카드 활성+허브 카드 2트랙 반영, SERIES_ROADMAP/PROGRESS/메모리 갱신. **tracks/finance 완료.** https://jwj-nick.github.io/history/tracks/finance/
 - 0617 #2: F2 완료 — episode.json 10정거장(돈·상업혁명·주식·은행·대공황·달러·신용·★제국화폐타락·2008·코인). 호기심 엔진 spark·mind 10/10, 차트 2(대공황 실업률·로마 데나리우스 은함량), 링크 30, 용어 18. 빌드 OK(89006자). 이미지=F4. 다음=F3 링크 200검증(튤립 url 오타 의심→교정 예정).
 - 0617 #1: F1 — 호기심 엔진 tracks-write 승격(전 분야 트랙 표준, spark/wonder-first/mind-bender/장치≥3 게이트). 계획 plan/0617. 다음=F2.
