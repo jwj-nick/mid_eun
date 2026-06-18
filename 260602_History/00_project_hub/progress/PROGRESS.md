@@ -31,7 +31,8 @@
 | 🔬 | `tracks/sci-tech` | 과학기술 — 인류가 세상을 푸는 법 (12정거장·호기심 엔진·고등/일반) | ✅ 배포 (0616) | https://jwj-nick.github.io/history/tracks/sci-tech/ |
 | 💹 | `tracks/finance` | 경제·금융 **4부작 허브** — 돈의 발명(10)·금융을 만든 사람들(7)·돈과 힘(7)·돈과 삶/자녀에게(7) = 31정거장+랜딩. 호기심 엔진·고등/일반·⚠️투자조언0 | ✅ 배포 (0618) | https://jwj-nick.github.io/history/tracks/finance/ |
 | ↳ | `…/finance/{history,people,empire,wisdom}` | 4개 에피소드 + 랜딩(자녀에게 보내는 편지) | ✅ 배포 (0618) | …/finance/people · /empire · /wisdom |
-| — | `tracks/*` (나머지) | 예술·문화·체육·금융 트랙 | 🟡 계획됨 (`plan/0614_masterplan_renaissance_to_ai.md` §3) | — |
+| ⚽ | `tracks/sports` | 축구 **3부작 허브**(전문가 수준) — 역사(6)·빅리그 시스템(6)·세계의 축구(6) = 18정거장. 승강제·이적상각·FFP·스포츠워싱 등 시스템 심층 | ✅ 배포 (0619) | https://jwj-nick.github.io/history/tracks/sports/ |
+| — | `tracks/*` (나머지) | 예술·문화 트랙 | 🟡 계획됨 (`plan/0614_masterplan_renaissance_to_ai.md` §3) | — |
 
 ## 🗺️ 시리즈 확장 로드맵 (0610)
 > **구조 SSOT = `10_docs/SERIES_ROADMAP.md`** (시대 사슬 전체 지도, one hub=one plan). 아래는 진척 요약만.
