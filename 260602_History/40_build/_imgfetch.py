@@ -3,7 +3,7 @@
 """_imgfetch.py — Wikimedia Commons 이미지 후보 수집 (PD/CC만). ASCII 매니페스트 출력.
 스펙은 코드 하단 TARGETS에. 다운로드는 _stage/img_cand/<target>__<i>.<ext>. 검수 후 수동 채택.
 """
-import json, sys, urllib.request, urllib.parse, pathlib, ssl
+import json, sys, time, urllib.request, urllib.parse, pathlib, ssl
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 STAGE = ROOT/"40_build"/"_stage"/"img_cand"
 STAGE.mkdir(parents=True, exist_ok=True)
@@ -62,15 +62,17 @@ def fetch(target, queries):
                 print("CAND target=%s idx=%d file=%s bytes=%d mime=%s lic=%s title=%s" %
                       (target,n,local.name,len(blob),mime,lic[:30],title[:55]))
                 n+=1
+                time.sleep(1.5)
             except Exception as e:
                 print("DLERR target=%s title=%s %s" % (target,title[:40],e))
-            if n>=4: break
-        if n>=4: break
+                time.sleep(1.5)
+            if n>=3: break
+        time.sleep(1.0)
+        if n>=3: break
     print("DONE target=%s candidates=%d" % (target,n))
 
 TARGETS = [
- ("jeulmun", ["Jeulmun pottery", "comb-pattern pottery Korea", "Korean neolithic pottery museum"]),
- ("bipa",    ["Liaoning bronze dagger", "lute-shaped bronze dagger Korea", "비파형동검", "mandolin shaped bronze dagger"]),
+ ("samguksagi", ["Samguk Sagi", "삼국사기", "Samguk Yusa book", "Samguk Yusa page", "Goryeo woodblock history"]),
 ]
 for t,qs in TARGETS:
     fetch(t,qs)
