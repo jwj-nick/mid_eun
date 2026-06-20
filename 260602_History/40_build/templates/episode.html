@@ -64,6 +64,11 @@
   .why b{color:var(--accent);}
   .lens{background:linear-gradient(135deg,#fff,#f3f0fa); border:1px solid #d8cfe8; border-left:5px solid #7a6aa8; border-radius:14px; padding:18px 22px; margin:24px 0; font-size:15.5px;}
   .lens .lh{font-weight:800; color:#5b4a86; font-size:13.5px; letter-spacing:.03em; margin-bottom:6px; display:flex; gap:7px; align-items:center;}
+  .legendbox{background:linear-gradient(135deg,#fdf8ee,#f6ecd8); border:1px solid #e6d4b0; border-left:5px solid var(--gold,#c49a4a); border-radius:14px; padding:18px 22px; margin:24px 0; font-size:15px; box-shadow:var(--shadow-sm); position:relative;}
+  .legendbox .lgh{font-weight:800; color:#9a6b1e; font-size:14px; letter-spacing:.02em; margin-bottom:8px;}
+  .legendbox .lgbody{color:#4a4036; line-height:1.85;}
+  .legendbox .lgmoral{margin-top:10px; padding-top:10px; border-top:1px dashed #e0cda0; color:#6b5a3a; font-size:14px;}
+  .legendbox .lgsrc{margin-top:8px; font-size:12px; color:#9a8a6a;}
   .quote{margin:30px 0; background:linear-gradient(135deg,#fff,#fdf2ef); border:1px solid var(--rose-soft); border-left:5px solid var(--rose); border-radius:14px; padding:22px 26px; box-shadow:var(--shadow-sm);}
   .quote .qt{font-size:18.5px; font-style:italic; color:var(--navy); line-height:1.8;}
   .quote .qs{display:block; margin-top:12px; font-size:13px; color:var(--muted); font-style:normal;}
@@ -546,6 +551,12 @@ function oldmapHTML(o,sid){
     + '</figure>';
 }
 function lensBlock(l){ return '<div class="lens"><div class="lh">🕯️ 그때 사람들은 이렇게 생각했어요</div><div>'+T(l)+'</div></div>'; }
+function legendHTML(lg){
+  return '<div class="legendbox"><div class="lgh">📖 전해 오는 이야기'+(lg.title?' — '+lg.title:'')+'</div>'
+    +'<div class="lgbody">'+T(lg.body)+'</div>'
+    +(lg.moral?'<div class="lgmoral">💭 '+T(lg.moral)+'</div>':'')
+    +(lg.source?'<div class="lgsrc">📜 '+lg.source+'</div>':'')+'</div>';
+}
 function personBlock(p){
   return '<div class="person"><div class="pheader"><div class="pface">'+(p.face||'👤')+'</div>'
     +'<div><div class="pname">'+p.name+'</div><div class="pwho">'+(p.who||'')+'</div></div></div>'
@@ -667,6 +678,7 @@ function renderBlocks(s){
     spark:()=>s.spark?sparkHTML(s.spark):'',
     why:()=>'<h2 class="block">왜 중요할까</h2><div class="why">'+s.why+'</div>',
     lens:()=>s.lens?lensBlock(s.lens):'',
+    legend:()=>s.legend?legendHTML(s.legend):'',
     voice:()=>s.voice?voiceHTML(s.voice):'',
     cards:()=>s.cards?('<h2 class="block">핵심 따라가기</h2><div class="cards">'
       +s.cards.map(c=>'<div class="card"><span class="yr">'+c.yr+'</span><h3>'+c.h+'</h3><p>'+T(c.p)+'</p></div>').join('')+'</div>'
@@ -692,7 +704,7 @@ function renderBlocks(s){
     reflect:()=>s.reflect?('<h2 class="block">내 생각 적어보기 ✍️</h2><div class="reflect">'
       +s.reflect.map((q,i)=>'<div class="q">'+q+'</div><textarea data-key="'+s.id+'_'+i+'" placeholder="여기에 자유롭게 적어보세요. 자동으로 저장돼요."></textarea><div class="saved" id="saved_'+s.id+'_'+i+'"></div>').join('')+'</div>'):''
   };
-  const DEFAULT=['hook','spark','why','lens','voice','cards','people','map','image','oldmap','chart','compare','relations','marchmap','battlemap*','timeline','connect','yt','movies','choice','quiz','deepdive','links','reflect'];
+  const DEFAULT=['hook','spark','why','lens','legend','voice','cards','people','map','image','oldmap','chart','compare','relations','marchmap','battlemap*','timeline','connect','yt','movies','choice','quiz','deepdive','links','reflect'];
   const order=(s.order&&s.order.length)?s.order:DEFAULT;
   let html='';
   order.forEach(tok=>{
