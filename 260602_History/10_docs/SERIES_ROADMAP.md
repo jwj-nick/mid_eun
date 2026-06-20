@@ -35,7 +35,7 @@
 | 🟢 | 분야 트랙 | `tracks/*` | 통사(가로지르기) | **과학기술 ✅(12)·경제금융 ✅(4부작 31)·축구 ✅(3부작 18, 전문가 수준)**·예술·문화(예정) | 🟢 sci-tech·finance·sports 라이브(0616~19) | `plan/0615_*` · `0617_plan_finance_expansion.md` · `0618_plan_track_football_rough.md` |
 | ＋ | 인물 이야기 | `figures` | 가로지르기 | 도감 47인 기반 '짝으로 읽기'(5짝+미션) | ✅ 배포(0612, 6섹션) | `plan/0612_plan_hub_figures.md` |
 | ＋ | 아메리카(지역) | `americas` | 통사 | 북미·남미 두 대륙(2 에피소드) | ✅ 배포(0611: 랜딩+`americas/north-america` 6섹션+`americas/latin-america` 5섹션) | `plan/0610_plan_hub_americas.md` |
-| ＋ | **한국사(지역·통사)** | `korea/*` | 통사(우리 역사) | **고등 심화** 통사 사슬: 선사·고조선→삼국·남북국→고려→조선→근대(개항·일제) + 캡스톤(동아시아 관계사). 세계사 사슬과 교차링크 | 🟢 Part 1~5 라이브(0619~21): `ancient`(6)·`three-kingdoms`(7)+삼국 심화 3·`goryeo`(7)·`joseon`(8)·**`modern`(8) 신규** + **왕조 계보 3페이지**(삼국·고려·조선, lineage 블록) / 남은 1: east-asia(캡스톤) | `plan/0619_plan_korea_series.md` |
+| ＋ | **한국사(지역·통사)** | `korea/*` | 통사(우리 역사) | **고등 심화** 통사 사슬: 선사·고조선→삼국·남북국→고려→조선→근대(개항·일제) + 캡스톤(동아시아 관계사). 세계사 사슬과 교차링크 | ✅ **6부 완결**(0619~21): `ancient`(6)·`three-kingdoms`(7)+삼국 심화 3·`goryeo`(7)·`joseon`(8)·`modern`(8)·**`east-asia`(6 캡스톤) 신규** + 왕조 계보 3페이지(삼국·고려·조선). 랜딩 6/6 카드 live | `plan/0619_plan_korea_series.md` |
 
 상태 범례: ✅ 배포 / 🟡 계획됨(제작 대기) / 🔵 KEEP(나중에 제작).
 
