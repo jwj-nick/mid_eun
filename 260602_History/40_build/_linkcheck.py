@@ -29,7 +29,8 @@ def main():
     urls=set()
     for s in data["sections"]:
         for it in (s.get("links") or []):
-            if it.get("url"): urls.add(it["url"])
+            u=it.get("url","")
+            if u.startswith("http"): urls.add(u)  # 내부 상대링크(../ 등)는 건너뜀
     bad=0
     for u in sorted(urls):
         st=check(u)
