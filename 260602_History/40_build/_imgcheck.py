@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import urllib.request
-base = "https://jwj-nick.github.io/history/korea/goryeo/img/"
-imgs = ["later_three_kingdoms.jpg","goryeo_coin.jpg","mongol_empire.png",
-        "tripitaka.jpg","celadon.jpg","jikji.jpg","cheonsan.jpg"]
+base = "https://jwj-nick.github.io/history/korea/joseon/img/"
+imgs = ["gyeongbokgung.jpg","hunminjeongeum.jpg","imjin_war_map.png","namhansanseong.jpg",
+        "hwaseong.jpg","daedongyeojido.jpg","kim_hongdo_ssireum.jpg","moon_jar.jpg","cheokhwabi.jpg"]
 ok = 0
 for f in imgs:
     try:
