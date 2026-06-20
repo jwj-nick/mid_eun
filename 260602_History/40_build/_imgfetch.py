@@ -9,7 +9,7 @@ STAGE = ROOT/"40_build"/"_stage"/"img_cand"
 STAGE.mkdir(parents=True, exist_ok=True)
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36"
 CTX = ssl.create_default_context()
-OK_LIC = ("public domain","pd-","cc0","cc by","cc-by","attribution","share")
+OK_LIC = ("public domain","pd-","cc0","cc by","cc-by","attribution","share","kogl","공공누리","open government","korea open government")
 BAD_EXT = (".svg",".pdf",".tif",".tiff",".gif",".webp")
 
 def api(query):
@@ -72,9 +72,8 @@ def fetch(target, queries):
     print("DONE target=%s candidates=%d" % (target,n))
 
 TARGETS = [
- ("osanfortress", ["Wunü Mountain City", "오녀산성", "Five Maiden Peak fortress Goguryeo", "Wunu Shan Goguryeo"]),
- ("janggun",      ["Janggun-chong", "General's Tomb Goguryeo", "장군총", "Tomb of the General Ji'an"]),
- ("tangmap",      ["Tang dynasty map 700", "Tang dynasty greatest extent", "당나라 지도", "Tang Empire 660 map"]),
+ ("seosan",     ["서산 용현리 마애여래삼존상", "서산마애삼존불", "Seosan rock carved buddha", "마애여래삼존상"]),
+ ("jeongnimsa", ["정림사지 오층석탑", "부여 정림사지 오층석탑", "Jeongnimsa pagoda"]),
 ]
 for t,qs in TARGETS:
     fetch(t,qs)
