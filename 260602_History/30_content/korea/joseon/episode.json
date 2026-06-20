@@ -29,7 +29,8 @@
     "label": "★ 임진왜란 — 7년 전쟁",
     "to": "imjin"
    },
-   "pathLabel": "조선 500년"
+   "pathLabel": "조선 500년",
+   "lineage": {"label": "조선 왕 계보 (27왕)", "url": "./lineage/"}
   }
  },
  "terms": {

@@ -29,7 +29,8 @@
     "label": "★ 40년의 몽골 항쟁",
     "to": "mongol"
    },
-   "pathLabel": "고려 500년"
+   "pathLabel": "고려 500년",
+   "lineage": {"label": "고려 왕 계보 (34왕)", "url": "./lineage/"}
   }
  },
  "terms": {

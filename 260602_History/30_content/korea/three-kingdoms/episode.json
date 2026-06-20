@@ -29,7 +29,8 @@
     "label": "★ 한강을 차지하라 — 삼국 항쟁",
     "to": "rivalry"
    },
-   "pathLabel": "고대국가들의 천 년"
+   "pathLabel": "고대국가들의 천 년",
+   "lineage": {"label": "왕 계보 (고구려·백제·신라)", "url": "./lineage/"}
   }
  },
  "terms": {
