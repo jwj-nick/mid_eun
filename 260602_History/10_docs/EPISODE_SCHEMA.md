@@ -61,8 +61,9 @@
 
 ### order (블록 렌더 순서 — 섹션별 흐름 제어, 선택)
 - 엔진 `renderBlocks()`가 블록 registry를 두고, `order` 배열대로 렌더. **없으면 기본 순서**(타 섹션 무영향, 하위호환).
-- 토큰: 블록 이름(`hook`,`why`,`lens`,`voice`,`cards`,`people`,`map`,`image`,`oldmap`,`chart`,`compare`,`relations`,`marchmap`,`battlemap`,`timeline`,`connect`,`yt`,`movies`,`choice`,`quiz`,`deepdive`,`reflect`).
+- 토큰: 블록 이름(`hook`,`why`,`lens`,`legend`,`voice`,`cards`,`people`,`map`,`image`,`oldmap`,`chart`,`compare`,`relations`,`marchmap`,`battlemap`,`timeline`,`connect`,`yt`,`movies`,`choice`,`quiz`,`deepdive`,`reflect`).
 - **배열 블록**은 인덱스로: `battlemap:0`,`battlemap:1`,`image:0`,`image:1`. 또는 `battlemap*`(전체 펼침).
+- **legend**(설화, 0620~): "전해 오는 이야기" 콜아웃. `{title, body, source?, moral?}`. 유명 설화/전승을 한 편. 신화임을 분명히(사실과 구분), `moral`로 의미 한 줄. **지명 등장 섹션은 `map`(마커 desc "지금의 ~") 또는 주석으로 현재 위치 그라운딩.** (상세 = `hist-content-write` §생동감)
 - 용도: 섹션마다 강조가 달라 **서사 흐름**으로 재배열(예 korea: 동학서사→열강각축→나라의 변화).
 
 ## Quiz (퀴즈 항목, R1 블록)
