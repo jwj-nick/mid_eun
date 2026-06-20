@@ -72,7 +72,8 @@ def fetch(target, queries):
     print("DONE target=%s candidates=%d" % (target,n))
 
 TARGETS = [
- ("liberation_1945",  ["National Liberation Day of Korea", "Gwangbokjeol 1945", "Korea liberation August 1945 crowd", "Seoul 1945 liberation", "Korean independence 1945 celebration", "광복절"]),
+ ("gangnido",  ["Gangnido", "Kangnido map", "혼일강리역대국도지도", "Honil Gangni Yeokdae Gukdo Jido"]),
+ ("tongsinsa", ["Joseon Tongsinsa procession", "조선통신사 행렬", "Joseon mission to Japan painting", "Tongsinsa scroll painting"]),
 ]
 for t,qs in TARGETS:
     fetch(t,qs)
