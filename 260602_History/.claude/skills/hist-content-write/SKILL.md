@@ -13,6 +13,12 @@ metadata:
 
 리서치(단계 2) → **순수 JSON 스키마**. 작성=데이터, 렌더=엔진(분리 원칙).
 
+## ★ 기본 수준 = 고등학교 (2026-06-21 Nick, 필수)
+- **본문 깊이는 고등학교 수준을 기본**으로 한다 — 개념·인과·구조·논쟁·사료를 본격적으로(단순 사건 나열 금지). "무엇"을 넘어 **"왜·어떤 구조·어떻게 아는가"** 까지.
+- **입구(hook·정서·또래의 눈)는 누구나 진입** 가능하게 유지(사람·장면·수수께끼). 깊이↑ 하되 차가운 교과서 X.
+- 어려운 용어는 `terms{}`로 풀되, **용어·어휘 자체는 고교 수준을 회피하지 않는다.** 더 깊은 층은 `deepdive`(계층적 깊이)로.
+- 잔혹·자극 *수위*는 여전히 절제(정서 보호) — **지식 수준(고교)과 자극 수위(보호)는 별개 축.** 상세 = `10_docs/01_learner-profile.md §수준 기준`.
+
 ## 입력
 - `10_docs/content-map_<slug>.md`, `20_research/<slug>/*.md`
 - 규격: `10_docs/EPISODE_SCHEMA.md` / 톤: `APP_PRINCIPLES.md` / 원칙: 마스터플랜 §9
@@ -38,7 +44,8 @@ metadata:
 - **map** (R3): **실제 지도(Leaflet+OSM)**. `{caption, source, center:[lat,lng], zoom, line?, markers:[{lat,lng,label,desc}]}`. 손그림 금지·실좌표 사용. 옛 국경 핵심이면 caption 명시 또는 향후 역사지도 image 보강. 장소가 중요한 섹션(분할·전선·분단)에 적용.
 - **image** (S1): **PD 역사지도/사진** + 선택적 hotspot. `{h?, src:"img/..", alt, story?, caption, source, license, hotspots?:[{x,y,label,desc}]}`. 자산은 `30_content/<slug>/img/`에 두면 빌드가 복사. PD/명확한 CC만, 출처·라이선스 필수, 손그림 금지. 옛 국경(map=현대 지도와 역할 분담). 손그림 SVG 금지. hotspot 좌표 불확실하면 생략.
 - **voice** (S3): 일기·편지체 1인칭. `{h?, imagined:bool, body, speaker, era?, source}`. `imagined:false`=실제 사료(인용·출처 정확)·초록 배지 / `true`=사실 기반 상상·✍️ 배지(근거 명시). 날조 금지. hook/why 뒤 렌더.
-- **legend** (설화 ★): "전해 오는 이야기" 콜아웃. `{title, body, source?, moral?}`. 그 시대·나라의 **유명 설화/전승**을 한 편 들려준다(주몽·박혁거세·온달과 평강공주·서동요·연오랑 세오녀·만파식적 등). **신화·전승임을 분명히**(사실과 구분), `moral`에 "이야기가 남긴 의미" 한 줄. 사실 단정·날조 금지.
+- **legend** (설화 ★): "전해 오는 이야기" 콜아웃. `{title, body, source?, moral?}`. 그 시대·나라의 **유명 설화/전승**을 한 편 들려준다(주몽·박혁거세·온달과 평강공주·서동요·연오랑 세오녀·만파식적 등 / 세계사=길가메시·트로이·로물루스·건국신화). **신화·전승임을 분명히**(사실과 구분), `moral`에 "이야기가 남긴 의미" 한 줄. 사실 단정·날조 금지.
+- **lineage** (왕조 계보 ★): 클릭/터치로 펼쳐지는 임금·통치자 목록(네이티브 `<details>`, JS무관). `{h?, intro?, rulers:[{n,name,reign,note,star?}]}` 또는 `{dynasties:[{label,intro?,rulers}]}`(여러 계보 그룹). `star:true`=핵심 임금(★ red border). 보통 **별도 경량 페이지**(1섹션: hook+lineage+reflect+links)로 만들고, **시대 허브의 `meta.home.lineage={label,url}`** 로 홈 버튼+사이드바에서 진입(★ Nick 0621: 계보는 메인 랜딩 아닌 **각 시대 허브 내부**에서 접근). 왕 많으면 주요 왕만(대수 띄엄 표기).
 - **chart** (S4): CSS 막대 + 체감 비교. `{h?, title, unit?, data:[{label,value,disp?}], relatable?, source}`. 통계 출처 필수·불확실하면 '대략값'. `relatable`로 아이 세계 단위(반 인원 등)에 빗대기(D4).
 - **compare** (S5): 단계 토글/before·after. `{h?, intro?, states:[{label,title,body,img?,alt?,caption?}]}`. 탭 2~4개. `img`는 선택·PD/CC만. 그때↔지금 사진(D6)은 양쪽 라이선스 확보 시만, 아니면 텍스트 상태로.
 - **choice** (S7): '너라면?' 도덕적 딜레마. `{h?, prompt, options:[{label,result}], after?}`. 2~3 선택지, 정답 강요·단정 금지, 각 선택 균형 해설(실제 사례). 공감·관점 전환 목적(D5).
