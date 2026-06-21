@@ -72,8 +72,7 @@ def fetch(target, queries):
     print("DONE target=%s candidates=%d" % (target,n))
 
 TARGETS = [
- ("gangnido",  ["Gangnido", "Kangnido map", "혼일강리역대국도지도", "Honil Gangni Yeokdae Gukdo Jido"]),
- ("tongsinsa", ["Joseon Tongsinsa procession", "조선통신사 행렬", "Joseon mission to Japan painting", "Tongsinsa scroll painting"]),
+ ("hammurabi", ["Code of Hammurabi top relief Shamash", "Stele of Hammurabi full front", "Hammurabi code stele Louvre front", "Codex Hammurabi relief king god"]),
 ]
 for t,qs in TARGETS:
     fetch(t,qs)
