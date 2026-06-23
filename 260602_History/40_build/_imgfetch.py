@@ -72,9 +72,12 @@ def fetch(target, queries):
     print("DONE target=%s candidates=%d" % (target,n))
 
 TARGETS = [
- ("confucius",     ["Confucius Wu Daozi portrait", "Confucius standing portrait traditional", "孔子 肖像"]),
- ("qin-shi-huang", ["Qin Shi Huang portrait", "First Emperor Qin Shi Huang traditional portrait", "秦始皇 肖像"]),
- ("constantine",   ["Colossus of Constantine head", "Head of Constantine the Great", "Constantine colossal head Rome"]),
+ ("buddha_statue", ["Gandhara seated Buddha statue", "Gupta Buddha sculpture meditation", "seated Buddha statue museum stone"]),
+ ("mahabodhi",     ["Mahabodhi Temple Bodh Gaya", "Mahabodhi temple complex tower", "Bodh Gaya Mahabodhi"]),
+ ("dharma_wheel",  ["Dharmachakra stone wheel Sarnath", "Dharma wheel sculpture Buddhist", "Konark dharmachakra wheel"]),
+ ("sanchi_stupa",  ["Sanchi Great Stupa", "Sanchi stupa torana gateway", "Great Stupa Sanchi"]),
+ ("ashoka_lion",   ["Lion Capital of Ashoka", "Ashoka lion capital Sarnath", "Sarnath lion capital"]),
+ ("zen_garden",    ["Ryoan-ji rock garden", "Ryoanji zen garden Kyoto", "karesansui dry garden temple"]),
 ]
 for t,qs in TARGETS:
     fetch(t,qs)
