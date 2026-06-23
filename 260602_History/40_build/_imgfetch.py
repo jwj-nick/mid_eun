@@ -72,8 +72,10 @@ def fetch(target, queries):
     print("DONE target=%s candidates=%d" % (target,n))
 
 TARGETS = [
- ("silk_road", ["Silk Road camel caravan", "camel caravan desert Silk Road", "Bactrian camel caravan Dunhuang"]),
- ("chinggis",  ["Genghis Khan portrait Yuan", "Genghis Khan National Palace Museum portrait", "Chinggis Khan portrait"]),
+ ("chichen_itza",   ["Chichen Itza El Castillo pyramid", "Kukulcan pyramid Chichen Itza", "Chichen Itza temple"]),
+ ("aztec_sunstone", ["Aztec Sun Stone", "Aztec calendar stone Piedra del Sol", "Aztec sunstone Mexico"]),
+ ("machu_picchu",   ["Machu Picchu", "Machu Picchu Inca city panorama", "Machu Picchu ruins"]),
+ ("djenne_mosque",  ["Great Mosque of Djenné", "Djenné mosque mud Mali", "Great Mosque Djenne"]),
 ]
 for t,qs in TARGETS:
     fetch(t,qs)
