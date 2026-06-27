@@ -127,7 +127,11 @@
    "reflect": [
     "원효는 ‘어려운 깨달음’을 ‘나무아미타불’ 한마디로 풀어 누구나 갖게 했어요. 깊은 진리를 ‘쉽게’ 푸는 것은 그 진리를 약하게 만드는 걸까요, 아니면 더 많은 사람에게 살아 있게 하는 걸까요?"
    ],
-   "order": ["hook", "why", "legend", "compare", "deepdive", "connect", "reflect"]
+   "links": [
+    {"label": "인물 도감 — 원효", "url": "../../people/wonhyo/", "note": "‘모든 것은 마음이 짓는다’ — 일심·화쟁·대중불교를 연 신라의 사상가.", "source": "인물 도감"},
+    {"label": "인물 도감 — 의상", "url": "../../people/uisang/", "note": "‘하나가 곧 모두’ — 화엄을 신라에 심고 부석사를 세운 큰 스승.", "source": "인물 도감"}
+   ],
+   "order": ["hook", "why", "legend", "compare", "deepdive", "connect", "links", "reflect"]
   },
   {
    "id": "golden",
@@ -219,7 +223,10 @@
    "reflect": [
     "고려는 ‘부처의 힘으로 적을 막자’며 16년을 들여 팔만대장경을 새겼어요. 군대로도 못 막은 적 앞에서 이 거대한 정성은 ‘헛된 일’이었을까요, 아니면 사람들이 절망 속에서 ‘함께 버티는 마음’을 지킨 방식이었을까요?"
    ],
-   "order": ["hook", "spark", "why", "compare", "image", "deepdive", "connect", "reflect"]
+   "links": [
+    {"label": "인물 도감 — 지눌", "url": "../../people/jinul/", "note": "정혜결사·돈오점수로 고려 선불교를 다시 세운 조계종의 사상적 뿌리.", "source": "인물 도감"}
+   ],
+   "order": ["hook", "spark", "why", "compare", "image", "deepdive", "connect", "links", "reflect"]
   },
   {
    "id": "joseon",
@@ -253,7 +260,11 @@
    "reflect": [
     "‘세상을 등졌다’ 여겨지던 승려들이, 나라가 위급하자 가장 먼저 칼을 들었어요. ‘속세를 떠나는 것’과 ‘세상을 책임지는 것’ — 얼핏 반대처럼 보이는 이 둘은, 어쩌면 어떻게 이어져 있을까요?"
    ],
-   "order": ["hook", "why", "image", "deepdive", "connect", "reflect"]
+   "links": [
+    {"label": "인물 도감 — 서산대사(휴정)", "url": "../../people/seosan/", "note": "임진왜란에 승병을 일으킨 조선 불교의 큰 스승 — 호국불교의 상징.", "source": "인물 도감"},
+    {"label": "인물 도감 — 사명대사(유정)", "url": "../../people/samyeong/", "note": "승병장이자 외교승 — 칼과 붓으로 나라를 지키고 포로를 데려옴.", "source": "인물 도감"}
+   ],
+   "order": ["hook", "why", "image", "deepdive", "connect", "links", "reflect"]
   },
   {
    "id": "today",

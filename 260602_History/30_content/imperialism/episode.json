@@ -2608,6 +2608,9 @@
     "source": "Wikimedia Commons",
     "license": "퍼블릭 도메인"
    },
+   "links": [
+    {"label": "더 깊이 — 종교 이야기: 한국 천주교(병인박해·양요의 뿌리)", "url": "../religion/korea-catholicism/", "note": "흥선대원군의 쇄국과 병인양요·신미양요는 천주교 박해(병인박해)와 맞물려 있었어요. ‘위기의 조선’을 믿음의 역사 쪽에서 들여다봐요.", "source": "종교 이야기"}
+   ],
    "order": [
     "hook",
     "why",
@@ -2625,6 +2628,7 @@
     "people",
     "timeline",
     "connect",
+    "links",
     "deepdive",
     "yt",
     "choice",
