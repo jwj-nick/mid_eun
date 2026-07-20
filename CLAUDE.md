@@ -21,7 +21,7 @@
 | 주제 | 진입 가이드 (읽고 시작) | 배포/코드 | 상태 |
 |---|---|---|---|
 | **mid2 수학 PhET** | `C:\idea\migration\seeun-math-phet.md` | `github.io/mid2` (편집) | P0 감사 완료 → **P1 준비** |
-| **중학 과학 앱(mid-sci)** | `Mid_Science/00_PLAN.md` (마스터) + `C:\idea\migration\seeun-sci-phet.md` | `github.io/mid-sci` (신규) | **P1 계획 확정**(하이브리드·학년탭·중1 힘과 운동 앵커) → P1 실행 |
+| **중학 과학 앱(mid-sci)** | `Mid_Science/00_PLAN.md` (마스터) + `C:\idea\migration\seeun-sci-phet.md` | `github.io/mid-sci` ([라이브](https://jwj-nick.github.io/mid-sci/)) | **P1 배포 완료** — 16개념·3모드·하이브리드2(자유물체도·보어) → **P2 전개**(content.js 매핑 확장) |
 | 수학텔링 | `260426_MathTelling_Idea/CLAUDE.md` | `github.io/mid1` 계열 | 기존 프로젝트 |
 | 역사 앱 | `260602_History/README.md` | `github.io/history` | 기존 프로젝트 |
 | EBS 메모 | `260601_Study_Seeun/` | — | 참고 자료 |
