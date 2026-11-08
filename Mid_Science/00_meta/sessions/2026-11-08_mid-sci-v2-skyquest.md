@@ -28,3 +28,7 @@
 - 반영: 음성 개선(P1), 튜토리얼(P4), 무엇을·어디로·왜 상시 표시(P6 a~g), 위상 사전(P7, 스터디앱 3단원 포함), 3D 지표 일식 탐사(P8).
 - 새 파일: sky-quest/sq-ui.js(브리핑·지도·사전·체크리스트·미니맵), sq-ground.js(지표 3D), models/nature/(Quaternius CC0 8종).
 - 검증: 자동 플레이 가로·세로 클리어, 에러 0. 배포 `9eedb53`.
+
+## v0.5 — 자막 겹침 + EP2~EP5
+- 대사·퀴즈 중 조종 UI 숨김. 에피소드 레지스트리(sq-eps.js) + 미션 타입(photo·phaseSet·watch·chooseLand) + 지표 모드(lunar·evening·day·trails).
+- 검증: 봇으로 EP1~5 클리어, 에러 0. 배포 main.
