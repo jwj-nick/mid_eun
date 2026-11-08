@@ -22,3 +22,9 @@
 - 루미호 = Bob, 녹스 전함 = Executioner(보라 틴트, M3 순찰), 녹스 = Enemy_Large 보라 초상, 기뢰 → 그림자 정령(Enemy_Flying, 날갯짓 애니), 소행성 46개.
 - 타이틀: 루미호 옆에서 손 흔드는 율이 근접 시네마틱. 모델 크레딧 `models/CREDITS.md`.
 - 검증: 자동 비행 에피소드 클리어·에러 0. 배포 `144e3ea`.
+
+## v0.4 피드백 일괄 반영 (F7~F11)
+- 운영 규칙 도입: 피드백은 `Mid_Science/SKYQUEST_FEEDBACK.md`에 먼저 → 제안 → 승인 후 반영.
+- 반영: 음성 개선(P1), 튜토리얼(P4), 무엇을·어디로·왜 상시 표시(P6 a~g), 위상 사전(P7, 스터디앱 3단원 포함), 3D 지표 일식 탐사(P8).
+- 새 파일: sky-quest/sq-ui.js(브리핑·지도·사전·체크리스트·미니맵), sq-ground.js(지표 3D), models/nature/(Quaternius CC0 8종).
+- 검증: 자동 플레이 가로·세로 클리어, 에러 0. 배포 `9eedb53`.
