@@ -15,3 +15,10 @@
 - 실패 = 해당 미션 처음 / 오답 = 같은 문제 다시(힌트). TTS(기기 한국어 음성, 인물별 음높이) + 자막 자동 진행.
 - PWA: manifest·service worker·아이콘 → 홈 화면 설치·전체화면·오프라인.
 - 검증: 자동 비행 봇으로 가로·세로 모두 에피소드 클리어, 오답 재시도 확인, 에러 0. 배포 `8b79687`.
+
+## v0.3 CC0 에셋 업그레이드
+- 출처: Quaternius CC0 (github.com/trebeljahr/quaternius-showcase의 GLB 사본) — 네트워크상 GitHub만 허용되어 이 경로 사용.
+- 율이 = Ultimate Space Kit 우주복 레드판다 → 팔레트 3칸 재색(황갈색 얼굴·강철청 옆머리) + 빨간 리본, Wave 애니메이션. 3D 렌더로 초상(img/yul.png)·지표 뒷모습(img/yul-back.png).
+- 루미호 = Bob, 녹스 전함 = Executioner(보라 틴트, M3 순찰), 녹스 = Enemy_Large 보라 초상, 기뢰 → 그림자 정령(Enemy_Flying, 날갯짓 애니), 소행성 46개.
+- 타이틀: 루미호 옆에서 손 흔드는 율이 근접 시네마틱. 모델 크레딧 `models/CREDITS.md`.
+- 검증: 자동 비행 에피소드 클리어·에러 0. 배포 `144e3ea`.
