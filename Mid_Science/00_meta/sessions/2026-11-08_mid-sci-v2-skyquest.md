@@ -32,3 +32,4 @@
 ## v0.5 — 자막 겹침 + EP2~EP5
 - 대사·퀴즈 중 조종 UI 숨김. 에피소드 레지스트리(sq-eps.js) + 미션 타입(photo·phaseSet·watch·chooseLand) + 지표 모드(lunar·evening·day·trails).
 - 검증: 봇으로 EP1~5 클리어, 에러 0. 배포 main.
+- v0.5.1: EP3·EP4 조작 불가(F14) 수정 — 터치 전용 봇으로 재현·검증, 배포 1c7eac1
