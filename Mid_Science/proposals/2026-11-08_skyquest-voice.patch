@@ -1,0 +1,163 @@
+diff --git a/mid-sci/sky-quest/index.html b/mid-sci/sky-quest/index.html
+index 8c09928..0cc5dde 100644
+--- a/mid-sci/sky-quest/index.html
++++ b/mid-sci/sky-quest/index.html
+@@ -12,7 +12,7 @@
+ <link rel="apple-touch-icon" href="icon-192.png">
+ <title>율이의 하늘 퀘스트</title>
+ <meta name="description" content="요크셔테리어 율이가 우주선 루미호를 몰고 달의 그림자 속으로! 1인칭 조종석으로 체험하는 일식·월식 천문 어드벤처.">
+-<link rel="stylesheet" href="sq.css?v=20261108c">
++<link rel="stylesheet" href="sq.css?v=20261108d">
+ <script type="importmap">{"imports":{"three":"./lib/three.module.min.js","three/addons/":"./lib/addons/"}}</script>
+ </head>
+ <body>
+@@ -27,7 +27,7 @@
+   </svg>
+   <div id="pipf"><span>📡 외부 카메라 · 관측 드론 D-1 (정지)</span><button id="swap">⇄</button></div>
+   <div id="hud" class="hide">
+-    <div class="top"><span id="m-name"></span><span id="m-goal"></span><span class="btns"><button id="b-voice">🗣</button><button id="b-snd">🔊</button><button id="b-exit">✕</button></span></div>
++    <div class="top"><span id="m-name"></span><span id="m-goal"></span><span class="btns"><button id="b-voice" title="음성">🗣</button><button id="b-spd" title="대사 속도" style="width:40px;font-size:12px;font-weight:900">1.3x</button><button id="b-snd">🔊</button><button id="b-exit">✕</button></span></div>
+     <div id="m-timer"><i></i></div>
+     <div id="xhair"></div>
+     <div id="tgt"><i></i><b></b></div>
+@@ -48,6 +48,6 @@
+   <div id="rot" class="hide">📱↻ 가로로 돌리면 조종석이 더 넓어져요</div>
+ </div>
+ <noscript>이 게임은 JavaScript와 WebGL이 필요해요.</noscript>
+-<script type="module" src="sq.js?v=20261108c"></script>
++<script type="module" src="sq.js?v=20261108d"></script>
+ </body>
+ </html>
+diff --git a/mid-sci/sky-quest/sq-ep1.js b/mid-sci/sky-quest/sq-ep1.js
+index 954b864..26603a3 100644
+--- a/mid-sci/sky-quest/sq-ep1.js
++++ b/mid-sci/sky-quest/sq-ep1.js
+@@ -4,37 +4,37 @@
+ export const EP1 = {
+   id: 'ep1', title: '그림자 속으로', sub: 'EPISODE 1 · 일식',
+   prologue: [
+-    ['lumi', '율이 대원, 루미호 시스템 정상! 오늘 임무는 한반도의 개기일식을 지키는 거야.'],
+-    ['nox', '흐흐… 오늘 낮, 태양의 빛나는 왕관 코로나는 내가 가져간다.'],
+-    ['yul', '멍! 그렇게는 안 되지. 루미, 출발하자!'],
+-    ['lumi', '왼쪽 방향 패드로 기수를 돌리고, 오른쪽 추진 버튼을 누르고 있으면 앞으로 나아가. 길을 잃으면 조준 버튼!'],
+-    ['lumi', '오른쪽 위 모니터는 멀리 멈춰 있는 관측 드론이 찍는 바깥 모습이야. 우리 배는 노란 점이야.']
++    ['lumi', '율이 대원, 루미호 준비 완료! 오늘 임무는 개기일식 지키기야.'],
++    ['nox', '흐흐… 태양의 왕관, 코로나는 내가 가져간다.'],
++    ['yul', '멍! 어림없지. 출발!'],
++    ['lumi', '왼쪽 패드로 방향, 오른쪽 추진으로 전진. 길을 잃으면 조준 버튼!'],
++    ['lumi', '오른쪽 위 화면은 바깥 드론이 찍는 우리 모습이야.']
+   ],
+   missions: [
+     { id: 'm1', name: '발진', time: 70, type: 'rings',
+       start: { pos: [1.2, 1.9, 3.4], look: [2.6, 1.5, 2.4] },
+       rings: [[2.6, 1.5, 2.4], [4.0, 1.05, 1.2]],
+       goal: '빛나는 링 2개를 통과해 달 쪽으로 날아가요',
+-      done: [['lumi', '좋아! 저 앞 검은 원이 달이야. 지금 달은 태양과 지구 사이, 위상은 삭. 그래서 우리 쪽에선 어두운 면만 보여.']] },
++      done: [['lumi', '좋아! 저 검은 원이 달이야. 태양과 지구 사이, 위상은 삭. 그래서 어두운 면만 보여.']] },
+     { id: 'm2', name: '그림자 속으로', time: 50, type: 'umbra', hold: 3,
+       start: { pos: [4.0, 1.05, 1.2], look: [6, 0.6, 0] },
+       target: [4.3, 0.6, 0],
+       goal: '달의 본그림자 안으로! 태양이 100% 가려진 상태를 3초 유지',
+-      pre: [['lumi', '달 뒤쪽으로 그림자가 원뿔처럼 뻗어 있어. 진한 안쪽이 본그림자, 옅은 바깥이 반그림자야.'],
+-            ['lumi', '아래 계기판의 태양 가림 게이지를 봐. 100퍼센트가 되면 본그림자 안이야!']],
+-      done: [['yul', '우와, 태양이 완전히 사라졌어! 주변에 하얀 빛만 남았어!'],
+-             ['lumi', '그게 코로나야. 본그림자 안에서는 태양이 완전히 가려져. 지구에서 보면 개기일식! 반그림자에서는 일부만 가려지는 부분일식이고.']] },
++      pre: [['lumi', '달 뒤로 그림자 원뿔이 뻗어 있어. 진한 안쪽이 본그림자야.'],
++            ['lumi', '태양 가림이 100퍼센트면 본그림자 안이야!']],
++      done: [['yul', '우와, 태양이 사라지고 하얀 빛만 남았어!'],
++             ['lumi', '그게 코로나! 본그림자에선 개기일식, 반그림자에선 부분일식이야.']] },
+     { id: 'm3', name: '그림자를 타고', time: 70, type: 'descend',
+       start: { pos: [4.3, 0.6, 0], look: [0.8, 0.6, 0] },
+       rings: [[3.0, 0.6, 0], [1.9, 0.62, 0.02]],
+       land: [0.8, 0.6, 0],
+       goal: '본그림자를 따라 지구의 착륙점까지! 녹스의 기뢰는 피해요',
+-      pre: [['nox', '내 그림자 기뢰를 피할 수 있을까? 닿으면 처음부터다!'],
+-            ['lumi', '본그림자를 따라가면 지구에 떨어진 그림자 점이 나와. 그곳이 개기일식이 보이는 곳이야.']],
+-      done: [['lumi', '착륙 성공! 여긴 달의 본그림자가 떨어진 좁은 지역, 서울 근처야. 이제 땅에서 하늘을 보자.']] },
++      pre: [['nox', '내 그림자 정령을 피할 수 있을까?'],
++            ['lumi', '그림자를 따라 내려가면 지구의 개기일식 지역이야.']],
++      done: [['lumi', '착륙 성공! 본그림자가 떨어진 서울 근처야. 하늘을 보자.']] },
+     { id: 'm4', name: '지표 관측', type: 'ground',
+       goal: '착륙선에서 일식을 관측하고 녹스의 질문에 답해요',
+-      pre: [['nox', '눈으로 봤다고 아는 건 아니지. 대답해 봐!']],
++      pre: [['nox', '봤다고 아는 건 아니지. 대답해 봐!']],
+       qs: [
+         { q: '일식이 시작될 때 태양은 어느 쪽부터 가려졌지?', opts: ['왼쪽 (동쪽)', '오른쪽 (서쪽)'], a: 1,
+           hint: '방금 달이 어느 쪽에서 들어왔는지 떠올려 봐. 달은 서쪽에서 동쪽으로 움직여.',
+diff --git a/mid-sci/sky-quest/sq.js b/mid-sci/sky-quest/sq.js
+index 2170715..fe0cf2d 100644
+--- a/mid-sci/sky-quest/sq.js
++++ b/mid-sci/sky-quest/sq.js
+@@ -46,19 +46,23 @@ const sfx = {
+ };
+ const synth = window.speechSynthesis;
+ let koVoice = null;
+-function pickVoice() { if (!synth) return; const vs = synth.getVoices(); koVoice = vs.find(v => /ko/i.test(v.lang) && /yuna|sora|female|여/i.test(v.name)) || vs.find(v => /ko/i.test(v.lang)) || null; }
++function pickVoice() { // 더 자연스러운 음성 우선: Premium/Enhanced/Natural/Neural/Online > Google > 기본
++  if (!synth) return; const sc = v => (/premium|enhanced|natural|neural|online/i.test(v.name) ? 6 : 0) + (/google/i.test(v.name) ? 3 : 0) + (/yuna|sunhi|heami|sora|jimin/i.test(v.name) ? 1 : 0) + (/ko[-_]KR/i.test(v.lang) ? 1 : 0);
++  const ko = synth.getVoices().filter(v => /^ko/i.test(v.lang)).sort((a, b) => sc(b) - sc(a)); koVoice = ko[0] || null; }
+ if (synth) { pickVoice(); synth.onvoiceschanged = pickVoice; }
+-const VOICE = { lumi: { pitch: 1.35, rate: 1.08 }, nox: { pitch: 0.55, rate: 0.9 }, yul: { pitch: 1.7, rate: 1.12 } };
++// 음높이는 과하게 바꾸면 기계음처럼 들려서 살짝만 차이를 둔다. 속도는 사용자 배속(1.0/1.3/1.6) 곱.
++const VOICE = { lumi: { pitch: 1.08, rate: 1.0 }, nox: { pitch: 0.8, rate: 0.94 }, yul: { pitch: 1.22, rate: 1.06 } };
++const SPEEDS = [1.0, 1.3, 1.6]; let speedI = store.get('spd', 1);
+ function speak(who, html) {
+   const text = html.replace(/<[^>]+>/g, '');
+   return new Promise(res => {
+-    const fallback = setTimeout(res, 900 + text.length * 75);
++    const k = SPEEDS[speedI], fallback = setTimeout(res, (500 + text.length * 55) / k);
+     if (!voiceOn || muted || !synth || !koVoice) return;
+     clearTimeout(fallback);
+     try {
+-      synth.cancel(); const u = new SpeechSynthesisUtterance(text); u.voice = koVoice; u.lang = koVoice.lang; Object.assign(u, VOICE[who] || {});
+-      const safety = setTimeout(res, 2500 + text.length * 160); u.onend = u.onerror = () => { clearTimeout(safety); setTimeout(res, 250); }; synth.speak(u);
+-    } catch (e) { setTimeout(res, 900 + text.length * 75); }
++      synth.cancel(); const u = new SpeechSynthesisUtterance(text); u.voice = koVoice; u.lang = koVoice.lang; const vc = VOICE[who] || { pitch: 1, rate: 1 }; u.pitch = vc.pitch; u.rate = Math.min(2, vc.rate * k);
++      const safety = setTimeout(res, 2500 + text.length * 160); u.onend = u.onerror = () => { clearTimeout(safety); setTimeout(res, 90); }; synth.speak(u);
++    } catch (e) { setTimeout(res, (500 + text.length * 55) / k); }
+   });
+ }
+ 
+@@ -252,7 +256,8 @@ function flightUI(on) { [hud, dash, pad, thr].forEach(e => e.classList.toggle('h
+ $('#b-snd').onclick = () => { muted = !muted; store.set('muted', muted); if (master) master.gain.value = muted ? 0 : 1; paintBtns(); if (muted && synth) synth.cancel(); };
+ $('#b-voice').onclick = () => { voiceOn = !voiceOn; store.set('voice', voiceOn); paintBtns(); if (!voiceOn && synth) synth.cancel(); toast(voiceOn ? (koVoice ? '🗣 음성 켬' : '🗣 이 기기에 한국어 음성이 없어 자막만 나와요') : '🗣 음성 끔 (자막만)'); };
+ $('#b-exit').onclick = () => titleScreen();
+-function paintBtns() { $('#b-snd').textContent = muted ? '🔇' : '🔊'; $('#b-voice').classList.toggle('off', !voiceOn); }
++function paintBtns() { $('#b-snd').textContent = muted ? '🔇' : '🔊'; $('#b-voice').classList.toggle('off', !voiceOn); $('#b-spd').textContent = SPEEDS[speedI] + 'x'; }
++$('#b-spd').onclick = () => { speedI = (speedI + 1) % SPEEDS.length; store.set('spd', speedI); paintBtns(); toast('⏩ 대사 속도 ' + SPEEDS[speedI] + '배'); };
+ paintBtns();
+ 
+ /* 대사: 자막 + 음성, 끝나면 자동 진행 (탭하면 건너뛰기) */
+@@ -328,7 +333,7 @@ async function missionDone() {
+ async function missionFail(reason) {
+   if (!G.running) return; G.running = false; sfx.bad(); input.fwd = input.back = 0; ship.speed = 0;
+   toast('⚠ ' + reason, true);
+-  await say([['nox', '하하! 거기까지다… 다시 해 봐!'], ['lumi', reason + ' 이 미션 처음부터 다시 하자.']]);
++  await say([['nox', '하하! 다시 해 봐!'], ['lumi', reason + ' 다시 가자.']]);
+   startMission(G.mi, false);
+ }
+ async function episodeClear() {
+@@ -371,10 +376,10 @@ async function groundMission(m) {
+   G.mode = 'ground'; flightUI(false); hud.classList.remove('hide'); $('#m-timer').classList.add('hide'); $('#tgt').style.display = 'none'; $('#xhair').classList.add('hide');
+   sky.classList.remove('hide'); sizeSky(); showBanner('MISSION 4 / 4', m.name);
+   G.ganim = 0; G.groundPhase = 'intro';
+-  await say([['lumi', '하늘을 봐! 달이 오른쪽에서 다가와 태양을 덮기 시작해.']]);
++  await say([['lumi', '하늘을 봐! 달이 오른쪽에서 태양을 덮어 와.']]);
+   G.groundPhase = 'total'; G.ganim = 0;
+   await new Promise(r => setTimeout(r, 6500)); sfx.total();
+-  await say([['yul', '깜깜해졌다! 별도 보이고, 태양 둘레에 하얀 왕관이…'], ['lumi', '그게 코로나야. 본그림자 안에 있는 우리만 볼 수 있어!']]);
++  await say([['yul', '깜깜해! 별도 보이고 하얀 왕관이…'], ['lumi', '코로나야. 본그림자 안에서만 보여!']]);
+   if (m.pre) await say(m.pre);
+   G.groundPhase = 'loop'; G.gq = 0; askQ(m);
+ }
+diff --git a/mid-sci/sky-quest/sw.js b/mid-sci/sky-quest/sw.js
+index 65b43d7..0c30d35 100644
+--- a/mid-sci/sky-quest/sw.js
++++ b/mid-sci/sky-quest/sw.js
+@@ -1,5 +1,5 @@
+ /* sw.js — 하늘 퀘스트 오프라인 캐시 (버전 바꾸면 갱신) */
+-const V = 'sq-v0.3.0';
++const V = 'sq-v0.3.1';
+ const ASSETS = ['./', 'index.html', 'sq.css', 'sq.js', 'sq-story.js', 'sq-ep1.js', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png',
+   'tex/earth-day.jpg', 'tex/earth-night.jpg', 'models/lumi-ship.glb', 'models/nox-ship.glb', 'models/minion.glb', 'models/yuli.glb', 'models/yuli-atlas.png', 'models/rock1.glb', 'models/rock2.glb', 'img/yul.png', 'img/nox.png', 'img/yul-back.png', 'lib/addons/loaders/GLTFLoader.js', 'lib/addons/utils/BufferGeometryUtils.js', 'lib/addons/utils/SkeletonUtils.js', 'lib/three.module.min.js',
+   'lib/addons/postprocessing/EffectComposer.js', 'lib/addons/postprocessing/RenderPass.js', 'lib/addons/postprocessing/ShaderPass.js', 'lib/addons/postprocessing/MaskPass.js',
